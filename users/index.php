@@ -1,24 +1,15 @@
 <?php
-session_start();
-
-// Redirect if session is not set
-if (
-    !isset($_SESSION['user_id']) ||
-    !isset($_SESSION['user_name']) ||
-    !isset($_SESSION['user_email']) ||
-    !isset($_SESSION['user_picture'])
-) {
-    header("Location: ../public/index.php");
-    exit;
-}
+include('../middleware/checkSession.php');
+include('../cache/cache.php');
 ?>
 
 <!DOCTYPE html>
 <html>
-<?php include('../includes/head.php'); ?>
+
+<?php includeAndCache('../includes/head.php', '../cache/head.php'); ?>
 
 <body>
-    <?php include('../includes/sidebar.php'); ?>
+    <?php includeAndCache('../includes/sidebar.php', '../cache/sidebar.php'); ?>
     <main>
         <div class="container">
             <img src="<?= htmlspecialchars($_SESSION['user_picture']) ?>" alt="User Picture"
@@ -28,7 +19,7 @@ if (
             <p><strong>Google ID:</strong> <?= htmlspecialchars($_SESSION['user_id']) ?></p>
         </div>
     </main>
-    <?php include('../includes/footer.php'); ?>
+    <?php includeAndCache('../includes/footer.php', '../cache/footer.php'); ?>
 </body>
 
 </html>

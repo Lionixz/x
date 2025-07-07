@@ -118,6 +118,8 @@ include('../includes/head.php');
                             <div class="chart-container">
                                 <canvas id="chart<?= $index ?>"></canvas>
                             </div>
+
+
                             <script>
                                 // original
                                 const chartData<?= $index ?> = <?= $q['chart_data'] ?>;

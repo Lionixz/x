@@ -9,10 +9,6 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
-<style>
-
-</style>
-
 <div id="myModal" class="modal">
     <div class="modal-content">
         <span class="close-btn" id="closeModalBtn">&times;</span>
@@ -31,3 +27,32 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    var modal = document.getElementById("myModal");
+    var closeModalBtn = document.getElementById("closeModalBtn");
+    function openModal() {
+        modal.style.display = "block";
+    }
+
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    closeModalBtn.onclick = function () {
+        closeModal();
+    }
+
+    window.onload = function () {
+        openModal();  // Show the modal
+        setTimeout(function () {
+            closeModal();
+        }, 500000);
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            closeModal();
+        }
+    }
+</script>
