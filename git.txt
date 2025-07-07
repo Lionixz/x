@@ -1,4 +1,7 @@
 git status
 git add .
-git commit -m "image per chategory varialbe"
+git commit -m "Update"
 git push origin main
+
+
+clear
