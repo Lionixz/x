@@ -9,7 +9,7 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
-<div id="myModal" class="modal">
+<!-- <div id="myModal" class="modal">
     <div class="modal-content">
         <span class="close-btn" id="closeModalBtn">&times;</span>
         <h2>PAGSASANAY.com</h2>
@@ -26,7 +26,7 @@
                 Image</a>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <script>
