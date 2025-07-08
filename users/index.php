@@ -2,10 +2,8 @@
 include('../middleware/checkSession.php');
 include('../cache/cache.php');
 ?>
-
 <!DOCTYPE html>
 <html>
-
 <?php includeAndCache('../includes/head.php'); ?>
 
 <body>
@@ -18,7 +16,6 @@ include('../cache/cache.php');
             <p><strong>Email:</strong> <?= htmlspecialchars($_SESSION['user_email']) ?></p>
             <p><strong>Google ID:</strong> <?= htmlspecialchars($_SESSION['user_id']) ?></p>
             <br>
-
             <h2>Vocabulary & Meaning</h2>
             <p>1. Definition &#10004;</p>
             <p>2. Synonym &#10004; </p>
@@ -82,12 +79,6 @@ include('../cache/cache.php');
             <p>48. Use in Business Sentence</p>
             <p>49. Use in Narrative Sentence</p>
             <p>50. Choose Best Word to Complete a Paragraph</p>
-
-            <br>
-            <h2>The Constitution of the Republic of the Philippines</h2>
-            <br>
-            <h2>Republic Act No. 6713</h2>
-
         </div>
     </main>
     <?php includeAndCache('../includes/footer.php'); ?>
