@@ -30,7 +30,6 @@ include('../cache/cache.php');
             foreach ($_POST['questions'] as $q) {
                 if (!isset($q['id'], $q['table']))
                     continue;
-
                 $questionId = (int) $q['id'];
                 $userAnswer = $q['answer'] ?? null;
                 $table = $conn->real_escape_string($q['table']);

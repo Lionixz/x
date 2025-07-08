@@ -2,8 +2,9 @@
     <ul>
         <li>
             <span class="logo">
-                <?= htmlspecialchars($_SESSION['user_id'] ?? 'Good Luck') ?>
+                <?= htmlspecialchars($_SESSION['user_name'] ?? 'Good Luck') ?>
             </span>
+
             <button onclick="toggleSidebar()" id="toggle-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                     fill="#e8eaed">
@@ -22,7 +23,6 @@
                 <span>Account</span>
             </a>
         </li>
-
 
         <li class="<?= ($isCoverageActive) ? 'active' : '' ?>">
             <button onclick="toggleSubMenu(this)" class="dropdown-btn <?= ($isCoverageActive) ? 'active' : '' ?>">

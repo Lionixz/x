@@ -14,18 +14,18 @@ include('../cache/cache.php');
             $conn = require_once __DIR__ . '../../config/db.php';
 
             $verbal_category_limits = [
-                'Word Meaning and Usage' => 200,
+                'Word Meaning and Usage' => 100,
             ];
             $numerical_limits = [
-                'Foundations and Basics' => 200,
-                'Order of Operations' => 200,
+                'Foundations and Basics' => 2,
+                'Order of Operations' => 2,
             ];
             $analytical_limits = [
-                'Data Interpretation' => 200,
-                'Logical Reasoning' => 200,
+                'Data Interpretation' => 2,
+                'Logical Reasoning' => 2,
             ];
             $general_limits = [
-                'Philippine History' => 200,
+                'Philippine History' => 2,
             ];
             function prepareQuestionRow($row, $source_table)
             {
