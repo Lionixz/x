@@ -5,63 +5,232 @@ include('../cache/cache.php');
 <html>
 <?php includeAndCache('../includes/head.php'); ?>
 
+<style>
+    /* General Styling */
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        background-color: #f7f8fa;
+        color: #2a2d34;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: justify;
+        color: #2a2d34;
+    }
+
+    /* Title Container */
+    .title-container {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 15px 0;
+        color: #333;
+        line-height: 1.4;
+    }
+
+    .centered-links h4 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .centered-links a {
+        text-decoration: none;
+        color: #5e63ff;
+        font-size: 20px;
+        transition: color 0.3s ease;
+    }
+
+    .centered-links a:hover {
+        color: #333;
+    }
+
+    /* Section and Article Styling */
+    div h4 {
+        font-size: 22px;
+        margin-top: 20px;
+        color: #2a2d34;
+    }
+
+    div h5 {
+        font-size: 20px;
+        margin-top: 10px;
+        color: #2a2d34;
+    }
+
+    div h6 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #2a2d34;
+    }
+
+    /* Paragraph Styling */
+    div p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: justify;
+        color: #2a2d34;
+    }
+
+    /* Preamble Section */
+    #preamble {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Article Section */
+    #article-i,
+    #article-ii,
+    #article-iii,
+    #article-iv,
+    #article-v,
+    #article-vi,
+    #article-vii,
+    #article-viii,
+    #article-ix,
+    #article-x,
+    #article-xi,
+    #article-xii,
+    #article-xiii,
+    #article-xiv,
+    #article-xv,
+    #article-xvi,
+    #article-xvii {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Specific styling for headings inside articles */
+    #article-i h4,
+    #article-ii h4,
+    #article-iii h4,
+    #article-iv h4,
+    #article-v h4,
+    #article-vi h4,
+    #article-vii h4,
+    #article-viii h4,
+    #article-ix h4,
+    #article-x h4,
+    #article-xi h4,
+    #article-xii h4,
+    #article-xiii h4,
+    #article-xiv h4,
+    #article-xv h4,
+    #article-xvi h4,
+    #article-xvii h4 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    /* Styling for paragraphs inside article sections */
+    #article-i p,
+    #article-ii p,
+    #article-iii p,
+    #article-iv p,
+    #article-v p,
+    #article-vi p,
+    #article-vii p,
+    #article-viii p,
+    #article-ix p,
+    #article-x p,
+    #article-xi p,
+    #article-xii p,
+    #article-xiii p,
+    #article-xiv p,
+    #article-xv p,
+    #article-xvi p,
+    #article-xvii p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: justify;
+        color: #2a2d34;
+    }
+
+    /* Styling for ordered lists */
+    ol {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: #2a2d34;
+    }
+
+    ol li {
+        margin-bottom: 10px;
+    }
+
+    /* Nested ordered list styling */
+    ol ol {
+        margin-left: 20px;
+    }
+
+    ol ol li {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .title {
+            font-size: 22px;
+        }
+
+        .centered-links a {
+            font-size: 18px;
+        }
+
+        div p {
+            font-size: 14px;
+        }
+
+        #article-i,
+        #article-ii,
+        #article-iii,
+        #article-iv,
+        #article-v,
+        #article-vi,
+        #article-vii,
+        #article-viii,
+        #article-ix,
+        #article-x,
+        #article-xi,
+        #article-xii,
+        #article-xiii,
+        #article-xiv,
+        #article-xv,
+        #article-xvi,
+        #article-xvii {
+            padding: 15px;
+        }
+    }
+</style>
+
 <body>
     <?php includeAndCache('../includes/sidebar.php'); ?>
+
     <main>
         <div class="container">
-
-            <style>
-                .centered-links {
-                    text-align: center;
-                }
-
-                .centered-links a {
-                    text-decoration: none;
-                    color: rgb(255, 255, 255);
-                    /* White color for the links */
-                    transition: color 0.3s ease;
-                    /* Smooth transition for hover effect */
-                }
-
-                .centered-links a:hover {
-                    color: rgb(255, 255, 255);
-                    /* Blue color on hover */
-                }
-
-                .centered-links h4 {
-                    margin: 10px 0;
-                    /* Margin between links */
-                }
-
-                /* Style for the target section */
-                #preamble {
-                    margin-top: 50px;
-                }
-
-                .title-container {
-                    text-align: center;
-                    margin-top: 20px;
-                }
-
-                .title {
-                    color: rgb(255, 255, 255);
-                    margin: 10px 0;
-                    text-transform: capitalize;
-                }
-
-                .title:first-of-type {
-                    font-weight: bold;
-                }
-            </style>
 
             <div class="title-container">
                 <h2 class="title">The Constitution of the Republic of the Philippines</h2>
                 <h2 class="title">Principles</h2>
                 <h2 class="title">The 1987 Constitution</h2>
-                <h2 class="title">The Constitution of the Republic of the Philippines</h2>
             </div>
             <br>
-
             <div class="centered-links">
                 <h4><a href="#preamble">PREAMBLE</a></h4>
                 <h4><a href="#article-i">ARTICLE I National Territory</a></h4>
@@ -82,8 +251,10 @@ include('../cache/cache.php');
                 <h4><a href="#article-xv">ARTICLE XV The Family</a></h4>
                 <h4><a href="#article-xvi">ARTICLE XVI General Provisions</a></h4>
                 <h4><a href="#article-xvii">ARTICLE XVII Amendments or Revisions</a></h4>
-                <h4><a href="#article-xviii">ARTICLE XVIII Transitory Provisions</a></h4>
             </div>
+
+
+
 
             <div id="preamble">
                 <h4>PREAMBLE</h4>
@@ -1912,11 +2083,155 @@ include('../cache/cache.php');
                     certification by the Commission on Elections of the sufficiency of the petition.</p>
             </div>
 
+            <div id="article-xvii">
+                <h4>ARTICLE XVII</h4>
+                <h5>Transitory Provisions</h5>
 
+                <p><strong>SECTION 1.</strong> The first elections of Members of the Congress under this Constitution
+                    shall be held on the second Monday of May, 1987.</p>
+                <p>The first local elections shall be held on a date to be determined by the President, which may be
+                    simultaneous with the election of the Members of the Congress. It shall include the election of all
+                    Members of the city or municipal councils in the Metropolitan Manila area.</p>
 
+                <p><strong>SECTION 2.</strong> The Senators, Members of the House of Representatives, and the local
+                    officials first elected under this Constitution shall serve until noon of June 30, 1992.</p>
+                <p>Of the Senators elected in the election of 1992, the first twelve obtaining the highest number of
+                    votes shall serve for six years and the remaining twelve for three years.</p>
 
+                <p><strong>SECTION 3.</strong> All existing laws, decrees, executive orders, proclamations, letters of
+                    instructions, and other executive issuances not inconsistent with this Constitution shall remain
+                    operative until amended, repealed, or revoked.</p>
 
+                <p><strong>SECTION 4.</strong> All existing treaties or international agreements which have not been
+                    ratified shall not be renewed or extended without the concurrence of at least two-thirds of all the
+                    Members of the Senate.</p>
 
+                <p><strong>SECTION 5.</strong> The six-year term of the incumbent President and Vice-President elected
+                    in the February 7, 1986 election is, for purposes of synchronization of elections, hereby extended
+                    to noon of June 30, 1992.</p>
+                <p>The first regular elections for the President and Vice-President under this Constitution shall be
+                    held on the second Monday of May, 1992.</p>
 
+                <p><strong>SECTION 6.</strong> The incumbent President shall continue to exercise legislative powers
+                    until the first Congress is convened.</p>
+
+                <p><strong>SECTION 7.</strong> Until a law is passed, the President may fill by appointment from a list
+                    of nominees by the respective sectors the seats reserved for sectoral representation in paragraph
+                    (2), Section 5 of Article VI of this Constitution.</p>
+
+                <p><strong>SECTION 8.</strong> Until otherwise provided by the Congress, the President may constitute
+                    the Metropolitan Authority to be composed of the heads of all local government units comprising the
+                    Metropolitan Manila area.</p>
+
+                <p><strong>SECTION 9.</strong> A sub-province shall continue to exist and operate until it is converted
+                    into a regular province or until its component municipalities are reverted to the mother province.
+                </p>
+
+                <p><strong>SECTION 10.</strong> All courts existing at the time of the ratification of this Constitution
+                    shall continue to exercise their jurisdiction, until otherwise provided by law. The provisions of
+                    the existing Rules of Court, judiciary acts, and procedural laws not inconsistent with this
+                    Constitution shall remain operative unless amended or repealed by the Supreme Court or the Congress.
+                </p>
+
+                <p><strong>SECTION 11.</strong> The incumbent Members of the Judiciary shall continue in office until
+                    they reach the age of seventy years or become incapacitated to discharge the duties of their office
+                    or are removed for cause.</p>
+
+                <p><strong>SECTION 12.</strong> The Supreme Court shall, within one year after the ratification of this
+                    Constitution, adopt a systematic plan to expedite the decision or resolution of cases or matters
+                    pending in the Supreme Court or the lower courts prior to the effectivity of this Constitution. A
+                    similar plan shall be adopted for all special courts and quasi-judicial bodies.</p>
+
+                <p><strong>SECTION 13.</strong> The legal effect of the lapse, before the ratification of this
+                    Constitution, of the applicable period for the decision or resolution of the cases or matters
+                    submitted for adjudication by the courts, shall be determined by the Supreme Court as soon as
+                    practicable.</p>
+
+                <p><strong>SECTION 14.</strong> The provisions of paragraphs (3) and (4), Section 15 of Article VIII of
+                    this Constitution shall apply to cases or matters filed before the ratification of this
+                    Constitution, when the applicable period lapses after such ratification.</p>
+
+                <p><strong>SECTION 15.</strong> The incumbent Members of the Civil Service Commission, the Commission on
+                    Elections, and the Commission on Audit shall continue in office for one year after the ratification
+                    of this Constitution, unless they are sooner removed for cause or become incapacitated to discharge
+                    the duties of their office or appointed to a new term thereunder. In no case shall any Member serve
+                    longer than seven years including service before the ratification of this Constitution.</p>
+
+                <p><strong>SECTION 16.</strong> Career civil service employees separated from the service not for cause
+                    but as a result of the reorganization pursuant to Proclamation No. 3 dated March 25, 1986 and the
+                    reorganization following the ratification of this Constitution shall be entitled to appropriate
+                    separation pay and to retirement and other benefits accruing to them under the laws of general
+                    application in force at the time of their separation. In lieu thereof, at the option of the
+                    employees, they may be considered for employment in the Government or in any of its subdivisions,
+                    instrumentalities, or agencies, including government-owned or controlled corporations and their
+                    subsidiaries. This provision also applies to career officers whose resignation, tendered in line
+                    with the existing policy, had been accepted.</p>
+
+                <p><strong>SECTION 17.</strong> Until the Congress provides otherwise, the President shall receive an
+                    annual salary of three hundred thousand pesos; the Vice-President, the President of the Senate, the
+                    Speaker of the House of Representatives, and the Chief Justice of the Supreme Court, two hundred
+                    forty thousand pesos each; the Senators, the Members of the House of Representatives, the Associate
+                    Justices of the Supreme Court, and the Chairmen of the Constitutional Commissions, two hundred four
+                    thousand pesos each; and the Members of the Constitutional Commissions, one hundred eighty thousand
+                    pesos each.</p>
+
+                <p><strong>SECTION 18.</strong> At the earliest possible time, the Government shall increase the salary
+                    scales of the other officials and employees of the National Government.</p>
+
+                <p><strong>SECTION 19.</strong> All properties, records, equipment, buildings, facilities, and other
+                    assets of any office or body abolished or reorganized under Proclamation No. 3 dated March 25, 1986
+                    or this Constitution shall be transferred to the office or body to which its powers, functions, and
+                    responsibilities substantially pertain.</p>
+
+                <p><strong>SECTION 20.</strong> The first Congress shall give priority to the determination of the
+                    period for the full implementation of free public secondary education.</p>
+
+                <p><strong>SECTION 21.</strong> The Congress shall provide efficacious procedures and adequate remedies
+                    for the reversion to the State of all lands of the public domain and real rights connected therewith
+                    which were acquired in violation of the Constitution or the public land laws, or through corrupt
+                    practices. No transfer or disposition of such lands or real rights shall be allowed until after the
+                    lapse of one year from the ratification of this Constitution.</p>
+
+                <p><strong>SECTION 22.</strong> At the earliest possible time, the Government shall expropriate idle or
+                    abandoned agricultural lands as may be defined by law, for distribution to the beneficiaries of the
+                    agrarian reform program.</p>
+
+                <p><strong>SECTION 23.</strong> Advertising entities affected by paragraph (2), Section 11 of Article
+                    XVI of this Constitution shall have five years from its ratification to comply on a graduated and
+                    proportionate basis with the minimum Filipino ownership requirement therein.</p>
+
+                <p><strong>SECTION 24.</strong> Private armies and other armed groups not recognized by duly constituted
+                    authority shall be dismantled. All paramilitary forces including Civilian Home Defense Forces not
+                    consistent with the citizen armed force established in this Constitution, shall be dissolved or,
+                    where appropriate, converted into the regular force.</p>
+
+                <p><strong>SECTION 25.</strong> After the expiration in 1991 of the Agreement between the Republic of
+                    the Philippines and the United States of America concerning Military Bases, foreign military bases,
+                    troops, or facilities shall not be allowed in the Philippines except under a treaty duly concurred
+                    in by the Senate and, when the Congress so requires, ratified by a majority of the votes cast by the
+                    people in a national referendum held for that purpose, and recognized as a treaty by the other
+                    contracting State.</p>
+
+                <p><strong>SECTION 26.</strong> The authority to issue sequestration or freeze orders under Proclamation
+                    No. 3 dated March 25, 1986 in relation to the recovery of ill-gotten wealth shall remain operative
+                    for not more than eighteen months after the ratification of this Constitution. However, in the
+                    national interest, as certified by the President, the Congress may extend said period.</p>
+                <p>A sequestration or freeze order shall be issued only upon showing of a prima facie case. The order
+                    and the list of the sequestered or frozen properties shall forthwith be registered with the proper
+                    court. For orders issued before the ratification of this Constitution, the corresponding judicial
+                    action or proceeding shall be filed within six months from its ratification. For those issued after
+                    such ratification, the judicial action or proceeding shall be commenced within six months from the
+                    issuance thereof.</p>
+                <p>The sequestration or freeze order is deemed automatically lifted if no judicial action or proceeding
+                    is commenced as herein provided.</p>
+
+                <p><strong>SECTION 27.</strong> This Constitution shall take effect immediately upon its ratification by
+                    a majority of the votes cast in a plebiscite held for the purpose and shall supersede all previous
+                    Constitutions.</p>
+
+                <p><strong>Ratified:</strong> February 2, 1987</p>
+            </div>
+        </div>
     </main>
+
     <?php includeAndCache('../includes/footer.php'); ?>

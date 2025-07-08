@@ -25,6 +25,7 @@ include('../cache/cache.php');
                 'Logical Reasoning' => 2,
             ];
             $general_limits = [
+                '1987 Constitution' => 5,
                 'Philippine History' => 2,
             ];
             function prepareQuestionRow($row, $source_table)

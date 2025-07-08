@@ -69,10 +69,12 @@ include('../cache/cache.php');
                         ])
                     ) {
                         $category = 'analytical';
+
+
                     } elseif (
                         in_array($category, [
                             'Philippine History',
-                            'General Information'
+                            '1987 Constitution'
                         ])
                     ) {
                         $category = 'general';
