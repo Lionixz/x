@@ -1,25 +1,20 @@
 <?php
-function includeAndCache($filePath, $cacheFile)
+function includeAndCache($filePath)
 {
+    $cacheTime = 86400;
     global $cacheTime;
-
-    // Check if cache file exists and is still valid
-    if (!file_exists($cacheFile) || (time() - filemtime($cacheFile) > $cacheTime)) {
-        echo "<!-- Cache is being regenerated for: $filePath -->";  // Debugging line
+    $absolutePath = realpath($filePath);
+    if (!isset($_SESSION['cached_content'][$absolutePath]) || (time() - $_SESSION['cached_content'][$absolutePath]['time'] > $cacheTime)) {
         ob_start();
-        include($filePath); // Include the original file
+        include($filePath);
         $content = ob_get_contents();
         ob_end_clean();
-
-        // Save the content to cache file
-        file_put_contents($cacheFile, $content);
+        $_SESSION['cached_content'][$absolutePath] = [
+            'content' => $content,
+            'time' => time()
+        ];
     } else {
-        echo "<!-- Using cached content for: $filePath -->";  // Debugging line
-        // Load cached content if it's still valid
-        $content = file_get_contents($cacheFile);
+        $content = $_SESSION['cached_content'][$absolutePath]['content'];
     }
-
-    // Output the content directly (to be included in the page)
     echo $content;
 }
-

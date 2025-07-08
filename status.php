@@ -1,9 +1,7 @@
 <?php
 $mysqli = require 'db.php';
-
 $result = $mysqli->query("SELECT name, email, is_online, last_seen FROM users ORDER BY is_online DESC, last_seen DESC");
 ?>
-
 <!DOCTYPE html>
 <html>
 

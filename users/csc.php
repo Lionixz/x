@@ -1,27 +1,31 @@
 <?php
-include('../includes/head.php');
+include('../middleware/checkSession.php');
+include('../cache/cache.php');
 ?>
+<!DOCTYPE html>
+<html>
+<?php includeAndCache('../includes/head.php'); ?>
 
 <body>
-    <?php include('../includes/sidebar.php'); ?>
+    <?php includeAndCache('../includes/sidebar.php'); ?>
     <main>
         <div class="container">
             <?php
             $conn = require_once __DIR__ . '../../config/db.php';
 
             $verbal_category_limits = [
-                'Word Meaning and Usage' => 2,
+                'Word Meaning and Usage' => 200,
             ];
             $numerical_limits = [
-                'Foundations and Basics' => 2,
-                'Order of Operations' => 2,
+                'Foundations and Basics' => 200,
+                'Order of Operations' => 200,
             ];
             $analytical_limits = [
-                'Data Interpretation' => 2,
-                'Logical Reasoning' => 2,
+                'Data Interpretation' => 200,
+                'Logical Reasoning' => 200,
             ];
             $general_limits = [
-                'Philippine History' => 2,
+                'Philippine History' => 200,
             ];
             function prepareQuestionRow($row, $source_table)
             {
@@ -94,16 +98,11 @@ include('../includes/head.php');
                 fetchQuestionsByCategory($conn, 'general', $general_limits)
             );
             ?>
-
             <form action="../actions/submit_csc.php" method="post" id="quizForm">
-
-
                 <?php foreach ($questions as $index => $q): ?>
-
                     <div id="countdown">
                         <span id="timer"></span>
                     </div>
-
                     <div class="card" data-index="<?= $index ?>" data-id="<?= $q['id'] ?>">
                         <h4 style="text-align: center;"><strong></strong> <?= htmlspecialchars($q['category']) ?></h4>
                         <p><strong></strong> <?= htmlspecialchars($q['type']) ?></p>
@@ -118,10 +117,7 @@ include('../includes/head.php');
                             <div class="chart-container">
                                 <canvas id="chart<?= $index ?>"></canvas>
                             </div>
-
-
                             <script>
-                                // original
                                 const chartData<?= $index ?> = <?= $q['chart_data'] ?>;
                                 const ctx<?= $index ?> = document.getElementById('chart<?= $index ?>').getContext('2d');
                                 // If `type` exists in the database, use it, otherwise default to 'bar'
@@ -199,18 +195,14 @@ include('../includes/head.php');
                 // Countdown timer (5 minutes = 300 seconds)
                 // let timeInSeconds = 11400;
                 let timeInSeconds = 100;
-
                 function updateTimerDisplay() {
                     const hours = Math.floor(timeInSeconds / 3600);
                     const minutes = Math.floor((timeInSeconds % 3600) / 60);
                     const seconds = timeInSeconds % 60;
-
                     timerDisplay.textContent = `${hours.toString().padStart(2, '0')}:${minutes
                         .toString()
                         .padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
                 }
-
-
                 function startCountdown() {
                     updateTimerDisplay();
                     const countdown = setInterval(() => {
@@ -224,7 +216,6 @@ include('../includes/head.php');
                         }
                     }, 1000);
                 }
-
                 function updateCards() {
                     cards.forEach((card, index) => {
                         if (index === currentCard && !answered.has(index)) {
@@ -233,7 +224,6 @@ include('../includes/head.php');
                             card.classList.remove('active');
                         }
                     });
-
                     prevBtn.style.display = 'inline-block';
                     nextBtn.style.display = 'inline-block';
 
@@ -242,7 +232,6 @@ include('../includes/head.php');
                         quizForm.submit();
                     }
                 }
-
                 document.querySelectorAll('input[type="radio"]').forEach(input => {
                     input.addEventListener('change', function () {
                         const parentCard = input.closest('.card');
@@ -262,7 +251,6 @@ include('../includes/head.php');
                         updateCards();
                     });
                 });
-
                 nextBtn.addEventListener('click', () => {
                     let next = currentCard + 1;
                     while (next !== currentCard) {
@@ -275,7 +263,6 @@ include('../includes/head.php');
                         next++;
                     }
                 });
-
                 prevBtn.addEventListener('click', () => {
                     let prev = currentCard - 1;
                     while (prev !== currentCard) {
@@ -288,24 +275,17 @@ include('../includes/head.php');
                         prev--;
                     }
                 });
-
                 function findFirstUnanswered() {
                     for (let i = 0; i < totalQuestions; i++) {
                         if (!answered.has(i)) return i;
                     }
                     return -1;
                 }
-
-                // Start
                 currentCard = findFirstUnanswered();
                 updateCards();
                 startCountdown();
             </script>
 
-
         </div>
     </main>
-    <?php include('../includes/footer.php'); ?> <!-- Include footer.php for the footer -->
-</body>
-
-</html>
+    <?php includeAndCache('../includes/footer.php'); ?>

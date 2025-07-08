@@ -6,10 +6,10 @@ include('../cache/cache.php');
 <!DOCTYPE html>
 <html>
 
-<?php includeAndCache('../includes/head.php', '../cache/head.php'); ?>
+<?php includeAndCache('../includes/head.php'); ?>
 
 <body>
-    <?php includeAndCache('../includes/sidebar.php', '../cache/sidebar.php'); ?>
+    <?php includeAndCache('../includes/sidebar.php'); ?>
     <main>
         <div class="container">
             <img src="<?= htmlspecialchars($_SESSION['user_picture']) ?>" alt="User Picture"
@@ -19,7 +19,4 @@ include('../cache/cache.php');
             <p><strong>Google ID:</strong> <?= htmlspecialchars($_SESSION['user_id']) ?></p>
         </div>
     </main>
-    <?php includeAndCache('../includes/footer.php', '../cache/footer.php'); ?>
-</body>
-
-</html>
+    <?php includeAndCache('../includes/footer.php'); ?>

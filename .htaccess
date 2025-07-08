@@ -1,0 +1,4 @@
+# Redirect all requests to public/index.php
+RewriteEngine On
+RewriteRule ^$ /x/public/index.php [L,R=301]
+
