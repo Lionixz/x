@@ -73,9 +73,8 @@
             </button>
             <ul class="sub-menu">
                 <div>
-                    <li><a href="../users/constitution.php">1987 Constitution</a></li>
-                    <li><a href="../users/RA_6713.php">Republic Act No. 6713</a></li>
-
+                    <li><a href="../users/books_constitution.php">1987 Constitution</a></li>
+                    <li><a href="../users/books_ra_6713.php">Republic Act No. 6713</a></li>
                 </div>
             </ul>
         </li>
