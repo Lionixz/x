@@ -48,6 +48,8 @@ include('../cache/cache.php');
                             $category,
                             [
                                 'Word Meaning and Usage',
+                                'Contextual Meaning'
+
                             ]
                         )
                     ) {
@@ -73,7 +75,6 @@ include('../cache/cache.php');
 
                     } elseif (
                         in_array($category, [
-                            'Philippine History',
                             '1987 Constitution'
                         ])
                     ) {

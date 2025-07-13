@@ -15,6 +15,8 @@ include('../cache/cache.php');
 
             $verbal_category_limits = [
                 'Word Meaning and Usage' => 100,
+                'Contextual Meaning' => 100,
+
             ];
             $numerical_limits = [
                 'Foundations and Basics' => 2,

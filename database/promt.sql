@@ -18,9 +18,10 @@ ALTER TABLE numerical DROP COLUMN id;
 ALTER TABLE analytical DROP COLUMN id;
 ALTER TABLE general DROP COLUMN id;
 
-
+    
 -- count 
-SELECT COUNT(*) AS total FROM `verbal`;
+    SELECT COUNT(*) AS total FROM `verbal`;
+SELECT COUNT(*) AS total_duplicates FROM (SELECT question FROM verbal GROUP BY question HAVING COUNT(*) > 1) AS duplicates;
 
 
 SELECT COUNT(*) AS total FROM `numerical`;

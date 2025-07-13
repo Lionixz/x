@@ -1,51 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jul 08, 2025 at 09:51 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.0.30
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `x`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `general`
---
-
-CREATE TABLE `general` (
-  `category` varchar(100) NOT NULL,
-  `type` varchar(50) NOT NULL,
-  `word` varchar(100) NOT NULL,
-  `question` text NOT NULL,
-  `image` varchar(255) DEFAULT NULL,
-  `chart_data` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`chart_data`)),
-  `correct_answer` varchar(255) NOT NULL,
-  `wrong_answer1` varchar(255) NOT NULL,
-  `wrong_answer2` varchar(255) NOT NULL,
-  `wrong_answer3` varchar(255) NOT NULL,
-  `explanation` text NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `general`
---
-
 INSERT INTO `general` (`category`, `type`, `word`, `question`, `image`, `chart_data`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`, `created_at`) VALUES
 ('1987 Constitution', '1987', '', 'What type of state is the Philippines?', NULL, NULL, 'The Philippines is a democratic and republican state.', 'The Philippines is a monarchy with a republican structure.', 'The Philippines is a socialist state governed by the people.', 'The Philippines is a military state under martial law.', 'Sovereignty resides in the people, and all government authority emanates from them.', '2025-07-08 19:44:36'),
 ('1987 Constitution', '1987', '', 'What does the Philippines renounce as part of its national policy?', NULL, NULL, 'The Philippines renounces war as an instrument of national policy.', 'The Philippines adopts war as an instrument of national defense.', 'The Philippines maintains a policy of war preparedness.', 'The Philippines uses war to defend its sovereignty.', 'The Philippines adheres to the policy of peace, equality, justice, and cooperation with other nations.', '2025-07-08 19:44:36'),
@@ -379,8 +331,3 @@ INSERT INTO `general` (`category`, `type`, `word`, `question`, `image`, `chart_d
 ('1987 Constitution', '1987', '', 'What does the Constitution say about education in the Philippines?', NULL, NULL, 'The Constitution mandates free and compulsory education for all children at the elementary and high school levels.', 'The Constitution only allows free education for a select group of students.', 'The Constitution limits education to a specific age group.', 'The Constitution does not require free public education.', 'Article XIV, Section 2 mandates free and compulsory education for children at the elementary and high school levels.', '2025-07-08 19:48:32'),
 ('1987 Constitution', '1987', '', 'What is the Constitution’s stance on family and marriage?', NULL, NULL, 'The Constitution recognizes marriage as an inviolable social institution and guarantees the rights of spouses and children.', 'The Constitution ignores the rights of spouses and children.', 'The Constitution limits marriage to only certain social groups.', 'The Constitution allows the dissolution of marriages without cause.', 'Article XV, Section 2 ensures marriage is protected as a fundamental social institution, supporting family welfare and children’s rights.', '2025-07-08 19:48:32'),
 ('1987 Constitution', '1987', '', 'How does the Constitution support economic development?', NULL, NULL, 'The Constitution promotes a self-reliant and independent economy, encouraging Filipino participation in national development.', 'The Constitution favors foreign investments over local businesses.', 'The Constitution limits economic development to certain industries.', 'The Constitution discourages entrepreneurship in the country.', 'Article XII, Section 19 ensures that economic policies are in favor of self-reliant development, prioritizing local participation and protection from foreign dominance.', '2025-07-08 19:48:32');
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
