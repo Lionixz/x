@@ -11,14 +11,12 @@ TRUNCATE TABLE `numerical`;
 TRUNCATE TABLE `analytical`;
 TRUNCATE TABLE `general`;
 
-
 -- drop id 
 ALTER TABLE verbal DROP COLUMN id;
 ALTER TABLE numerical DROP COLUMN id;
 ALTER TABLE analytical DROP COLUMN id;
 ALTER TABLE general DROP COLUMN id;
 
-    
 -- count 
     SELECT COUNT(*) AS total FROM `verbal`;
 SELECT COUNT(*) AS total_duplicates FROM (SELECT question FROM verbal GROUP BY question HAVING COUNT(*) > 1) AS duplicates;
@@ -26,7 +24,6 @@ SELECT COUNT(*) AS total_duplicates FROM (SELECT question FROM verbal GROUP BY q
 
 SELECT COUNT(*) AS total FROM `numerical`;
 SELECT COUNT(*) AS total_duplicates FROM (SELECT question FROM numerical GROUP BY question HAVING COUNT(*) > 1) AS duplicates;
-
 
 
 SELECT COUNT(*) AS total FROM `analytical`;

@@ -1,0 +1,23 @@
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'Unimportant', 'What prefix does the word "Unimportant" contain?', 'Un-', 'Re-', 'Dis-', 'In-', 'The prefix "Un-" means not or opposite of the root word.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'Timely', 'Which suffix is found in the word "Timely"?', '-ly', '-ness', '-ful', '-ing', 'The suffix "-ly" turns an adjective into an adverb.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'warfare', 'What suffix is present in the word "warfare"?', '-fare', '-ness', '-ful', '-ly', 'The suffix "-fare" relates to a type or manner of fighting or travel.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'Uninformed', 'What prefix does the word "Uninformed" contain?', 'Un-', 'Pre-', 'Re-', 'Dis-', 'The prefix "Un-" means not or opposite of the root word.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'tobacco', 'The word "tobacco" has no prefix or suffix. Which related word contains a prefix or suffix?', 'Tobacconist', 'Tobac', 'Tobo', 'Bacco', '"Tobacconist" contains the suffix "-ist", meaning one who deals with tobacco.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'Unique', 'What prefix does the word "Unique" have?', 'Uni-', 'Un-', 'Re-', 'Dis-', 'The prefix "Uni-" means one or single.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'Weakness', 'What suffix is found in the word "Weakness"?', '-ness', '-ly', '-ful', '-ment', 'The suffix "-ness" turns an adjective into a noun, indicating a state or quality.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'Unlikely', 'What prefix does the word "Unlikely" contain?', 'Un-', 'Re-', 'Dis-', 'In-', 'The prefix "Un-" means not or opposite of the root word.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'transform', 'What prefix does the word "transform" contain?', 'Trans-', 'Un-', 'Re-', 'Dis-', 'The prefix "Trans-" means across or beyond.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'withdrawal', 'What prefix does the word "withdrawal" contain?', 'With-', 'Un-', 'Re-', 'Dis-', 'The prefix "With-" means against or back.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'unbelievable', 'What prefix does the word "unbelievable" contain?', 'Un-', 'Re-', 'Dis-', 'In-', 'The prefix "Un-" means not or opposite of the root word.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'unnecessary', 'What prefix does the word "unnecessary" contain?', 'Un-', 'Re-', 'Dis-', 'In-', 'The prefix "Un-" means not or opposite of the root word.');
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage', 'Prefix/Suffix', 'unpredictable', 'What prefix does the word "unpredictable" contain?', 'Un-', 'Re-', 'Dis-', 'In-', 'The prefix "Un-" means not or opposite of the root word.');
+
+
+
+
+
+
+
+
+
+
