@@ -1,5 +1,5 @@
 git status
 git add .
-git commit -m "Difinition words1 and words2"
+git commit -m "Updatating the Definition not yet complete database"
 git push origin main
 
