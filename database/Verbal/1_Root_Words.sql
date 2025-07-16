@@ -2617,3 +2617,5 @@ INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, 
 ('Word Meaning and Usage', 'Root Word', 'buffer', 'Which word is derived from the root word \"buffle\"?', 'buffered', 'buffering', 'bufferer', 'buffalo', 'All options except \"buffalo\" are derived from \"buffle\".'),
 ('Word Meaning and Usage', 'Root Word', 'buffer', 'What does the root \"buffle\" mean?', 'blow', 'strike', 'hit', 'shock', 'The root \"buffle\" means a blow or strike.'),
 ('Word Meaning and Usage', 'Root Word', 'buffer', 'Which word best matches the root meaning \"blow\"?', 'buffering', 'buffered', 'bufferer', 'buffalo', 'Words from \"buffle\" relate to striking or impacts.');
+
+

@@ -1,5 +1,5 @@
 git status
 git add .
-git commit -m "definition data complete"
+git commit -m "Rood word Database list5 done"
 git push origin main
 
