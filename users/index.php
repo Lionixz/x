@@ -23,7 +23,7 @@ include('../cache/cache.php');
             <p>4. Contextual Meaning (based on a sentence)&#10004;</p>
             <p>5. Word Family (choose related word) &#10004;</p>
             <p>6. Affix Identification (prefix/suffix)&#10004;</p>
-            <p>7. Root Word</p>
+            <p>7. Root Word&#10004;</p>
             <p>8. Word Intensity Scale (mild → strong)</p>
             <p>9. Field-Specific Meaning (e.g., science vs. everyday)</p>
             <p>10. Slang vs. Formal Use</p>

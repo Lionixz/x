@@ -1,5 +1,4 @@
 git status
 git add .
-git commit -m "Rood word Database list5 done"
+git commit -m "Rood word list all done"
 git push origin main
-
