@@ -3,5 +3,4 @@ git add .
 git commit -m "word intensity list15 Done"
 git push origin main
 
-
 cd C:\xampp\htdocs\x
