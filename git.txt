@@ -3,6 +3,6 @@ cd C:\xampp\htdocs\x
 
 git status
 git add .
-git commit -m "word intensity list33 Done"
+git commit -m "word intensity  Done"
 git push origin main
 
