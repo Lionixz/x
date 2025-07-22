@@ -1,3 +1,4 @@
+INSERT INTO `verbal` (`category`, `type`, `sub_type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES ('Word Meaning and Usage','Definition','Standard','abolish','What is the meaning of the word "abolish"?','To put an end to something','To begin something','To make something worse','To encourage growth','“Abolish” means to formally put an end to a system, practice, or institution.');
 
 
 INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES

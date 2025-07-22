@@ -696,4 +696,3 @@ INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `image`, `chart_da
 ('Word Meaning and Usage', 'Antonym', 'Young', 'Choose the antonym of the word \"Young\".', NULL, NULL, 'Old', 'Youthful', 'Fresh', 'New', 'The antonym of \"Young\" is \"Old\", meaning having lived for a long time or advanced in age.', '2025-07-08 11:45:43'),
 ('Word Meaning and Usage', 'Antonym', 'Zealous', 'Choose the antonym of the word \"Zealous\".', NULL, NULL, 'Indifferent', 'Eager', 'Passionate', 'Fervent', 'The antonym of \"Zealous\" is \"Indifferent\", meaning lacking interest or enthusiasm.', '2025-07-08 11:45:43'),
 ('Word Meaning and Usage', 'Antonym', 'Zestful', 'Choose the antonym of the word \"Zestful\".', NULL, NULL, 'Lifeless', 'Energetic', 'Exciting', 'Vibrant', 'The antonym of \"Zestful\" is \"Lifeless\", meaning lacking energy or vitality.', '2025-07-08 11:45:43');
-COMMIT;
