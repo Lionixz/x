@@ -6,3 +6,5 @@ git add .
 git commit -m "list8 done Collocation Meaning"
 git push origin main
 
+
+cd C:\chatgpt-automation
