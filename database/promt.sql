@@ -23,6 +23,7 @@ CREATE TABLE exam_results (
     FOREIGN KEY (user_id) REFERENCES `users`(id) ON DELETE CASCADE
 );
 
+
 -- delete data
 DROP TABLE IF EXISTS `verbal`;
 DROP TABLE IF EXISTS `numerical`;
@@ -97,6 +98,8 @@ DROP TABLE IF EXISTS `general`;
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+
+
 -- clear data
 TRUNCATE TABLE `verbal`;
 TRUNCATE TABLE `numerical`;
@@ -104,7 +107,12 @@ TRUNCATE TABLE `analytical`;
 TRUNCATE TABLE `general`;
 
 -- drop id 
-ALTER TABLE verbal DROP COLUMN id;
+ALTER TABLE `verbal`
+DROP COLUMN `id`,
+DROP COLUMN `image`,
+DROP COLUMN `chart_data`,
+DROP COLUMN `created_at`;
+
 ALTER TABLE numerical DROP COLUMN id;
 ALTER TABLE analytical DROP COLUMN id;
 ALTER TABLE general DROP COLUMN id;

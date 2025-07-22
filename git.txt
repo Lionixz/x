@@ -2,7 +2,7 @@ cd C:\xampp\htdocs\x
 
 git status
 git add .
-git commit -m "list9 done Collocation Meaning"
+git commit -m "list13 done Collocation Meaning"
 git push origin main
 
 cd C:\chatgpt-automation
