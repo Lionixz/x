@@ -27,7 +27,7 @@ include('../cache/cache.php');
             <p>7. Root Word &#10004;</p>
             <p>8. Word Intensity &#10004;</p>
             <p>9. Field-Specific Meaning &#10004;</p>
-            <p>10. Collocation Meaning</p>
+            <p>10. Collocation Meaning &#10004;</p>
 
             <h2>Grammar &amp; Structure</h2>
             <p>11. Part of Speech</p>
