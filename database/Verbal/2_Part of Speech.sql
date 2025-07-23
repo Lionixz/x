@@ -19,15 +19,7 @@ INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `w
 ('Grammar and Structure', 'Part of Speech', 'well', 'What is the part of speech of "well" in the sentence: "He sings well"?', 'adverb', 'noun', 'adjective', 'verb', '"Well" describes how he sings, so it is an adverb.'),
 ('Grammar and Structure', 'Part of Speech', 'watch', 'What is the part of speech of "watch" in the sentence: "She bought a new watch"?', 'noun', 'verb', 'adjective', 'adverb', 'Here, "watch" is a noun meaning a timepiece. It can also be a verb.'),
 ('Grammar and Structure', 'Part of Speech', 'back', 'What is the part of speech of "back" in the sentence: "He hurt his back"?', 'noun', 'adjective', 'verb', 'adverb', '"Back" is a noun, referring to a part of the body.'),
-('Grammar and Structure', 'Part of Speech', 'fly', 'What is the part of speech of "fly" in the sentence: "A fly landed on the wall"?', 'noun', 'verb', 'adjective', 'adverb', 'In this sentence, "fly" is a noun, meaning the insect. "Fly" can also be a verb.');
-
-
-
-
-
-
-
-INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'fly', 'What is the part of speech of "fly" in the sentence: "A fly landed on the wall"?', 'noun', 'verb', 'adjective', 'adverb', 'In this sentence, "fly" is a noun, meaning the insect. "Fly" can also be a verb.'),
 ('Grammar and Structure', 'Part of Speech', 'Abandon', 'What is the part of speech of "abandon" in the sentence: "They abandon the project midway"?', 'verb', 'noun', 'adjective', 'adverb', '"Abandon" is used as a verb here, meaning to leave behind or give up. "Noun" would refer to a thing, "adjective" describes a noun, and "adverb" modifies a verb, so they do not fit.'),
 ('Grammar and Structure', 'Part of Speech', 'Abandonment', 'What is the part of speech of "abandonment" in the sentence: "The abandonment of the building caused concern"?', 'noun', 'verb', 'adjective', 'adverb', '"Abandonment" is a noun here, referring to the act of leaving something behind. "Verb" indicates action, "adjective" describes a noun, and "adverb" describes a verb, so these are incorrect.'),
 ('Grammar and Structure', 'Part of Speech', 'Abate', 'What is the part of speech of "abate" in the sentence: "The storm did not abate until morning"?', 'verb', 'noun', 'adjective', 'adverb', '"Abate" is a verb meaning to become less intense. The other options do not indicate action and do not fit the context.'),
@@ -37,6 +29,8 @@ INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `w
 ('Grammar and Structure', 'Part of Speech', 'Abilities', 'What is the part of speech of "abilities" in the sentence: "She has many abilities"?', 'noun', 'verb', 'adjective', 'adverb', '"Abilities" is a noun referring to skills or talents. The other options do not function as nouns in this context.'),
 ('Grammar and Structure', 'Part of Speech', 'Able', 'What is the part of speech of "able" in the sentence: "She is able to solve the problem"?', 'adjective', 'verb', 'noun', 'adverb', '"Able" is an adjective here, describing someone’s capability. The other options are incorrect because \"able\" is not an action, a thing, or a word that modifies a verb.'),
 ('Grammar and Structure', 'Part of Speech', 'Abnormal', 'What is the part of speech of "abnormal" in the sentence: "The results are abnormal"?', 'adjective', 'noun', 'verb', 'adverb', '"Abnormal" is an adjective describing the noun \"results\" as not typical. The other choices do not correctly describe a noun in this context.');
+
+
 
 
 INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
@@ -1892,3 +1886,4380 @@ INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `w
 ('Grammar and Structure', 'Part of Speech', 'credible', 'What is the part of speech of "credible" in the sentence: "Her explanation was credible and well supported"?', 'adjective', 'noun', 'verb', 'adverb', '"Credible" describes how believable the explanation is, making it an adjective. It does not name something (noun), express an action (verb), or modify a verb (adverb).'),
 ('Grammar and Structure', 'Part of Speech', 'credit', 'What is the part of speech of "credit" in the sentence: "Please credit the author for their research"?', 'verb', 'noun', 'adjective', 'adverb', '"Credit" denotes the action of acknowledging someone’s work, so it is a verb. It does not name something (noun), describe another word (adjective), or modify a verb (adverb).'),
 ('Grammar and Structure', 'Part of Speech', 'creep', 'What is the part of speech of "creep" in the sentence: "Shadows creep across the wall at dusk"?', 'verb', 'noun', 'adjective', 'adverb', '"Creep" describes the action of moving slowly and quietly, making it a verb. It does not name something (noun), describe another word (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'crew', 
+ 'What is the part of speech of "crew" in the sentence: "The film''s crew arrived early to set up the equipment"?', 
+ 'noun', 'verb', 'adjective', 'adverb', 
+ 'Here, "crew" names a group of people and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crisis', 
+ 'What is the part of speech of "crisis" in the sentence: "The company faced a financial crisis last quarter"?', 
+ 'noun', 'verb', 'interjection', 'pronoun', 
+ '"Crisis" names a critical event or situation and acts as a noun. It does not express an action (verb), an exclamation (interjection), or stand in for a noun (pronoun).'),
+
+('Grammar and Structure', 'Part of Speech', 'criterion', 
+ 'What is the part of speech of "criterion" in the sentence: "The main criterion for selection is academic performance"?', 
+ 'noun', 'adjective', 'conjunction', 'adverb', 
+ '"Criterion" denotes a standard or principle and is a noun. It does not describe something (adjective), join clauses (conjunction), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'critic', 
+ 'What is the part of speech of "critic" in the sentence: "The film critic praised the director''s new movie"?', 
+ 'noun', 'verb', 'pronoun', 'adjective', 
+ '"Critic" refers to a person who judges and is a noun. It is not performing an action (verb), standing in for another noun (pronoun), or describing another word (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'criticism', 
+ 'What is the part of speech of "criticism" in the sentence: "Her criticism helped improve the manuscript"?', 
+ 'noun', 'verb', 'interjection', 'conjunction', 
+ '"Criticism" names the act of evaluating or expressing disapproval and is a noun. It is not an action word (verb), an exclamation (interjection), or a connector (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'critique', 
+ 'What is the part of speech of "critique" in the sentence: "He wrote a critique of the latest art exhibition"?', 
+ 'noun', 'verb', 'adjective', 'pronoun', 
+ '"Critique" refers to a written evaluation and functions as a noun. It does not describe (adjective), perform an action (verb), or replace a noun (pronoun).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'croak',
+ 'What is the part of speech of "croak" in the sentence: "The frog will croak at night"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ 'In this sentence, "croak" describes the action the frog makes, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crochet',
+ 'What is the part of speech of "crochet" in the sentence: "She learned to crochet a warm scarf"?',
+ 'verb', 'noun', 'adjective', 'preposition',
+ '"Crochet" here denotes the action of making fabric with yarn, so it is a verb. It is not the name of the craft (noun), does not describe something (adjective), nor does it link words (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'crooked',
+ 'What is the part of speech of "crooked" in the sentence: "He gave her a crooked smile"?',
+ 'adjective', 'verb', 'noun', 'adverb',
+ '"Crooked" describes the nature of the smile, so it is an adjective. It is not an action (verb), a thing (noun), or a manner adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'crop',
+ 'What is the part of speech of "crop" in the sentence: "The farmers harvested the crop in autumn"?',
+ 'noun', 'verb', 'adjective', 'conjunction',
+ '"Crop" names the yield gathered by farmers, functioning as a noun. It is not the act of cutting (verb), does not describe something (adjective), nor does it connect clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'cross',
+ 'What is the part of speech of "cross" in the sentence: "She wore a silver cross around her neck"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cross" refers to the religious symbol she wore, so it is a noun. It is not the action of passing (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cross-examine',
+ 'What is the part of speech of "cross-examine" in the sentence: "The attorney will cross-examine the witness tomorrow"?',
+ 'verb', 'noun', 'adjective', 'pronoun',
+ '"Cross-examine" denotes the action the attorney will perform, so it is a verb. It is not a person or thing (noun), a descriptor (adjective), or a stand-in for a noun (pronoun).'),
+
+('Grammar and Structure', 'Part of Speech', 'crossbow',
+ 'What is the part of speech of "crossbow" in the sentence: "He aimed his crossbow at the target"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Crossbow" names the weapon he aimed, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crossly',
+ 'What is the part of speech of "crossly" in the sentence: "She replied crossly when questioned about the error"?',
+ 'adverb', 'adjective', 'verb', 'noun',
+ '"Crossly" modifies how she replied, indicating the manner of her reply, so it is an adverb. It is not a description of a noun (adjective), an action (verb), or a person/thing (noun).'),
+
+('Grammar and Structure', 'Part of Speech', 'crossroad',
+ 'What is the part of speech of "crossroad" in the sentence: "They paused at the crossroad before choosing a direction"?',
+ 'noun', 'verb', 'adjective', 'interjection',
+ '"Crossroad" names the intersection where they paused, functioning as a noun. It is not an action (verb), a descriptor (adjective), or an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'crosswalk',
+ 'What is the part of speech of "crosswalk" in the sentence: "Pedestrians must use the crosswalk to reach the other side safely"?',
+ 'noun', 'verb', 'adjective', 'conjunction',
+ '"Crosswalk" refers to the designated path for pedestrians, so it is a noun. It is not an action (verb), a descriptor (adjective), or a connecting word (conjunction).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'crossword',
+ 'What is the part of speech of "crossword" in the sentence: "She solved the crossword in the newspaper?"',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Crossword" names a type of puzzle and functions as a noun. It is not describing an action (verb), does not modify another word (adjective), nor does it describe how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crowbar',
+ 'What is the part of speech of "crowbar" in the sentence: "He used a crowbar to pry open the crate?"',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Crowbar" refers to a tool and serves as a noun. It is not the act of using the tool (verb), does not describe a noun (adjective), nor indicate manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crowd',
+ 'What is the part of speech of "crowd" in the sentence: "The crowd cheered as the band took the stage?"',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Crowd" denotes a group of people and is a noun. It is not the action of gathering (verb), does not describe a noun (adjective), nor modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'Crowded',
+ 'What is the part of speech of "crowded" in the sentence: "The subway car was crowded during rush hour?"',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Crowded" describes the condition of the subway car, so it is an adjective. It is not naming something (noun), denoting an action (verb), or modifying a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crown',
+ 'What is the part of speech of "crown" in the sentence: "The queen placed the crown on her head?"',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Crown" names a ceremonial headpiece and functions as a noun. It is not the act of crowning someone (verb), nor does it describe or modify anything (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crucial',
+ 'What is the part of speech of "crucial" in the sentence: "It is crucial to follow the instructions carefully?"',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Crucial" describes the importance of following instructions and is an adjective. It does not name something (noun), denote an action (verb), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crude',
+ 'What is the part of speech of "crude" in the sentence: "The artist’s crude sketch captured the idea?"',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Crude" describes the rough quality of the sketch, so it is an adjective. It does not name a thing (noun), denote an action (verb), or indicate manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cruel',
+ 'What is the part of speech of "cruel" in the sentence: "The cruel remark upset everyone in the room?"',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Cruel" describes the nature of the remark and functions as an adjective. It is not a thing (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cruelly',
+ 'What is the part of speech of "cruelly" in the sentence: "He treated the injured animal cruelly?"',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Cruelly" modifies how he treated the animal, indicating manner, so it is an adverb. It is not naming something (noun), denoting an action (verb), or describing a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'cruise',
+ 'What is the part of speech of "cruise" in the sentence: "They plan to cruise along the coast this summer?"',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Cruise" describes the action they will take and functions as a verb. It is not the name of a trip (noun), nor does it describe or modify another word (adjective/adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'crush',
+ 'What is the part of speech of "crush" in the sentence: "She admitted she had a crush on her classmate"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ 'Here, "crush" names an infatuation and functions as a noun. It is not an action (verb), nor does it describe or modify anything (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cry',
+ 'What is the part of speech of "cry" in the sentence: "The baby began to cry loudly last night"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ 'In this sentence, "cry" describes the action the baby makes, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cryogenics',
+ 'What is the part of speech of "cryogenics" in the sentence: "He studied cryogenics in graduate school"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cryogenics" names the field of low-temperature science and functions as a noun. It does not denote an action (verb), a quality (adjective), or manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cryptography',
+ 'What is the part of speech of "cryptography" in the sentence: "Cryptography plays a key role in secure communications"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cryptography" refers to the practice of secure coding and is a noun. It is not an action word (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'crystal',
+ 'What is the part of speech of "crystal" in the sentence: "The chandelier was made of cut crystal pieces"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Crystal" names a type of clear glass and functions as a noun. It is not performing an action (verb), describing something (adjective), or modifying a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cubbyhole',
+ 'What is the part of speech of "cubbyhole" in the sentence: "She stored her letters in a small cubbyhole beside her desk"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cubbyhole" names a small storage compartment and is a noun. It does not indicate an action (verb), a descriptor (adjective), or manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cue',
+ 'What is the part of speech of "cue" in the sentence: "The actor waited for his cue before entering the stage"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cue" refers to the signal for action and functions as a noun. It is not the act of signaling (verb), a descriptor (adjective), or a modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cult',
+ 'What is the part of speech of "cult" in the sentence: "The documentary examined a religious cult in detail"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cult" names a group defined by shared beliefs and acts as a noun. It does not denote an action (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cultivate',
+ 'What is the part of speech of "cultivate" in the sentence: "Farmers cultivate the land to grow crops"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Cultivate" describes the action farmers perform on the land, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'culture',
+ 'What is the part of speech of "culture" in the sentence: "The city’s culture attracts tourists from around the world"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Culture" names the shared customs of a community and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'cumbersome',
+ 'What is the part of speech of "cumbersome" in the sentence: "Carrying the cumbersome package was tiring"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Cumbersome" describes the package, so it is an adjective. It does not join clauses (conjunction), express an exclamation (interjection), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'cumulative',
+ 'What is the part of speech of "cumulative" in the sentence: "The cumulative effect of study hours shows progress"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Cumulative" describes the effect, so it is an adjective. It does not join ideas (conjunction), act as an exclamation (interjection), or function as a relational word (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'cunningly',
+ 'What is the part of speech of "cunningly" in the sentence: "She cunningly avoided the question"?',
+ 'adverb', 'conjunction', 'interjection', 'preposition',
+ '"Cunningly" tells how she avoided the question, so it is an adverb. It does not join words (conjunction), act as an exclamation (interjection), or show relation (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'cup',
+ 'What is the part of speech of "cup" in the sentence: "He poured water into the cup"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cup" names the container and is a noun. It is not the act of containing (verb), nor does it describe (adjective) or modify actions (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cupboard',
+ 'What is the part of speech of "cupboard" in the sentence: "She stored the dishes in the cupboard"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cupboard" names a storage piece and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cupcake',
+ 'What is the part of speech of "cupcake" in the sentence: "He enjoyed a chocolate cupcake after lunch"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cupcake" names a sweet treat and is a noun. It is not what you do (verb), nor does it describe (adjective) or modify actions (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'curate',
+ 'What is the part of speech of "curate" in the sentence: "They curate the museum’s modern art collection"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Curate" describes the action of organizing the collection, so it is a verb. It does not name a thing (noun), describe (adjective), or modify manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cure',
+ 'What is the part of speech of "cure" in the sentence: "The doctor will cure the infection soon"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Cure" denotes the action the doctor will take, so it is a verb. It is not the thing that heals (noun), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'curiosity',
+ 'What is the part of speech of "curiosity" in the sentence: "His curiosity led him to explore the attic"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Curiosity" names the feeling that drives him, so it is a noun. It is not an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'curious',
+ 'What is the part of speech of "curious" in the sentence: "The child was curious about the noise"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Curious" describes the child’s state, so it is an adjective. It does not join ideas (conjunction), act as an exclamation (interjection), or show relationship (preposition).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'curiously',
+ 'What is the part of speech of "curiously" in the sentence: "She glanced at the note curiously before opening it"?',
+ 'adverb', 'adjective', 'conjunction', 'interjection',
+ '"Curiously" modifies the verb "glanced," indicating manner, so it is an adverb. It does not describe a noun (adjective), join clauses (conjunction), or express an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'curl',
+ 'What is the part of speech of "curl" in the sentence: "She admired the curl at the end of her hair"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Curl" names a shape in the hair and functions as a noun. It is not the action of curling (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'currency',
+ 'What is the part of speech of "currency" in the sentence: "The euro is a widely accepted currency in many countries"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Currency" names a form of money and serves as a noun. It is not the act of exchanging (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'current',
+ 'What is the part of speech of "current" in the sentence: "The current temperature is higher than yesterday"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Current" describes the noun "temperature," so it is an adjective. It does not join words (conjunction), express emotion (interjection), or show relationships (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'currently',
+ 'What is the part of speech of "currently" in the sentence: "He is currently working on the project"?',
+ 'adverb', 'adjective', 'conjunction', 'interjection',
+ '"Currently" modifies the verb phrase "is working," indicating time, so it is an adverb. It does not describe a noun (adjective), join clauses (conjunction), or act as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'curriculum',
+ 'What is the part of speech of "curriculum" in the sentence: "The school updated its math curriculum this year"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Curriculum" names a course of study and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'curse',
+ 'What is the part of speech of "curse" in the sentence: "They curse loudly when they are angry"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Curse" here describes the action of uttering profane words, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'curses',
+ 'What is the part of speech of "curses" in the sentence: "The ancient text contained several curses written on the wall"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Curses" names the spells inscribed in the text and functions as a noun. It is not the act of cursing (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cursor',
+ 'What is the part of speech of "cursor" in the sentence: "He moved the cursor across the screen"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cursor" names the pointer on the screen and serves as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cursory',
+ 'What is the part of speech of "cursory" in the sentence: "She gave the report a cursory review before the meeting"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Cursory" describes the noun "review," indicating it was brief, so it is an adjective. It does not join elements (conjunction), express emotion (interjection), or show relations (preposition).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'curve',
+ 'What is the part of speech of "curve" in the sentence: "The driver navigated the sharp curve carefully"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Curve" names a bend in the road and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'curved',
+ 'What is the part of speech of "curved" in the sentence: "The path followed a curved line through the garden"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Curved" describes the shape of the line and functions as an adjective. It is not naming something (noun), an action (verb), or a manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'custody',
+ 'What is the part of speech of "custody" in the sentence: "The court granted her custody of the child"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Custody" names the legal responsibility and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'customarily',
+ 'What is the part of speech of "customarily" in the sentence: "They customarily start work at eight o''clock"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Customarily" modifies the verb "start," indicating frequency, so it is an adverb. It does not describe a noun (adjective), name something (noun), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'customer',
+ 'What is the part of speech of "customer" in the sentence: "Each customer received a complimentary gift"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Customer" names a person who buys goods and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cut',
+ 'What is the part of speech of "cut" in the sentence: "Please cut the paper along the dotted line"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Cut" describes the action of dividing the paper and functions as a verb. It is not naming something (noun), describing something (adjective), or indicating manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cutaway',
+ 'What is the part of speech of "cutaway" in the sentence: "The editor inserted a cutaway to show the audience reaction"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cutaway" names a brief insert shot in film editing and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cutback',
+ 'What is the part of speech of "cutback" in the sentence: "The company announced a cutback in working hours"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cutback" names a reduction and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cute',
+ 'What is the part of speech of "cute" in the sentence: "The puppy looked extremely cute in its sweater"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Cute" describes the puppy and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cutely',
+ 'What is the part of speech of "cutely" in the sentence: "She waved cutely at the camera"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Cutely" modifies the verb "waved," indicating manner, so it is an adverb. It does not describe a noun (adjective), name something (noun), or denote an action (verb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'cutoff',
+ 'What is the part of speech of "cutoff" in the sentence: "The cutoff time is strictly 5 PM"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cutoff" names a specific limit and functions as a noun. It does not describe an action (verb), a quality (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cutthroat',
+ 'What is the part of speech of "cutthroat" in the sentence: "They faced cutthroat competition in the market"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Cutthroat" describes the fierce nature of the competition and is an adjective. It does not name something (noun), denote an action (verb), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cutting',
+ 'What is the part of speech of "cutting" in the sentence: "Her cutting remark hurt his feelings"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Cutting" describes the remark’s sharp quality and functions as an adjective. It does not name a thing (noun), denote the act of cutting (verb), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cutup',
+ 'What is the part of speech of "cutup" in the sentence: "He is a real cutup at parties"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cutup" names a person who jokes around and is a noun. It is not the act of cutting (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cycle',
+ 'What is the part of speech of "cycle" in the sentence: "They cycle around the track each morning"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Cycle" describes the action they perform and functions as a verb. It is not the name of the activity (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cynical',
+ 'What is the part of speech of "cynical" in the sentence: "He was cynical about the politician’s promises"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Cynical" describes his doubtful attitude and functions as an adjective. It does not name something (noun), denote an action (verb), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'cytokinesis',
+ 'What is the part of speech of "cytokinesis" in the sentence: "Cytokinesis completes the process of cell division"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Cytokinesis" names a stage in cell division and is a noun. It does not describe an action (verb), a quality (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dad',
+ 'What is the part of speech of "dad" in the sentence: "Her dad taught her to ride a bike"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dad" names a family member and is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daemon',
+ 'What is the part of speech of "daemon" in the sentence: "A daemon runs in the background on many servers"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daemon" names a background process in computing and functions as a noun. It does not denote an action (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daily',
+ 'What is the part of speech of "daily" in the sentence: "He reads the newspaper daily"?',
+ 'adverb', 'noun', 'adjective', 'verb',
+ '"Daily" modifies the verb "reads," indicating frequency, so it is an adverb. It does not name something (noun), describe a noun (adjective), or denote an action (verb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'daintily',
+ 'What is the part of speech of "daintily" in the sentence: "She placed the teacup daintily on the saucer"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Daintily" describes how she placed the teacup, modifying the verb, so it is an adverb. It does not name something (noun), nor does it describe a noun (adjective) or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dairy',
+ 'What is the part of speech of "dairy" in the sentence: "The dairy produces fresh butter every morning"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dairy" names a place or business that makes milk products and functions as a noun. It is not performing an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dam',
+ 'What is the part of speech of "dam" in the sentence: "The old dam held back the river during the storm"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dam" names a barrier built to hold back water and is a noun. It is not the action of blocking (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'damage',
+ 'What is the part of speech of "damage" in the sentence: "The hailstorm caused significant damage to the roof"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Damage" names the harm done and functions as a noun. It does not describe an action (verb), a quality (adjective), or modify another word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'damaging',
+ 'What is the part of speech of "damaging" in the sentence: "Her damaging comment hurt his pride"?',
+ 'adjective', 'verb', 'noun', 'adverb',
+ '"Damaging" describes the nature of the comment and functions as an adjective. It is not the act of causing harm (verb), a thing (noun), or a modifier of a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'damping',
+ 'What is the part of speech of "damping" in the sentence: "Engineers discussed damping of the bridge vibrations"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Damping" names the process of reducing vibrations and is a noun. It does not describe an action here (verb), nor does it modify a noun (adjective) or verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dance',
+ 'What is the part of speech of "dance" in the sentence: "They will dance at the festival tonight"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dance" here denotes the action they will perform and functions as a verb. It is not a person or thing (noun), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dangerously',
+ 'What is the part of speech of "dangerously" in the sentence: "He drove dangerously on the icy road"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Dangerously" modifies the verb "drove," indicating manner, so it is an adverb. It does not describe a noun (adjective), name something (noun), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dare',
+ 'What is the part of speech of "dare" in the sentence: "I dare you to climb that tree"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dare" expresses the challenge he issues and functions as a verb. It is not a thing (noun), a descriptor (adjective), or a modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daredevil',
+ 'What is the part of speech of "daredevil" in the sentence: "The daredevil performed stunts without a safety harness"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daredevil" names a person who takes risks and functions as a noun. It is not performing an action (verb), nor does it describe (adjective) or modify (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'daringly',
+ 'What is the part of speech of "daringly" in the sentence: "The acrobat daringly walked across the tightrope"?',
+ 'adverb', 'adjective', 'pronoun', 'conjunction',
+ '"Daringly" modifies the verb "walked," indicating manner, so it is an adverb. It does not name a thing (noun), nor does it describe a noun (adjective) or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'dark',
+ 'What is the part of speech of "dark" in the sentence: "The room was dark after the lights went out"?',
+ 'adjective', 'preposition', 'interjection', 'participle',
+ '"Dark" describes the room, so it is an adjective. It does not show a relationship (preposition), express a sudden emotion (interjection), or indicate a verb form (participle).'),
+
+('Grammar and Structure', 'Part of Speech', 'darkly',
+ 'What is the part of speech of "darkly" in the sentence: "He scowled darkly at the interruption"?',
+ 'adverb', 'particle', 'gerund', 'determiner',
+ '"Darkly" modifies the verb "scowled," indicating manner, so it is an adverb. It does not function as a small function word (particle), a noun form (gerund), or specify a noun (determiner).'),
+
+('Grammar and Structure', 'Part of Speech', 'darkness',
+ 'What is the part of speech of "darkness" in the sentence: "Darkness fell over the forest at dusk"?',
+ 'noun', 'verb', 'adverb', 'article',
+ '"Darkness" names a state of being, so it is a noun. It does not describe an action (verb), modify another verb (adverb), or precede a noun (article).'),
+
+('Grammar and Structure', 'Part of Speech', 'darkroom',
+ 'What is the part of speech of "darkroom" in the sentence: "The photographer developed prints in the darkroom"?',
+ 'noun', 'auxiliary', 'numeral', 'ordinal',
+ '"Darkroom" names a place, so it is a noun. It is not a helping verb (auxiliary), a number (numeral), or a word indicating order (ordinal).'),
+
+('Grammar and Structure', 'Part of Speech', 'dashboard',
+ 'What is the part of speech of "dashboard" in the sentence: "She checked the dashboard for warning lights"?',
+ 'noun', 'predicate', 'modifier', 'complement',
+ '"Dashboard" names a component of the car, so it is a noun. It is not the part of a sentence that asserts something (predicate), does not describe (modifier), nor complete a thought (complement).'),
+
+('Grammar and Structure', 'Part of Speech', 'dastardly',
+ 'What is the part of speech of "dastardly" in the sentence: "The dastardly villain plotted his revenge"?',
+ 'adjective', 'subordinate', 'quantifier', 'demonstrative',
+ '"Dastardly" describes the villain, so it is an adjective. It does not introduce a clause (subordinate), express quantity (quantifier), or point out something (demonstrative).'),
+
+('Grammar and Structure', 'Part of Speech', 'data',
+ 'What is the part of speech of "data" in the sentence: "The scientist analyzed the data carefully"?',
+ 'noun', 'imperative', 'interrogative', 'exclamatory',
+ '"Data" names information collected, so it is a noun. It is not a command form (imperative), a question form (interrogative), or an exclamation form (exclamatory).'),
+
+('Grammar and Structure', 'Part of Speech', 'database',
+ 'What is the part of speech of "database" in the sentence: "The company stored user information in a database"?',
+ 'noun', 'coordinating', 'parenthetical', 'classifier',
+ '"Database" names a structured record system, so it is a noun. It is not a word that links equal elements (coordinating), an aside (parenthetical), or a category marker (classifier).'),
+
+('Grammar and Structure', 'Part of Speech', 'dataset',
+ 'What is the part of speech of "dataset" in the sentence: "The researcher used a dataset containing thousands of entries"?',
+ 'noun', 'conjunctive', 'postpositive', 'substantive',
+ '"Dataset" names a collection of data, so it is a noun. It is not a word that joins clauses (conjunctive), placed after a noun (postpositive), or a general term for something (substantive).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'date',
+ 'What is the part of speech of "date" in the sentence: "They agreed on a date for the ceremony"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Date" names a specific day and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daughter',
+ 'What is the part of speech of "daughter" in the sentence: "Her daughter won the spelling bee"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daughter" names a family member and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dawn',
+ 'What is the part of speech of "dawn" in the sentence: "We woke up at dawn to watch the sunrise"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dawn" names the beginning of the day and is a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'day',
+ 'What is the part of speech of "day" in the sentence: "The day was hot and humid"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Day" names a 24‑hour period and functions as a noun. It is not an action (verb), nor does it describe (adjective) or indicate manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daybreak',
+ 'What is the part of speech of "daybreak" in the sentence: "They set out at daybreak to climb the mountain"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daybreak" names the time when morning begins and is a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daydream',
+ 'What is the part of speech of "daydream" in the sentence: "His daydream often distracted him during class"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daydream" names a fanciful thought and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daylight',
+ 'What is the part of speech of "daylight" in the sentence: "Daylight filtered through the curtains"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daylight" names natural light from the sun and is a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'daytime',
+ 'What is the part of speech of "daytime" in the sentence: "The store is only open during daytime hours"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Daytime" names the hours of daylight and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dead',
+ 'What is the part of speech of "dead" in the sentence: "The battery is dead and needs replacing"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Dead" describes the state of the battery and functions as an adjective. It does not join clauses (conjunction), express emotion (interjection), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'deadline',
+ 'What is the part of speech of "deadline" in the sentence: "The deadline for submissions is Friday"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deadline" names a due date and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'deadly',
+ 'What is the part of speech of "deadly" in the sentence: "The snake''s venom is deadly to small rodents"?',
+ 'adjective', 'interjection', 'conjunction', 'preposition',
+ '"Deadly" describes the noun "venom," so it is an adjective. It does not serve as an exclamation (interjection), link clauses (conjunction), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'deal',
+ 'What is the part of speech of "deal" in the sentence: "They finalized the deal yesterday"?',
+ 'noun', 'verb', 'adverb', 'adjective',
+ '"Deal" names an agreement and functions as a noun. It is not the action of negotiating (verb), nor does it modify a verb (adverb) or describe a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'dealer',
+ 'What is the part of speech of "dealer" in the sentence: "The art dealer showcased rare paintings"?',
+ 'noun', 'verb', 'adverb', 'adjective',
+ '"Dealer" names a person involved in trading and is a noun. It is not performing an action (verb), modifying how something is done (adverb), or describing a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'dear',
+ 'What is the part of speech of "dear" in the sentence: "She addressed the letter with “Dear Sir or Madam”?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dear" describes the form of address and functions as an adjective. It is not naming something (noun), performing an action (verb), or indicating manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dearly',
+ 'What is the part of speech of "dearly" in the sentence: "He loves his family dearly"?',
+ 'adverb', 'adjective', 'conjunction', 'interjection',
+ '"Dearly" modifies the verb "loves," indicating manner, so it is an adverb. It does not describe a noun (adjective), link clauses (conjunction), or express emotion (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'dearth',
+ 'What is the part of speech of "dearth" in the sentence: "There was a dearth of evidence in the case"?',
+ 'noun', 'adjective', 'conjunction', 'interjection',
+ '"Dearth" names a scarcity and functions as a noun. It does not describe something (adjective), link ideas (conjunction), or act as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'death',
+ 'What is the part of speech of "death" in the sentence: "The book deals with the theme of death"?',
+ 'noun', 'verb', 'adverb', 'adjective',
+ '"Death" names the end of life and functions as a noun. It is not an action (verb), nor does it modify (adverb) or describe (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'debate',
+ 'What is the part of speech of "debate" in the sentence: "The debate lasted for three hours"?',
+ 'noun', 'adjective', 'conjunction', 'interjection',
+ '"Debate" names a formal discussion and is a noun. It does not describe (adjective), link clauses (conjunction), or express emotion (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'debilitate',
+ 'What is the part of speech of "debilitate" in the sentence: "The disease can debilitate even the healthiest patients"?',
+ 'verb', 'adjective', 'noun', 'adverb',
+ '"Debilitate" describes the action of weakening and functions as a verb. It is not naming something (noun), describing a noun (adjective), or modifying how something is done (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'debris',
+ 'What is the part of speech of "debris" in the sentence: "The beach was covered with debris after the storm"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Debris" names scattered fragments and functions as a noun. It is not an action (verb), nor does it describe something (adjective) or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'debt',
+ 'What is the part of speech of "debt" in the sentence: "He worked overtime to pay off his debt"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Debt" names an amount owed and serves as a noun. It is not the act of owing (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'debugging',
+ 'What is the part of speech of "debugging" in the sentence: "She spent the afternoon debugging the software errors"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Debugging" describes the action she performed and functions as a verb. It is not the name of the process (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'debunk',
+ 'What is the part of speech of "debunk" in the sentence: "The researcher aimed to debunk the prevailing myth"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Debunk" describes the action of exposing falsehoods and functions as a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'debut',
+ 'What is the part of speech of "debut" in the sentence: "The singer will make her debut next month"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Debut" names the first public appearance and functions as a noun. It is not the act of appearing (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decay',
+ 'What is the part of speech of "decay" in the sentence: "The decay of the old barn was evident after years of neglect"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Decay" names the process of rotting and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deceive',
+ 'What is the part of speech of "deceive" in the sentence: "Beware of people who deceive you with false promises"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deceive" describes the action of misleading and functions as a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decent',
+ 'What is the part of speech of "decent" in the sentence: "She gave a decent performance despite the nerves"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Decent" describes the quality of the performance and functions as an adjective. It is not a thing (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decently',
+ 'What is the part of speech of "decently" in the sentence: "He behaved decently during the formal event"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Decently" modifies the verb "behaved," indicating manner, so it is an adverb. It does not name something (noun), describe a noun (adjective), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deceptive',
+ 'What is the part of speech of "deceptive" in the sentence: "The advertisement was deceptive and misled consumers"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Deceptive" describes the nature of the advertisement and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'decide',
+ 'What is the part of speech of "decide" in the sentence: "She had to decide which college to attend"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Decide" describes the action she must take, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), nor modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decipher',
+ 'What is the part of speech of "decipher" in the sentence: "He tried to decipher the ancient manuscript"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Decipher" denotes the action of interpreting, so it is a verb. It is not the name of a thing (noun), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decision',
+ 'What is the part of speech of "decision" in the sentence: "Her decision surprised everyone in the room"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Decision" names the choice she made and functions as a noun. It does not denote an action (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decision-making',
+ 'What is the part of speech of "decision-making" in the sentence: "Decision-making requires careful thought"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Decision-making" names the process of making choices and acts as a noun. It does not describe an action (verb), qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decisive',
+ 'What is the part of speech of "decisive" in the sentence: "He took a decisive step to improve sales"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Decisive" describes the nature of the step, so it is an adjective. It is not a thing (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deck',
+ 'What is the part of speech of "deck" in the sentence: "They painted the deck before summer arrived"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deck" names a part of the house and functions as a noun. It is not the act of decking (verb), nor does it describe (adjective) or modify actions (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'declaration',
+ 'What is the part of speech of "declaration" in the sentence: "The declaration was read aloud to the crowd"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Declaration" names the formal announcement and works as a noun. It does not denote an action (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'declare',
+ 'What is the part of speech of "declare" in the sentence: "The president will declare the results tonight"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Declare" denotes the action of announcing, so it is a verb. It is not the thing announced (noun), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decline',
+ 'What is the part of speech of "decline" in the sentence: "They noticed a decline in sales this quarter"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Decline" names the drop in sales and functions as a noun. It does not denote the act of dropping (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decorate',
+ 'What is the part of speech of "decorate" in the sentence: "They decorate the hall every holiday season"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Decorate" describes the action they perform, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'decoration',
+ 'What is the part of speech of "decoration" in the sentence: "The room was filled with paper decoration for the party"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Decoration" names an object used to adorn and functions as a noun. It does not describe an action (verb), qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'decrease',
+ 'What is the part of speech of "decrease" in the sentence: "They will decrease the volume before the movie starts"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Decrease" describes the action they will perform, so it is a verb. It is not the thing being reduced (noun), nor does it describe or modify anything (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dedicate',
+ 'What is the part of speech of "dedicate" in the sentence: "She will dedicate the new library wing tomorrow"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dedicate" denotes the action of formally opening, so it is a verb. It is not a thing (noun), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dedicated',
+ 'What is the part of speech of "dedicated" in the sentence: "He is dedicated to improving his skills"?',
+ 'adjective', 'preposition', 'conjunction', 'determiner',
+ '"Dedicated" describes his commitment and functions as an adjective. It does not show a relationship (preposition), join clauses (conjunction), or specify a noun (determiner).'),
+
+('Grammar and Structure', 'Part of Speech', 'dedication',
+ 'What is the part of speech of "dedication" in the sentence: "Her dedication to the cause was inspiring"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dedication" names the quality of commitment and serves as a noun. It does not denote an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deed',
+ 'What is the part of speech of "deed" in the sentence: "He performed a good deed for his neighbor"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deed" names an action as a thing and functions as a noun. It is not performing an action here (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deem',
+ 'What is the part of speech of "deem" in the sentence: "They deem the proposal acceptable"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deem" describes the act of judging, so it is a verb. It is not a thing (noun), nor does it describe a noun or modify a verb in manner (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deep',
+ 'What is the part of speech of "deep" in the sentence: "The well is deep and requires a pump"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Deep" describes the well’s depth, functioning as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deeply',
+ 'What is the part of speech of "deeply" in the sentence: "She was deeply moved by the speech"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Deeply" modifies the verb "moved," indicating manner, so it is an adverb. It does not name something (noun), describe a noun (adjective), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'default',
+ 'What is the part of speech of "default" in the sentence: "The default settings restored the original preferences"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Default" describes the type of settings and functions as an adjective. It does not show a relationship (preposition), join clauses (conjunction), or serve as an exclamation (interjection).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'defeat',
+ 'What is the part of speech of "defeat" in the sentence: "Despite the team''s defeat, they remained optimistic"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Defeat" names the loss experienced, so it is a noun. It does not describe an action (verb), a quality (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defect',
+ 'What is the part of speech of "defect" in the sentence: "He discovered a defect in the machinery"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Defect" names the flaw found, so it is a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defence',
+ 'What is the part of speech of "defence" in the sentence: "The fortress''s defence held strong against the siege"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Defence" names the protective measures, so it is a noun. It does not denote an action (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defend',
+ 'What is the part of speech of "defend" in the sentence: "They defend the castle walls at dawn"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Defend" describes the action taken, so it is a verb. It is not a person or thing (noun), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defender',
+ 'What is the part of speech of "defender" in the sentence: "The defender blocked the winning shot"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Defender" names the person protecting, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defenestrate',
+ 'What is the part of speech of "defenestrate" in the sentence: "They plan to defenestrate the broken computer out the window"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Defenestrate" describes the act of throwing out a window, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defensible',
+ 'What is the part of speech of "defensible" in the sentence: "His position was defensible under scrutiny"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Defensible" describes the quality of the position, so it is an adjective. It does not name something (noun), denote an action (verb), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defensive',
+ 'What is the part of speech of "defensive" in the sentence: "She took a defensive stance during the debate"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Defensive" describes the type of stance, so it is an adjective. It is not the person (noun), the action (verb), or the manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defer',
+ 'What is the part of speech of "defer" in the sentence: "They chose to defer the decision until Monday"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Defer" describes the action of postponing, so it is a verb. It is not a thing (noun), descriptor (adjective), or manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deference',
+ 'What is the part of speech of "deference" in the sentence: "He showed deference to the senior official"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deference" names the respect shown, so it is a noun. It is not an action (verb), quality (adjective), or manner modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'deferential',
+ 'What is the part of speech of "deferential" in the sentence: "She was deferential to her elders during the ceremony"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Deferential" describes her respectful attitude, so it is an adjective. It does not show a relationship (preposition), join clauses (conjunction), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'defiantly',
+ 'What is the part of speech of "defiantly" in the sentence: "He defiantly refused to apologize for his mistake"?',
+ 'adverb', 'adjective', 'preposition', 'conjunction',
+ '"Defiantly" modifies how he refused, indicating manner, so it is an adverb. It does not describe a noun (adjective), show a relationship (preposition), or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'deficiency',
+ 'What is the part of speech of "deficiency" in the sentence: "A deficiency of vitamin C can cause scurvy"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deficiency" names a lack of something and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deficient',
+ 'What is the part of speech of "deficient" in the sentence: "The report was deficient in critical details"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Deficient" describes the report’s shortcomings, so it is an adjective. It does not show a relationship (preposition), join clauses (conjunction), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'deficit',
+ 'What is the part of speech of "deficit" in the sentence: "The budget deficit worried the economic advisors"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deficit" names the shortfall, functioning as a noun. It does not denote an action (verb), describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'definable',
+ 'What is the part of speech of "definable" in the sentence: "The concept must be definable before we can discuss it"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Definable" describes the concept’s clarity, so it is an adjective. It does not show a relationship (preposition), join clauses (conjunction), or express an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'define',
+ 'What is the part of speech of "define" in the sentence: "Please define the term in your own words"?',
+ 'verb', 'noun', 'adverb', 'adjective',
+ '"Define" denotes the action of explaining a term and functions as a verb. It is not a thing (noun), a manner modifier (adverb), or a descriptor (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'defining',
+ 'What is the part of speech of "defining" in the sentence: "His defining moment came during the championship game"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Defining" describes the nature of that moment, so it is an adjective. It does not show a relationship (preposition), join clauses (conjunction), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'definite',
+ 'What is the part of speech of "definite" in the sentence: "They need a definite answer by tomorrow morning"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Definite" describes the required clarity of the answer, so it is an adjective. It does not show a relationship (preposition), join clauses (conjunction), or express emotion (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'definition',
+ 'What is the part of speech of "definition" in the sentence: "The dictionary includes the definition of every word"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Definition" names the meaning of a word and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'deflation',
+ 'What is the part of speech of "deflation" in the sentence: "After months of low demand, the economy experienced deflation"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deflation" names an economic condition and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deft',
+ 'What is the part of speech of "deft" in the sentence: "His deft handling of negotiations impressed everyone"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Deft" describes the manner of handling and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deftly',
+ 'What is the part of speech of "deftly" in the sentence: "She deftly solved the complex puzzle"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Deftly" modifies the verb "solved," indicating manner, so it is an adverb. It does not name something (noun), denote an action (verb), or describe a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'defunct',
+ 'What is the part of speech of "defunct" in the sentence: "The museum displayed artifacts from a defunct civilization"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Defunct" describes a civilization that no longer exists and functions as an adjective. It is not a person or thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defuse',
+ 'What is the part of speech of "defuse" in the sentence: "Trained officers can defuse a bomb safely"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Defuse" describes the action of rendering a bomb safe, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'defy',
+ 'What is the part of speech of "defy" in the sentence: "They will defy the curfew imposed by the authorities"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Defy" describes the action of resisting rules, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'degrade',
+ 'What is the part of speech of "degrade" in the sentence: "Harsh chemicals can degrade the surface of the metal"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Degrade" names the action of causing deterioration, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'degree',
+ 'What is the part of speech of "degree" in the sentence: "She earned a degree in engineering"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Degree" names a qualification awarded by an institution and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delay',
+ 'What is the part of speech of "delay" in the sentence: "They decided to delay the launch by a week"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Delay" describes the action of postponing, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delegate',
+ 'What is the part of speech of "delegate" in the sentence: "He served as a delegate to the United Nations summit"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Delegate" names a person chosen to represent others and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'delegation',
+ 'What is the part of speech of "delegation" in the sentence: "The manager appointed a delegation to attend the summit"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Delegation" names a group of representatives, so it functions as a noun. It does not describe an action (verb), qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delete',
+ 'What is the part of speech of "delete" in the sentence: "Please delete the outdated files from the folder"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Delete" describes the action of removing files, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), nor modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deliberate',
+ 'What is the part of speech of "deliberate" in the sentence: "Her deliberate strategy led to a successful outcome"?',
+ 'adjective', 'verb', 'noun', 'adverb',
+ '"Deliberate" describes the careful nature of the strategy, so it is an adjective. It is not the action of considering (verb), a thing (noun), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deliberately',
+ 'What is the part of speech of "deliberately" in the sentence: "They deliberately chose to ignore the offer"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Deliberately" modifies the verb "chose," indicating intent, so it is an adverb. It does not describe a noun (adjective), name something (noun), or denote an action itself (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delicate',
+ 'What is the part of speech of "delicate" in the sentence: "Handle the delicate glassware with care"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Delicate" describes the fragility of the glassware, so it is an adjective. It is not a thing (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delicately',
+ 'What is the part of speech of "delicately" in the sentence: "She placed the heirloom delicately on the shelf"?',
+ 'adverb', 'noun', 'adjective', 'verb',
+ '"Delicately" modifies the verb "placed," indicating manner, so it is an adverb. It does not name something (noun), describe a noun (adjective), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delight',
+ 'What is the part of speech of "delight" in the sentence: "Children delight in discovering new games"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Delight" describes the action of taking pleasure, so it is a verb. It is not the feeling itself (noun), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'delighted',
+ 'What is the part of speech of "delighted" in the sentence: "She was delighted by the unexpected gift"?',
+ 'adjective', 'preposition', 'conjunction', 'participle',
+ '"Delighted" describes her emotional state, so it is an adjective. It does not show relation (preposition), join clauses (conjunction), or serve merely as a verb form without adjectival use (participle).'),
+
+('Grammar and Structure', 'Part of Speech', 'delightfully',
+ 'What is the part of speech of "delightfully" in the sentence: "The evening was delightfully warm and calm"?',
+ 'adverb', 'adjective', 'conjunction', 'preposition',
+ '"Delightfully" modifies the adjective "warm," indicating degree, so it is an adverb. It does not describe a noun (adjective), join clauses (conjunction), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'deliver',
+ 'What is the part of speech of "deliver" in the sentence: "The courier will deliver the package tomorrow"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deliver" describes the action the courier will perform, so it is a verb. It is not a person or thing (noun), nor does it describe or modify (adjective/adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'delivery',
+ 'What is the part of speech of "delivery" in the sentence: "The courier guaranteed same‑day delivery of the package"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Delivery" names the act of delivering and functions as a noun. It is not the action itself (verb), nor does it describe something (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'demand',
+ 'What is the part of speech of "demand" in the sentence: "Protesters demand immediate action on climate change"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Demand" describes the action the protesters take, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'democracy',
+ 'What is the part of speech of "democracy" in the sentence: "Democracy requires fair elections to function properly"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Democracy" names a form of government and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'democratic',
+ 'What is the part of speech of "democratic" in the sentence: "The democratic process ensures citizen participation"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Democratic" describes the type of process and functions as an adjective. It is not naming something (noun), denoting an action (verb), or modifying a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'demolish',
+ 'What is the part of speech of "demolish" in the sentence: "The crew will demolish the old building next week"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Demolish" describes the action the crew will perform, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'demon',
+ 'What is the part of speech of "demon" in the sentence: "The villagers feared the demon rumored to haunt the forest"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Demon" names a supernatural being and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'demonstrate',
+ 'What is the part of speech of "demonstrate" in the sentence: "The instructor will demonstrate the new technique for the students"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Demonstrate" describes the action the instructor will take, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'demonstration',
+ 'What is the part of speech of "demonstration" in the sentence: "The demonstration of the device impressed the investors"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Demonstration" names the act of showing how it works and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'demonstrative',
+ 'What is the part of speech of "demonstrative" in the sentence: "Her demonstrative praise encouraged the entire team"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Demonstrative" describes the nature of the praise and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'denial',
+ 'What is the part of speech of "denial" in the sentence: "His denial of the allegations surprised everyone"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Denial" names the act of refusing to accept and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'denormalization',
+ 'What is the part of speech of "denormalization" in the sentence: "The denormalization of the database improved query performance"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Denormalization" names a process and functions as a noun. It is not an action word (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'denote',
+ 'What is the part of speech of "denote" in the sentence: "In writing, a colon is used to denote a list that follows"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Denote" describes the action of indicating meaning, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'denounce',
+ 'What is the part of speech of "denounce" in the sentence: "The council will denounce the unfair policy at tomorrow’s meeting"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Denounce" describes the action of publicly condemning, so it is a verb. It is not a person or thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dense',
+ 'What is the part of speech of "dense" in the sentence: "The forest was so dense that little light reached the path"?',
+ 'adjective', 'conjunction', 'preposition', 'interjection',
+ '"Dense" describes the thick quality of the forest, so it is an adjective. It does not join clauses (conjunction), show relationship (preposition), or express an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'densely',
+ 'What is the part of speech of "densely" in the sentence: "The report was densely packed with data and graphs"?',
+ 'adverb', 'conjunction', 'preposition', 'interjection',
+ '"Densely" modifies the verb "packed," indicating manner, so it is an adverb. It does not join clauses (conjunction), show relationship (preposition), or express an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'density',
+ 'What is the part of speech of "density" in the sentence: "The density of the metal affects its ability to float"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Density" names a physical property and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deny',
+ 'What is the part of speech of "deny" in the sentence: "They will deny any involvement in the scandal"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deny" describes the action of refusing to admit, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'depart',
+ 'What is the part of speech of "depart" in the sentence: "The next flight will depart at midnight"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Depart" describes the action of leaving, so it is a verb. It is not a person or thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'department',
+ 'What is the part of speech of "department" in the sentence: "She works in the human resources department"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Department" names an organizational unit and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'departure',
+ 'What is the part of speech of "departure" in the sentence: "Their departure was postponed because of the storm"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Departure" names the act of leaving and functions as a noun. It is not an action descriptor (verb), a qualifier (adjective), or a manner modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'depend',
+ 'What is the part of speech of "depend" in the sentence: "You can depend on her support when times get tough"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Depend" describes the action of relying on someone, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dependable',
+ 'What is the part of speech of "dependable" in the sentence: "He is a dependable friend who always shows up on time"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dependable" describes the quality of the friend, so it is an adjective. It is not a person or thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dependence',
+ 'What is the part of speech of "dependence" in the sentence: "Her dependence on caffeine grew during finals week"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dependence" names the state of relying on something, so it is a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dependent',
+ 'What is the part of speech of "dependent" in the sentence: "She remained dependent on her medication for relief"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dependent" describes her state of needing medication, so it is an adjective. It is not a person (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'depict',
+ 'What is the part of speech of "depict" in the sentence: "The mural will depict the history of the town"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Depict" describes the action of representing something visually, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deplore',
+ 'What is the part of speech of "deplore" in the sentence: "Critics will deplore any attempt to censor the press"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deplore" describes the action of expressing strong disapproval, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deploy',
+ 'What is the part of speech of "deploy" in the sentence: "The company will deploy new software next month"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deploy" describes the action of rolling out the software, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deployment',
+ 'What is the part of speech of "deployment" in the sentence: "The deployment of troops began at dawn"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deployment" names the act of sending troops, so it is a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deposit',
+ 'What is the part of speech of "deposit" in the sentence: "She made a deposit into her savings account"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deposit" names the sum placed into the account, so it is a noun. It is not the action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deprecate',
+ 'What is the part of speech of "deprecate" in the sentence: "The speaker will deprecate outdated methods in his lecture"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deprecate" describes the action of expressing disapproval or discouragement, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'depreciation',
+ 'What is the part of speech of "depreciation" in the sentence: "Depreciation of the equipment was recorded last year"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Depreciation" names a process or charge and functions as a noun. It is not an action (verb), does not describe a noun (adjective), nor modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'depress',
+ 'What is the part of speech of "depress" in the sentence: "High interest rates depress economic growth"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Depress" describes the action of reducing growth, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'depressed',
+ 'What is the part of speech of "depressed" in the sentence: "He felt depressed after the loss"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Depressed" describes his emotional state and functions as an adjective. It does not join clauses (conjunction), express an exclamation (interjection), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'depressing',
+ 'What is the part of speech of "depressing" in the sentence: "The news was depressing to hear"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Depressing" describes the nature of the news and is an adjective. It does not join ideas (conjunction), express emotion alone (interjection), or indicate relation (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'depression',
+ 'What is the part of speech of "depression" in the sentence: "The factory faced a depression in demand"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Depression" names a state of decline and functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deprive',
+ 'What is the part of speech of "deprive" in the sentence: "They will deprive the account of unused funds"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deprive" describes the action of removing rights or funds, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'depth',
+ 'What is the part of speech of "depth" in the sentence: "The scuba diver measured the water depth"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Depth" names a measurement and functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deputy',
+ 'What is the part of speech of "deputy" in the sentence: "The sheriff’s deputy arrived at the scene"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deputy" names an official person and serves as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deride',
+ 'What is the part of speech of "deride" in the sentence: "Critics will deride the flawed argument"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deride" describes the action of mocking, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'derivative',
+ 'What is the part of speech of "derivative" in the sentence: "The sequel felt derivative and unoriginal"?',
+ 'adjective', 'conjunction', 'interjection', 'preposition',
+ '"Derivative" describes the quality of being unoriginal, so it is an adjective. It does not join clauses (conjunction), serve as an exclamation (interjection), or indicate relation (preposition).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'derive',
+ 'What is the part of speech of "derive" in the sentence: "Chemists derive compounds from plant extracts"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Derive" describes the action chemists perform, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'descend',
+ 'What is the part of speech of "descend" in the sentence: "The hikers will descend the mountain at dawn"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Descend" describes the action the hikers will take, so it is a verb. It is not a person or thing (noun), does not qualify a noun (adjective), or indicate manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'descent',
+ 'What is the part of speech of "descent" in the sentence: "The plane’s descent was smooth and steady"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Descent" names the act of going down and functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'describe',
+ 'What is the part of speech of "describe" in the sentence: "Please describe the scene in detail for the report"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Describe" denotes the action of explaining something, so it is a verb. It is not a thing (noun), does not qualify a noun (adjective), or modify another word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'description',
+ 'What is the part of speech of "description" in the sentence: "His description of the event was vivid and precise"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Description" names the account given and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'desert',
+ 'What is the part of speech of "desert" in the sentence: "The Sahara Desert is famous for its extreme temperatures"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Desert" names a vast sandy region and functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deserve',
+ 'What is the part of speech of "deserve" in the sentence: "She deserves recognition for her innovative research"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deserve" denotes the action of earning something, so it is a verb. It is not a thing (noun), does not qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'design',
+ 'What is the part of speech of "design" in the sentence: "Engineers design bridges to withstand earthquakes"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Design" describes the action performed by engineers, so it is a verb. It is not the object (noun), does not describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'designate',
+ 'What is the part of speech of "designate" in the sentence: "They will designate a team leader for the new project"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Designate" denotes the action of appointing someone, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'designer',
+ 'What is the part of speech of "designer" in the sentence: "The fashion designer unveiled her latest collection"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Designer" names a person who creates fashions and functions as a noun. It is not an action (verb), does not qualify a noun (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'desirable',
+ 'What is the part of speech of "desirable" in the sentence: "A desirable outcome would benefit everyone involved"?',
+ 'adjective', 'noun', 'preposition', 'conjunction',
+ '"Desirable" describes the outcome and functions as an adjective. It is not a person or thing (noun), does not show relationship (preposition), and does not join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'desire',
+ 'What is the part of speech of "desire" in the sentence: "They desire greater transparency from the organization"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Desire" expresses the action of wanting, so it is a verb. It is not the feeling itself (noun), does not describe a noun (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'desist',
+ 'What is the part of speech of "desist" in the sentence: "The court ordered the parties to desist from further contact"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Desist" denotes the action of stopping, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'desk',
+ 'What is the part of speech of "desk" in the sentence: "She left the report on her desk before leaving the office"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Desk" names a piece of furniture and functions as a noun. It is not an action (verb), does not describe something (adjective), or indicate manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'desktop',
+ 'What is the part of speech of "desktop" in the sentence: "He customized the desktop background on his computer"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Desktop" names the computer’s main screen and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'desperate',
+ 'What is the part of speech of "desperate" in the sentence: "They made a desperate attempt to save the project"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Desperate" describes the attempt and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'desperately',
+ 'What is the part of speech of "desperately" in the sentence: "She searched desperately for her misplaced passport"?',
+ 'adverb', 'adjective', 'preposition', 'conjunction',
+ '"Desperately" modifies the verb "searched," indicating manner, so it is an adverb. It does not describe a noun (adjective), show relationship (preposition), or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'despite',
+ 'What is the part of speech of "despite" in the sentence: "Despite the delays, the train arrived on schedule"?',
+ 'preposition', 'conjunction', 'noun', 'adverb',
+ '"Despite" shows contrast and functions as a preposition. It does not join clauses (conjunction), name something (noun), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'destruction',
+ 'What is the part of speech of "destruction" in the sentence: "The earthquake caused widespread destruction in the city"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Destruction" names the act of destroying and functions as a noun. It is not an action word (verb), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'destructive',
+ 'What is the part of speech of "destructive" in the sentence: "The storm was destructive to the coastal town"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Destructive" describes the effect of the storm, so it is an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'detach',
+ 'What is the part of speech of "detach" in the sentence: "You can detach the trailer from the vehicle"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Detach" describes the action of removing one thing from another, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detail',
+ 'What is the part of speech of "detail" in the sentence: "She provided every detail in her report"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Detail" names a specific piece of information and functions as a noun. It is not the action of describing (verb), does not qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detailed',
+ 'What is the part of speech of "detailed" in the sentence: "He gave a detailed explanation of the plan"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Detailed" describes the thorough nature of the explanation and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detain',
+ 'What is the part of speech of "detain" in the sentence: "Police will detain the suspect for questioning"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Detain" describes the action of holding someone in custody, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detect',
+ 'What is the part of speech of "detect" in the sentence: "Doctors detect early signs of the illness"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Detect" describes the action of discovering or identifying, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detection',
+ 'What is the part of speech of "detection" in the sentence: "Early detection of the disease can save lives"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Detection" names the act of discovering something and functions as a noun. It is not an action word (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detention',
+ 'What is the part of speech of "detention" in the sentence: "Students received detention for missing class"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Detention" names the act of keeping someone in custody and functions as a noun. It is not the action itself (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deter',
+ 'What is the part of speech of "deter" in the sentence: "Security cameras deter unauthorized access"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deter" describes the action of discouraging or preventing, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deteriorate',
+ 'What is the part of speech of "deteriorate" in the sentence: "The old bridge will deteriorate without repairs"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Deteriorate" describes the action of becoming worse, so it is a verb. It is not a thing (noun), does not qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'determination',
+ 'What is the part of speech of "determination" in the sentence: "Her determination led her to complete the marathon"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Determination" names the quality of firmness of purpose and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'determine',
+ 'What is the part of speech of "determine" in the sentence: "Researchers must determine the cause of the reaction"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Determine" describes the action researchers take, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detest',
+ 'What is the part of speech of "detest" in the sentence: "Many people detest dishonesty in any form"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Detest" expresses the action of feeling hatred, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detract',
+ 'What is the part of speech of "detract" in the sentence: "Minor mistakes should not detract from your overall success"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Detract" describes the action of reducing value, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'detrimental',
+ 'What is the part of speech of "detrimental" in the sentence: "Smoking has a detrimental effect on health"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Detrimental" describes the harmful effect, so it is an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'devastate',
+ 'What is the part of speech of "devastate" in the sentence: "The hurricane will devastate the coastal communities"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Devastate" describes the action of causing ruin, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'develop',
+ 'What is the part of speech of "develop" in the sentence: "They plan to develop a new software application"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Develop" describes the action of creating, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'development',
+ 'What is the part of speech of "development" in the sentence: "The city’s rapid development surprised many residents"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Development" names the process of growth, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'deviation',
+ 'What is the part of speech of "deviation" in the sentence: "Any deviation from the plan must be approved in writing"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Deviation" names the act of departing from the norm, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'device',
+ 'What is the part of speech of "device" in the sentence: "He invented a device to measure air quality"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Device" names an instrument, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'devil',
+ 'What is the part of speech of "devil" in the sentence: "Legends say the devil tempted the hero"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Devil" names a supernatural being, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'devise',
+ 'What is the part of speech of "devise" in the sentence: "Engineers must devise a plan to reduce emissions"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Devise" describes the action engineers take, so it is a verb. It is not the name of a thing (noun), nor does it describe a noun (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'devote',
+ 'What is the part of speech of "devote" in the sentence: "She will devote her weekends to volunteering"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Devote" describes the action of dedicating time, so it is a verb. It is not a thing (noun), nor does it describe a noun (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diagnose',
+ 'What is the part of speech of "diagnose" in the sentence: "Doctors diagnose illnesses based on symptoms"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Diagnose" describes the action doctors perform, so it is a verb. It is not the name of a thing (noun), nor does it describe a noun (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diagnosis',
+ 'What is the part of speech of "diagnosis" in the sentence: "Her diagnosis was confirmed by a second test"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Diagnosis" names the identification of a condition and functions as a noun. It does not describe an action (verb), nor modify (adverb) or describe a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'diagonally',
+ 'What is the part of speech of "diagonally" in the sentence: "He walked diagonally across the plaza to save time"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Diagonally" modifies the verb "walked," indicating direction, so it is an adverb. It is not a thing (noun), an action (verb), or a descriptor (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'dial',
+ 'What is the part of speech of "dial" in the sentence: "She turned the volume dial to the highest setting"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dial" names the control she adjusted and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dialysis',
+ 'What is the part of speech of "dialysis" in the sentence: "The patient underwent dialysis three times a week"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dialysis" names the medical procedure and functions as a noun. It does not describe an action (verb), nor modify or describe (adverb/adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'diamond',
+ 'What is the part of speech of "diamond" in the sentence: "She wore a diamond pendant to the gala"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Diamond" names the gemstone she wore and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dictate',
+ 'What is the part of speech of "dictate" in the sentence: "The manager will dictate the terms of the contract"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dictate" describes the action of specifying terms, so it is a verb. It is not a thing (noun), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dictator',
+ 'What is the part of speech of "dictator" in the sentence: "The dictator ruled the country with an iron fist"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dictator" names the ruler in question and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'die',
+ 'What is the part of speech of "die" in the sentence: "Without prompt care, the patient may die"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Die" describes the action of ceasing to live, so it is a verb. It is not a thing (noun), nor does it describe or modify anything (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dielectric',
+ 'What is the part of speech of "dielectric" in the sentence: "They tested the dielectric strength of the material"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dielectric" names an insulating material and functions as a noun. It is not performing an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diet',
+ 'What is the part of speech of "diet" in the sentence: "She changed her diet to improve her health"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Diet" names the food regimen and functions as a noun. It is not an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'difference',
+ 'What is the part of speech of "difference" in the sentence: "They noted a marked difference in behavior"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Difference" names the distinction observed and functions as a noun. It is not an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'differentiate',
+ 'What is the part of speech of "differentiate" in the sentence: "Students must differentiate the examples clearly"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Differentiate" describes the action of distinguishing, so it is a verb. It is not a thing (noun), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'differentiation',
+ 'What is the part of speech of "differentiation" in the sentence: "Biologists study cell differentiation extensively"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Differentiation" names the process of becoming distinct and functions as a noun. It is not an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'differently',
+ 'What is the part of speech of "differently" in the sentence: "They approach problems differently than before"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Differently" modifies the verb "approach," indicating manner, so it is an adverb. It is not a thing (noun), an action (verb), or a descriptor (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'difficulty',
+ 'What is the part of speech of "difficulty" in the sentence: "He had difficulty completing the assignment on time"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Difficulty" names the state of hardship and functions as a noun. It is not an action (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diffusion',
+ 'What is the part of speech of "diffusion" in the sentence: "They measured the diffusion of gas through the membrane"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Diffusion" names the process of spreading, so it is a noun. It is not an action descriptor (verb), a qualifier (adjective), or a manner adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'dig',
+ 'What is the part of speech of "dig" in the sentence: "Archaeologists dig for artifacts at the site"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dig" describes the action the archaeologists perform, so it is a verb. It is not a thing (noun), nor does it describe or modify (adjective/adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'digress',
+ 'What is the part of speech of "digress" in the sentence: "During the meeting, he would often digress from the agenda"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Digress" describes the action of straying from the topic, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diligence',
+ 'What is the part of speech of "diligence" in the sentence: "She approached the project with great diligence"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Diligence" names the careful effort she applied, so it is a noun. It is not the act of working (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diligently',
+ 'What is the part of speech of "diligently" in the sentence: "He studied diligently for the exam"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Diligently" modifies the verb "studied," indicating manner, so it is an adverb. It is not a thing (noun), an action itself (verb), or describes a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'dimension',
+ 'What is the part of speech of "dimension" in the sentence: "They measured the dimension of the room before buying furniture"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dimension" names a measurable extent and functions as a noun. It is not the act of measuring (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dimly',
+ 'What is the part of speech of "dimly" in the sentence: "The path was dimly lit after sunset"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Dimly" modifies the verb "lit," indicating manner, so it is an adverb. It is not a thing (noun), an action (verb), or describe a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'dimwit',
+ 'What is the part of speech of "dimwit" in the sentence: "The coach called him a dimwit after he missed the catch"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dimwit" names a foolish person and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dinner',
+ 'What is the part of speech of "dinner" in the sentence: "We invited them to dinner at seven o’clock"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dinner" names a meal and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diode',
+ 'What is the part of speech of "diode" in the sentence: "The circuit included a diode to prevent reverse current"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Diode" names an electronic component and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'direct',
+ 'What is the part of speech of "direct" in the sentence: "Please direct the guests to their seats"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Direct" describes the action of guiding someone, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'direction',
+ 'What is the part of speech of "direction" in the sentence: "She asked for direction to the nearest station"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Direction" names guidance or path and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'directly',
+ 'What is the part of speech of "directly" in the sentence: "She spoke directly to the audience"?',
+ 'adverb', 'adjective', 'preposition', 'conjunction',
+ '"Directly" modifies the verb "spoke," indicating manner, so it is an adverb. It does not describe a noun (adjective), show spatial relation (preposition), or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'director',
+ 'What is the part of speech of "director" in the sentence: "The director approved the script"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Director" names a person in charge and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dirt',
+ 'What is the part of speech of "dirt" in the sentence: "She brushed the dirt off her shoes"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dirt" names particles of soil and functions as a noun. It is not a process (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disaster',
+ 'What is the part of speech of "disaster" in the sentence: "The earthquake was a disaster for the region"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Disaster" names a catastrophic event and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disband',
+ 'What is the part of speech of "disband" in the sentence: "The committee will disband after the report is submitted"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Disband" describes the action of breaking up the group, so it is a verb. It is not a person or thing (noun), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'discerning',
+ 'What is the part of speech of "discerning" in the sentence: "Her discerning eye caught the mistake immediately"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Discerning" describes the quality of her eye, so it is an adjective. It does not show relation (preposition), join clauses (conjunction), or express an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'discipline',
+ 'What is the part of speech of "discipline" in the sentence: "Regular exercise requires discipline and commitment"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Discipline" names self-control as a concept and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disclose',
+ 'What is the part of speech of "disclose" in the sentence: "The company will disclose the financial reports next week"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Disclose" describes the action of making information known, so it is a verb. It is not a thing (noun), descriptor (adjective), or manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'discount',
+ 'What is the part of speech of "discount" in the sentence: "They offered a discount to loyal customers"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Discount" names a reduction in price and functions as a noun. It is not the act of reducing (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'discrepancy',
+ 'What is the part of speech of "discrepancy" in the sentence: "There was a discrepancy in the financial statements"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Discrepancy" names an inconsistency and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'discrete',
+ 'What is the part of speech of "discrete" in the sentence: "The data points are discrete rather than continuous"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Discrete" describes the nature of the data points, so it is an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'discuss',
+ 'What is the part of speech of "discuss" in the sentence: "They will discuss the proposal tomorrow afternoon"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Discuss" describes the action they will take, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'discussion',
+ 'What is the part of speech of "discussion" in the sentence: "The discussion lasted for over an hour"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Discussion" names the conversation and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disease',
+ 'What is the part of speech of "disease" in the sentence: "They researched the causes of the disease"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Disease" names an illness and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dish',
+ 'What is the part of speech of "dish" in the sentence: "Please place the clean dish on the table"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dish" names a plate and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dishcloth',
+ 'What is the part of speech of "dishcloth" in the sentence: "He grabbed the dishcloth to wipe the counter"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dishcloth" names a cleaning tool and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dishwasher',
+ 'What is the part of speech of "dishwasher" in the sentence: "The dishwasher broke down yesterday evening"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dishwasher" names an appliance and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disk',
+ 'What is the part of speech of "disk" in the sentence: "He inserted the disk into the computer drive"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Disk" names a storage medium and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dislike',
+ 'What is the part of speech of "dislike" in the sentence: "Many people dislike noisy environments"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dislike" describes the action of feeling aversion, so it is a verb. It is not a thing (noun), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disorderly',
+ 'What is the part of speech of "disorderly" in the sentence: "The meeting was adjourned due to the disorderly conduct"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Disorderly" describes the conduct, so it is an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'display',
+ 'What is the part of speech of "display" in the sentence: "The museum will display ancient artifacts next week"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Display" describes the action the museum will take, so it is a verb. It is not the thing shown (noun), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'disruptive',
+ 'What is the part of speech of "disruptive" in the sentence: "His disruptive behavior caused the class to lose focus"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Disruptive" describes the nature of the behavior, so it is an adjective. It is not the action (verb), the actor (noun), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dissipate',
+ 'What is the part of speech of "dissipate" in the sentence: "The morning fog will dissipate by midday"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dissipate" describes the action of the fog dispersing, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'distance',
+ 'What is the part of speech of "distance" in the sentence: "The distance between the cities is over a hundred miles"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Distance" names a measurement and functions as a noun. It is not an action (verb), a descriptor (adjective), or a modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'distinct',
+ 'What is the part of speech of "distinct" in the sentence: "The two colors are distinct and easily distinguishable"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Distinct" describes the clear difference between colors, so it is an adjective. It is not naming something (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'distinction',
+ 'What is the part of speech of "distinction" in the sentence: "She graduated with distinction in her class"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Distinction" names a special honor and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'distinguished',
+ 'What is the part of speech of "distinguished" in the sentence: "The distinguished guest gave a keynote address"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Distinguished" describes the guest’s notable status, so it is an adjective. It is not a person (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'distribute',
+ 'What is the part of speech of "distribute" in the sentence: "They distribute flyers to local businesses every month"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Distribute" describes the action of handing out flyers, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'distribution',
+ 'What is the part of speech of "distribution" in the sentence: "The distribution of aid supplies was completed swiftly"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Distribution" names the process of handing out aid and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'district',
+ 'What is the part of speech of "district" in the sentence: "He represents his district in the state legislature"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"District" names a geographic area and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'dive',
+ 'What is the part of speech of "dive" in the sentence: "They dive into the lake every morning"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dive" describes the action of plunging into water, so it is a verb. It is not the thing itself (noun), does not describe a quality (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diverge',
+ 'What is the part of speech of "diverge" in the sentence: "Paths diverge at the fork in the road"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Diverge" describes the action of separating, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'divergence',
+ 'What is the part of speech of "divergence" in the sentence: "The divergence of opinions was clear in the meeting"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Divergence" names the act of differing, so it is a noun. It is not an action word (verb), nor does it describe or modify (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diverse',
+ 'What is the part of speech of "diverse" in the sentence: "The festival showcased a diverse range of music"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Diverse" describes the variety of music, so it is an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'diversify',
+ 'What is the part of speech of "diversify" in the sentence: "Companies diversify investments to reduce risk"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Diversify" describes the action of varying assets, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'divert',
+ 'What is the part of speech of "divert" in the sentence: "They divert water from the river to the fields"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Divert" describes the action of redirecting, so it is a verb. It is not the object itself (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'divide',
+ 'What is the part of speech of "divide" in the sentence: "Please divide the cake into eight slices"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Divide" describes the action of separating, so it is a verb. It is not the result (noun), a descriptor (adjective), or a manner adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'dividend',
+ 'What is the part of speech of "dividend" in the sentence: "Shareholders received a quarterly dividend"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dividend" names the payment made to shareholders, so it is a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'divine',
+ 'What is the part of speech of "divine" in the sentence: "They described the sunset as divine"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Divine" describes the quality of the sunset, so it is an adjective. It is not the deity itself (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'division',
+ 'What is the part of speech of "division" in the sentence: "The division of responsibilities was clearly defined"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Division" names the act of splitting up tasks, so it is a noun. It is not an action word (verb), nor does it describe or modify (adjective/adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'divisively',
+ 'What is the part of speech of "divisively" in the sentence: "The CEO spoke divisively during the meeting"?',
+ 'adverb', 'noun', 'adjective', 'verb',
+ '"Divisively" modifies the verb "spoke," indicating manner, so it is an adverb. It is not a person or thing (noun), does not describe a noun (adjective), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'divorce',
+ 'What is the part of speech of "divorce" in the sentence: "Their divorce was finalized last month"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Divorce" names the legal dissolution of marriage and functions as a noun. It is not the act of ending (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'divulge',
+ 'What is the part of speech of "divulge" in the sentence: "The agent refused to divulge classified information"?',
+ 'verb', 'conceal', 'encrypt', 'expose',
+ '"Divulge" describes the action of revealing information, so it is a verb. The others—"conceal," "encrypt," and "expose"—do not fit because they either mean to hide or are different actions.'),
+
+('Grammar and Structure', 'Part of Speech', 'DNS',
+ 'What is the part of speech of "DNS" in the sentence: "The DNS resolved the domain name to an IP address"?',
+ 'noun', 'server', 'router', 'switch',
+ '"DNS" names a system component and functions as a noun. The others—"server," "router," and "switch"—are different network devices.'),
+
+('Grammar and Structure', 'Part of Speech', 'do',
+ 'What is the part of speech of "do" in the sentence: "Please do your homework before dinner"?',
+ 'verb', 'task', 'done', 'well',
+ '"Do" describes the action to perform, so it is a verb. "Task" is a noun, "done" is an adjective or past participle, and "well" is an adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'docile',
+ 'What is the part of speech of "docile" in the sentence: "The puppy was docile around strangers"?',
+ 'adjective', 'puppy', 'train', 'gently',
+ '"Docile" describes the puppy’s behavior, so it is an adjective. "Puppy" is a noun, "train" is a verb, and "gently" is an adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'docilely',
+ 'What is the part of speech of "docilely" in the sentence: "She handled the animal docilely"?',
+ 'adverb', 'obediently', 'carefully', 'patiently',
+ '"Docilely" modifies the verb "handled," indicating manner, so it is an adverb. The others are also adverbs but describe different manners.'),
+
+('Grammar and Structure', 'Part of Speech', 'dock',
+ 'What is the part of speech of "dock" in the sentence: "They tied the boat at the dock"?',
+ 'noun', 'pier', 'wharf', 'harbor',
+ '"Dock" names a place where boats moor and functions as a noun. "Pier," "wharf," and "harbor" are similar but refer to different structures.'),
+
+('Grammar and Structure', 'Part of Speech', 'doctor',
+ 'What is the part of speech of "doctor" in the sentence: "She will see the doctor at noon"?',
+ 'noun', 'treats', 'patient', 'expert',
+ '"Doctor" names a medical professional and functions as a noun. "Treats" is a verb form, "patient" is a noun for one receiving care, and "expert" is a noun but in a different context.'),
+
+('Grammar and Structure', 'Part of Speech', 'doctrine',
+ 'What is the part of speech of "doctrine" in the sentence: "They studied the doctrine of the church"?',
+ 'noun', 'teaching', 'principle', 'ideology',
+ '"Doctrine" names a set of beliefs and functions as a noun. While the others are related, they differ in nuance and usage.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'document',
+ 'What is the part of speech of "document" in the sentence: "Please document each step of the procedure"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Document" here describes the action of recording information, so it functions as a verb. It is not a person or thing (noun), nor does it describe a quality (adjective) or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'documentation',
+ 'What is the part of speech of "documentation" in the sentence: "The documentation provided clear installation instructions"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Documentation" names the supporting materials themselves, so it functions as a noun. It does not describe an action (verb), qualify a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dog',
+ 'What is the part of speech of "dog" in the sentence: "The dog chased the ball across the yard"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dog" names an animal and functions as a noun. It is not expressing an action (verb), describing something (adjective), or indicating manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dogcatcher',
+ 'What is the part of speech of "dogcatcher" in the sentence: "The dogcatcher rounded up the strays early this morning"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dogcatcher" names a person and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dogfish',
+ 'What is the part of speech of "dogfish" in the sentence: "The chef prepared a fillet of dogfish for dinner"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dogfish" names a type of fish and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doggone',
+ 'What is the part of speech of "doggone" in the sentence: "I’m doggone tired after that hike"?',
+ 'adverb', 'adjective', 'verb', 'noun',
+ '"Doggone" modifies "tired," indicating degree, so it functions as an adverb. It does not describe a noun (adjective), denote an action (verb), or name something (noun).'),
+
+('Grammar and Structure', 'Part of Speech', 'doghouse',
+ 'What is the part of speech of "doghouse" in the sentence: "After missing curfew, he found himself in the doghouse"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doghouse" names a figurative place of disfavor and functions as a noun. It is not an action (verb), descriptor (adjective), or manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dogwood',
+ 'What is the part of speech of "dogwood" in the sentence: "The dogwood blooms beautifully each spring"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dogwood" names a type of tree and functions as a noun. It is not performing an action (verb), describing (adjective), or modifying a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dole',
+ 'What is the part of speech of "dole" in the sentence: "Volunteers will dole out sandwiches to the crowd"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dole" describes the action of distributing items, so it functions as a verb. It is not the items themselves (noun), nor does it describe or modify anything (adjective/adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'domain',
+ 'What is the part of speech of "domain" in the sentence: "The researcher’s domain of expertise is marine biology"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Domain" names an area of knowledge or territory and functions as a noun. It is not an action (verb), descriptor (adjective), or manner modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'domestic',
+ 'What is the part of speech of "domestic" in the sentence: "They resolved the matter with a domestic agreement"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Domestic" describes the type of agreement and functions as an adjective. It does not show a relationship (preposition), link clauses (conjunction), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'dominance',
+ 'What is the part of speech of "dominance" in the sentence: "Her dominance in the competition was clear from the start"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dominance" names a state of control and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dominant',
+ 'What is the part of speech of "dominant" in the sentence: "The dominant species in the ecosystem outcompetes the rest"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Dominant" describes the species’ prevailing status and functions as an adjective. It is not a relationship word (preposition), does not link clauses (conjunction), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'dominate',
+ 'What is the part of speech of "dominate" in the sentence: "They aim to dominate the market by next year"?',
+ 'verb', 'noun', 'adjective', 'conjunction',
+ '"Dominate" describes the action they plan to take and functions as a verb. It is not a thing (noun), does not describe a noun (adjective), or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'donate',
+ 'What is the part of speech of "donate" in the sentence: "Many people donate to charity during the holidays"?',
+ 'verb', 'noun', 'adjective', 'preposition',
+ '"Donate" describes the action of giving, so it is a verb. It is not a person or thing (noun), does not describe a noun (adjective), or show a relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'donation',
+ 'What is the part of speech of "donation" in the sentence: "Her donation helped fund the new library"?',
+ 'noun', 'verb', 'adjective', 'preposition',
+ '"Donation" names the gift made and functions as a noun. It is not an action (verb), does not describe (adjective), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'donor',
+ 'What is the part of speech of "donor" in the sentence: "The donor provided the funds for the scholarship"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Donor" names the person who gives, so it functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'door',
+ 'What is the part of speech of "door" in the sentence: "She opened the door quietly and stepped inside"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Door" names the entryway and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify actions (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doorbell',
+ 'What is the part of speech of "doorbell" in the sentence: "He rang the doorbell to announce his arrival"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doorbell" names the device that rings and functions as a noun. It is not what you do (verb), nor does it describe (adjective) or modify actions (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doorknob',
+ 'What is the part of speech of "doorknob" in the sentence: "She turned the doorknob and entered the room"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doorknob" names the handle used to open the door and functions as a noun. It is not an action (verb), does not describe (adjective), or modify actions (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'doorman',
+ 'What is the part of speech of "doorman" in the sentence: "The doorman greeted every guest with a smile"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doorman" names a person and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doormat',
+ 'What is the part of speech of "doormat" in the sentence: "She wiped her feet on the doormat before entering"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doormat" names an object and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doorstep',
+ 'What is the part of speech of "doorstep" in the sentence: "They waited on the doorstep for the taxi"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doorstep" names a location and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doorstop',
+ 'What is the part of speech of "doorstop" in the sentence: "He placed a heavy book as a doorstop to keep the door open"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doorstop" names an object and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doorway',
+ 'What is the part of speech of "doorway" in the sentence: "Light streamed through the open doorway into the hall"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doorway" names an opening and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dopily',
+ 'What is the part of speech of "dopily" in the sentence: "The puppy stared dopily at its own reflection"?',
+ 'adverb', 'adjective', 'conjunction', 'particle',
+ '"Dopily" modifies the verb "stared," indicating manner, so it is an adverb. It does not describe a noun (adjective), join clauses (conjunction), or function as a small grammatical word (particle).'),
+
+('Grammar and Structure', 'Part of Speech', 'dormant',
+ 'What is the part of speech of "dormant" in the sentence: "The volcano remained dormant for centuries"?',
+ 'adjective', 'preposition', 'conjunction', 'interjection',
+ '"Dormant" describes the volcano’s state and functions as an adjective. It does not show relationship (preposition), join clauses (conjunction), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'dose',
+ 'What is the part of speech of "dose" in the sentence: "The doctor prescribed a daily dose of vitamins"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dose" names an amount of medicine and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dot',
+ 'What is the part of speech of "dot" in the sentence: "Please put a dot at the end of each sentence"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dot" names a small mark and functions as a noun. It is not performing an action here (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dote',
+ 'What is the part of speech of "dote" in the sentence: "Grandparents often dote on their grandchildren"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dote" describes the action of showing excessive fondness, so it functions as a verb. It is not a thing (noun), does not describe (adjective), or modify how something is done (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'double',
+ 'What is the part of speech of "double" in the sentence: "They decided to double the recipe for the party"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Double" here describes the action of multiplying the recipe, so it is a verb. It is not the thing itself (noun), nor does it describe a quality (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doubt',
+ 'What is the part of speech of "doubt" in the sentence: "I have no doubt about his honesty"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doubt" names the feeling of uncertainty and functions as a noun. It is not expressing the action of hesitating (verb), nor describing a noun (adjective) or modifying how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'doubtful',
+ 'What is the part of speech of "doubtful" in the sentence: "The evidence remains doubtful despite further tests"?',
+ 'adjective', 'conjunction', 'preposition', 'determiner',
+ '"Doubtful" describes the quality of the evidence and functions as an adjective. It does not join clauses (conjunction), show relationships (preposition), or specify a noun (determiner).'),
+
+('Grammar and Structure', 'Part of Speech', 'doubtfully',
+ 'What is the part of speech of "doubtfully" in the sentence: "She glanced doubtfully at the broken toy"?',
+ 'adverb', 'conjunction', 'preposition', 'interjection',
+ '"Doubtfully" modifies "glanced," indicating manner, so it is an adverb. It does not join clauses (conjunction), show relationships (preposition), or serve as an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'doughnut',
+ 'What is the part of speech of "doughnut" in the sentence: "He enjoyed a glazed doughnut with his coffee"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Doughnut" names a sweet pastry and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'down',
+ 'What is the part of speech of "down" in the sentence: "The cat climbed down the tree carefully"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Down" modifies "climbed," indicating direction, so it is an adverb. It is not the thing itself (noun), an action (verb), or a descriptor (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'downburst',
+ 'What is the part of speech of "downburst" in the sentence: "The storm produced a sudden downburst of wind"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downburst" names a strong downward wind event and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downcast',
+ 'What is the part of speech of "downcast" in the sentence: "He looked downcast after hearing the bad news"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Downcast" describes his appearance and functions as an adjective. It is not a person or thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downdraft',
+ 'What is the part of speech of "downdraft" in the sentence: "The airplane encountered a sudden downdraft on descent"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downdraft" names a downward air current and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downfall',
+ 'What is the part of speech of "downfall" in the sentence: "Pride often leads to a hero’s downfall"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downfall" names the collapse or ruin and functions as a noun. It is not the act of falling (verb), a descriptor (adjective), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'downhill',
+ 'What is the part of speech of "downhill" in the sentence: "They skied downhill all afternoon"?',
+ 'adverb', 'adjective', 'preposition', 'conjunction',
+ '"Downhill" modifies the verb "skied," indicating manner or direction, so it is an adverb. It does not describe a noun (adjective), show relationship (preposition), or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'downhome',
+ 'What is the part of speech of "downhome" in the sentence: "The novel has a downhome feel that readers love"?',
+ 'adjective', 'preposition', 'interjection', 'conjunction',
+ '"Downhome" describes the feel of the novel, so it is an adjective. It does not show relationship (preposition), express an exclamation (interjection), or join clauses (conjunction).'),
+
+('Grammar and Structure', 'Part of Speech', 'downlink',
+ 'What is the part of speech of "downlink" in the sentence: "The satellite uses a downlink to send data to Earth"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downlink" names a communication channel and functions as a noun. It is not the action of linking (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'download',
+ 'What is the part of speech of "download" in the sentence: "She will download the report to her laptop"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Download" describes the action she will perform, so it is a verb. It is not the thing itself (noun), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downpayment',
+ 'What is the part of speech of "downpayment" in the sentence: "They saved for a downpayment on their first home"?',
+ 'noun', 'verb', 'conjunction', 'adjective',
+ '"Downpayment" names an initial payment and functions as a noun. It is not the action of paying (verb), does not join clauses (conjunction), or describe a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'downplay',
+ 'What is the part of speech of "downplay" in the sentence: "He tried to downplay the significance of the error"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Downplay" describes the action he takes to minimize importance, so it is a verb. It is not a thing (noun), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downpour',
+ 'What is the part of speech of "downpour" in the sentence: "A sudden downpour soaked everyone at the picnic"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downpour" names a heavy rain event and functions as a noun. It is not the act of pouring (verb), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downrate',
+ 'What is the part of speech of "downrate" in the sentence: "The bank may downrate the credit score after missed payments"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Downrate" describes the action the bank may take to lower a score, so it is a verb. It is not a thing (noun), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downright',
+ 'What is the part of speech of "downright" in the sentence: "His behavior was downright rude"?',
+ 'adverb', 'adjective', 'interjection', 'preposition',
+ '"Downright" modifies the adjective "rude," indicating degree, so it is an adverb. It does not describe a noun (adjective), express exclamation (interjection), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'downscale',
+ 'What is the part of speech of "downscale" in the sentence: "The company decided to downscale its operations this year"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Downscale" describes the action of reducing operations, so it is a verb. It is not a thing (noun), does not describe something (adjective), or modify an action (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'downshift',
+ 'What is the part of speech of "downshift" in the sentence: "He had to downshift before climbing the hill"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Downshift" describes the action of changing to a lower gear, so it functions as a verb. It is not a person or thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downsize',
+ 'What is the part of speech of "downsize" in the sentence: "The company plans to downsize its workforce"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Downsize" describes the action of reducing staff, so it functions as a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downstairs',
+ 'What is the part of speech of "downstairs" in the sentence: "She ran downstairs to answer the phone"?',
+ 'adverb', 'noun', 'adjective', 'preposition',
+ '"Downstairs" modifies the verb "ran," indicating direction, so it functions as an adverb. It is not a person or thing (noun), does not describe a noun (adjective), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'downstream',
+ 'What is the part of speech of "downstream" in the sentence: "The raft drifted downstream with the current"?',
+ 'adverb', 'noun', 'adjective', 'preposition',
+ '"Downstream" modifies "drifted," indicating direction, so it functions as an adverb. It is not a thing (noun), does not describe a noun (adjective), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'downstroke',
+ 'What is the part of speech of "downstroke" in the sentence: "The pianist’s downstroke was precise and controlled"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downstroke" names the motion of pressing a piano key, so it functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downthrow',
+ 'What is the part of speech of "downthrow" in the sentence: "Geologists measured the fault’s downthrow to assess movement"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downthrow" names the vertical displacement in a fault, so it functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downtown',
+ 'What is the part of speech of "downtown" in the sentence: "They walked downtown for dinner"?',
+ 'adverb', 'noun', 'adjective', 'preposition',
+ '"Downtown" modifies "walked," indicating direction, so it functions as an adverb. It is not a place name here (noun), does not describe a noun (adjective), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'downtrodden',
+ 'What is the part of speech of "downtrodden" in the sentence: "The downtrodden villagers finally revolted"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Downtrodden" describes the villagers’ oppressed condition, so it functions as an adjective. It is not a person or thing (noun), an action (verb), or a manner modifier (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downturn',
+ 'What is the part of speech of "downturn" in the sentence: "The economy experienced a downturn last quarter"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Downturn" names a period of decline and functions as a noun. It is not an action (verb), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downunder',
+ 'What is the part of speech of "downunder" in the sentence: "He traveled downunder for his sabbatical"?',
+ 'adverb', 'noun', 'adjective', 'preposition',
+ '"Downunder" modifies "traveled," indicating destination, so it functions as an adverb. It is not a place itself (noun), does not describe a noun (adjective), or show relationship (preposition).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'downward',
+ 'What is the part of speech of "downward" in the sentence: "The climber moved downward carefully"?',
+ 'adverb', 'adjective', 'noun', 'preposition',
+ '"Downward" modifies the verb "moved," indicating direction, so it is an adverb. It does not describe a noun (adjective), name a thing (noun), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'downwards',
+ 'What is the part of speech of "downwards" in the sentence: "She glanced downwards at her feet"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Downwards" modifies the verb "glanced," indicating manner, so it is an adverb. It is not a descriptor (adjective), a thing (noun), or an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'downwind',
+ 'What is the part of speech of "downwind" in the sentence: "The hikers drifted downwind of the camp"?',
+ 'adverb', 'adjective', 'noun', 'preposition',
+ '"Downwind" modifies the verb "drifted," indicating direction, so it is an adverb. It does not describe a noun (adjective), name a thing (noun), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'dozen',
+ 'What is the part of speech of "dozen" in the sentence: "She bought a dozen roses for the event"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dozen" names a quantity of items and functions as a noun. It is not performing an action (verb), describing something (adjective), or indicating manner (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'draft',
+ 'What is the part of speech of "draft" in the sentence: "He submitted his draft to the editor"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Draft" names a preliminary version and functions as a noun. It is not the act of drawing up (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drag',
+ 'What is the part of speech of "drag" in the sentence: "They drag the nets onto the boat every morning"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drag" describes the action they perform, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dragonfly',
+ 'What is the part of speech of "dragonfly" in the sentence: "A dragonfly hovered above the pond"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dragonfly" names an insect and functions as a noun. It is not performing an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drain',
+ 'What is the part of speech of "drain" in the sentence: "Please drain the pasta before serving"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drain" describes the action of removing liquid, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drainpipe',
+ 'What is the part of speech of "drainpipe" in the sentence: "Water flowed through the drainpipe after the rain"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drainpipe" names a conduit for water and functions as a noun. It is not an action (verb), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drama',
+ 'What is the part of speech of "drama" in the sentence: "They watched a live drama at the theater"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drama" names a genre of performance and functions as a noun. It does not denote an action (verb), describe something (adjective), or modify (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'dramatic',
+ 'What is the part of speech of "dramatic" in the sentence: "The play featured a dramatic scene at the climax"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dramatic" describes the scene, so it is an adjective. It does not name something (noun), denote an action (verb), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dramatically',
+ 'What is the part of speech of "dramatically" in the sentence: "Tickets sold dramatically after the announcement"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Dramatically" modifies "sold," indicating degree, so it is an adverb. It is not describing a noun (adjective), naming something (noun), or denoting an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drat',
+ 'What is the part of speech of "drat" in the sentence: "Drat, I forgot my keys inside"?',
+ 'interjection', 'noun', 'adjective', 'adverb',
+ '"Drat" expresses frustration and functions as an interjection. It does not name something (noun), describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'draw',
+ 'What is the part of speech of "draw" in the sentence: "Please draw a map of the route"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Draw" describes the action to create a map, so it is a verb. It is not the map itself (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drawer',
+ 'What is the part of speech of "drawer" in the sentence: "She opened the drawer to find a spare key"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drawer" names the storage compartment and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drawing',
+ 'What is the part of speech of "drawing" in the sentence: "He displayed a drawing of the landscape"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drawing" names the artwork and functions as a noun. It is not the act of creating (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dreadnought',
+ 'What is the part of speech of "dreadnought" in the sentence: "The museum exhibited a model of a dreadnought battleship"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dreadnought" names a type of battleship and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dream',
+ 'What is the part of speech of "dream" in the sentence: "She had a vivid dream last night"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dream" names the experience she had and functions as a noun. It is not the act of dreaming (verb), does not describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dreamily',
+ 'What is the part of speech of "dreamily" in the sentence: "He stared dreamily out the window"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Dreamily" modifies "stared," indicating manner, so it is an adverb. It is not describing a noun (adjective), naming something (noun), or denoting an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dress',
+ 'What is the part of speech of "dress" in the sentence: "Please dress the salad before serving"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dress" describes the action of adding dressing to the salad, so it is a verb. It is not the salad itself (noun), does not describe something (adjective), or modify how something is done (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'dressmaker',
+ 'What is the part of speech of "dressmaker" in the sentence: "The dressmaker took precise measurements before cutting the fabric"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dressmaker" names a person who makes clothes, so it functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drift',
+ 'What is the part of speech of "drift" in the sentence: "A light breeze caused the leaves to drift across the lawn"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drift" names the slow movement of the leaves and functions as a noun. It is not the action of moving (verb), does not describe (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'driftwood',
+ 'What is the part of speech of "driftwood" in the sentence: "The beach was littered with driftwood after the storm"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Driftwood" names pieces of wood washed ashore and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drill',
+ 'What is the part of speech of "drill" in the sentence: "They drill holes for the new fence posts tomorrow"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drill" describes the action of making holes and functions as a verb. It is not the tool itself (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drink',
+ 'What is the part of speech of "drink" in the sentence: "Remember to drink plenty of water during the hike"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drink" describes the action of consuming liquids and functions as a verb. It is not the liquid itself (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drip',
+ 'What is the part of speech of "drip" in the sentence: "The faucet will drip all night if not fixed"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drip" describes the action of leaking water drop by drop and functions as a verb. It is not the drop itself (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drive',
+ 'What is the part of speech of "drive" in the sentence: "They drive to work every morning through heavy traffic"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drive" describes the action of operating a vehicle and functions as a verb. It is not the journey itself (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'driver',
+ 'What is the part of speech of "driver" in the sentence: "The driver navigated the narrow streets with ease"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Driver" names the person operating the vehicle and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'driveway',
+ 'What is the part of speech of "driveway" in the sentence: "They parked the car in the driveway before dinner"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Driveway" names the private road leading to a house and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'driving',
+ 'What is the part of speech of "driving" in the sentence: "The driving rain forced us to seek shelter"?',
+ 'adjective', 'conjunction', 'preposition', 'interjection',
+ '"Driving" describes the rain’s forceful nature and functions as an adjective. It is not a word that links clauses (conjunction), shows relationship (preposition), or expresses an exclamation (interjection).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'drone',
+ 'What is the part of speech of "drone" in the sentence: "The drone hovered silently above the field"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drone" names the unmanned aircraft and functions as a noun. It is not performing an action (verb), nor does it describe (adjective) or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drop',
+ 'What is the part of speech of "drop" in the sentence: "Please drop the package at the front desk"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drop" describes the action of leaving the package, so it is a verb. It is not the thing itself (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dropout',
+ 'What is the part of speech of "dropout" in the sentence: "The college welcomed back the former dropout this semester"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dropout" names a person who left school and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drought',
+ 'What is the part of speech of "drought" in the sentence: "The region suffered a severe drought last summer"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drought" names the prolonged dry period and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drown',
+ 'What is the part of speech of "drown" in the sentence: "Careless swimmers can drown in fast currents"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Drown" describes the action of dying by submersion, so it is a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drugstore',
+ 'What is the part of speech of "drugstore" in the sentence: "She picked up a prescription at the drugstore"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drugstore" names the retail outlet and functions as a noun. It is not performing an action (verb), nor does it describe (adjective) or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drumbeat',
+ 'What is the part of speech of "drumbeat" in the sentence: "The steady drumbeat energized the crowd"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drumbeat" names the repeated sound and functions as a noun. It is not the action of beating (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drumstick',
+ 'What is the part of speech of "drumstick" in the sentence: "He ordered a drumstick with his fried chicken"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Drumstick" names a chicken leg or percussion mallet and functions as a noun. It is not performing an action (verb), describing something (adjective), or modifying a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'drunk',
+ 'What is the part of speech of "drunk" in the sentence: "After the celebration, he felt completely drunk"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Drunk" describes his state and functions as an adjective. It is not naming something (noun), denoting an action (verb), or modifying how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dry',
+ 'What is the part of speech of "dry" in the sentence: "Please dry the glassware with a clean towel"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dry" describes the action of removing moisture, so it functions as a verb. It is not a thing (noun), does not describe a noun (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'dual',
+ 'What is the part of speech of "dual" in the sentence: "The device offers dual functions for convenience"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dual" describes the type of functions and modifies the noun "functions," so it is an adjective. It is not naming something (noun), does not denote an action (verb), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dub',
+ 'What is the part of speech of "dub" in the sentence: "They will dub the documentary into three languages"?',
+ 'verb', 'noun', 'adjective', 'interjection',
+ '"Dub" describes the action of adding a new soundtrack, so it is a verb. It is not the thing itself (noun), does not describe something (adjective), or express an exclamation (interjection).'),
+
+('Grammar and Structure', 'Part of Speech', 'dubious',
+ 'What is the part of speech of "dubious" in the sentence: "Her explanation sounded dubious to the committee"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dubious" describes the quality of the explanation, so it is an adjective. It is not a thing (noun), does not denote an action (verb), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'duckbill',
+ 'What is the part of speech of "duckbill" in the sentence: "The platypus uses its duckbill to forage for food"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Duckbill" names a physical feature of the animal and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify how an action is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'ductility',
+ 'What is the part of speech of "ductility" in the sentence: "Engineers measured the ductility of the metal sample"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Ductility" names a material property and functions as a noun. It is not the act of measuring (verb), does not describe something (adjective), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'due',
+ 'What is the part of speech of "due" in the sentence: "The rent is due on the first of every month"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Due" describes when the rent is owed and modifies the noun "rent," so it is an adjective. It is not naming something (noun), denote an action (verb), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dugout',
+ 'What is the part of speech of "dugout" in the sentence: "The players returned to the dugout between innings"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dugout" names a seating area in baseball and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'duh',
+ 'What is the part of speech of "duh" in the sentence: "Duh, of course I knew the answer"?',
+ 'interjection', 'noun', 'verb', 'adjective',
+ '"Duh" expresses a spontaneous reaction of obviousness and functions as an interjection. It is not naming something (noun), denote an action (verb), or describe a noun (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'dull',
+ 'What is the part of speech of "dull" in the sentence: "The lecture was so dull that several students fell asleep"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dull" describes the quality of the lecture and functions as an adjective. It is not a thing (noun), denote an action (verb), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'dumb',
+ 'What is the part of speech of "dumb" in the sentence: "His dumb remark embarrassed everyone"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dumb" describes the remark and functions as an adjective. It is not a person or thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dumbbell',
+ 'What is the part of speech of "dumbbell" in the sentence: "He lifted the heavy dumbbell with ease"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dumbbell" names the weight used and functions as a noun. It is not performing an action (verb), describing something (adjective), or modifying a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dump',
+ 'What is the part of speech of "dump" in the sentence: "They will dump the old furniture by the curb"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dump" describes the action of discarding items, so it is a verb. It is not the thing itself (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'duo',
+ 'What is the part of speech of "duo" in the sentence: "The musical duo performed a duet on stage"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Duo" names two people performing together and functions as a noun. It is not an action (verb), describing word (adjective), or manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dupe',
+ 'What is the part of speech of "dupe" in the sentence: "Scammers try to dupe unsuspecting victims"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dupe" describes the action of tricking someone, so it is a verb. It is not a person (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'durability',
+ 'What is the part of speech of "durability" in the sentence: "The durability of the fabric impressed the buyers"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Durability" names the quality of lasting power and functions as a noun. It is not an action (verb), describing word (adjective), or manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'duration',
+ 'What is the part of speech of "duration" in the sentence: "The duration of the concert exceeded three hours"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Duration" names the length of time and functions as a noun. It is not an action (verb), describing word (adjective), or manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'during',
+ 'What is the part of speech of "during" in the sentence: "During the storm, we stayed indoors"?',
+ 'preposition', 'conjunction', 'noun', 'adverb',
+ '"During" shows the relationship between time periods and functions as a preposition. It does not join clauses (conjunction), name something (noun), or modify an action (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dust',
+ 'What is the part of speech of "dust" in the sentence: "She will dust the shelves this afternoon"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dust" describes the action of removing particles, so it is a verb. It is not the particles themselves (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dustpan',
+ 'What is the part of speech of "dustpan" in the sentence: "He swept the crumbs into the dustpan"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dustpan" names the cleaning tool and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'duststorm',
+ 'What is the part of speech of "duststorm" in the sentence: "After the duststorm passed, the streets were covered in sand"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Duststorm" names a weather event and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'duty',
+ 'What is the part of speech of "duty" in the sentence: "It is your duty to report any hazards immediately"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Duty" names an obligation and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dwell',
+ 'What is the part of speech of "dwell" in the sentence: "They dwell in remote cabins during the winter months"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Dwell" describes the action of living somewhere, so it is a verb. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dye',
+ 'What is the part of speech of "dye" in the sentence: "She added red dye to the wool to brighten its color"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dye" names the coloring agent used, so it functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dynamic',
+ 'What is the part of speech of "dynamic" in the sentence: "The dynamic speaker held the audience’s attention throughout"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Dynamic" describes the energetic nature of the speaker, so it is an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'dynamics',
+ 'What is the part of speech of "dynamics" in the sentence: "They analyzed the dynamics of the team’s communication"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Dynamics" names the patterns of interaction and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'E',
+ 'What is the part of speech of "E" in the sentence: "She earned an E on her report card this term"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"E" names a grade and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'eager',
+ 'What is the part of speech of "eager" in the sentence: "He was eager to begin the experiment as soon as possible"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Eager" describes his enthusiasm and functions as an adjective. It is not a person or thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'eagerly',
+ 'What is the part of speech of "eagerly" in the sentence: "They waited eagerly for the concert to start"?',
+ 'adverb', 'noun', 'verb', 'adjective',
+ '"Eagerly" modifies "waited," indicating manner, so it is an adverb. It is not a person or thing (noun), an action (verb), or a descriptor (adjective).'),
+
+('Grammar and Structure', 'Part of Speech', 'ear',
+ 'What is the part of speech of "ear" in the sentence: "She whispered the secret into his ear"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Ear" names the body part involved and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'earache',
+ 'What is the part of speech of "earache" in the sentence: "After the concert, she complained of a severe earache"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earache" names a type of pain and functions as a noun. It is not an action (verb), does not describe something (adjective), or modify how something is done (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'eardrum',
+ 'What is the part of speech of "eardrum" in the sentence: "He felt a pressure change in his eardrum during the flight"?',
+ 'noun', 'verb', 'adjective', 'preposition',
+ '"Eardrum" names the membrane in the ear and functions as a noun. It is not an action (verb), does not describe (adjective), or show relationship (preposition).'),
+
+('Grammar and Structure', 'Part of Speech', 'earlobe',
+ 'What is the part of speech of "earlobe" in the sentence: "She had her earlobe pierced last summer"?',
+ 'noun', 'verb', 'adjective', 'particle',
+ '"Earlobe" names the soft lower part of the ear and functions as a noun. It is not an action (verb), does not describe (adjective), or serve as a grammatical particle.'),
+
+('Grammar and Structure', 'Part of Speech', 'early',
+ 'What is the part of speech of "early" in the sentence: "They arrived early to secure good seats"?',
+ 'adverb', 'noun', 'adjective', 'verb',
+ '"Early" modifies the verb "arrived," indicating time, so it is an adverb. It is not a thing (noun), does not describe a noun (adjective), or denote an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earmark',
+ 'What is the part of speech of "earmark" in the sentence: "The committee will earmark funds for the new park"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Earmark" describes the action of reserving money, so it is a verb. It is not a thing (noun), does not describe (adjective), or modify (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earmuff',
+ 'What is the part of speech of "earmuff" in the sentence: "She bought ear muffs to protect her ears in the cold"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earmuff" names a protective covering for the ear and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'earn',
+ 'What is the part of speech of "earn" in the sentence: "He hopes to earn enough to pay for tuition"?',
+ 'verb', 'noun', 'adjective', 'adverb',
+ '"Earn" describes the action of receiving payment, so it is a verb. It is not a thing (noun), descriptive word (adjective), or a manner adverb.'),
+
+('Grammar and Structure', 'Part of Speech', 'earnestly',
+ 'What is the part of speech of "earnestly" in the sentence: "She spoke earnestly about her plans for reform"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Earnestly" modifies the verb "spoke," indicating sincerity, so it is an adverb. It is not describing a noun (adjective), naming something (noun), or denoting an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earnings',
+ 'What is the part of speech of "earnings" in the sentence: "The company reported record earnings this quarter"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earnings" names the profits made and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earphone',
+ 'What is the part of speech of "earphone" in the sentence: "He plugged the earphone into his device to listen privately"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earphone" names the listening device and functions as a noun. It is not an action (verb), a descriptor (adjective), or a manner adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'earring',
+ 'What is the part of speech of "earring" in the sentence: "She lost one earring at the concert"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earring" names an object and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earshot',
+ 'What is the part of speech of "earshot" in the sentence: "The singer’s voice was audible within earshot of the crowd"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earshot" names a distance and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earth',
+ 'What is the part of speech of "earth" in the sentence: "The astronauts orbited Earth for several days"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earth" names our planet and functions as a noun. It is not performing an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earthbound',
+ 'What is the part of speech of "earthbound" in the sentence: "The earthbound capsule returned safely to the launch site"?',
+ 'adjective', 'noun', 'verb', 'adverb',
+ '"Earthbound" describes the capsule’s condition and functions as an adjective. It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earthquake',
+ 'What is the part of speech of "earthquake" in the sentence: "The earthquake measured 6.5 on the Richter scale"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earthquake" names a seismic event and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earthward',
+ 'What is the part of speech of "earthward" in the sentence: "After the explosion, debris flew earthward"?',
+ 'adverb', 'adjective', 'noun', 'verb',
+ '"Earthward" modifies the verb "flew," indicating direction, so it functions as an adverb. It is not a descriptor (adjective), a thing (noun), or an action (verb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earthworm',
+ 'What is the part of speech of "earthworm" in the sentence: "The gardener found an earthworm in the soil"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earthworm" names an animal and functions as a noun. It is not performing an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'earwig',
+ 'What is the part of speech of "earwig" in the sentence: "An earwig crawled across the kitchen counter"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Earwig" names an insect and functions as a noun. It is not an action (verb), does not describe (adjective), or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'ease',
+ 'What is the part of speech of "ease" in the sentence: "She completed the task with ease"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Ease" names a state of effortlessness and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).'),
+
+('Grammar and Structure', 'Part of Speech', 'easement',
+ 'What is the part of speech of "easement" in the sentence: "The sale included an easement for the utility lines"?',
+ 'noun', 'verb', 'adjective', 'adverb',
+ '"Easement" names a legal right and functions as a noun. It is not an action (verb), nor does it describe (adjective) or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- easily
+('Grammar and Structure', 'Part of Speech', 'easily', 'What is the part of speech of the word "easily" in the sentence: "She solved the puzzle easily"?', 'adverb', 'adjective', 'noun', 'verb', '"Easily" describes how she solved the puzzle, making it an adverb. "Adjective" describes nouns, "noun" refers to a person, place, or thing, and "verb" indicates an action, so they are incorrect here.'),
+
+-- East
+('Grammar and Structure', 'Part of Speech', 'East', 'What is the part of speech of the word "East" in the sentence: "They traveled to the East last summer"?', 'noun', 'adjective', 'verb', 'adverb', '"East" functions as a noun here, referring to a place or region. It is not describing a noun (adjective), indicating an action (verb), or modifying a verb (adverb).'),
+
+-- Easy
+('Grammar and Structure', 'Part of Speech', 'Easy', 'What is the part of speech of the word "easy" in the sentence: "This task is easy"?', 'adjective', 'adverb', 'verb', 'noun', '"Easy" describes the noun \"task,\" so it is an adjective. It does not describe how something is done (adverb), show an action (verb), or represent a thing (noun).'),
+
+-- easy does it
+('Grammar and Structure', 'Part of Speech', 'easy does it', 'What is the part of speech of the phrase "easy does it" in the sentence: "Easy does it, this box is fragile"?', 'interjection', 'verb', 'noun', 'adjective', '"Easy does it" is an interjection, used to tell someone to slow down or be careful. It is not an action (verb), object (noun), or a word that describes a noun (adjective).'),
+
+-- eat
+('Grammar and Structure', 'Part of Speech', 'eat', 'What is the part of speech of the word "eat" in the sentence: "We eat dinner at six"?', 'verb', 'noun', 'adjective', 'adverb', '"Eat" is an action word here, so it is a verb. It does not refer to a thing (noun), describe a noun (adjective), or modify a verb (adverb).'),
+
+-- eavesdrop
+('Grammar and Structure', 'Part of Speech', 'eavesdrop', 'What is the part of speech of the word "eavesdrop" in the sentence: "He likes to eavesdrop on private conversations"?', 'verb', 'noun', 'adjective', 'adverb', '"Eavesdrop" is a verb meaning to secretly listen to others. It’s not a noun (thing), adjective (describes a noun), or adverb (modifies a verb).'),
+
+-- Eccentric
+('Grammar and Structure', 'Part of Speech', 'eccentric', 'What is the part of speech of the word "eccentric" in the sentence: "He is known for his eccentric habits"?', 'adjective', 'noun', 'verb', 'adverb', '"Eccentric" describes the noun \"habits,\" so it is an adjective. It is not functioning as a thing (noun), action (verb), or modifier of a verb (adverb).'),
+
+-- Eccentricity
+('Grammar and Structure', 'Part of Speech', 'eccentricity', 'What is the part of speech of the word "eccentricity" in the sentence: "Her eccentricity made her stand out"?', 'noun', 'adjective', 'verb', 'adverb', '"Eccentricity" is a noun referring to a quirky characteristic. It is not describing something (adjective), indicating action (verb), or modifying an action (adverb).'),
+
+-- Echo
+('Grammar and Structure', 'Part of Speech', 'echo', 'What is the part of speech of the word "echo" in the sentence: "We heard an echo in the canyon"?', 'noun', 'verb', 'adjective', 'adverb', '"Echo" is a noun here, referring to a repeated sound. It is not describing an action (verb), modifying a noun (adjective), or a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Ecological
+('Grammar and Structure', 'Part of Speech', 'ecological', 'What is the part of speech of the word "ecological" in the sentence: "They discussed the ecological impact of pollution"?', 'adjective', 'noun', 'verb', 'adverb', '"Ecological" describes the noun \"impact,\" so it functions as an adjective. It is not naming a thing (noun), showing action (verb), or modifying a verb (adverb).'),
+
+-- Economics
+('Grammar and Structure', 'Part of Speech', 'economics', 'What is the part of speech of the word "economics" in the sentence: "He studies economics at university"?', 'noun', 'verb', 'adjective', 'adverb', '"Economics" is a noun here, referring to a field of study. It does not function as an action (verb), descriptor (adjective), or modifier (adverb).'),
+
+-- Economist
+('Grammar and Structure', 'Part of Speech', 'economist', 'What is the part of speech of the word "economist" in the sentence: "The economist predicted a downturn"?', 'noun', 'adjective', 'verb', 'adverb', '"Economist" is a noun referring to a person who studies the economy. It is not describing anything (adjective), performing an action (verb), or modifying a verb (adverb).'),
+
+-- economy
+('Grammar and Structure', 'Part of Speech', 'economy', 'What is the part of speech of the word "economy" in the sentence: "The economy has improved this year"?', 'noun', 'verb', 'adjective', 'adverb', '"Economy" is a noun referring to a system of production and consumption. It is not an action (verb), descriptive word (adjective), or modifier of a verb (adverb).'),
+
+-- edge
+('Grammar and Structure', 'Part of Speech', 'edge', 'What is the part of speech of the word "edge" in the sentence: "He stood at the edge of the cliff"?', 'noun', 'verb', 'adjective', 'adverb', '"Edge" is a noun referring to the border or boundary of something. It does not show an action (verb), describe a noun (adjective), or modify a verb (adverb).'),
+
+-- Edit
+('Grammar and Structure', 'Part of Speech', 'edit', 'What is the part of speech of the word "edit" in the sentence: "She will edit the document later"?', 'verb', 'noun', 'adjective', 'adverb', '"Edit" is a verb here, indicating the action of making changes to a document. It is not functioning as a thing (noun), description (adjective), or manner (adverb).'),
+
+-- Edition
+('Grammar and Structure', 'Part of Speech', 'edition', 'What is the part of speech of the word "edition" in the sentence: "I bought the latest edition of the book"?', 'noun', 'adjective', 'verb', 'adverb', '"Edition" is a noun referring to a version of a published work. It is not describing anything (adjective), showing action (verb), or modifying a verb (adverb).'),
+
+-- editor
+('Grammar and Structure', 'Part of Speech', 'editor', 'What is the part of speech of the word "editor" in the sentence: "The editor reviewed the article before publication"?', 'noun', 'verb', 'adjective', 'adverb', '"Editor" is a noun referring to a person who edits text. It is not used as an action (verb), descriptive term (adjective), or modifier (adverb).'),
+
+-- Editorial
+('Grammar and Structure', 'Part of Speech', 'editorial', 'What is the part of speech of the word "editorial" in the sentence: "She wrote an editorial about the issue"?', 'noun', 'verb', 'adjective', 'adverb', '"Editorial" is a noun here, referring to an article expressing opinions. It is not an action (verb), descriptor (adjective), or manner word (adverb).'),
+
+-- Educate
+('Grammar and Structure', 'Part of Speech', 'educate', 'What is the part of speech of the word "educate" in the sentence: "We aim to educate the public on safety"?', 'verb', 'noun', 'adjective', 'adverb', '"Educate" is a verb meaning to teach or inform. It does not represent a person or thing (noun), describe a noun (adjective), or modify a verb (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- education
+('Grammar and Structure', 'Part of Speech', 'education', 'What is the part of speech of the word "education" in the sentence: "She values the importance of education"?', 'noun', 'verb', 'adjective', 'adverb', '"Education" is a noun referring to the process of learning. It does not describe an action (verb), modify a noun (adjective), or describe how something is done (adverb).'),
+
+-- Educator
+('Grammar and Structure', 'Part of Speech', 'educator', 'What is the part of speech of the word "educator" in the sentence: "The educator inspired her students"?', 'noun', 'verb', 'adjective', 'adverb', '"Educator" is a noun, referring to a person who teaches. It is not an action (verb), a descriptive word (adjective), or a manner word (adverb).'),
+
+-- eek
+('Grammar and Structure', 'Part of Speech', 'eek', 'What is the part of speech of the word "eek" in the sentence: "Eek! There''s a spider!"?', 'interjection', 'noun', 'verb', 'adjective', '"Eek" is an interjection expressing surprise or fear. It is not naming an object (noun), performing an action (verb), or describing anything (adjective).'),
+
+-- effect
+('Grammar and Structure', 'Part of Speech', 'effect', 'What is the part of speech of the word "effect" in the sentence: "The new law had a positive effect"?', 'noun', 'verb', 'adjective', 'adverb', '"Effect" is a noun meaning a result or outcome. It is not an action (verb), a descriptive word (adjective), or a word modifying a verb (adverb).'),
+
+-- Effective
+('Grammar and Structure', 'Part of Speech', 'effective', 'What is the part of speech of the word "effective" in the sentence: "That is an effective method"?', 'adjective', 'noun', 'verb', 'adverb', '"Effective" is an adjective describing the noun \"method.\" It is not a thing (noun), an action (verb), or a modifier of a verb (adverb).'),
+
+-- Effectiveness
+('Grammar and Structure', 'Part of Speech', 'effectiveness', 'What is the part of speech of the word "effectiveness" in the sentence: "The effectiveness of the plan was impressive"?', 'noun', 'adjective', 'verb', 'adverb', '"Effectiveness" is a noun referring to the degree to which something is successful. It is not describing (adjective), acting (verb), or modifying a verb (adverb).'),
+
+-- efficacy
+('Grammar and Structure', 'Part of Speech', 'efficacy', 'What is the part of speech of the word "efficacy" in the sentence: "They studied the efficacy of the new drug"?', 'noun', 'adjective', 'verb', 'adverb', '"Efficacy" is a noun meaning the ability to produce a desired result. It is not a descriptive term (adjective), an action (verb), or a manner modifier (adverb).'),
+
+-- Efficiency
+('Grammar and Structure', 'Part of Speech', 'efficiency', 'What is the part of speech of the word "efficiency" in the sentence: "The machine runs with great efficiency"?', 'noun', 'adjective', 'verb', 'adverb', '"Efficiency" is a noun referring to the ability to accomplish something with minimal waste. It is not describing a noun (adjective), indicating action (verb), or modifying an action (adverb).'),
+
+-- Efficient
+('Grammar and Structure', 'Part of Speech', 'efficient', 'What is the part of speech of the word "efficient" in the sentence: "He is an efficient worker"?', 'adjective', 'noun', 'verb', 'adverb', '"Efficient" is an adjective describing the noun \"worker.\" It is not a thing (noun), an action (verb), or a word that modifies a verb (adverb).'),
+
+-- Efficiently
+('Grammar and Structure', 'Part of Speech', 'efficiently', 'What is the part of speech of the word "efficiently" in the sentence: "She works efficiently under pressure"?', 'adverb', 'verb', 'noun', 'adjective', '"Efficiently" modifies how she works, making it an adverb. It is not the action itself (verb), the subject (noun), or a descriptive term for a noun (adjective).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- effort
+('Grammar and Structure', 'Part of Speech', 'effort', 'What is the part of speech of the word "effort" in the sentence: "He put a lot of effort into the project"?', 'noun', 'verb', 'adjective', 'adverb', '"Effort" is a noun, referring to the energy or attempt made. It is not an action (verb), a descriptive word (adjective), or a word that modifies a verb (adverb).'),
+
+-- effortlessly
+('Grammar and Structure', 'Part of Speech', 'effortlessly', 'What is the part of speech of the word "effortlessly" in the sentence: "She completed the task effortlessly"?', 'adverb', 'adjective', 'verb', 'noun', '"Effortlessly" modifies how the task was completed, making it an adverb. It is not a descriptor (adjective), an action (verb), or a thing (noun).'),
+
+-- egads
+('Grammar and Structure', 'Part of Speech', 'egads', 'What is the part of speech of the word "egads" in the sentence: "Egads! That was unexpected!"?', 'interjection', 'noun', 'verb', 'adjective', '"Egads" is an interjection used to express surprise or alarm. It is not a noun (thing), a verb (action), or an adjective (descriptive word).'),
+
+-- egg
+('Grammar and Structure', 'Part of Speech', 'egg', 'What is the part of speech of the word "egg" in the sentence: "She boiled an egg for breakfast"?', 'noun', 'verb', 'adjective', 'adverb', '"Egg" is a noun here, referring to a food item. It is not functioning as a verb (action), an adjective (descriptor), or adverb (modifier of a verb).'),
+
+-- eggbeater
+('Grammar and Structure', 'Part of Speech', 'eggbeater', 'What is the part of speech of the word "eggbeater" in the sentence: "Use the eggbeater to mix the batter"?', 'noun', 'verb', 'adjective', 'adverb', '"Eggbeater" is a noun, referring to a kitchen tool. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+-- eggcup
+('Grammar and Structure', 'Part of Speech', 'eggcup', 'What is the part of speech of the word "eggcup" in the sentence: "He placed the boiled egg in the eggcup"?', 'noun', 'verb', 'adjective', 'adverb', '"Eggcup" is a noun referring to a small container for holding a boiled egg. It is not functioning as a verb, adjective, or adverb.'),
+
+-- egghead
+('Grammar and Structure', 'Part of Speech', 'egghead', 'What is the part of speech of the word "egghead" in the sentence: "They called him an egghead because of his intelligence"?', 'noun', 'adjective', 'verb', 'adverb', '"Egghead" is a noun used informally to refer to someone very intellectual. It does not describe a noun (adjective), show action (verb), or modify a verb (adverb).'),
+
+-- eggnog
+('Grammar and Structure', 'Part of Speech', 'eggnog', 'What is the part of speech of the word "eggnog" in the sentence: "They served eggnog at the holiday party"?', 'noun', 'verb', 'adjective', 'adverb', '"Eggnog" is a noun referring to a type of holiday drink. It is not used to describe something (adjective), show action (verb), or modify a verb (adverb).'),
+
+-- eggplant
+('Grammar and Structure', 'Part of Speech', 'eggplant', 'What is the part of speech of the word "eggplant" in the sentence: "I added eggplant to the stew"?', 'noun', 'adjective', 'verb', 'adverb', '"Eggplant" is a noun here, referring to a type of vegetable. It is not used as an adjective, verb, or adverb in this context.'),
+
+-- eggroll
+('Grammar and Structure', 'Part of Speech', 'eggroll', 'What is the part of speech of the word "eggroll" in the sentence: "She ordered an eggroll from the menu"?', 'noun', 'verb', 'adjective', 'adverb', '"Eggroll" is a noun referring to a food item. It does not function as an action (verb), descriptive term (adjective), or manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- eggshell
+('Grammar and Structure', 'Part of Speech', 'eggshell', 'What is the part of speech of the word "eggshell" in the sentence: "She picked up the broken eggshell"?', 'noun', 'verb', 'adjective', 'adverb', '"Eggshell" is a noun referring to the outer covering of an egg. It is not an action (verb), a word describing a noun (adjective), or one that modifies a verb (adverb).'),
+
+-- Ego
+('Grammar and Structure', 'Part of Speech', 'ego', 'What is the part of speech of the word "ego" in the sentence: "His ego was hurt by the criticism"?', 'noun', 'adjective', 'verb', 'adverb', '"Ego" is a noun referring to a person''s sense of self-importance. It is not used to describe a noun (adjective), show action (verb), or modify a verb (adverb).'),
+
+-- Egoistic
+('Grammar and Structure', 'Part of Speech', 'egoistic', 'What is the part of speech of the word "egoistic" in the sentence: "He was criticized for his egoistic attitude"?', 'adjective', 'noun', 'verb', 'adverb', '"Egoistic" is an adjective describing the noun \"attitude.\" It is not a thing (noun), an action (verb), or a modifier of a verb (adverb).'),
+
+-- Elaborate
+('Grammar and Structure', 'Part of Speech', 'elaborate', 'What is the part of speech of the word "elaborate" in the sentence: "They built an elaborate model of the city"?', 'adjective', 'noun', 'verb', 'adverb', '"Elaborate" describes the noun \"model,\" so it is an adjective here. It does not function as a noun, action, or adverb in this context.'),
+
+-- elaborately
+('Grammar and Structure', 'Part of Speech', 'elaborately', 'What is the part of speech of the word "elaborately" in the sentence: "The room was elaborately decorated"?', 'adverb', 'verb', 'noun', 'adjective', '"Elaborately" modifies how the room was decorated, making it an adverb. It is not a verb (action), noun (thing), or adjective (descriptor).'),
+
+-- Elaboration
+('Grammar and Structure', 'Part of Speech', 'elaboration', 'What is the part of speech of the word "elaboration" in the sentence: "The speaker gave a detailed elaboration of the topic"?', 'noun', 'verb', 'adjective', 'adverb', '"Elaboration" is a noun referring to the act of explaining something in more detail. It is not an action word, a descriptive word, or a modifier.'),
+
+-- elasticity
+('Grammar and Structure', 'Part of Speech', 'elasticity', 'What is the part of speech of the word "elasticity" in the sentence: "The elasticity of the fabric allows it to stretch"?', 'noun', 'adjective', 'verb', 'adverb', '"Elasticity" is a noun referring to the quality of being stretchable. It does not describe (adjective), perform (verb), or modify actions (adverb).'),
+
+-- Elation
+('Grammar and Structure', 'Part of Speech', 'elation', 'What is the part of speech of the word "elation" in the sentence: "She was filled with elation after hearing the news"?', 'noun', 'adjective', 'verb', 'adverb', '"Elation" is a noun meaning great happiness or joy. It is not a descriptive term, an action, or a modifier.'),
+
+-- Elbow
+('Grammar and Structure', 'Part of Speech', 'elbow', 'What is the part of speech of the word "elbow" in the sentence: "He injured his elbow while lifting weights"?', 'noun', 'verb', 'adjective', 'adverb', '"Elbow" is a noun referring to a body part. It is not used as an action (verb), descriptive term (adjective), or manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Elderly
+('Grammar and Structure', 'Part of Speech', 'elderly', 'What is the part of speech of the word "elderly" in the sentence: "The elderly need special care"?', 'noun', 'adjective', 'verb', 'adverb', '"Elderly" functions as a noun here, referring collectively to old people. It is not describing something (adjective), performing an action (verb), or modifying an action (adverb).'),
+
+-- Elect
+('Grammar and Structure', 'Part of Speech', 'elect', 'What is the part of speech of the word "elect" in the sentence: "Citizens vote to elect their leaders"?', 'verb', 'noun', 'adjective', 'adverb', '"Elect" is a verb meaning to choose someone by voting. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+-- election
+('Grammar and Structure', 'Part of Speech', 'election', 'What is the part of speech of the word "election" in the sentence: "The election will be held next month"?', 'noun', 'verb', 'adjective', 'adverb', '"Election" is a noun referring to the event of voting. It is not an action itself (verb), a description (adjective), or a modifier (adverb).'),
+
+-- Electoral
+('Grammar and Structure', 'Part of Speech', 'electoral', 'What is the part of speech of the word "electoral" in the sentence: "The country has an electoral process"?', 'adjective', 'noun', 'verb', 'adverb', '"Electoral" is an adjective describing the noun \"process.\" It is not a thing (noun), an action (verb), or a modifier of a verb (adverb).'),
+
+-- Electronics
+('Grammar and Structure', 'Part of Speech', 'electronics', 'What is the part of speech of the word "electronics" in the sentence: "He is studying electronics at the university"?', 'noun', 'adjective', 'verb', 'adverb', '"Electronics" is a noun here, referring to the field of study. It is not used to describe a noun (adjective), act (verb), or modify an action (adverb).'),
+
+-- Elegance
+('Grammar and Structure', 'Part of Speech', 'elegance', 'What is the part of speech of the word "elegance" in the sentence: "She moved with grace and elegance"?', 'noun', 'adjective', 'verb', 'adverb', '"Elegance" is a noun referring to refined beauty or style. It does not describe a noun (adjective), show an action (verb), or describe how something is done (adverb).'),
+
+-- Elegant
+('Grammar and Structure', 'Part of Speech', 'elegant', 'What is the part of speech of the word "elegant" in the sentence: "She wore an elegant dress"?', 'adjective', 'noun', 'verb', 'adverb', '"Elegant" is an adjective describing the noun \"dress.\" It is not a person or thing (noun), action (verb), or verb modifier (adverb).'),
+
+-- elegantly
+('Grammar and Structure', 'Part of Speech', 'elegantly', 'What is the part of speech of the word "elegantly" in the sentence: "He spoke elegantly during the ceremony"?', 'adverb', 'adjective', 'verb', 'noun', '"Elegantly" modifies how he spoke, so it is an adverb. It is not describing a noun (adjective), showing action (verb), or referring to a thing (noun).'),
+
+-- Elementary
+('Grammar and Structure', 'Part of Speech', 'elementary', 'What is the part of speech of the word "elementary" in the sentence: "He teaches at an elementary school"?', 'adjective', 'noun', 'verb', 'adverb', '"Elementary" is an adjective describing the noun \"school.\" It is not a person or object (noun), action (verb), or manner (adverb).'),
+
+-- Elevate
+('Grammar and Structure', 'Part of Speech', 'elevate', 'What is the part of speech of the word "elevate" in the sentence: "They tried to elevate the discussion to a higher level"?', 'verb', 'noun', 'adjective', 'adverb', '"Elevate" is a verb meaning to raise or lift. It is not a thing (noun), a descriptor (adjective), or an action modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Elevation
+('Grammar and Structure', 'Part of Speech', 'elevation', 'What is the part of speech of the word "elevation" in the sentence: "The elevation increased as they climbed the mountain"?', 'noun', 'adjective', 'verb', 'adverb', '"Elevation" is a noun referring to the height above a certain point. It is not used to describe a noun (adjective), perform an action (verb), or describe how something is done (adverb).'),
+
+-- Elevator
+('Grammar and Structure', 'Part of Speech', 'elevator', 'What is the part of speech of the word "elevator" in the sentence: "She took the elevator to the tenth floor"?', 'noun', 'verb', 'adjective', 'adverb', '"Elevator" is a noun referring to a machine that moves people or goods between floors. It is not an action (verb), descriptive (adjective), or a manner word (adverb).'),
+
+-- Elicit
+('Grammar and Structure', 'Part of Speech', 'elicit', 'What is the part of speech of the word "elicit" in the sentence: "The teacher tried to elicit responses from the students"?', 'verb', 'noun', 'adjective', 'adverb', '"Elicit" is a verb meaning to draw out a response. It is not a thing (noun), a descriptive word (adjective), or a verb modifier (adverb).'),
+
+-- Eligible
+('Grammar and Structure', 'Part of Speech', 'eligible', 'What is the part of speech of the word "eligible" in the sentence: "She is eligible for the scholarship"?', 'adjective', 'noun', 'verb', 'adverb', '"Eligible" is an adjective describing the subject’s qualification. It is not a noun (thing), verb (action), or adverb (manner word).'),
+
+-- Eliminate
+('Grammar and Structure', 'Part of Speech', 'eliminate', 'What is the part of speech of the word "eliminate" in the sentence: "The team hopes to eliminate mistakes in future games"?', 'verb', 'noun', 'adjective', 'adverb', '"Eliminate" is a verb meaning to remove or get rid of. It is not a noun (object), adjective (descriptor), or adverb (modifier).'),
+
+-- Elite
+('Grammar and Structure', 'Part of Speech', 'elite', 'What is the part of speech of the word "elite" in the sentence: "Only the elite were invited to the gala"?', 'noun', 'adjective', 'verb', 'adverb', '"Elite" is a noun here, referring to a select group. Though it can be used as an adjective in other contexts, here it names a group, not describes one.'),
+
+-- Elongate
+('Grammar and Structure', 'Part of Speech', 'elongate', 'What is the part of speech of the word "elongate" in the sentence: "The artist tried to elongate the figure’s limbs"?', 'verb', 'noun', 'adjective', 'adverb', '"Elongate" is a verb meaning to make something longer. It is not a noun (object), adjective (description), or adverb (modifier).'),
+
+-- Elope
+('Grammar and Structure', 'Part of Speech', 'elope', 'What is the part of speech of the word "elope" in the sentence: "They decided to elope without telling anyone"?', 'verb', 'noun', 'adjective', 'adverb', '"Elope" is a verb meaning to run away secretly to get married. It does not function as a noun, adjective, or adverb.'),
+
+-- Eloquently
+('Grammar and Structure', 'Part of Speech', 'eloquently', 'What is the part of speech of the word "eloquently" in the sentence: "She spoke eloquently during the debate"?', 'adverb', 'verb', 'noun', 'adjective', '"Eloquently" is an adverb modifying how she spoke. It is not an action (verb), object (noun), or descriptor (adjective).'),
+
+-- Elsewhere
+('Grammar and Structure', 'Part of Speech', 'elsewhere', 'What is the part of speech of the word "elsewhere" in the sentence: "The documents must be stored elsewhere"?', 'adverb', 'noun', 'adjective', 'verb', '"Elsewhere" is an adverb indicating a different place. It is not naming a thing (noun), describing something (adjective), or performing an action (verb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Elucidate
+('Grammar and Structure', 'Part of Speech', 'elucidate', 'What is the part of speech of the word "elucidate" in the sentence: "Please elucidate your argument further"?', 'verb', 'noun', 'adjective', 'adverb', '"Elucidate" is a verb meaning to explain or clarify. It does not refer to a person or thing (noun), describe a noun (adjective), or modify a verb (adverb).'),
+
+-- Elusive
+('Grammar and Structure', 'Part of Speech', 'elusive', 'What is the part of speech of the word "elusive" in the sentence: "The solution remained elusive despite many attempts"?', 'adjective', 'noun', 'verb', 'adverb', '"Elusive" is an adjective describing the noun \"solution.\" It is not functioning as a noun (thing), a verb (action), or an adverb (manner word).'),
+
+-- Embark
+('Grammar and Structure', 'Part of Speech', 'embark', 'What is the part of speech of the word "embark" in the sentence: "They will embark on a long journey tomorrow"?', 'verb', 'noun', 'adjective', 'adverb', '"Embark" is a verb meaning to begin a journey. It is not used as a noun, adjective, or adverb in this context.'),
+
+-- embarrass
+('Grammar and Structure', 'Part of Speech', 'embarrass', 'What is the part of speech of the word "embarrass" in the sentence: "Please don’t embarrass me in front of the group"?', 'verb', 'noun', 'adjective', 'adverb', '"Embarrass" is a verb meaning to cause someone to feel self-conscious. It is not a thing (noun), descriptor (adjective), or a manner word (adverb).'),
+
+-- Embarrassment
+('Grammar and Structure', 'Part of Speech', 'embarrassment', 'What is the part of speech of the word "embarrassment" in the sentence: "His mistake caused him great embarrassment"?', 'noun', 'verb', 'adjective', 'adverb', '"Embarrassment" is a noun meaning a feeling of shame. It does not act as a verb, adjective, or adverb.'),
+
+-- Embassy
+('Grammar and Structure', 'Part of Speech', 'embassy', 'What is the part of speech of the word "embassy" in the sentence: "She went to the embassy to renew her visa"?', 'noun', 'verb', 'adjective', 'adverb', '"Embassy" is a noun referring to a diplomatic building. It does not describe (adjective), act (verb), or modify an action (adverb).'),
+
+-- Embed
+('Grammar and Structure', 'Part of Speech', 'embed', 'What is the part of speech of the word "embed" in the sentence: "The designer will embed the logo into the header"?', 'verb', 'noun', 'adjective', 'adverb', '"Embed" is a verb meaning to fix something firmly within. It is not naming a thing (noun), describing something (adjective), or explaining how (adverb).'),
+
+-- Embellish
+('Grammar and Structure', 'Part of Speech', 'embellish', 'What is the part of speech of the word "embellish" in the sentence: "He tends to embellish stories for dramatic effect"?', 'verb', 'noun', 'adjective', 'adverb', '"Embellish" is a verb meaning to add details, often exaggerated ones. It is not used here as a noun, adjective, or adverb.'),
+
+-- Embody
+('Grammar and Structure', 'Part of Speech', 'embody', 'What is the part of speech of the word "embody" in the sentence: "She aims to embody the values of the organization"?', 'verb', 'noun', 'adjective', 'adverb', '"Embody" is a verb meaning to represent or express. It does not serve as a noun, adjective, or adverb in this context.'),
+
+-- Embolden
+('Grammar and Structure', 'Part of Speech', 'embolden', 'What is the part of speech of the word "embolden" in the sentence: "His success will embolden others to try"?', 'verb', 'noun', 'adjective', 'adverb', '"Embolden" is a verb meaning to give someone courage or confidence. It is not naming something (noun), describing something (adjective), or modifying an action (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Embrace
+('Grammar and Structure', 'Part of Speech', 'embrace', 'What is the part of speech of the word "embrace" in the sentence: "They decided to embrace the new policy"?', 'verb', 'noun', 'adjective', 'adverb', '"Embrace" is a verb meaning to accept or adopt something willingly. It is not a noun (thing), adjective (descriptor), or adverb (manner word).'),
+
+-- Emerge
+('Grammar and Structure', 'Part of Speech', 'emerge', 'What is the part of speech of the word "emerge" in the sentence: "The sun will emerge from behind the clouds"?', 'verb', 'noun', 'adjective', 'adverb', '"Emerge" is a verb meaning to come into view. It is not a thing (noun), a descriptive term (adjective), or a modifier of how an action is done (adverb).'),
+
+-- Emergence
+('Grammar and Structure', 'Part of Speech', 'emergence', 'What is the part of speech of the word "emergence" in the sentence: "The emergence of new technologies has changed communication"?', 'noun', 'verb', 'adjective', 'adverb', '"Emergence" is a noun referring to the process of coming into existence. It does not function as a verb (action), adjective (description), or adverb (manner).'),
+
+-- emergency
+('Grammar and Structure', 'Part of Speech', 'emergency', 'What is the part of speech of the word "emergency" in the sentence: "He was rushed to the hospital for an emergency"?', 'noun', 'adjective', 'verb', 'adverb', '"Emergency" is a noun referring to a sudden and urgent situation. It is not used to describe (adjective), act (verb), or modify a verb (adverb).'),
+
+-- emigrate
+('Grammar and Structure', 'Part of Speech', 'emigrate', 'What is the part of speech of the word "emigrate" in the sentence: "They plan to emigrate to another country next year"?', 'verb', 'noun', 'adjective', 'adverb', '"Emigrate" is a verb meaning to leave one’s country to live in another. It is not functioning as a noun, adjective, or adverb.'),
+
+-- Emission
+('Grammar and Structure', 'Part of Speech', 'emission', 'What is the part of speech of the word "emission" in the sentence: "Car emission levels must be reduced"?', 'noun', 'verb', 'adjective', 'adverb', '"Emission" is a noun referring to the release of substances, often gases. It is not a verb (action), adjective (descriptor), or adverb (manner modifier).'),
+
+-- emit
+('Grammar and Structure', 'Part of Speech', 'emit', 'What is the part of speech of the word "emit" in the sentence: "The factory continues to emit harmful fumes"?', 'verb', 'noun', 'adjective', 'adverb', '"Emit" is a verb meaning to release or send out. It is not a noun (object), adjective (description), or adverb (modifier).'),
+
+-- emotion
+('Grammar and Structure', 'Part of Speech', 'emotion', 'What is the part of speech of the word "emotion" in the sentence: "She spoke with great emotion"?', 'noun', 'verb', 'adjective', 'adverb', '"Emotion" is a noun referring to a strong feeling. It is not an action (verb), a descriptive word (adjective), or a manner term (adverb).'),
+
+-- Emotional
+('Grammar and Structure', 'Part of Speech', 'emotional', 'What is the part of speech of the word "emotional" in the sentence: "It was an emotional moment for everyone"?', 'adjective', 'noun', 'verb', 'adverb', '"Emotional" is an adjective describing the noun \"moment.\" It is not a noun (object), verb (action), or adverb (manner).'),
+
+-- Emotionally
+('Grammar and Structure', 'Part of Speech', 'emotionally', 'What is the part of speech of the word "emotionally" in the sentence: "She responded emotionally to the news"?', 'adverb', 'adjective', 'verb', 'noun', '"Emotionally" is an adverb modifying the verb \"responded.\" It is not a descriptive word (adjective), an action (verb), or an object (noun).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Emotive
+('Grammar and Structure', 'Part of Speech', 'emotive', 'What is the part of speech of the word "emotive" in the sentence: "The speech used highly emotive language"?', 'adjective', 'noun', 'verb', 'adverb', '"Emotive" is an adjective describing the noun \"language.\" It is not a noun (thing), verb (action), or adverb (modifier).'),
+
+-- Empathetic
+('Grammar and Structure', 'Part of Speech', 'empathetic', 'What is the part of speech of the word "empathetic" in the sentence: "She offered an empathetic response to his pain"?', 'adjective', 'noun', 'verb', 'adverb', '"Empathetic" is an adjective that describes the quality of the response. It is not functioning as a noun, verb, or adverb in this sentence.'),
+
+-- Emphasis
+('Grammar and Structure', 'Part of Speech', 'emphasis', 'What is the part of speech of the word "emphasis" in the sentence: "The teacher placed emphasis on key concepts"?', 'noun', 'verb', 'adjective', 'adverb', '"Emphasis" is a noun meaning special importance or attention. It does not perform an action (verb), describe a noun (adjective), or modify a verb (adverb).'),
+
+-- Emphasize
+('Grammar and Structure', 'Part of Speech', 'emphasize', 'What is the part of speech of the word "emphasize" in the sentence: "He tried to emphasize the importance of honesty"?', 'verb', 'noun', 'adjective', 'adverb', '"Emphasize" is a verb meaning to stress or highlight. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Emphasizing
+('Grammar and Structure', 'Part of Speech', 'emphasizing', 'What is the part of speech of the word "emphasizing" in the sentence: "She was emphasizing the need for accuracy"?', 'verb', 'noun', 'adjective', 'adverb', '"Emphasizing" is the present participle form of a verb, used here as part of a verb phrase. It is not a thing (noun), descriptor (adjective), or a manner term (adverb).'),
+
+-- Empire
+('Grammar and Structure', 'Part of Speech', 'empire', 'What is the part of speech of the word "empire" in the sentence: "The Roman Empire lasted for centuries"?', 'noun', 'verb', 'adjective', 'adverb', '"Empire" is a noun referring to a large political unit or state. It is not an action (verb), a descriptive word (adjective), or a modifier (adverb).'),
+
+-- Empirical
+('Grammar and Structure', 'Part of Speech', 'empirical', 'What is the part of speech of the word "empirical" in the sentence: "The theory is based on empirical data"?', 'adjective', 'noun', 'verb', 'adverb', '"Empirical" is an adjective describing the noun \"data.\" It is not functioning as a noun, verb, or adverb.'),
+
+-- employ
+('Grammar and Structure', 'Part of Speech', 'employ', 'What is the part of speech of the word "employ" in the sentence: "They employ advanced techniques in their research"?', 'verb', 'noun', 'adjective', 'adverb', '"Employ" is a verb meaning to use or make use of. It is not a noun (object), adjective (description), or adverb (manner).'),
+
+-- employee
+('Grammar and Structure', 'Part of Speech', 'employee', 'What is the part of speech of the word "employee" in the sentence: "Each employee must follow the safety rules"?', 'noun', 'verb', 'adjective', 'adverb', '"Employee" is a noun referring to a person who works for someone else. It does not perform an action (verb), describe (adjective), or modify a verb (adverb).'),
+
+-- employer
+('Grammar and Structure', 'Part of Speech', 'employer', 'What is the part of speech of the word "employer" in the sentence: "The employer explained the job responsibilities clearly"?', 'noun', 'verb', 'adjective', 'adverb', '"Employer" is a noun meaning the person or company that hires employees. It is not a verb (action), adjective (descriptor), or adverb (modifier).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- employment
+('Grammar and Structure', 'Part of Speech', 'employment', 'What is the part of speech of the word "employment" in the sentence: "She found stable employment after graduation"?', 'noun', 'verb', 'adjective', 'adverb', '"Employment" is a noun referring to the state of having a job. It is not an action (verb), descriptive term (adjective), or manner word (adverb).'),
+
+-- Empower
+('Grammar and Structure', 'Part of Speech', 'empower', 'What is the part of speech of the word "empower" in the sentence: "Our goal is to empower young leaders"?', 'verb', 'noun', 'adjective', 'adverb', '"Empower" is a verb meaning to give power or authority to someone. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Empty
+('Grammar and Structure', 'Part of Speech', 'empty', 'What is the part of speech of the word "empty" in the sentence: "He threw the empty bottle away"?', 'adjective', 'noun', 'verb', 'adverb', '"Empty" is an adjective describing the noun \"bottle.\" It is not a thing (noun), an action (verb), or a word describing how something is done (adverb).'),
+
+-- Enable
+('Grammar and Structure', 'Part of Speech', 'enable', 'What is the part of speech of the word "enable" in the sentence: "The system will enable users to access files remotely"?', 'verb', 'noun', 'adjective', 'adverb', '"Enable" is a verb meaning to make something possible. It is not functioning as a noun, adjective, or adverb.'),
+
+-- Enact
+('Grammar and Structure', 'Part of Speech', 'enact', 'What is the part of speech of the word "enact" in the sentence: "The government will enact new regulations"?', 'verb', 'noun', 'adjective', 'adverb', '"Enact" is a verb meaning to make a law or rule official. It is not a thing (noun), description (adjective), or modifier (adverb).'),
+
+-- enantiomer
+('Grammar and Structure', 'Part of Speech', 'enantiomer', 'What is the part of speech of the word "enantiomer" in the sentence: "The drug contains only one enantiomer of the compound"?', 'noun', 'verb', 'adjective', 'adverb', '"Enantiomer" is a noun referring to one of two mirror-image molecules. It is not an action, descriptive term, or manner modifier.'),
+
+-- Encapsulate
+('Grammar and Structure', 'Part of Speech', 'encapsulate', 'What is the part of speech of the word "encapsulate" in the sentence: "The introduction should encapsulate the main ideas"?', 'verb', 'noun', 'adjective', 'adverb', '"Encapsulate" is a verb meaning to summarize or enclose. It is not used here as a noun, adjective, or adverb.'),
+
+-- encapsulation
+('Grammar and Structure', 'Part of Speech', 'encapsulation', 'What is the part of speech of the word "encapsulation" in the sentence: "Encapsulation is a key concept in programming"?', 'noun', 'verb', 'adjective', 'adverb', '"Encapsulation" is a noun referring to the concept of enclosing or bundling. It is not functioning as a verb, adjective, or adverb.'),
+
+-- enchant
+('Grammar and Structure', 'Part of Speech', 'enchant', 'What is the part of speech of the word "enchant" in the sentence: "The magician tried to enchant the crowd with illusions"?', 'verb', 'noun', 'adjective', 'adverb', '"Enchant" is a verb meaning to charm or fascinate. It does not serve as a noun, adjective, or adverb.'),
+
+-- encode
+('Grammar and Structure', 'Part of Speech', 'encode', 'What is the part of speech of the word "encode" in the sentence: "The software will encode the data before sending it"?', 'verb', 'noun', 'adjective', 'adverb', '"Encode" is a verb meaning to convert information into a specific format. It is not a noun, descriptive word, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Encompass
+('Grammar and Structure', 'Part of Speech', 'encompass', 'What is the part of speech of the word "encompass" in the sentence: "The new policy will encompass all departments"?', 'verb', 'noun', 'adjective', 'adverb', '"Encompass" is a verb meaning to include or cover comprehensively. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Encompassing
+('Grammar and Structure', 'Part of Speech', 'encompassing', 'What is the part of speech of the word "encompassing" in the sentence: "It is an all-encompassing solution to the issue"?', 'adjective', 'noun', 'verb', 'adverb', '"Encompassing" functions as an adjective describing the noun \"solution.\" It is not a noun, action verb, or adverb in this context.'),
+
+-- Encounter
+('Grammar and Structure', 'Part of Speech', 'encounter', 'What is the part of speech of the word "encounter" in the sentence: "They had a strange encounter in the hallway"?', 'noun', 'verb', 'adjective', 'adverb', '"Encounter" is a noun here, referring to an unexpected meeting. Although it can be a verb in other contexts, it is used as a noun in this sentence.'),
+
+-- encourage
+('Grammar and Structure', 'Part of Speech', 'encourage', 'What is the part of speech of the word "encourage" in the sentence: "Teachers should encourage students to think critically"?', 'verb', 'noun', 'adjective', 'adverb', '"Encourage" is a verb meaning to inspire or give support. It is not a noun (object), adjective (descriptor), or adverb (manner modifier).'),
+
+-- Encouragement
+('Grammar and Structure', 'Part of Speech', 'encouragement', 'What is the part of speech of the word "encouragement" in the sentence: "He appreciated the encouragement from his friends"?', 'noun', 'verb', 'adjective', 'adverb', '"Encouragement" is a noun referring to support or reassurance. It is not an action (verb), descriptive term (adjective), or manner word (adverb).'),
+
+-- Encouraging
+('Grammar and Structure', 'Part of Speech', 'encouraging', 'What is the part of speech of the word "encouraging" in the sentence: "She gave him an encouraging smile"?', 'adjective', 'verb', 'noun', 'adverb', '"Encouraging" is an adjective describing the noun \"smile.\" It is not functioning as a verb, noun, or adverb in this usage.'),
+
+-- encryption
+('Grammar and Structure', 'Part of Speech', 'encryption', 'What is the part of speech of the word "encryption" in the sentence: "The file was protected by strong encryption"?', 'noun', 'verb', 'adjective', 'adverb', '"Encryption" is a noun referring to the process of encoding data. It is not an action verb, a descriptive adjective, or a manner adverb.'),
+
+-- End
+('Grammar and Structure', 'Part of Speech', 'end', 'What is the part of speech of the word "end" in the sentence: "They reached the end of the road"?', 'noun', 'verb', 'adjective', 'adverb', '"End" is a noun here, referring to the final point of something. Though it can also be a verb in other contexts, it is functioning as a noun in this sentence.'),
+
+-- Endeavor
+('Grammar and Structure', 'Part of Speech', 'endeavor', 'What is the part of speech of the word "endeavor" in the sentence: "Their scientific endeavor led to new discoveries"?', 'noun', 'verb', 'adjective', 'adverb', '"Endeavor" is a noun referring to a serious attempt or effort. It is not being used as an action (verb), a descriptor (adjective), or a manner modifier (adverb).'),
+
+-- Endeavour
+('Grammar and Structure', 'Part of Speech', 'endeavour', 'What is the part of speech of the word "endeavour" in the sentence: "We wish you success in your next endeavour"?', 'noun', 'adjective', 'verb', 'adverb', '"Endeavour" is the British spelling of \"endeavor\" and is a noun in this context, meaning a goal-oriented effort. It is not an adjective, verb, or adverb here.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Endless
+('Grammar and Structure', 'Part of Speech', 'endless', 'What is the part of speech of the word "endless" in the sentence: "They walked through an endless desert"?', 'adjective', 'noun', 'verb', 'adverb', '"Endless" is an adjective describing the noun \"desert.\" It is not a thing (noun), action (verb), or manner word (adverb).'),
+
+-- endlessly
+('Grammar and Structure', 'Part of Speech', 'endlessly', 'What is the part of speech of the word "endlessly" in the sentence: "The baby cried endlessly through the night"?', 'adverb', 'verb', 'noun', 'adjective', '"Endlessly" is an adverb modifying how the baby cried. It is not used as an action (verb), a thing (noun), or a descriptor (adjective).'),
+
+-- Endorse
+('Grammar and Structure', 'Part of Speech', 'endorse', 'What is the part of speech of the word "endorse" in the sentence: "Several celebrities endorse the product"?', 'verb', 'noun', 'adjective', 'adverb', '"Endorse" is a verb meaning to publicly support or promote. It does not act as a noun, adjective, or adverb in this sentence.'),
+
+-- Endorsement
+('Grammar and Structure', 'Part of Speech', 'endorsement', 'What is the part of speech of the word "endorsement" in the sentence: "The brand received a major endorsement from an athlete"?', 'noun', 'verb', 'adjective', 'adverb', '"Endorsement" is a noun referring to public approval or support. It is not an action (verb), description (adjective), or modifier (adverb).'),
+
+-- endothermic
+('Grammar and Structure', 'Part of Speech', 'endothermic', 'What is the part of speech of the word "endothermic" in the sentence: "Photosynthesis is an endothermic reaction"?', 'adjective', 'noun', 'verb', 'adverb', '"Endothermic" is an adjective describing the noun \"reaction.\" It is not a noun, verb, or adverb.'),
+
+-- endpoint
+('Grammar and Structure', 'Part of Speech', 'endpoint', 'What is the part of speech of the word "endpoint" in the sentence: "The test was concluded at the endpoint of the study"?', 'noun', 'verb', 'adjective', 'adverb', '"Endpoint" is a noun referring to the final stage or conclusion. It is not an action (verb), descriptive word (adjective), or manner term (adverb).'),
+
+-- Endure
+('Grammar and Structure', 'Part of Speech', 'endure', 'What is the part of speech of the word "endure" in the sentence: "They had to endure extreme weather conditions"?', 'verb', 'noun', 'adjective', 'adverb', '"Endure" is a verb meaning to withstand or tolerate something difficult. It is not a noun, adjective, or adverb.'),
+
+-- Enduring
+('Grammar and Structure', 'Part of Speech', 'enduring', 'What is the part of speech of the word "enduring" in the sentence: "They shared an enduring friendship"?', 'adjective', 'noun', 'verb', 'adverb', '"Enduring" is an adjective describing the noun \"friendship.\" It is not being used as a noun, verb, or adverb.'),
+
+-- energetically
+('Grammar and Structure', 'Part of Speech', 'energetically', 'What is the part of speech of the word "energetically" in the sentence: "The dog ran energetically across the field"?', 'adverb', 'adjective', 'verb', 'noun', '"Energetically" is an adverb modifying how the dog ran. It is not describing a noun (adjective), performing an action (verb), or referring to a thing (noun).'),
+
+-- energy
+('Grammar and Structure', 'Part of Speech', 'energy', 'What is the part of speech of the word "energy" in the sentence: "Children have so much energy in the morning"?', 'noun', 'verb', 'adjective', 'adverb', '"Energy" is a noun referring to physical or mental strength. It is not an action (verb), descriptor (adjective), or manner word (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Enforce
+('Grammar and Structure', 'Part of Speech', 'enforce', 'What is the part of speech of the word "enforce" in the sentence: "The police must enforce the law fairly"?', 'verb', 'noun', 'adjective', 'adverb', '"Enforce" is a verb meaning to carry out or apply a rule or law. It is not functioning as a noun, adjective, or adverb in this context.'),
+
+-- Enforcement
+('Grammar and Structure', 'Part of Speech', 'enforcement', 'What is the part of speech of the word "enforcement" in the sentence: "Law enforcement is responsible for public safety"?', 'noun', 'verb', 'adjective', 'adverb', '"Enforcement" is a noun referring to the act of ensuring compliance with laws. It is not an action word (verb), descriptor (adjective), or modifier (adverb).'),
+
+-- Engage
+('Grammar and Structure', 'Part of Speech', 'engage', 'What is the part of speech of the word "engage" in the sentence: "Teachers try to engage students in discussion"?', 'verb', 'noun', 'adjective', 'adverb', '"Engage" is a verb meaning to involve someone actively. It is not being used as a noun, adjective, or adverb.'),
+
+-- Engaged
+('Grammar and Structure', 'Part of Speech', 'engaged', 'What is the part of speech of the word "engaged" in the sentence: "He was fully engaged in the task"?', 'adjective', 'verb', 'noun', 'adverb', '"Engaged" is an adjective here, describing the state of involvement. Though it comes from a verb, it is used as an adjective in this sentence.'),
+
+-- Engagement
+('Grammar and Structure', 'Part of Speech', 'engagement', 'What is the part of speech of the word "engagement" in the sentence: "Their engagement was announced last week"?', 'noun', 'verb', 'adjective', 'adverb', '"Engagement" is a noun referring to a formal agreement or involvement. It is not an action (verb), a descriptive word (adjective), or a manner word (adverb).'),
+
+-- Engaging
+('Grammar and Structure', 'Part of Speech', 'engaging', 'What is the part of speech of the word "engaging" in the sentence: "She gave an engaging presentation"?', 'adjective', 'noun', 'verb', 'adverb', '"Engaging" is an adjective that describes something as interesting or charming. It is not a noun (object), verb (action), or adverb (modifier).'),
+
+-- engine
+('Grammar and Structure', 'Part of Speech', 'engine', 'What is the part of speech of the word "engine" in the sentence: "The car’s engine needs repair"?', 'noun', 'verb', 'adjective', 'adverb', '"Engine" is a noun referring to the mechanical part that powers a vehicle. It is not a verb, adjective, or adverb in this context.'),
+
+-- engineer
+('Grammar and Structure', 'Part of Speech', 'engineer', 'What is the part of speech of the word "engineer" in the sentence: "The engineer solved the problem quickly"?', 'noun', 'verb', 'adjective', 'adverb', '"Engineer" is a noun referring to a person trained in engineering. It is not an action, a descriptive term, or a manner word.'),
+
+-- engineering
+('Grammar and Structure', 'Part of Speech', 'engineering', 'What is the part of speech of the word "engineering" in the sentence: "She studied mechanical engineering in college"?', 'noun', 'verb', 'adjective', 'adverb', '"Engineering" is a noun that refers to the field or discipline. It is not functioning as a verb, adjective, or adverb here.'),
+
+-- Enhance
+('Grammar and Structure', 'Part of Speech', 'enhance', 'What is the part of speech of the word "enhance" in the sentence: "These features enhance the user experience"?', 'verb', 'noun', 'adjective', 'adverb', '"Enhance" is a verb meaning to improve or add value to something. It is not used as a noun, adjective, or adverb in this sentence.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Enhancing
+('Grammar and Structure', 'Part of Speech', 'enhancing', 'What is the part of speech of the word "enhancing" in the sentence: "The software has enhancing features for productivity"?', 'adjective', 'noun', 'verb', 'adverb', '"Enhancing" is used as an adjective here, modifying the noun \"features.\" It is not a noun, the main action (verb), or describing how an action is done (adverb).'),
+
+-- enjoin
+('Grammar and Structure', 'Part of Speech', 'enjoin', 'What is the part of speech of the word "enjoin" in the sentence: "The court may enjoin the company from proceeding"?', 'verb', 'noun', 'adjective', 'adverb', '"Enjoin" is a verb meaning to legally prohibit or direct. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- enjoy
+('Grammar and Structure', 'Part of Speech', 'enjoy', 'What is the part of speech of the word "enjoy" in the sentence: "They enjoy watching movies on weekends"?', 'verb', 'noun', 'adjective', 'adverb', '"Enjoy" is a verb meaning to take pleasure in something. It does not name an object (noun), describe a noun (adjective), or modify a verb (adverb).'),
+
+-- Enjoyable
+('Grammar and Structure', 'Part of Speech', 'enjoyable', 'What is the part of speech of the word "enjoyable" in the sentence: "The trip was enjoyable and relaxing"?', 'adjective', 'noun', 'verb', 'adverb', '"Enjoyable" is an adjective describing the noun \"trip.\" It is not functioning as a noun, verb, or adverb in this sentence.'),
+
+-- enjoyably
+('Grammar and Structure', 'Part of Speech', 'enjoyably', 'What is the part of speech of the word "enjoyably" in the sentence: "The event was enjoyably short and sweet"?', 'adverb', 'adjective', 'verb', 'noun', '"Enjoyably" is an adverb describing how the event occurred. It is not a descriptor (adjective), action (verb), or object (noun).'),
+
+-- Enlightened
+('Grammar and Structure', 'Part of Speech', 'enlightened', 'What is the part of speech of the word "enlightened" in the sentence: "They made an enlightened decision after careful thought"?', 'adjective', 'verb', 'noun', 'adverb', '"Enlightened" is an adjective describing the noun \"decision.\" It is not being used as a verb, noun, or adverb here.'),
+
+-- enormously
+('Grammar and Structure', 'Part of Speech', 'enormously', 'What is the part of speech of the word "enormously" in the sentence: "She was enormously grateful for the help"?', 'adverb', 'adjective', 'noun', 'verb', '"Enormously" is an adverb modifying how grateful she was. It is not an adjective, noun, or verb.'),
+
+-- enough
+('Grammar and Structure', 'Part of Speech', 'enough', 'What is the part of speech of the word "enough" in the sentence: "She didn’t have enough money for the ticket"?', 'adjective', 'noun', 'verb', 'adverb', '"Enough" is an adjective modifying the noun \"money\" to describe quantity. It is not used as a noun, verb, or adverb in this context.'),
+
+-- Enquire
+('Grammar and Structure', 'Part of Speech', 'enquire', 'What is the part of speech of the word "enquire" in the sentence: "They called to enquire about the schedule"?', 'verb', 'noun', 'adjective', 'adverb', '"Enquire" is a verb meaning to ask or seek information. It is not a thing (noun), a descriptor (adjective), or a manner word (adverb).'),
+
+-- Enquiry
+('Grammar and Structure', 'Part of Speech', 'enquiry', 'What is the part of speech of the word "enquiry" in the sentence: "He submitted an enquiry regarding his application"?', 'noun', 'verb', 'adjective', 'adverb', '"Enquiry" is a noun meaning a request for information. It is not being used as a verb, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Enrich
+('Grammar and Structure', 'Part of Speech', 'enrich', 'What is the part of speech of the word "enrich" in the sentence: "Travel can enrich your understanding of other cultures"?', 'verb', 'noun', 'adjective', 'adverb', '"Enrich" is a verb meaning to improve the quality or value of something. It is not used here as a noun, adjective, or adverb.'),
+
+-- Enrichment
+('Grammar and Structure', 'Part of Speech', 'enrichment', 'What is the part of speech of the word "enrichment" in the sentence: "The school offers programs for student enrichment"?', 'noun', 'verb', 'adjective', 'adverb', '"Enrichment" is a noun referring to the process of enhancing quality or value. It does not describe an action (verb), a noun (adjective), or a verb (adverb).'),
+
+-- Enrol
+('Grammar and Structure', 'Part of Speech', 'enrol', 'What is the part of speech of the word "enrol" in the sentence: "Students must enrol before classes begin"?', 'verb', 'noun', 'adjective', 'adverb', '"Enrol" is a verb meaning to register or sign up. It is not used as a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Enroll
+('Grammar and Structure', 'Part of Speech', 'enroll', 'What is the part of speech of the word "enroll" in the sentence: "She decided to enroll in a writing course"?', 'verb', 'noun', 'adjective', 'adverb', '"Enroll" is the American spelling of the verb \"enrol,\" meaning to register. It is not functioning as a noun, adjective, or adverb in this context.'),
+
+-- Ensue
+('Grammar and Structure', 'Part of Speech', 'ensue', 'What is the part of speech of the word "ensue" in the sentence: "A lively debate will likely ensue"?', 'verb', 'noun', 'adjective', 'adverb', '"Ensue" is a verb meaning to happen as a result. It is not a noun (object), adjective (description), or adverb (manner word).'),
+
+-- Ensure
+('Grammar and Structure', 'Part of Speech', 'ensure', 'What is the part of speech of the word "ensure" in the sentence: "Please ensure all lights are off before leaving"?', 'verb', 'noun', 'adjective', 'adverb', '"Ensure" is a verb meaning to make certain. It is not a noun, adjective, or adverb in this usage.'),
+
+-- Entail
+('Grammar and Structure', 'Part of Speech', 'entail', 'What is the part of speech of the word "entail" in the sentence: "This job will entail frequent travel"?', 'verb', 'noun', 'adjective', 'adverb', '"Entail" is a verb meaning to involve or require. It is not functioning as a noun, adjective, or adverb in this sentence.'),
+
+-- entanglement
+('Grammar and Structure', 'Part of Speech', 'entanglement', 'What is the part of speech of the word "entanglement" in the sentence: "He tried to avoid emotional entanglement"?', 'noun', 'verb', 'adjective', 'adverb', '"Entanglement" is a noun referring to a complicated or difficult involvement. It is not an action, description, or modifier.'),
+
+-- enter
+('Grammar and Structure', 'Part of Speech', 'enter', 'What is the part of speech of the word "enter" in the sentence: "You must enter your password to continue"?', 'verb', 'noun', 'adjective', 'adverb', '"Enter" is a verb meaning to input or go into something. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Enterprise
+('Grammar and Structure', 'Part of Speech', 'enterprise', 'What is the part of speech of the word "enterprise" in the sentence: "The new enterprise aimed to reduce waste in manufacturing"?', 'noun', 'verb', 'adjective', 'adverb', '"Enterprise" is a noun referring to a business or project. It is not used here as a verb, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- entertain
+('Grammar and Structure', 'Part of Speech', 'entertain', 'What is the part of speech of the word "entertain" in the sentence: "He loves to entertain guests on weekends"?', 'verb', 'noun', 'adjective', 'adverb', '"Entertain" is a verb meaning to amuse or host others. It is not used as a noun (thing), adjective (descriptor), or adverb (modifier) here.'),
+
+-- Entertaining
+('Grammar and Structure', 'Part of Speech', 'entertaining', 'What is the part of speech of the word "entertaining" in the sentence: "The movie was quite entertaining"?', 'adjective', 'noun', 'verb', 'adverb', '"Entertaining" is an adjective describing the noun \"movie.\" It is not functioning as a noun, verb, or adverb in this context.'),
+
+-- entertainment
+('Grammar and Structure', 'Part of Speech', 'entertainment', 'What is the part of speech of the word "entertainment" in the sentence: "Music is a form of entertainment"?', 'noun', 'verb', 'adjective', 'adverb', '"Entertainment" is a noun referring to activities that amuse or interest people. It is not a verb, adjective, or adverb.'),
+
+-- Enthrall
+('Grammar and Structure', 'Part of Speech', 'enthrall', 'What is the part of speech of the word "enthrall" in the sentence: "The performance will enthrall the audience"?', 'verb', 'noun', 'adjective', 'adverb', '"Enthrall" is a verb meaning to captivate or hold attention. It is not a noun (object), adjective (descriptor), or adverb (modifier).'),
+
+-- Enthusiasm
+('Grammar and Structure', 'Part of Speech', 'enthusiasm', 'What is the part of speech of the word "enthusiasm" in the sentence: "She showed great enthusiasm for the project"?', 'noun', 'verb', 'adjective', 'adverb', '"Enthusiasm" is a noun referring to intense interest or excitement. It is not an action (verb), description (adjective), or manner word (adverb).'),
+
+-- Enthusiast
+('Grammar and Structure', 'Part of Speech', 'enthusiast', 'What is the part of speech of the word "enthusiast" in the sentence: "He is a photography enthusiast"?', 'noun', 'adjective', 'verb', 'adverb', '"Enthusiast" is a noun referring to someone who is passionate about something. It does not function as an adjective, verb, or adverb.'),
+
+-- Enthusiastic
+('Grammar and Structure', 'Part of Speech', 'enthusiastic', 'What is the part of speech of the word "enthusiastic" in the sentence: "The students were enthusiastic about the experiment"?', 'adjective', 'noun', 'verb', 'adverb', '"Enthusiastic" is an adjective describing the noun \"students.\" It is not a thing (noun), action (verb), or manner (adverb).'),
+
+-- enthusiastically
+('Grammar and Structure', 'Part of Speech', 'enthusiastically', 'What is the part of speech of the word "enthusiastically" in the sentence: "She enthusiastically accepted the challenge"?', 'adverb', 'adjective', 'noun', 'verb', '"Enthusiastically" is an adverb modifying how she accepted the challenge. It is not a descriptor (adjective), thing (noun), or action (verb).'),
+
+-- Entire
+('Grammar and Structure', 'Part of Speech', 'entire', 'What is the part of speech of the word "entire" in the sentence: "He read the entire book in one night"?', 'adjective', 'noun', 'verb', 'adverb', '"Entire" is an adjective describing the noun \"book.\" It is not a noun (object), verb (action), or adverb (modifier).'),
+
+-- Entirely
+('Grammar and Structure', 'Part of Speech', 'entirely', 'What is the part of speech of the word "entirely" in the sentence: "The plan is entirely dependent on funding"?', 'adverb', 'adjective', 'noun', 'verb', '"Entirely" is an adverb modifying how the plan is dependent. It is not describing a noun, naming an object, or showing an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Entitle
+('Grammar and Structure', 'Part of Speech', 'entitle', 'What is the part of speech of the word "entitle" in the sentence: "The coupon will entitle you to a discount"?', 'verb', 'noun', 'adjective', 'adverb', '"Entitle" is a verb meaning to give someone the right to something. It is not a thing (noun), descriptive word (adjective), or manner term (adverb).'),
+
+-- Entity
+('Grammar and Structure', 'Part of Speech', 'entity', 'What is the part of speech of the word "entity" in the sentence: "The company is treated as a separate legal entity"?', 'noun', 'verb', 'adjective', 'adverb', '"Entity" is a noun referring to something that exists as a distinct unit. It is not used as a verb, adjective, or adverb here.'),
+
+-- Entrance
+('Grammar and Structure', 'Part of Speech', 'entrance', 'What is the part of speech of the word "entrance" in the sentence: "They waited at the main entrance to the theater"?', 'noun', 'verb', 'adjective', 'adverb', '"Entrance" is a noun referring to a way in or point of access. It is not functioning as a verb, adjective, or adverb.'),
+
+-- Entrench
+('Grammar and Structure', 'Part of Speech', 'entrench', 'What is the part of speech of the word "entrench" in the sentence: "The new law will entrench the rights of workers"?', 'verb', 'noun', 'adjective', 'adverb', '"Entrench" is a verb meaning to establish something firmly. It is not a noun (thing), adjective (description), or adverb (modifier).'),
+
+-- Entrepreneur
+('Grammar and Structure', 'Part of Speech', 'entrepreneur', 'What is the part of speech of the word "entrepreneur" in the sentence: "The entrepreneur launched a tech startup"?', 'noun', 'verb', 'adjective', 'adverb', '"Entrepreneur" is a noun referring to someone who starts a business. It is not an action (verb), descriptor (adjective), or manner (adverb).'),
+
+-- Entropy
+('Grammar and Structure', 'Part of Speech', 'entropy', 'What is the part of speech of the word "entropy" in the sentence: "Entropy in the system increased over time"?', 'noun', 'verb', 'adjective', 'adverb', '"Entropy" is a noun meaning a measure of disorder in a system. It does not describe (adjective), act (verb), or modify an action (adverb).'),
+
+-- Entry
+('Grammar and Structure', 'Part of Speech', 'entry', 'What is the part of speech of the word "entry" in the sentence: "The guard blocked the entry to the building"?', 'noun', 'verb', 'adjective', 'adverb', '"Entry" is a noun referring to a way in or act of entering. It is not a verb, adjective, or adverb.'),
+
+-- Enumerate
+('Grammar and Structure', 'Part of Speech', 'enumerate', 'What is the part of speech of the word "enumerate" in the sentence: "She began to enumerate the reasons for her decision"?', 'verb', 'noun', 'adjective', 'adverb', '"Enumerate" is a verb meaning to list or count out. It does not function as a noun, adjective, or adverb in this sentence.'),
+
+-- Enunciate
+('Grammar and Structure', 'Part of Speech', 'enunciate', 'What is the part of speech of the word "enunciate" in the sentence: "He needs to enunciate his words more clearly"?', 'verb', 'noun', 'adjective', 'adverb', '"Enunciate" is a verb meaning to pronounce clearly. It is not a noun (object), adjective (descriptor), or adverb (modifier).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Envelope
+('Grammar and Structure', 'Part of Speech', 'envelope', 'What is the part of speech of the word "envelope" in the sentence: "She sealed the letter inside the envelope"?', 'noun', 'verb', 'adjective', 'adverb', '"Envelope" is a noun referring to a paper container for a letter. It is not a verb (action), adjective (descriptor), or adverb (modifier).'),
+
+-- Environment
+('Grammar and Structure', 'Part of Speech', 'environment', 'What is the part of speech of the word "environment" in the sentence: "Pollution is harmful to the environment"?', 'noun', 'verb', 'adjective', 'adverb', '"Environment" is a noun referring to the natural world or surroundings. It is not functioning as a verb, adjective, or adverb.'),
+
+-- Environmental
+('Grammar and Structure', 'Part of Speech', 'environmental', 'What is the part of speech of the word "environmental" in the sentence: "The factory was fined for environmental violations"?', 'adjective', 'noun', 'verb', 'adverb', '"Environmental" is an adjective describing the noun \"violations.\" It is not used as a noun, verb, or adverb here.'),
+
+-- Envision
+('Grammar and Structure', 'Part of Speech', 'envision', 'What is the part of speech of the word "envision" in the sentence: "She could envision a better future"?', 'verb', 'noun', 'adjective', 'adverb', '"Envision" is a verb meaning to imagine or picture something in the mind. It is not a noun, adjective, or adverb.'),
+
+-- Envy
+('Grammar and Structure', 'Part of Speech', 'envy', 'What is the part of speech of the word "envy" in the sentence: "He looked at her success with envy"?', 'noun', 'verb', 'adjective', 'adverb', '"Envy" is a noun referring to a feeling of jealousy. It is not a verb (action), adjective (description), or adverb (manner).'),
+
+-- Enzyme
+('Grammar and Structure', 'Part of Speech', 'enzyme', 'What is the part of speech of the word "enzyme" in the sentence: "This enzyme breaks down proteins during digestion"?', 'noun', 'verb', 'adjective', 'adverb', '"Enzyme" is a noun referring to a biological molecule that catalyzes chemical reactions. It is not used as a verb, adjective, or adverb.'),
+
+-- Ephemeral
+('Grammar and Structure', 'Part of Speech', 'ephemeral', 'What is the part of speech of the word "ephemeral" in the sentence: "The beauty of the sunset was ephemeral"?', 'adjective', 'noun', 'verb', 'adverb', '"Ephemeral" is an adjective describing the noun \"beauty.\" It means lasting for a very short time, and is not a noun, verb, or adverb.'),
+
+-- Epidemic
+('Grammar and Structure', 'Part of Speech', 'epidemic', 'What is the part of speech of the word "epidemic" in the sentence: "The epidemic spread rapidly across the country"?', 'noun', 'adjective', 'verb', 'adverb', '"Epidemic" is a noun referring to a widespread occurrence of disease. It is not functioning as an adjective, verb, or adverb.'),
+
+-- Epidemiology
+('Grammar and Structure', 'Part of Speech', 'epidemiology', 'What is the part of speech of the word "epidemiology" in the sentence: "He is pursuing a degree in epidemiology"?', 'noun', 'adjective', 'verb', 'adverb', '"Epidemiology" is a noun referring to the study of disease patterns in populations. It is not a descriptive term, an action, or a modifier.'),
+
+-- Epigenetics
+('Grammar and Structure', 'Part of Speech', 'epigenetics', 'What is the part of speech of the word "epigenetics" in the sentence: "Epigenetics explores how behavior affects gene expression"?', 'noun', 'verb', 'adjective', 'adverb', '"Epigenetics" is a noun that refers to the study of changes in gene activity. It is not an action (verb), descriptive word (adjective), or manner modifier (adverb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Equal
+('Grammar and Structure', 'Part of Speech', 'equal', 'What is the part of speech of the word "equal" in the sentence: "All citizens have equal rights under the law"?', 'adjective', 'noun', 'verb', 'adverb', '"Equal" is an adjective describing the noun \"rights.\" It is not used here as a noun, verb, or adverb.'),
+
+-- Equality
+('Grammar and Structure', 'Part of Speech', 'equality', 'What is the part of speech of the word "equality" in the sentence: "They fought for racial equality"?', 'noun', 'adjective', 'verb', 'adverb', '"Equality" is a noun referring to the state of being equal. It is not an adjective, action word, or manner word.'),
+
+-- equally
+('Grammar and Structure', 'Part of Speech', 'equally', 'What is the part of speech of the word "equally" in the sentence: "The prize was equally divided among the winners"?', 'adverb', 'verb', 'noun', 'adjective', '"Equally" is an adverb modifying the verb \"divided.\" It is not used as a verb, noun, or adjective in this sentence.'),
+
+-- Equation
+('Grammar and Structure', 'Part of Speech', 'equation', 'What is the part of speech of the word "equation" in the sentence: "Solve the equation to find the unknown value"?', 'noun', 'verb', 'adjective', 'adverb', '"Equation" is a noun referring to a mathematical statement. It is not a verb (action), adjective (descriptor), or adverb (modifier).'),
+
+-- Equilibrium
+('Grammar and Structure', 'Part of Speech', 'equilibrium', 'What is the part of speech of the word "equilibrium" in the sentence: "The body maintains equilibrium through homeostasis"?', 'noun', 'adjective', 'verb', 'adverb', '"Equilibrium" is a noun referring to a state of balance. It is not used here as an adjective, verb, or adverb.'),
+
+-- Equip
+('Grammar and Structure', 'Part of Speech', 'equip', 'What is the part of speech of the word "equip" in the sentence: "The team will equip the lab with new tools"?', 'verb', 'noun', 'adjective', 'adverb', '"Equip" is a verb meaning to furnish or provide with necessary items. It is not a noun, adjective, or adverb in this context.'),
+
+-- Equipment
+('Grammar and Structure', 'Part of Speech', 'equipment', 'What is the part of speech of the word "equipment" in the sentence: "The firefighters checked their safety equipment"?', 'noun', 'verb', 'adjective', 'adverb', '"Equipment" is a noun referring to the tools or items used for a purpose. It is not used as a verb, adjective, or adverb.'),
+
+-- Equity
+('Grammar and Structure', 'Part of Speech', 'equity', 'What is the part of speech of the word "equity" in the sentence: "They value fairness and equity in the workplace"?', 'noun', 'adjective', 'verb', 'adverb', '"Equity" is a noun meaning fairness or justice. It does not describe a noun, perform an action, or modify a verb.'),
+
+-- Equivalent
+('Grammar and Structure', 'Part of Speech', 'equivalent', 'What is the part of speech of the word "equivalent" in the sentence: "One dollar is roughly equivalent to fifty pesos"?', 'adjective', 'noun', 'verb', 'adverb', '"Equivalent" is an adjective describing how one amount compares to another. It is not used as a noun, verb, or adverb here.'),
+
+-- Equivocate
+('Grammar and Structure', 'Part of Speech', 'equivocate', 'What is the part of speech of the word "equivocate" in the sentence: "He tends to equivocate when asked difficult questions"?', 'verb', 'noun', 'adjective', 'adverb', '"Equivocate" is a verb meaning to use ambiguous language to avoid the truth. It is not a noun, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Era
+('Grammar and Structure', 'Part of Speech', 'era', 'What is the part of speech of the word "era" in the sentence: "We are living in a digital era"?', 'noun', 'verb', 'adjective', 'adverb', '"Era" is a noun referring to a specific time period. It is not an action (verb), a descriptor (adjective), or a modifier (adverb).'),
+
+-- Erect
+('Grammar and Structure', 'Part of Speech', 'erect', 'What is the part of speech of the word "erect" in the sentence: "They plan to erect a statue in the park"?', 'verb', 'noun', 'adjective', 'adverb', '"Erect" is a verb meaning to build or raise something. It is not a noun (object), adjective (description), or adverb (manner).'),
+
+-- Erratic
+('Grammar and Structure', 'Part of Speech', 'erratic', 'What is the part of speech of the word "erratic" in the sentence: "His erratic behavior worried the staff"?', 'adjective', 'noun', 'verb', 'adverb', '"Erratic" is an adjective describing the noun \"behavior.\" It is not a thing (noun), an action (verb), or a manner word (adverb).'),
+
+-- Error
+('Grammar and Structure', 'Part of Speech', 'error', 'What is the part of speech of the word "error" in the sentence: "The error caused the program to crash"?', 'noun', 'verb', 'adjective', 'adverb', '"Error" is a noun referring to a mistake or fault. It is not functioning as a verb, adjective, or adverb.'),
+
+-- Erupt
+('Grammar and Structure', 'Part of Speech', 'erupt', 'What is the part of speech of the word "erupt" in the sentence: "The volcano may erupt at any time"?', 'verb', 'noun', 'adjective', 'adverb', '"Erupt" is a verb meaning to explode or burst suddenly. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Escalate
+('Grammar and Structure', 'Part of Speech', 'escalate', 'What is the part of speech of the word "escalate" in the sentence: "Tensions may escalate without dialogue"?', 'verb', 'noun', 'adjective', 'adverb', '"Escalate" is a verb meaning to increase in intensity. It is not used as a noun, adjective, or adverb here.'),
+
+-- Escape
+('Grammar and Structure', 'Part of Speech', 'escape', 'What is the part of speech of the word "escape" in the sentence: "They planned their escape from captivity"?', 'noun', 'verb', 'adjective', 'adverb', '"Escape" is a noun in this context, referring to the act of breaking free. It is not functioning as a verb, adjective, or adverb.'),
+
+-- Esoteric
+('Grammar and Structure', 'Part of Speech', 'esoteric', 'What is the part of speech of the word "esoteric" in the sentence: "He gave an esoteric explanation of the concept"?', 'adjective', 'noun', 'verb', 'adverb', '"Esoteric" is an adjective meaning understood by a specialized group. It is not a noun, verb, or adverb.'),
+
+-- Especially
+('Grammar and Structure', 'Part of Speech', 'especially', 'What is the part of speech of the word "especially" in the sentence: "She loves desserts, especially chocolate cake"?', 'adverb', 'adjective', 'noun', 'verb', '"Especially" is an adverb modifying the verb \"loves,\" emphasizing a specific case. It is not a descriptor (adjective), thing (noun), or action (verb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Espouse
+('Grammar and Structure', 'Part of Speech', 'espouse', 'What is the part of speech of the word "espouse" in the sentence: "They espouse the values of equality and justice"?', 'verb', 'noun', 'adjective', 'adverb', '"Espouse" is a verb meaning to adopt or support a cause or belief. It is not functioning as a noun (thing), adjective (descriptor), or adverb (modifier).'),
+
+-- Essay
+('Grammar and Structure', 'Part of Speech', 'essay', 'What is the part of speech of the word "essay" in the sentence: "She submitted her final essay before the deadline"?', 'noun', 'verb', 'adjective', 'adverb', '"Essay" is a noun referring to a short piece of writing on a subject. It is not an action (verb), a descriptor (adjective), or a manner word (adverb).'),
+
+-- Essence
+('Grammar and Structure', 'Part of Speech', 'essence', 'What is the part of speech of the word "essence" in the sentence: "The essence of his argument was clear"?', 'noun', 'verb', 'adjective', 'adverb', '"Essence" is a noun meaning the fundamental nature of something. It is not a verb (action), adjective (descriptor), or adverb (modifier).'),
+
+-- Essentially
+('Grammar and Structure', 'Part of Speech', 'essentially', 'What is the part of speech of the word "essentially" in the sentence: "The two ideas are essentially the same"?', 'adverb', 'adjective', 'noun', 'verb', '"Essentially" is an adverb modifying how the two ideas are the same. It is not an adjective, noun, or verb.'),
+
+-- Establish
+('Grammar and Structure', 'Part of Speech', 'establish', 'What is the part of speech of the word "establish" in the sentence: "They plan to establish a new community center"?', 'verb', 'noun', 'adjective', 'adverb', '"Establish" is a verb meaning to set up or create. It does not function here as a noun, adjective, or adverb.'),
+
+-- Establishment
+('Grammar and Structure', 'Part of Speech', 'establishment', 'What is the part of speech of the word "establishment" in the sentence: "The establishment of the foundation was a turning point"?', 'noun', 'verb', 'adjective', 'adverb', '"Establishment" is a noun referring to the act of founding something or the institution itself. It is not a verb, adjective, or adverb.'),
+
+-- Estate
+('Grammar and Structure', 'Part of Speech', 'estate', 'What is the part of speech of the word "estate" in the sentence: "The family inherited a large estate in the countryside"?', 'noun', 'verb', 'adjective', 'adverb', '"Estate" is a noun referring to land or property. It is not used here as a verb, adjective, or adverb.'),
+
+-- Esterification
+('Grammar and Structure', 'Part of Speech', 'esterification', 'What is the part of speech of the word "esterification" in the sentence: "Esterification is an important process in organic chemistry"?', 'noun', 'verb', 'adjective', 'adverb', '"Esterification" is a noun referring to the chemical reaction that forms an ester. It is not an action (verb), description (adjective), or manner word (adverb).'),
+
+-- Estimate
+('Grammar and Structure', 'Part of Speech', 'estimate', 'What is the part of speech of the word "estimate" in the sentence: "We need a cost estimate before approving the project"?', 'noun', 'verb', 'adjective', 'adverb', '"Estimate" is a noun in this context, referring to a rough calculation or judgment. It is not functioning as a verb, adjective, or adverb.'),
+
+-- Estoppel
+('Grammar and Structure', 'Part of Speech', 'estoppel', 'What is the part of speech of the word "estoppel" in the sentence: "The court applied the principle of estoppel to prevent denial of prior statements"?', 'noun', 'verb', 'adjective', 'adverb', '"Estoppel" is a noun referring to a legal principle that bars contradictory actions. It is not used as a verb, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Eternal
+('Grammar and Structure', 'Part of Speech', 'eternal', 'What is the part of speech of the word "eternal" in the sentence: "They believed in eternal life after death"?', 'adjective', 'noun', 'verb', 'adverb', '"Eternal" is an adjective describing the noun \"life.\" It is not used here as a noun (thing), verb (action), or adverb (modifier).'),
+
+-- Eternally
+('Grammar and Structure', 'Part of Speech', 'eternally', 'What is the part of speech of the word "eternally" in the sentence: "She vowed to love him eternally"?', 'adverb', 'adjective', 'noun', 'verb', '"Eternally" is an adverb modifying the verb \"love.\" It does not describe a noun, act as a noun, or show an action itself.'),
+
+-- Ethic
+('Grammar and Structure', 'Part of Speech', 'ethic', 'What is the part of speech of the word "ethic" in the sentence: "His work ethic impressed the manager"?', 'noun', 'adjective', 'verb', 'adverb', '"Ethic" is a noun meaning a moral principle or value. It is not a descriptor (adjective), action (verb), or manner word (adverb).'),
+
+-- Ethical
+('Grammar and Structure', 'Part of Speech', 'ethical', 'What is the part of speech of the word "ethical" in the sentence: "They made an ethical decision despite the pressure"?', 'adjective', 'noun', 'verb', 'adverb', '"Ethical" is an adjective describing the noun \"decision.\" It is not a noun (thing), verb (action), or adverb (modifier).'),
+
+-- Ethically
+('Grammar and Structure', 'Part of Speech', 'ethically', 'What is the part of speech of the word "ethically" in the sentence: "The issue must be resolved ethically"?', 'adverb', 'verb', 'noun', 'adjective', '"Ethically" is an adverb modifying the verb \"resolved.\" It is not acting as a verb, noun, or adjective.'),
+
+-- Ethnic
+('Grammar and Structure', 'Part of Speech', 'ethnic', 'What is the part of speech of the word "ethnic" in the sentence: "The city is home to many ethnic communities"?', 'adjective', 'noun', 'verb', 'adverb', '"Ethnic" is an adjective describing the noun \"communities.\" It is not used here as a noun, verb, or adverb.'),
+
+-- Eukaryote
+('Grammar and Structure', 'Part of Speech', 'eukaryote', 'What is the part of speech of the word "eukaryote" in the sentence: "A eukaryote has a nucleus enclosed within membranes"?', 'noun', 'verb', 'adjective', 'adverb', '"Eukaryote" is a noun referring to a type of organism. It is not a verb (action), adjective (description), or adverb (modifier).'),
+
+-- Evacuate
+('Grammar and Structure', 'Part of Speech', 'evacuate', 'What is the part of speech of the word "evacuate" in the sentence: "Residents were ordered to evacuate the area"?', 'verb', 'noun', 'adjective', 'adverb', '"Evacuate" is a verb meaning to leave a place for safety. It does not function as a noun, adjective, or adverb.'),
+
+-- Evade
+('Grammar and Structure', 'Part of Speech', 'evade', 'What is the part of speech of the word "evade" in the sentence: "He tried to evade the question during the interview"?', 'verb', 'noun', 'adjective', 'adverb', '"Evade" is a verb meaning to avoid or escape from something. It is not used here as a noun, adjective, or adverb.'),
+
+-- Evaluate
+('Grammar and Structure', 'Part of Speech', 'evaluate', 'What is the part of speech of the word "evaluate" in the sentence: "The teacher will evaluate each student’s performance"?', 'verb', 'noun', 'adjective', 'adverb', '"Evaluate" is a verb meaning to assess or judge. It is not a noun (object), adjective (descriptor), or adverb (modifier).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Evaluation
+('Grammar and Structure', 'Part of Speech', 'evaluation', 'What is the part of speech of the word "evaluation" in the sentence: "The manager conducted an evaluation of employee performance"?', 'noun', 'verb', 'adjective', 'adverb', '"Evaluation" is a noun referring to the process of assessing something. It is not functioning as a verb, adjective, or adverb in this context.'),
+
+-- Evaluative
+('Grammar and Structure', 'Part of Speech', 'evaluative', 'What is the part of speech of the word "evaluative" in the sentence: "She offered an evaluative summary of the book"?', 'adjective', 'noun', 'verb', 'adverb', '"Evaluative" is an adjective that describes the nature of the summary. It is not a noun, verb, or adverb.'),
+
+-- Evaporate
+('Grammar and Structure', 'Part of Speech', 'evaporate', 'What is the part of speech of the word "evaporate" in the sentence: "Water will evaporate quickly under high heat"?', 'verb', 'noun', 'adjective', 'adverb', '"Evaporate" is a verb meaning to turn into vapor. It is not used as a noun, adjective, or adverb here.'),
+
+-- Even
+('Grammar and Structure', 'Part of Speech', 'even', 'What is the part of speech of the word "even" in the sentence: "The surface was completely even"?', 'adjective', 'noun', 'verb', 'adverb', '"Even" is an adjective in this sentence, describing the smoothness of the surface. It is not a noun, verb, or adverb here.'),
+
+-- Evening
+('Grammar and Structure', 'Part of Speech', 'evening', 'What is the part of speech of the word "evening" in the sentence: "We’ll meet again this evening"?', 'noun', 'verb', 'adjective', 'adverb', '"Evening" is a noun referring to a time of day. It is not used here as a verb, adjective, or adverb.'),
+
+-- Evenly
+('Grammar and Structure', 'Part of Speech', 'evenly', 'What is the part of speech of the word "evenly" in the sentence: "The paint was applied evenly"?', 'adverb', 'verb', 'noun', 'adjective', '"Evenly" is an adverb describing how the paint was applied. It is not a verb, noun, or adjective in this usage.'),
+
+-- Event
+('Grammar and Structure', 'Part of Speech', 'event', 'What is the part of speech of the word "event" in the sentence: "The event drew a large crowd"?', 'noun', 'verb', 'adjective', 'adverb', '"Event" is a noun referring to an occasion or happening. It is not a verb (action), adjective (description), or adverb (manner).'),
+
+-- Eventually
+('Grammar and Structure', 'Part of Speech', 'eventually', 'What is the part of speech of the word "eventually" in the sentence: "She eventually found her lost keys"?', 'adverb', 'noun', 'verb', 'adjective', '"Eventually" is an adverb modifying the verb \"found.\" It is not a noun, verb, or adjective in this context.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Evergreen
+('Grammar and Structure', 'Part of Speech', 'evergreen', 'What is the part of speech of the word "evergreen" in the sentence: "The evergreen tree stayed green all year round"?', 'adjective', 'noun', 'verb', 'adverb', '"Evergreen" is an adjective describing the type of tree. While it can be used as a noun in some contexts, here it modifies the noun "tree," making it an adjective.'),
+
+-- Everlasting
+('Grammar and Structure', 'Part of Speech', 'everlasting', 'What is the part of speech of the word "everlasting" in the sentence: "They made everlasting promises"?', 'adjective', 'noun', 'verb', 'adverb', '"Everlasting" is an adjective describing the noun \"promises.\" It indicates duration and is not used here as a noun, verb, or adverb.'),
+
+-- Evermore
+('Grammar and Structure', 'Part of Speech', 'evermore', 'What is the part of speech of the word "evermore" in the sentence: "They were separated forevermore"?', 'adverb', 'noun', 'verb', 'adjective', '"Evermore" is an adverb expressing an indefinite length of time. It is not a noun (object), verb (action), or adjective (descriptor).'),
+
+-- Every
+('Grammar and Structure', 'Part of Speech', 'every', 'What is the part of speech of the word "every" in the sentence: "Every student passed the test"?', 'adjective', 'noun', 'verb', 'adverb', '"Every" is an adjective modifying the noun \"student.\" It is not functioning as a noun, verb, or adverb here.'),
+
+-- Everybody
+('Grammar and Structure', 'Part of Speech', 'everybody', 'What is the part of speech of the word "everybody" in the sentence: "Everybody was excited about the trip"?', 'pronoun', 'noun', 'adjective', 'adverb', '"Everybody" is a pronoun referring to all people. It is not a noun, adjective, or adverb in this usage.'),
+
+-- Everyday
+('Grammar and Structure', 'Part of Speech', 'everyday', 'What is the part of speech of the word "everyday" in the sentence: "She wore her everyday shoes to work"?', 'adjective', 'noun', 'adverb', 'verb', '"Everyday" is an adjective modifying the noun \"shoes,\" meaning regular or routine. It is not acting as a noun, adverb, or verb.'),
+
+-- Everyone
+('Grammar and Structure', 'Part of Speech', 'everyone', 'What is the part of speech of the word "everyone" in the sentence: "Everyone enjoyed the show"?', 'pronoun', 'noun', 'adjective', 'adverb', '"Everyone" is a pronoun used to refer to all people. It is not a noun, adjective, or adverb here.'),
+
+-- Everything
+('Grammar and Structure', 'Part of Speech', 'everything', 'What is the part of speech of the word "everything" in the sentence: "She packed everything into one suitcase"?', 'pronoun', 'noun', 'adjective', 'adverb', '"Everything" is a pronoun representing all items or matters. It is not functioning as a noun, adjective, or adverb in this context.'),
+
+-- Everywhere
+('Grammar and Structure', 'Part of Speech', 'everywhere', 'What is the part of speech of the word "everywhere" in the sentence: "We looked everywhere for the missing book"?', 'adverb', 'noun', 'adjective', 'verb', '"Everywhere" is an adverb describing where the action \"looked\" took place. It is not a noun, adjective, or verb.'),
+
+-- Evidence
+('Grammar and Structure', 'Part of Speech', 'evidence', 'What is the part of speech of the word "evidence" in the sentence: "The evidence supports the theory"?', 'noun', 'verb', 'adjective', 'adverb', '"Evidence" is a noun meaning facts or information supporting a belief or argument. It is not functioning as a verb, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Evident
+('Grammar and Structure', 'Part of Speech', 'evident', 'What is the part of speech of the word "evident" in the sentence: "The mistake was evident to everyone"?', 'adjective', 'noun', 'verb', 'adverb', '"Evident" is an adjective describing the noun \"mistake.\" It is not used here as a noun (thing), verb (action), or adverb (modifier).'),
+
+-- Evidently
+('Grammar and Structure', 'Part of Speech', 'evidently', 'What is the part of speech of the word "evidently" in the sentence: "He is evidently upset about the result"?', 'adverb', 'adjective', 'noun', 'verb', '"Evidently" is an adverb modifying the verb \"is\" to show how something appears to be. It is not a noun, adjective, or verb.'),
+
+-- Evil
+('Grammar and Structure', 'Part of Speech', 'evil', 'What is the part of speech of the word "evil" in the sentence: "They believed the villain was pure evil"?', 'noun', 'verb', 'adjective', 'adverb', '"Evil" is a noun in this context, referring to a concept or force. Though \"evil\" can be an adjective, here it acts as a subject complement.'),
+
+-- Evoke
+('Grammar and Structure', 'Part of Speech', 'evoke', 'What is the part of speech of the word "evoke" in the sentence: "The painting can evoke deep emotions"?', 'verb', 'noun', 'adjective', 'adverb', '"Evoke" is a verb meaning to bring out or elicit. It is not functioning as a noun, adjective, or adverb in this sentence.'),
+
+-- Evolution
+('Grammar and Structure', 'Part of Speech', 'evolution', 'What is the part of speech of the word "evolution" in the sentence: "The theory of evolution explains biological change"?', 'noun', 'verb', 'adjective', 'adverb', '"Evolution" is a noun referring to a process of development or change. It is not a verb, adjective, or adverb.'),
+
+-- Evolutionary
+('Grammar and Structure', 'Part of Speech', 'evolutionary', 'What is the part of speech of the word "evolutionary" in the sentence: "The fossil provided evolutionary evidence"?', 'adjective', 'noun', 'verb', 'adverb', '"Evolutionary" is an adjective describing the noun \"evidence.\" It is not functioning as a noun, verb, or adverb.'),
+
+-- Evolve
+('Grammar and Structure', 'Part of Speech', 'evolve', 'What is the part of speech of the word "evolve" in the sentence: "Species evolve over millions of years"?', 'verb', 'noun', 'adjective', 'adverb', '"Evolve" is a verb meaning to develop gradually. It is not used as a noun, adjective, or adverb here.'),
+
+-- Exacerbate
+('Grammar and Structure', 'Part of Speech', 'exacerbate', 'What is the part of speech of the word "exacerbate" in the sentence: "Lack of sleep may exacerbate the problem"?', 'verb', 'noun', 'adjective', 'adverb', '"Exacerbate" is a verb meaning to make something worse. It is not functioning as a noun, adjective, or adverb.'),
+
+-- Exactly
+('Grammar and Structure', 'Part of Speech', 'exactly', 'What is the part of speech of the word "exactly" in the sentence: "That’s exactly what I meant"?', 'adverb', 'adjective', 'noun', 'verb', '"Exactly" is an adverb modifying the clause \"what I meant.\" It describes the precision of meaning, not acting as a noun, adjective, or verb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Exaggerate
+('Grammar and Structure', 'Part of Speech', 'exaggerate', 'What is the part of speech of the word "exaggerate" in the sentence: "He tends to exaggerate his achievements"?', 'verb', 'noun', 'adjective', 'adverb', '"Exaggerate" is a verb meaning to overstate or magnify. It is not a noun (thing), adjective (description), or adverb (manner).'),
+
+-- Exam
+('Grammar and Structure', 'Part of Speech', 'exam', 'What is the part of speech of the word "exam" in the sentence: "She studied hard for the exam"?', 'noun', 'verb', 'adjective', 'adverb', '"Exam" is a noun referring to a test. It is not used here as a verb, adjective, or adverb.'),
+
+-- Examination
+('Grammar and Structure', 'Part of Speech', 'examination', 'What is the part of speech of the word "examination" in the sentence: "The examination lasted for three hours"?', 'noun', 'verb', 'adjective', 'adverb', '"Examination" is a noun meaning a formal test or inspection. It is not a verb, adjective, or adverb in this usage.'),
+
+-- Examine
+('Grammar and Structure', 'Part of Speech', 'examine', 'What is the part of speech of the word "examine" in the sentence: "Doctors examine patients to determine their condition"?', 'verb', 'noun', 'adjective', 'adverb', '"Examine" is a verb meaning to inspect or investigate. It is not functioning as a noun, adjective, or adverb here.'),
+
+-- Example
+('Grammar and Structure', 'Part of Speech', 'example', 'What is the part of speech of the word "example" in the sentence: "This chart is a good example of the data trends"?', 'noun', 'verb', 'adjective', 'adverb', '"Example" is a noun referring to a representative case or instance. It is not a verb, adjective, or adverb.'),
+
+-- Exasperate
+('Grammar and Structure', 'Part of Speech', 'exasperate', 'What is the part of speech of the word "exasperate" in the sentence: "Their constant interruptions began to exasperate the speaker"?', 'verb', 'noun', 'adjective', 'adverb', '"Exasperate" is a verb meaning to irritate intensely. It is not a noun, adjective, or adverb.'),
+
+-- Excavate
+('Grammar and Structure', 'Part of Speech', 'excavate', 'What is the part of speech of the word "excavate" in the sentence: "Archaeologists excavate ancient sites to find artifacts"?', 'verb', 'noun', 'adjective', 'adverb', '"Excavate" is a verb meaning to dig or unearth. It is not functioning as a noun, adjective, or adverb.'),
+
+-- Exceed
+('Grammar and Structure', 'Part of Speech', 'exceed', 'What is the part of speech of the word "exceed" in the sentence: "Sales figures exceed last year’s numbers"?', 'verb', 'noun', 'adjective', 'adverb', '"Exceed" is a verb meaning to go beyond a limit. It is not a noun, adjective, or adverb in this context.'),
+
+-- Exceeding
+('Grammar and Structure', 'Part of Speech', 'exceeding', 'What is the part of speech of the word "exceeding" in the sentence: "The athlete showed exceeding strength during the competition"?', 'adjective', 'verb', 'noun', 'adverb', '"Exceeding" is used as an adjective describing the noun \"strength.\" While typically a verb form, here it functions adjectivally. It is not a noun or adverb.'),
+
+-- Exceedingly
+('Grammar and Structure', 'Part of Speech', 'exceedingly', 'What is the part of speech of the word "exceedingly" in the sentence: "She was exceedingly pleased with the results"?', 'adverb', 'adjective', 'noun', 'verb', '"Exceedingly" is an adverb modifying the adjective \"pleased,\" intensifying it. It is not a noun, adjective, or verb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Excellence
+('Grammar and Structure', 'Part of Speech', 'excellence', 'What is the part of speech of the word "excellence" in the sentence: "The award recognizes academic excellence"?', 'noun', 'verb', 'adjective', 'adverb', '"Excellence" is a noun referring to outstanding quality. It is not used here to describe an action, modify a noun, or describe how something is done.'),
+
+-- Excellently
+('Grammar and Structure', 'Part of Speech', 'excellently', 'What is the part of speech of the word "excellently" in the sentence: "She performed excellently on the test"?', 'adverb', 'noun', 'verb', 'adjective', '"Excellently" is an adverb describing how she performed. It is not a noun (thing), verb (action), or adjective (descriptor).'),
+
+-- Except
+('Grammar and Structure', 'Part of Speech', 'except', 'What is the part of speech of the word "except" in the sentence: "Everyone was invited except Tom"?', 'preposition', 'conjunction', 'adverb', 'noun', '"Except" is a preposition showing exclusion. It is not a conjunction (connector), adverb (modifier), or noun (object) in this usage.'),
+
+-- Exception
+('Grammar and Structure', 'Part of Speech', 'exception', 'What is the part of speech of the word "exception" in the sentence: "There was one exception to the rule"?', 'noun', 'verb', 'adjective', 'adverb', '"Exception" is a noun meaning a case that does not follow the rule. It is not a verb, adjective, or adverb.'),
+
+-- Exceptional
+('Grammar and Structure', 'Part of Speech', 'exceptional', 'What is the part of speech of the word "exceptional" in the sentence: "She has exceptional talent"?', 'adjective', 'noun', 'verb', 'adverb', '"Exceptional" is an adjective describing the noun \"talent.\" It is not functioning as a noun, verb, or adverb here.'),
+
+-- Exceptionally
+('Grammar and Structure', 'Part of Speech', 'exceptionally', 'What is the part of speech of the word "exceptionally" in the sentence: "The student was exceptionally bright"?', 'adverb', 'adjective', 'noun', 'verb', '"Exceptionally" is an adverb modifying the adjective \"bright.\" It intensifies the description and is not used as an adjective, noun, or verb.'),
+
+-- Excess
+('Grammar and Structure', 'Part of Speech', 'excess', 'What is the part of speech of the word "excess" in the sentence: "He was fined for driving with excess speed"?', 'noun', 'adjective', 'verb', 'adverb', '"Excess" is a noun meaning an amount more than necessary. It is not functioning as a verb, adjective, or adverb in this context.'),
+
+-- Excessive
+('Grammar and Structure', 'Part of Speech', 'excessive', 'What is the part of speech of the word "excessive" in the sentence: "The report criticizes the excessive spending"?', 'adjective', 'noun', 'verb', 'adverb', '"Excessive" is an adjective describing \"spending.\" It is not a noun, verb, or adverb here.'),
+
+-- Exchange
+('Grammar and Structure', 'Part of Speech', 'exchange', 'What is the part of speech of the word "exchange" in the sentence: "They agreed to exchange gifts"?', 'verb', 'noun', 'adjective', 'adverb', '"Exchange" is used as a verb meaning to give and receive in return. Although it can also be a noun, here it performs an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Excite
+('Grammar and Structure', 'Part of Speech', 'excite', 'What is the part of speech of the word "excite" in the sentence: "Good news tends to excite her"?', 'verb', 'noun', 'adjective', 'adverb', '"Excite" is a verb meaning to cause strong feelings. It is not a noun, adjective, or adverb in this context.'),
+
+-- Excitedly
+('Grammar and Structure', 'Part of Speech', 'excitedly', 'What is the part of speech of the word "excitedly" in the sentence: "He spoke excitedly about the trip"?', 'adverb', 'verb', 'adjective', 'noun', '"Excitedly" is an adverb modifying the verb \"spoke.\" It is not used as a verb, adjective, or noun here.'),
+
+-- Excitement
+('Grammar and Structure', 'Part of Speech', 'excitement', 'What is the part of speech of the word "excitement" in the sentence: "The room was filled with excitement"?', 'noun', 'verb', 'adjective', 'adverb', '"Excitement" is a noun referring to a strong feeling of enthusiasm. It is not acting as a verb, adjective, or adverb.'),
+
+-- Exciting
+('Grammar and Structure', 'Part of Speech', 'exciting', 'What is the part of speech of the word "exciting" in the sentence: "That was an exciting game"?', 'adjective', 'noun', 'verb', 'adverb', '"Exciting" is an adjective describing the noun \"game.\" It is not used here as a noun, verb, or adverb.'),
+
+-- Exclaim
+('Grammar and Structure', 'Part of Speech', 'exclaim', 'What is the part of speech of the word "exclaim" in the sentence: "She would often exclaim with joy"?', 'verb', 'noun', 'adjective', 'adverb', '"Exclaim" is a verb meaning to speak or cry out suddenly. It is not a noun, adjective, or adverb.'),
+
+-- Exclude
+('Grammar and Structure', 'Part of Speech', 'exclude', 'What is the part of speech of the word "exclude" in the sentence: "They decided to exclude certain topics"?', 'verb', 'noun', 'adjective', 'adverb', '"Exclude" is a verb meaning to leave something out. It is not functioning as a noun, adjective, or adverb.'),
+
+-- Excluding
+('Grammar and Structure', 'Part of Speech', 'excluding', 'What is the part of speech of the word "excluding" in the sentence: "Everyone was present excluding John"?', 'preposition', 'adjective', 'verb', 'noun', '"Excluding" acts as a preposition here, indicating an exception. It is not used as an adjective, verb, or noun.'),
+
+-- Exclusion
+('Grammar and Structure', 'Part of Speech', 'exclusion', 'What is the part of speech of the word "exclusion" in the sentence: "His exclusion from the team surprised everyone"?', 'noun', 'verb', 'adjective', 'adverb', '"Exclusion" is a noun referring to the act of leaving someone out. It is not a verb, adjective, or adverb.'),
+
+-- Exclusive
+('Grammar and Structure', 'Part of Speech', 'exclusive', 'What is the part of speech of the word "exclusive" in the sentence: "They belong to an exclusive club"?', 'adjective', 'noun', 'verb', 'adverb', '"Exclusive" is an adjective describing the noun \"club.\" It is not acting as a noun, verb, or adverb.'),
+
+-- Exclusively
+('Grammar and Structure', 'Part of Speech', 'exclusively', 'What is the part of speech of the word "exclusively" in the sentence: "The room is reserved exclusively for guests"?', 'adverb', 'adjective', 'noun', 'verb', '"Exclusively" is an adverb modifying the verb \"reserved,\" showing limitation. It is not a noun, adjective, or verb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Excuse
+('Grammar and Structure', 'Part of Speech', 'excuse', 'What is the part of speech of the word "excuse" in the sentence: "He made an excuse for being late"?', 'noun', 'verb', 'adjective', 'adverb', '"Excuse" in this sentence is a noun referring to a reason or justification. It is not functioning as a verb (to excuse), adjective, or adverb.'),
+
+-- Execute
+('Grammar and Structure', 'Part of Speech', 'execute', 'What is the part of speech of the word "execute" in the sentence: "The plan was difficult to execute"?', 'verb', 'noun', 'adjective', 'adverb', '"Execute" is a verb meaning to carry out or perform. It is not a noun, adjective, or adverb in this sentence.'),
+
+-- Execution
+('Grammar and Structure', 'Part of Speech', 'execution', 'What is the part of speech of the word "execution" in the sentence: "The execution of the strategy was flawless"?', 'noun', 'verb', 'adjective', 'adverb', '"Execution" is a noun referring to the act of carrying something out. It is not a verb (execute), an adjective, or an adverb.'),
+
+-- Executive
+('Grammar and Structure', 'Part of Speech', 'executive', 'What is the part of speech of the word "executive" in the sentence: "She was promoted to an executive position"?', 'adjective', 'noun', 'verb', 'adverb', '"Executive" here is an adjective describing the type of position. Though the word can also be a noun, in this context it modifies a noun.'),
+
+-- Exemplary
+('Grammar and Structure', 'Part of Speech', 'exemplary', 'What is the part of speech of the word "exemplary" in the sentence: "Her conduct was exemplary"?', 'adjective', 'noun', 'verb', 'adverb', '"Exemplary" is an adjective meaning commendable or ideal. It describes the noun \"conduct,\" and is not a noun, verb, or adverb.'),
+
+-- Exemplify
+('Grammar and Structure', 'Part of Speech', 'exemplify', 'What is the part of speech of the word "exemplify" in the sentence: "These actions exemplify true leadership"?', 'verb', 'noun', 'adjective', 'adverb', '"Exemplify" is a verb meaning to show or illustrate by example. It does not function as a noun, adjective, or adverb here.'),
+
+-- Exemption
+('Grammar and Structure', 'Part of Speech', 'exemption', 'What is the part of speech of the word "exemption" in the sentence: "He received a tax exemption"?', 'noun', 'verb', 'adjective', 'adverb', '"Exemption" is a noun referring to the state of being free from an obligation. It is not acting as a verb, adjective, or adverb.'),
+
+-- Exercise
+('Grammar and Structure', 'Part of Speech', 'exercise', 'What is the part of speech of the word "exercise" in the sentence: "She does morning exercise every day"?', 'noun', 'verb', 'adjective', 'adverb', '"Exercise" in this context is a noun meaning a physical activity. While it can also be a verb, here it names the activity itself.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'finish', 'What is the part of speech of the word "finish" in the sentence: "Please finish your homework before dinner"?', 'verb', 'noun', 'adjective', 'adverb', '"Finish" is a verb indicating the action of completing something. It is not a person, place, or descriptor in this context.'),
+('Grammar and Structure', 'Part of Speech', 'finished', 'What is the part of speech of the word "finished" in the sentence: "The painting looked finished after the final touch"?', 'adjective', 'noun', 'verb', 'adverb', '"Finished" is used as an adjective here, describing the state of the painting. It is not being used to perform an action or as a noun.'),
+('Grammar and Structure', 'Part of Speech', 'finitely', 'What is the part of speech of the word "finitely" in the sentence: "The resource is finitely available"?', 'adverb', 'adjective', 'noun', 'verb', '"Finitely" is an adverb modifying the adjective "available," suggesting a limited amount. It does not act as a noun or verb.'),
+('Grammar and Structure', 'Part of Speech', 'fire', 'What is the part of speech of the word "fire" in the sentence: "They started a fire in the fireplace"?', 'noun', 'verb', 'adjective', 'adverb', '"Fire" is a noun in this context, referring to a combustion event. It does not describe or perform an action.'),
+('Grammar and Structure', 'Part of Speech', 'firearm', 'What is the part of speech of the word "firearm" in the sentence: "He was arrested for carrying a concealed firearm"?', 'noun', 'verb', 'adjective', 'adverb', '"Firearm" is a noun referring to a weapon like a gun. It is not an action or descriptor in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fireboat', 'What is the part of speech of the word "fireboat" in the sentence: "The fireboat responded quickly to the waterfront blaze"?', 'noun', 'verb', 'adjective', 'adverb', '"Fireboat" is a noun meaning a boat equipped to fight fires. It does not perform or modify any action in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'firebug', 'What is the part of speech of the word "firebug" in the sentence: "The authorities caught the firebug responsible for the arson"?', 'noun', 'verb', 'adjective', 'adverb', '"Firebug" is a noun referring to a person who sets fires deliberately. It is not used to describe or act in this context.'),
+('Grammar and Structure', 'Part of Speech', 'firefighter', 'What is the part of speech of the word "firefighter" in the sentence: "The firefighter rescued the child from the burning building"?', 'noun', 'verb', 'adjective', 'adverb', '"Firefighter" is a noun referring to a person whose job is to extinguish fires. It is not functioning as a verb or modifier here.'),
+('Grammar and Structure', 'Part of Speech', 'firefly', 'What is the part of speech of the word "firefly" in the sentence: "The firefly glowed gently in the night"?', 'noun', 'verb', 'adjective', 'adverb', '"Firefly" is a noun referring to an insect that emits light. It is not acting as a verb or modifier in this case.'),
+('Grammar and Structure', 'Part of Speech', 'fireman', 'What is the part of speech of the word "fireman" in the sentence: "The fireman climbed the ladder swiftly"?', 'noun', 'adjective', 'verb', 'adverb', '"Fireman" is a noun referring to a person who fights fires. It is not describing or performing an action.');
+
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'exorcise', 'What is the part of speech of the word "exorcise" in the sentence: "They called a priest to exorcise the demon"?', 'verb', 'noun', 'adjective', 'adverb', '"Exorcise" is a verb meaning to drive out an evil spirit. It is not a noun (thing), adjective (descriptive word), or adverb (modifies a verb).'),
+('Grammar and Structure', 'Part of Speech', 'exotic', 'What is the part of speech of the word "exotic" in the sentence: "They enjoyed the exotic food on their trip"?', 'adjective', 'noun', 'verb', 'adverb', '"Exotic" is an adjective describing the noun \"food\" as unusual or from a distant place. It does not act as a noun, verb, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'expand', 'What is the part of speech of the word "expand" in the sentence: "They plan to expand their business next year"?', 'verb', 'noun', 'adjective', 'adverb', '"Expand" is a verb meaning to grow or increase. It is not a noun (object), adjective (descriptor), or adverb (modifier).'),
+('Grammar and Structure', 'Part of Speech', 'expansion', 'What is the part of speech of the word "expansion" in the sentence: "The company saw rapid expansion"?', 'noun', 'verb', 'adjective', 'adverb', '"Expansion" is a noun referring to the act of increasing or growing. It is not functioning as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expect', 'What is the part of speech of the word "expect" in the sentence: "We expect the package to arrive today"?', 'verb', 'noun', 'adjective', 'adverb', '"Expect" is a verb meaning to anticipate or look forward to something. It does not serve as a noun, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'expectation', 'What is the part of speech of the word "expectation" in the sentence: "She had high expectation for success"?', 'noun', 'verb', 'adjective', 'adverb', '"Expectation" is a noun that refers to a belief about what might happen. It is not a verb, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'expedite', 'What is the part of speech of the word "expedite" in the sentence: "They need to expedite the delivery process"?', 'verb', 'noun', 'adjective', 'adverb', '"Expedite" is a verb meaning to speed up a process. It is not a noun (thing), adjective (descriptive word), or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expedition', 'What is the part of speech of the word "expedition" in the sentence: "They went on a scientific expedition to the Arctic"?', 'noun', 'verb', 'adjective', 'adverb', '"Expedition" is a noun meaning a journey with a purpose, usually exploration. It is not used as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expeditious', 'What is the part of speech of the word "expeditious" in the sentence: "They provided expeditious service"?', 'adjective', 'noun', 'verb', 'adverb', '"Expeditious" is an adjective describing the noun \"service\" as being done quickly and efficiently. It is not a noun, verb, or adverb.');
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'expel', 'What is the part of speech of the word "expel" in the sentence: "The school may expel students who cheat"?', 'verb', 'noun', 'adjective', 'adverb', '"Expel" is a verb meaning to force someone to leave. It is not a noun (thing), adjective (description), or adverb (modifier).'),
+('Grammar and Structure', 'Part of Speech', 'expend', 'What is the part of speech of the word "expend" in the sentence: "You should not expend all your energy early in the race"?', 'verb', 'noun', 'adjective', 'adverb', '"Expend" is a verb meaning to use up or spend. It does not function as a noun, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'expenditure', 'What is the part of speech of the word "expenditure" in the sentence: "The expenditure on defense increased last year"?', 'noun', 'verb', 'adjective', 'adverb', '"Expenditure" is a noun referring to the act of spending money or resources. It is not acting as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expense', 'What is the part of speech of the word "expense" in the sentence: "Medical expense is a major concern for many families"?', 'noun', 'verb', 'adjective', 'adverb', '"Expense" is a noun meaning cost or expenditure. It is not a verb, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'expensive', 'What is the part of speech of the word "expensive" in the sentence: "That watch looks expensive"?', 'adjective', 'noun', 'verb', 'adverb', '"Expensive" is an adjective describing the noun \"watch\" as having a high cost. It is not used as a noun, verb, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'experience', 'What is the part of speech of the word "experience" in the sentence: "She has years of teaching experience"?', 'noun', 'verb', 'adjective', 'adverb', '"Experience" in this context is a noun referring to practical contact or observation. Though it can also be a verb, here it is a noun.'),
+('Grammar and Structure', 'Part of Speech', 'experimental', 'What is the part of speech of the word "experimental" in the sentence: "They are testing an experimental drug"?', 'adjective', 'noun', 'verb', 'adverb', '"Experimental" is an adjective describing the noun \"drug\" as being under test. It is not a noun, verb, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expert', 'What is the part of speech of the word "expert" in the sentence: "The expert solved the issue quickly"?', 'noun', 'verb', 'adjective', 'adverb', '"Expert" is a noun meaning someone who is skilled or knowledgeable. It is not functioning as a verb, adjective, or adverb in this case.'),
+('Grammar and Structure', 'Part of Speech', 'expertise', 'What is the part of speech of the word "expertise" in the sentence: "Her expertise in law is impressive"?', 'noun', 'verb', 'adjective', 'adverb', '"Expertise" is a noun referring to expert skill or knowledge in a field. It is not used as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expire', 'What is the part of speech of the word "expire" in the sentence: "My driver’s license will expire next month"?', 'verb', 'noun', 'adjective', 'adverb', '"Expire" is a verb meaning to come to an end. It does not act as a noun, adjective, or adverb in this sentence.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'explain', 'What is the part of speech of the word "explain" in the sentence: "Can you explain the instructions again?"', 'verb', 'noun', 'adjective', 'adverb', '"Explain" is a verb meaning to make something clear. It is not a noun (thing), adjective (descriptor), or adverb (modifier).'),
+('Grammar and Structure', 'Part of Speech', 'explanation', 'What is the part of speech of the word "explanation" in the sentence: "Her explanation clarified everything"?', 'noun', 'verb', 'adjective', 'adverb', '"Explanation" is a noun that refers to the act of explaining. It does not serve as a verb, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'explicit', 'What is the part of speech of the word "explicit" in the sentence: "He gave explicit instructions on what to do"?', 'adjective', 'noun', 'verb', 'adverb', '"Explicit" is an adjective describing the noun \"instructions\" as being clear and detailed. It is not a noun, verb, or adverb in this case.'),
+('Grammar and Structure', 'Part of Speech', 'explicitly', 'What is the part of speech of the word "explicitly" in the sentence: "She explicitly stated her opinion"?', 'adverb', 'verb', 'noun', 'adjective', '"Explicitly" is an adverb modifying the verb \"stated\". It tells how something was stated and is not a verb, noun, or adjective.'),
+('Grammar and Structure', 'Part of Speech', 'explode', 'What is the part of speech of the word "explode" in the sentence: "The bomb will explode any minute"?', 'verb', 'noun', 'adjective', 'adverb', '"Explode" is a verb meaning to burst or blow up. It does not function as a noun, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'exploit', 'What is the part of speech of the word "exploit" in the sentence: "They exploit the workers for profit"?', 'verb', 'noun', 'adjective', 'adverb', '"Exploit" is a verb meaning to take unfair advantage of. While it can be a noun in other contexts, here it acts as a verb.'),
+('Grammar and Structure', 'Part of Speech', 'exploitation', 'What is the part of speech of the word "exploitation" in the sentence: "Child exploitation is a serious issue"?', 'noun', 'verb', 'adjective', 'adverb', '"Exploitation" is a noun referring to the act of taking advantage of someone. It is not a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'exploration', 'What is the part of speech of the word "exploration" in the sentence: "Space exploration has advanced rapidly"?', 'noun', 'verb', 'adjective', 'adverb', '"Exploration" is a noun that means the act of traveling through or examining something. It is not used as a verb, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'explore', 'What is the part of speech of the word "explore" in the sentence: "They plan to explore the island next week"?', 'verb', 'noun', 'adjective', 'adverb', '"Explore" is a verb meaning to investigate or travel through. It does not act as a noun, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'explosive', 'What is the part of speech of the word "explosive" in the sentence: "They found an explosive device near the bridge"?', 'adjective', 'noun', 'verb', 'adverb', '"Explosive" is an adjective describing the noun \"device\" as capable of exploding. It is not used as a noun, verb, or adverb here.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'exponential', 'What is the part of speech of the word "exponential" in the sentence: "The company saw exponential growth last year"?', 'adjective', 'noun', 'verb', 'adverb', '\'Exponential\' is an adjective describing the noun \'growth.\' It is not used as a noun, verb, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'exponentially', 'What is the part of speech of the word "exponentially" in the sentence: "Sales increased exponentially over time"?', 'adverb', 'adjective', 'noun', 'verb', '\'Exponentially\' is an adverb modifying the verb \'increased.\' It tells how sales grew and is not an adjective, noun, or verb.'),
+('Grammar and Structure', 'Part of Speech', 'expose', 'What is the part of speech of the word "expose" in the sentence: "The report will expose the corruption"?', 'verb', 'noun', 'adjective', 'adverb', '\'Expose\' is a verb meaning to reveal. It does not function as a noun, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'exposure', 'What is the part of speech of the word "exposure" in the sentence: "He suffered from exposure to the cold"?', 'noun', 'verb', 'adjective', 'adverb', '\'Exposure\' is a noun referring to the state of being subjected to something. It is not a verb, adjective, or adverb in this case.'),
+('Grammar and Structure', 'Part of Speech', 'express', 'What is the part of speech of the word "express" in the sentence: "I want to express my opinion freely"?', 'verb', 'noun', 'adjective', 'adverb', '\'Express\' is a verb meaning to convey thoughts or feelings. It is not used as a noun, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'expression', 'What is the part of speech of the word "expression" in the sentence: "Her expression showed surprise"?', 'noun', 'verb', 'adjective', 'adverb', '\'Expression\' is a noun referring to a facial or verbal indication of feeling. It is not acting as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'expressive', 'What is the part of speech of the word "expressive" in the sentence: "He has very expressive eyes"?', 'adjective', 'noun', 'verb', 'adverb', '\'Expressive\' is an adjective describing the noun \'eyes.\' It is not functioning as a noun, verb, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'expressly', 'What is the part of speech of the word "expressly" in the sentence: "The law expressly forbids discrimination"?', 'adverb', 'adjective', 'noun', 'verb', '\'Expressly\' is an adverb modifying the verb \'forbids,\' meaning clearly or specifically. It is not used as an adjective, noun, or verb.'),
+('Grammar and Structure', 'Part of Speech', 'exquisite', 'What is the part of speech of the word "exquisite" in the sentence: "She wore an exquisite dress to the gala"?', 'adjective', 'noun', 'verb', 'adverb', '\'Exquisite\' is an adjective describing the noun \'dress.\' It is not used as a noun, verb, or adverb in this context.');
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'exert', 'What is the part of speech of the word "exert" in the sentence: "You must exert more effort if you want results"?', 'verb', 'noun', 'adjective', 'adverb', '\'Exert\' is a verb meaning to apply or use (effort or influence). It is not a noun, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'exhibit', 'What is the part of speech of the word "exhibit" in the sentence: "They exhibit great courage in difficult times"?', 'verb', 'noun', 'adjective', 'adverb', '\'Exhibit\' is a verb meaning to show or display. Although it can be a noun, here it is used to indicate an action.'),
+('Grammar and Structure', 'Part of Speech', 'exhort', 'What is the part of speech of the word "exhort" in the sentence: "The coach tried to exhort the players to do their best"?', 'verb', 'noun', 'adjective', 'adverb', '\'Exhort\' is a verb meaning to strongly encourage or urge someone. It is not a noun, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'exhume', 'What is the part of speech of the word "exhume" in the sentence: "The investigators decided to exhume the body"?', 'verb', 'noun', 'adjective', 'adverb', '\'Exhume\' is a verb meaning to dig out something buried, especially a body. It does not act as a noun, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'exile', 'What is the part of speech of the word "exile" in the sentence: "He lived in exile after the war"?', 'noun', 'verb', 'adjective', 'adverb', '\'Exile\' is a noun referring to the state of being barred from one\'s native country. It can be a verb, but not in this usage.'),
+('Grammar and Structure', 'Part of Speech', 'exist', 'What is the part of speech of the word "exist" in the sentence: "Do unicorns really exist?"', 'verb', 'noun', 'adjective', 'adverb', '\'Exist\' is a verb meaning to be real or present. It is not used as a noun, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'existence', 'What is the part of speech of the word "existence" in the sentence: "The existence of such creatures is unproven"?', 'noun', 'verb', 'adjective', 'adverb', '\'Existence\' is a noun referring to the state of being. It is not used to express an action or describe something.'),
+('Grammar and Structure', 'Part of Speech', 'exit', 'What is the part of speech of the word "exit" in the sentence: "Please use the nearest exit during an emergency"?', 'noun', 'verb', 'adjective', 'adverb', '\'Exit\' in this context is a noun referring to a way out. Though it can also be a verb, here it names a physical location.'),
+('Grammar and Structure', 'Part of Speech', 'exonerate', 'What is the part of speech of the word "exonerate" in the sentence: "The evidence will exonerate him"?', 'verb', 'noun', 'adjective', 'adverb', '\'Exonerate\' is a verb meaning to clear from blame. It is not a noun, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'exorbitant', 'What is the part of speech of the word "exorbitant" in the sentence: "The prices are exorbitant at that store"?', 'adjective', 'noun', 'verb', 'adverb', '\'Exorbitant\' is an adjective meaning unreasonably high. It is not a noun (thing), verb (action), or adverb (modifier).');
+
+
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'extension', 'What is the part of speech of the word "extension" in the sentence: "He filed for an extension of the deadline"?', 'noun', 'verb', 'adjective', 'adverb', '"Extension" is a noun referring to the act of lengthening time or space. It is not a verb (action), adjective (describing word), or adverb (modifier).'),
+('Grammar and Structure', 'Part of Speech', 'extensive', 'What is the part of speech of the word "extensive" in the sentence: "The damage to the car was extensive"?', 'adjective', 'noun', 'verb', 'adverb', '"Extensive" is an adjective describing the noun \"damage\" as being large in amount or scale. It is not a noun, verb, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'extensively', 'What is the part of speech of the word "extensively" in the sentence: "The book was extensively researched"?', 'adverb', 'adjective', 'noun', 'verb', '"Extensively" is an adverb modifying the verb \"researched,\" indicating the thoroughness of the action. It is not an adjective, noun, or verb.'),
+('Grammar and Structure', 'Part of Speech', 'extent', 'What is the part of speech of the word "extent" in the sentence: "We were surprised by the extent of the damage"?', 'noun', 'verb', 'adjective', 'adverb', '"Extent" is a noun referring to the degree or range of something. It is not a verb, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'external', 'What is the part of speech of the word "external" in the sentence: "The external layer protects the core"?', 'adjective', 'noun', 'verb', 'adverb', '"External" is an adjective describing the noun \"layer.\" It refers to something on the outside. It is not a noun, verb, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'externally', 'What is the part of speech of the word "externally" in the sentence: "The device can be charged externally"?', 'adverb', 'adjective', 'noun', 'verb', '"Externally" is an adverb modifying the verb \"charged.\" It explains where or how the action takes place. It is not an adjective, noun, or verb.'),
+('Grammar and Structure', 'Part of Speech', 'extol', 'What is the part of speech of the word "extol" in the sentence: "They extol the virtues of hard work"?', 'verb', 'noun', 'adjective', 'adverb', '"Extol" is a verb meaning to praise highly. It is not used here as a noun, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'extra', 'What is the part of speech of the word "extra" in the sentence: "He brought extra clothes for the trip"?', 'adjective', 'noun', 'verb', 'adverb', '"Extra" is an adjective describing \"clothes\" as being additional. It is not used as a noun, verb, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'extract', 'What is the part of speech of the word "extract" in the sentence: "They use machines to extract oil from the ground"?', 'verb', 'noun', 'adjective', 'adverb', '"Extract" is a verb meaning to remove or take out. It is not used as a noun, adjective, or adverb here.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'extraordinarily', 'What is the part of speech of the word "extraordinarily" in the sentence: "She performed extraordinarily well under pressure"?', 'adverb', 'adjective', 'noun', 'verb', '"Extraordinarily" is an adverb modifying the verb phrase \"performed well.\" It tells how she performed. It is not functioning as an adjective, noun, or verb.'),
+('Grammar and Structure', 'Part of Speech', 'extraordinary', 'What is the part of speech of the word "extraordinary" in the sentence: "He has extraordinary talent"?', 'adjective', 'noun', 'verb', 'adverb', '"Extraordinary" is an adjective modifying the noun \"talent,\" describing its remarkable nature. It is not used as a noun, verb, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'extrapolate', 'What is the part of speech of the word "extrapolate" in the sentence: "Scientists often extrapolate future trends from current data"?', 'verb', 'noun', 'adjective', 'adverb', '"Extrapolate" is a verb meaning to infer or estimate beyond known data. It is not acting as a noun, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'extreme', 'What is the part of speech of the word "extreme" in the sentence: "They took extreme measures to protect the city"?', 'adjective', 'noun', 'verb', 'adverb', '"Extreme" is an adjective modifying \"measures,\" describing their severity. It is not used as a noun, verb, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'extremely', 'What is the part of speech of the word "extremely" in the sentence: "The movie was extremely interesting"?', 'adverb', 'adjective', 'noun', 'verb', '"Extremely" is an adverb modifying the adjective \"interesting.\" It tells to what degree. It is not used as an adjective, noun, or verb.'),
+('Grammar and Structure', 'Part of Speech', 'extremist', 'What is the part of speech of the word "extremist" in the sentence: "The group was led by an extremist"?', 'noun', 'verb', 'adjective', 'adverb', '"Extremist" is a noun referring to a person who holds radical views. It is not used as a verb, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'eye', 'What is the part of speech of the word "eye" in the sentence: "He injured his left eye"?', 'noun', 'verb', 'adjective', 'adverb', '"Eye" is a noun referring to the organ of vision. It is not used here as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'eyeball', 'What is the part of speech of the word "eyeball" in the sentence: "The doctor examined the patient’s eyeball"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyeball" is a noun referring to the spherical structure of the eye. It is not used as a verb, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'eyebrow', 'What is the part of speech of the word "eyebrow" in the sentence: "She raised her eyebrow in surprise"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyebrow" is a noun referring to the strip of hair above the eye. It is not acting as a verb, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'eyeglasses', 'What is the part of speech of the word "eyeglasses" in the sentence: "He forgot his eyeglasses at home"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyeglasses" is a noun referring to a vision aid device worn on the eyes. It is not a verb, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'eyelash', 'What is the part of speech of the word "eyelash" in the sentence: "She brushed mascara on her eyelash"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyelash" is a noun referring to the small hairs on the edge of the eyelid. It is not an action (verb), a descriptor (adjective), or a modifier of a verb (adverb).'),
+('Grammar and Structure', 'Part of Speech', 'eyelid', 'What is the part of speech of the word "eyelid" in the sentence: "His eyelid twitched suddenly"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyelid" is a noun, referring to the movable skin covering the eye. It is not functioning as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'eyesight', 'What is the part of speech of the word "eyesight" in the sentence: "She has excellent eyesight"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyesight" is a noun referring to the ability to see. It is not used here as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'eyewitness', 'What is the part of speech of the word "eyewitness" in the sentence: "The police interviewed the eyewitness"?', 'noun', 'verb', 'adjective', 'adverb', '"Eyewitness" is a noun referring to a person who sees an event occur. It is not functioning as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'fabric', 'What is the part of speech of the word "fabric" in the sentence: "The dress was made from a smooth fabric"?', 'noun', 'verb', 'adjective', 'adverb', '"Fabric" is a noun that refers to a type of material. It is not used as a verb, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fabricate', 'What is the part of speech of the word "fabricate" in the sentence: "They tried to fabricate evidence"?', 'verb', 'noun', 'adjective', 'adverb', '"Fabricate" is a verb meaning to invent or create something, often falsely. It is not used as a noun, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'fabulous', 'What is the part of speech of the word "fabulous" in the sentence: "We had a fabulous vacation"?', 'adjective', 'noun', 'verb', 'adverb', '"Fabulous" is an adjective describing the noun \"vacation\" as being wonderful. It is not a noun, verb, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'face', 'What is the part of speech of the word "face" in the sentence: "He washed his face before bed"?', 'noun', 'verb', 'adjective', 'adverb', '"Face" is a noun in this context, referring to the front part of the head. Though \"face\" can be a verb, it is not used that way in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'facet', 'What is the part of speech of the word "facet" in the sentence: "Honesty is one facet of a good relationship"?', 'noun', 'verb', 'adjective', 'adverb', '"Facet" is a noun referring to one aspect or side of something. It is not a verb, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'facetious', 'What is the part of speech of the word "facetious" in the sentence: "His facetious comments were not appreciated"?', 'adjective', 'noun', 'verb', 'adverb', '"Facetious" is an adjective describing the noun \"comments\" as joking or not meant to be taken seriously. It is not functioning as a noun, verb, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'facile', 'What is the part of speech of the word "facile" in the sentence: "Her argument was too facile to be convincing"?', 'adjective', 'noun', 'verb', 'adverb', '"Facile" is an adjective describing the argument as being too simplistic or superficial. It is not functioning as a noun (a thing), verb (an action), or adverb (modifying a verb).'),
+('Grammar and Structure', 'Part of Speech', 'facilitate', 'What is the part of speech of the word "facilitate" in the sentence: "Technology can facilitate communication"?', 'verb', 'noun', 'adjective', 'adverb', '"Facilitate" is a verb meaning to make something easier or smoother. It does not function as a noun, adjective, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'facilitation', 'What is the part of speech of the word "facilitation" in the sentence: "The success was due to careful facilitation"?', 'noun', 'verb', 'adjective', 'adverb', '"Facilitation" is a noun referring to the act of making a process easier. It is not an action word here (verb), nor a descriptor (adjective or adverb).'),
+('Grammar and Structure', 'Part of Speech', 'facility', 'What is the part of speech of the word "facility" in the sentence: "The training was held at a new facility"?', 'noun', 'verb', 'adjective', 'adverb', '"Facility" is a noun referring to a place or building designed for a specific purpose. It is not a verb (action), adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'fact', 'What is the part of speech of the word "fact" in the sentence: "It is a fact that the Earth orbits the Sun"?', 'noun', 'verb', 'adjective', 'adverb', '"Fact" is a noun, meaning a statement that is true or proven. It is not a verb, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'faction', 'What is the part of speech of the word "faction" in the sentence: "A small faction opposed the decision"?', 'noun', 'verb', 'adjective', 'adverb', '"Faction" is a noun referring to a group within a larger group, often with differing opinions. It is not functioning as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'factor', 'What is the part of speech of the word "factor" in the sentence: "Cost was the main factor in their decision"?', 'noun', 'verb', 'adjective', 'adverb', '"Factor" is a noun referring to a contributing element. It is not a verb (an action), adjective (describing a noun), or adverb (modifying a verb).'),
+('Grammar and Structure', 'Part of Speech', 'faculty', 'What is the part of speech of the word "faculty" in the sentence: "The university’s faculty met to discuss the new policy"?', 'noun', 'verb', 'adjective', 'adverb', '"Faculty" is a noun referring to the academic staff at a school. It is not used as a verb, adjective, or adverb here.'),
+('Grammar and Structure', 'Part of Speech', 'fade', 'What is the part of speech of the word "fade" in the sentence: "The colors will fade over time"?', 'verb', 'noun', 'adjective', 'adverb', '"Fade" is a verb here, meaning to gradually become less visible or strong. It is not a noun (thing), adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'fail', 'What is the part of speech of the word "fail" in the sentence: "If you fail to follow instructions, you may lose points"?', 'verb', 'noun', 'adjective', 'adverb', '"Fail" is a verb meaning to not succeed. It is not a noun (a thing), adjective (describing), or adverb (modifying a verb).');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'failed', 'What is the part of speech of the word "failed" in the sentence: "He failed the exam last week"?', 'verb', 'noun', 'adjective', 'adverb', '"Failed" is the past tense of the verb "fail," indicating an action. It is not a noun (object), adjective (description), or adverb (modifier of a verb).'),
+('Grammar and Structure', 'Part of Speech', 'failing', 'What is the part of speech of the word "failing" in the sentence: "Failing to respond may result in disqualification"?', 'verb', 'noun', 'adjective', 'adverb', '"Failing" is a gerund (verb form used as a noun) or present participle functioning here as a verb phrase. The other parts of speech do not fit the function in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'failure', 'What is the part of speech of the word "failure" in the sentence: "The failure to comply will lead to penalties"?', 'noun', 'verb', 'adjective', 'adverb', '"Failure" is a noun referring to the lack of success. It is not functioning as a verb (action), adjective (description), or adverb (modifier).'),
+('Grammar and Structure', 'Part of Speech', 'fairly', 'What is the part of speech of the word "fairly" in the sentence: "The movie was fairly interesting"?', 'adverb', 'adjective', 'noun', 'verb', '"Fairly" is an adverb modifying the adjective "interesting." It describes the degree. It is not used as a noun, adjective, or verb here.'),
+('Grammar and Structure', 'Part of Speech', 'fairness', 'What is the part of speech of the word "fairness" in the sentence: "The judge was known for his fairness"?', 'noun', 'adjective', 'verb', 'adverb', '"Fairness" is a noun referring to the quality of being just. It is not a verb (action), adjective (description), or adverb (modifier).'),
+('Grammar and Structure', 'Part of Speech', 'faith', 'What is the part of speech of the word "faith" in the sentence: "Her faith helped her through tough times"?', 'noun', 'verb', 'adjective', 'adverb', '"Faith" is a noun that refers to strong belief or trust. It is not an action, description, or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'faithfully', 'What is the part of speech of the word "faithfully" in the sentence: "He served the company faithfully for 30 years"?', 'adverb', 'adjective', 'noun', 'verb', '"Faithfully" is an adverb modifying the verb "served." It describes the manner in which the action was done. The other options do not serve this role.'),
+('Grammar and Structure', 'Part of Speech', 'fake', 'What is the part of speech of the word "fake" in the sentence: "The painting turned out to be a fake"?', 'noun', 'verb', 'adjective', 'adverb', '"Fake" in this context is a noun referring to something that is not genuine. It is not used as a verb (action), adjective (description), or adverb (modifier) here.'),
+('Grammar and Structure', 'Part of Speech', 'fall', 'What is the part of speech of the word "fall" in the sentence: "Leaves fall in autumn"?', 'verb', 'noun', 'adjective', 'adverb', '"Fall" is a verb in this sentence, describing the action that the leaves do. It is not a noun (object), adjective, or adverb in this context.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'falter', 'What is the part of speech of the word "falter" in the sentence: "She began to falter under pressure"?', 'verb', 'noun', 'adjective', 'adverb', '"Falter" is a verb meaning to lose strength or momentum. It’s not a noun (thing), adjective (descriptive word), or adverb (modifies a verb).'),
+('Grammar and Structure', 'Part of Speech', 'fame', 'What is the part of speech of the word "fame" in the sentence: "She rose to fame after her first album"?', 'noun', 'verb', 'adjective', 'adverb', '"Fame" is a noun referring to being known widely. It’s not performing an action, describing something, or modifying a verb.'),
+('Grammar and Structure', 'Part of Speech', 'familiar', 'What is the part of speech of the word "familiar" in the sentence: "That voice sounds familiar"?', 'adjective', 'noun', 'verb', 'adverb', '"Familiar" is an adjective describing the noun "voice." The other options don’t fit the function of describing a noun.'),
+('Grammar and Structure', 'Part of Speech', 'famously', 'What is the part of speech of the word "famously" in the sentence: "He famously refused to give up his seat"?', 'adverb', 'adjective', 'verb', 'noun', '"Famously" is an adverb modifying the verb "refused." It tells how the action was performed. It is not describing a noun or acting as a subject or verb.'),
+('Grammar and Structure', 'Part of Speech', 'fan', 'What is the part of speech of the word "fan" in the sentence: "She is a fan of classical music"?', 'noun', 'verb', 'adjective', 'adverb', '"Fan" is a noun meaning someone who admires something. It is not performing an action or describing anything in this context.'),
+('Grammar and Structure', 'Part of Speech', 'fantasy', 'What is the part of speech of the word "fantasy" in the sentence: "He lived in a world of fantasy"?', 'noun', 'verb', 'adjective', 'adverb', '"Fantasy" is a noun, referring to a product of imagination. It is not acting as a verb, adjective, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'far', 'What is the part of speech of the word "far" in the sentence: "They traveled far from home"?', 'adverb', 'adjective', 'noun', 'verb', '"Far" is an adverb here, describing the extent of travel. It is not naming a thing, describing a noun, or showing an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'fare', 'What is the part of speech of the word "fare" in the sentence: "The bus fare increased again this year"?', 'noun', 'verb', 'adjective', 'adverb', '"Fare" is a noun here, referring to the cost of transportation. It does not perform an action, describe a noun, or modify a verb.'),
+('Grammar and Structure', 'Part of Speech', 'farewell', 'What is the part of speech of the word "farewell" in the sentence: "They said a tearful farewell"?', 'noun', 'verb', 'adjective', 'adverb', '"Farewell" is a noun meaning a goodbye. It’s not an action, a descriptive word, or a modifier of another verb.'),
+('Grammar and Structure', 'Part of Speech', 'farm', 'What is the part of speech of the word "farm" in the sentence: "They own a large farm"?', 'noun', 'verb', 'adjective', 'adverb', '"Farm" is a noun referring to a piece of land used for agriculture. It is not functioning as a verb or descriptive/modifying word here.'),
+('Grammar and Structure', 'Part of Speech', 'farmer', 'What is the part of speech of the word "farmer" in the sentence: "The farmer works from sunrise to sunset"?', 'noun', 'verb', 'adjective', 'adverb', '"Farmer" is a noun meaning a person who farms. It doesn’t perform an action or describe/modify anything in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fast', 'What is the part of speech of the word "fast" in the sentence: "He runs very fast"?', 'adverb', 'adjective', 'noun', 'verb', '"Fast" is an adverb modifying the verb \"runs,\" describing how he runs. It’s not a noun or descriptive word in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fasten', 'What is the part of speech of the word "fasten" in the sentence: "Please fasten your seatbelt"?', 'verb', 'noun', 'adjective', 'adverb', '"Fasten" is a verb here, meaning to secure or attach. It does not function as a noun or describe/modify anything in the sentence.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'fat', 'What is the part of speech of the word "fat" in the sentence: "He avoided foods high in fat"?', 'noun', 'verb', 'adjective', 'adverb', '"Fat" is used as a noun here, referring to a substance in food. It is not an action, descriptive, or modifying word in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fatal', 'What is the part of speech of the word "fatal" in the sentence: "The accident was fatal"?', 'adjective', 'noun', 'verb', 'adverb', '"Fatal" is an adjective describing the noun \"accident\" as deadly. It does not act as a noun, perform an action, or modify a verb.'),
+('Grammar and Structure', 'Part of Speech', 'fatally', 'What is the part of speech of the word "fatally" in the sentence: "He was fatally injured in the crash"?', 'adverb', 'adjective', 'noun', 'verb', '"Fatally" is an adverb modifying the verb \"injured,\" explaining how the injury occurred. It does not describe a noun or act as a noun or verb.'),
+('Grammar and Structure', 'Part of Speech', 'fate', 'What is the part of speech of the word "fate" in the sentence: "She believed in fate"?', 'noun', 'verb', 'adjective', 'adverb', '"Fate" is a noun, referring to a destined outcome or future. It’s not functioning as an action, description, or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'father', 'What is the part of speech of the word "father" in the sentence: "His father is a teacher"?', 'noun', 'verb', 'adjective', 'adverb', '"Father" is a noun, naming a person. It does not perform an action, describe, or modify any element in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fathom', 'What is the part of speech of the word "fathom" in the sentence: "I can’t fathom his reasoning"?', 'verb', 'noun', 'adjective', 'adverb', '"Fathom" is a verb meaning to understand deeply. It is not used here as a noun, descriptive word, or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'fault', 'What is the part of speech of the word "fault" in the sentence: "It was not your fault"?', 'noun', 'verb', 'adjective', 'adverb', '"Fault" is a noun meaning responsibility for a mistake. It does not act as an action, descriptor, or adverbial form.'),
+('Grammar and Structure', 'Part of Speech', 'favor', 'What is the part of speech of the word "favor" in the sentence: "He did me a favor"?', 'noun', 'verb', 'adjective', 'adverb', '"Favor" is a noun referring to an act of kindness. It is not acting as a verb or modifier in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'favorable', 'What is the part of speech of the word "favorable" in the sentence: "The forecast is favorable"?', 'adjective', 'noun', 'verb', 'adverb', '"Favorable" is an adjective describing the noun \"forecast\" as being positive. It is not functioning as a noun or modifier.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'favorably', 'What is the part of speech of the word "favorably" in the sentence: "The report was received favorably by the board"?', 'adverb', 'adjective', 'noun', 'verb', '"Favorably" is an adverb modifying the verb \"received,\" indicating the manner in which the report was received. The other options do not function to describe the action.'),
+('Grammar and Structure', 'Part of Speech', 'favour', 'What is the part of speech of the word "favour" in the sentence: "She did me a favour"?', 'noun', 'verb', 'adjective', 'adverb', '"Favour" is a noun in this context, referring to a kind act. It is not an action, descriptor, or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'favourable', 'What is the part of speech of the word "favourable" in the sentence: "The results were favourable"?', 'adjective', 'noun', 'verb', 'adverb', '"Favourable" is an adjective describing the noun \"results.\" It does not function as a noun, verb, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fax', 'What is the part of speech of the word "fax" in the sentence: "She sent the documents by fax"?', 'noun', 'verb', 'adjective', 'adverb', '"Fax" is used as a noun here, referring to a method of document transmission. It is not acting as a verb or modifier in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fear', 'What is the part of speech of the word "fear" in the sentence: "He has a fear of heights"?', 'noun', 'verb', 'adjective', 'adverb', '"Fear" is a noun here, describing an emotional state. It is not performing an action or modifying anything.'),
+('Grammar and Structure', 'Part of Speech', 'feasibility', 'What is the part of speech of the word "feasibility" in the sentence: "They assessed the feasibility of the plan"?', 'noun', 'adjective', 'verb', 'adverb', '"Feasibility" is a noun referring to how practical or achievable something is. It does not function as a verb or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'feasible', 'What is the part of speech of the word "feasible" in the sentence: "That solution is feasible"?', 'adjective', 'noun', 'verb', 'adverb', '"Feasible" is an adjective describing the noun \"solution\" as possible or workable. It is not used as a noun or modifier in this context.'),
+('Grammar and Structure', 'Part of Speech', 'feat', 'What is the part of speech of the word "feat" in the sentence: "Climbing the mountain was a remarkable feat"?', 'noun', 'verb', 'adjective', 'adverb', '"Feat" is a noun referring to an impressive achievement. The word does not describe, modify, or perform an action in this context.'),
+('Grammar and Structure', 'Part of Speech', 'feather', 'What is the part of speech of the word "feather" in the sentence: "He found a feather on the ground"?', 'noun', 'verb', 'adjective', 'adverb', '"Feather" is a noun here, referring to a physical object. It is not used to describe, act, or modify in this context.'),
+('Grammar and Structure', 'Part of Speech', 'feature', 'What is the part of speech of the word "feature" in the sentence: "This phone has a unique feature"?', 'noun', 'verb', 'adjective', 'adverb', '"Feature" is a noun referring to a distinct or special attribute. It does not serve as a verb or modifier in the sentence.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'feckless', 'What is the part of speech of the word "feckless" in the sentence: "His feckless attitude led to many failures"?', 'adjective', 'noun', 'verb', 'adverb', '"Feckless" is an adjective describing the noun \"attitude.\" It means ineffective or irresponsible, not functioning as a noun, verb, or modifier of a verb.'),
+('Grammar and Structure', 'Part of Speech', 'federal', 'What is the part of speech of the word "federal" in the sentence: "The federal government announced new policies"?', 'adjective', 'noun', 'verb', 'adverb', '"Federal" is an adjective describing the noun \"government.\" It is not acting as a noun or a modifier of an action in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fee', 'What is the part of speech of the word "fee" in the sentence: "The registration fee is due tomorrow"?', 'noun', 'verb', 'adjective', 'adverb', '"Fee" is a noun referring to a charge or payment. It does not act as a verb, descriptor, or adverb in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'feed', 'What is the part of speech of the word "feed" in the sentence: "Please feed the cat before you leave"?', 'verb', 'noun', 'adjective', 'adverb', '"Feed" is a verb here, meaning to provide food. It is not functioning as a noun, adjective, or adverb in this context.'),
+('Grammar and Structure', 'Part of Speech', 'feedback', 'What is the part of speech of the word "feedback" in the sentence: "We received useful feedback from the clients"?', 'noun', 'verb', 'adjective', 'adverb', '"Feedback" is a noun referring to responses or reactions. It does not act as an action or a modifier.'),
+('Grammar and Structure', 'Part of Speech', 'feel', 'What is the part of speech of the word "feel" in the sentence: "I feel tired after the workout"?', 'verb', 'noun', 'adjective', 'adverb', '"Feel" is a verb here, expressing a state or sensation. It is not naming something or describing/modifying anything else.'),
+('Grammar and Structure', 'Part of Speech', 'feeling', 'What is the part of speech of the word "feeling" in the sentence: "She had a strange feeling about the decision"?', 'noun', 'verb', 'adjective', 'adverb', '"Feeling" is a noun that refers to an emotional state. It does not function as a verb or descriptor in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'feign', 'What is the part of speech of the word "feign" in the sentence: "He tried to feign innocence"?', 'verb', 'noun', 'adjective', 'adverb', '"Feign" is a verb that means to pretend. It is not functioning as a noun, adjective, or adverb in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fellow', 'What is the part of speech of the word "fellow" in the sentence: "He is a research fellow at the university"?', 'noun', 'verb', 'adjective', 'adverb', '"Fellow" is a noun referring to a position or person in a scholarly role. It is not functioning as an action or descriptor.'),
+('Grammar and Structure', 'Part of Speech', 'felony', 'What is the part of speech of the word "felony" in the sentence: "He was charged with a felony"?', 'noun', 'verb', 'adjective', 'adverb', '"Felony" is a noun referring to a serious crime. It does not serve as a verb, adjective, or adverb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'female', 'What is the part of speech of the word "female" in the sentence: "The female bird guarded the nest"?', 'adjective', 'noun', 'verb', 'adverb', '"Female" is an adjective modifying the noun \"bird.\" It describes the gender and does not function as a noun or action here.'),
+('Grammar and Structure', 'Part of Speech', 'feminist', 'What is the part of speech of the word "feminist" in the sentence: "She is a well-known feminist"?', 'noun', 'verb', 'adjective', 'adverb', '"Feminist" is a noun referring to a person who supports gender equality. It is not an action or a modifier in this context.'),
+('Grammar and Structure', 'Part of Speech', 'fence', 'What is the part of speech of the word "fence" in the sentence: "He painted the wooden fence"?', 'noun', 'verb', 'adjective', 'adverb', '"Fence" is a noun representing a physical structure. It is not describing, modifying, or performing an action.'),
+('Grammar and Structure', 'Part of Speech', 'ferociously', 'What is the part of speech of the word "ferociously" in the sentence: "The lion roared ferociously"?', 'adverb', 'adjective', 'noun', 'verb', '"Ferociously" is an adverb describing how the lion roared. It does not name or describe a noun and is not an action.'),
+('Grammar and Structure', 'Part of Speech', 'fervent', 'What is the part of speech of the word "fervent" in the sentence: "He expressed a fervent belief in justice"?', 'adjective', 'noun', 'verb', 'adverb', '"Fervent" is an adjective modifying the noun \"belief,\" indicating intensity. It is not a noun, action, or modifier of a verb.'),
+('Grammar and Structure', 'Part of Speech', 'fervently', 'What is the part of speech of the word "fervently" in the sentence: "She fervently prayed for peace"?', 'adverb', 'adjective', 'noun', 'verb', '"Fervently" is an adverb describing how she prayed. It modifies the verb and is not a noun or descriptor.'),
+('Grammar and Structure', 'Part of Speech', 'fetch', 'What is the part of speech of the word "fetch" in the sentence: "Can you fetch the ball for me?"', 'verb', 'noun', 'adjective', 'adverb', '"Fetch" is a verb meaning to go and bring back. It is performing the action in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fever', 'What is the part of speech of the word "fever" in the sentence: "He was suffering from a high fever"?', 'noun', 'verb', 'adjective', 'adverb', '"Fever" is a noun referring to a medical condition. It is not functioning as a verb or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'few', 'What is the part of speech of the word "few" in the sentence: "Few students attended the lecture"?', 'adjective', 'noun', 'verb', 'adverb', '"Few" is an adjective modifying the noun \"students,\" indicating a small number. It is not acting as a noun, verb, or adverb.'),
+('Grammar and Structure', 'Part of Speech', 'fiber', 'What is the part of speech of the word "fiber" in the sentence: "A diet high in fiber is healthy"?', 'noun', 'adjective', 'verb', 'adverb', '"Fiber" is a noun referring to dietary material. It is not used to describe or act upon anything in this context.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'fibre', 'What is the part of speech of the word "fibre" in the sentence: "Whole grains are rich in fibre"?', 'noun', 'adjective', 'verb', 'adverb', '"Fibre" is a noun referring to dietary material. It does not describe, modify, or perform an action.'),
+('Grammar and Structure', 'Part of Speech', 'fiction', 'What is the part of speech of the word "fiction" in the sentence: "He prefers fiction over non-fiction books"?', 'noun', 'verb', 'adjective', 'adverb', '"Fiction" is a noun referring to literature that is imagined rather than based on facts. It does not function as an action or descriptor.'),
+('Grammar and Structure', 'Part of Speech', 'fiduciary', 'What is the part of speech of the word "fiduciary" in the sentence: "He has a fiduciary duty to act in the best interest of his clients"?', 'adjective', 'noun', 'verb', 'adverb', '"Fiduciary" is an adjective modifying the noun \"duty,\" indicating a legal or ethical trust. It does not act as a noun or verb here.'),
+('Grammar and Structure', 'Part of Speech', 'field', 'What is the part of speech of the word "field" in the sentence: "The children played in the field"?', 'noun', 'verb', 'adjective', 'adverb', '"Field" is a noun representing an open area of land. It is not functioning as a verb or modifier in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fierce', 'What is the part of speech of the word "fierce" in the sentence: "The fierce storm caused widespread damage"?', 'adjective', 'noun', 'verb', 'adverb', '"Fierce" is an adjective modifying the noun \"storm,\" indicating intensity. It is not used as a noun or verb.'),
+('Grammar and Structure', 'Part of Speech', 'fiercely', 'What is the part of speech of the word "fiercely" in the sentence: "They competed fiercely for the prize"?', 'adverb', 'adjective', 'noun', 'verb', '"Fiercely" is an adverb modifying the verb \"competed,\" describing the manner of the action. It does not act as a noun or adjective.'),
+('Grammar and Structure', 'Part of Speech', 'fiery', 'What is the part of speech of the word "fiery" in the sentence: "She gave a fiery speech that inspired the crowd"?', 'adjective', 'noun', 'verb', 'adverb', '"Fiery" is an adjective describing the noun \"speech,\" conveying intensity or emotion. It is not acting as a noun or verb.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'fight', 'What is the part of speech of the word "fight" in the sentence: "They got into a fight after the game"?', 'noun', 'verb', 'adjective', 'adverb', '"Fight" is a noun here, referring to a physical altercation. It is not performing an action or modifying anything in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'figure', 'What is the part of speech of the word "figure" in the sentence: "She looked at the figure in the distance"?', 'noun', 'verb', 'adjective', 'adverb', '"Figure" is a noun representing a visible shape or form. It does not act as a verb or modifier in this context.'),
+('Grammar and Structure', 'Part of Speech', 'file', 'What is the part of speech of the word "file" in the sentence: "He saved the document as a new file"?', 'noun', 'verb', 'adjective', 'adverb', '"File" is a noun referring to a document or digital item. It is not describing or performing an action in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fill', 'What is the part of speech of the word "fill" in the sentence: "Can you fill the bottle with water?"', 'verb', 'noun', 'adjective', 'adverb', '"Fill" is a verb that means to make full. It is performing the action in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'film', 'What is the part of speech of the word "film" in the sentence: "We watched a great film last night"?', 'noun', 'verb', 'adjective', 'adverb', '"Film" is a noun meaning a movie or motion picture. It is not functioning as an action or modifier in this context.'),
+('Grammar and Structure', 'Part of Speech', 'filmmaker', 'What is the part of speech of the word "filmmaker" in the sentence: "The filmmaker won several awards for her work"?', 'noun', 'verb', 'adjective', 'adverb', '"Filmmaker" is a noun referring to a person who makes films. It is not functioning as a verb or a modifier.'),
+('Grammar and Structure', 'Part of Speech', 'filter', 'What is the part of speech of the word "filter" in the sentence: "The coffee filter needs replacing"?', 'noun', 'verb', 'adjective', 'adverb', '"Filter" is a noun referring to a device for removing impurities. It is not used as a verb or modifier in this case.'),
+('Grammar and Structure', 'Part of Speech', 'final', 'What is the part of speech of the word "final" in the sentence: "The final score was unexpected"?', 'adjective', 'noun', 'verb', 'adverb', '"Final" is an adjective describing the noun \"score,\" indicating that it is the last or concluding result.'),
+('Grammar and Structure', 'Part of Speech', 'finality', 'What is the part of speech of the word "finality" in the sentence: "There was a sense of finality in his voice"?', 'noun', 'adjective', 'verb', 'adverb', '"Finality" is a noun referring to the quality of being final or conclusive. It does not serve as a modifier or action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'finally', 'What is the part of speech of the word "finally" in the sentence: "He finally arrived after a long delay"?', 'adverb', 'adjective', 'noun', 'verb', '"Finally" is an adverb modifying the verb \"arrived,\" showing when the action took place. It is not describing a noun or acting as a subject or verb.'),
+('Grammar and Structure', 'Part of Speech', 'finance', 'What is the part of speech of the word "finance" in the sentence: "She studied finance at university"?', 'noun', 'verb', 'adjective', 'adverb', '"Finance" is a noun here referring to the study or management of money. It is not used as an action or modifier in this sentence.'),
+('Grammar and Structure', 'Part of Speech', 'financially', 'What is the part of speech of the word "financially" in the sentence: "The company is financially stable"?', 'adverb', 'adjective', 'noun', 'verb', '"Financially" is an adverb modifying the adjective \"stable,\" indicating the manner in which the company is stable.'),
+('Grammar and Structure', 'Part of Speech', 'find', 'What is the part of speech of the word "find" in the sentence: "Did you find your keys?"', 'verb', 'noun', 'adjective', 'adverb', '"Find" is a verb in this sentence, indicating the action of locating something.'),
+('Grammar and Structure', 'Part of Speech', 'finding', 'What is the part of speech of the word "finding" in the sentence: "The scientist published her findings in a journal"?', 'noun', 'verb', 'adjective', 'adverb', '"Finding" is a noun in this context, referring to a result or conclusion discovered through research.'),
+('Grammar and Structure', 'Part of Speech', 'fine', 'What is the part of speech of the word "fine" in the sentence: "He paid a fine for the parking violation"?', 'noun', 'verb', 'adjective', 'adverb', '"Fine" is a noun here, referring to a monetary penalty. It is not describing or modifying any other word.'),
+('Grammar and Structure', 'Part of Speech', 'finger', 'What is the part of speech of the word "finger" in the sentence: "She cut her finger while chopping vegetables"?', 'noun', 'verb', 'adjective', 'adverb', '"Finger" is a noun referring to a part of the body. It is not used as a verb or adjective here.'),
+('Grammar and Structure', 'Part of Speech', 'fingernail', 'What is the part of speech of the word "fingernail" in the sentence: "He trimmed his fingernail carefully"?', 'noun', 'verb', 'adjective', 'adverb', '"Fingernail" is a noun referring to the hard covering on the tip of the finger. It is not an action or modifier.'),
+('Grammar and Structure', 'Part of Speech', 'fingerprint', 'What is the part of speech of the word "fingerprint" in the sentence: "The police found a fingerprint on the glass"?', 'noun', 'verb', 'adjective', 'adverb', '"Fingerprint" is a noun referring to the unique mark left by a finger. It is not acting as a verb or describing anything.'),
+('Grammar and Structure', 'Part of Speech', 'fingertip', 'What is the part of speech of the word "fingertip" in the sentence: "The touchscreen responds to the slightest fingertip pressure"?', 'noun', 'adjective', 'verb', 'adverb', '"Fingertip" is a noun, indicating the end part of the finger. It does not describe or act upon any other element.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Part of Speech', 'finish', 'What is the part of speech of the word "finish" in the sentence: "Please finish your homework before dinner"?', 'verb', 'noun', 'adjective', 'adverb', '"Finish" is a verb indicating the action of completing something. It is not a person, place, or descriptor in this context.'),
+('Grammar and Structure', 'Part of Speech', 'finished', 'What is the part of speech of the word "finished" in the sentence: "The painting looked finished after the final touch"?', 'adjective', 'noun', 'verb', 'adverb', '"Finished" is used as an adjective here, describing the state of the painting. It is not being used to perform an action or as a noun.'),
+('Grammar and Structure', 'Part of Speech', 'finitely', 'What is the part of speech of the word "finitely" in the sentence: "The resource is finitely available"?', 'adverb', 'adjective', 'noun', 'verb', '"Finitely" is an adverb modifying the adjective \"available,\" suggesting a limited amount. It does not act as a noun or verb.'),
+('Grammar and Structure', 'Part of Speech', 'fire', 'What is the part of speech of the word "fire" in the sentence: "They started a fire in the fireplace"?', 'noun', 'verb', 'adjective', 'adverb', '"Fire" is a noun in this context, referring to a combustion event. It does not describe or perform an action.'),
+('Grammar and Structure', 'Part of Speech', 'firearm', 'What is the part of speech of the word "firearm" in the sentence: "He was arrested for carrying a concealed firearm"?', 'noun', 'verb', 'adjective', 'adverb', '"Firearm" is a noun referring to a weapon like a gun. It is not an action or descriptor in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'fireboat', 'What is the part of speech of the word "fireboat" in the sentence: "The fireboat responded quickly to the waterfront blaze"?', 'noun', 'verb', 'adjective', 'adverb', '"Fireboat" is a noun meaning a boat equipped to fight fires. It does not perform or modify any action in the sentence.'),
+('Grammar and Structure', 'Part of Speech', 'firebug', 'What is the part of speech of the word "firebug" in the sentence: "The authorities caught the firebug responsible for the arson"?', 'noun', 'verb', 'adjective', 'adverb', '"Firebug" is a noun referring to a person who sets fires deliberately. It is not used to describe or act in this context.'),
+('Grammar and Structure', 'Part of Speech', 'firefighter', 'What is the part of speech of the word "firefighter" in the sentence: "The firefighter rescued the child from the burning building"?', 'noun', 'verb', 'adjective', 'adverb', '"Firefighter" is a noun referring to a person whose job is to extinguish fires. It is not functioning as a verb or modifier here.'),
+('Grammar and Structure', 'Part of Speech', 'firefly', 'What is the part of speech of the word "firefly" in the sentence: "The firefly glowed gently in the night"?', 'noun', 'verb', 'adjective', 'adverb', '"Firefly" is a noun referring to an insect that emits light. It is not acting as a verb or modifier in this case.'),
+('Grammar and Structure', 'Part of Speech', 'fireman', 'What is the part of speech of the word "fireman" in the sentence: "The fireman climbed the ladder swiftly"?', 'noun', 'adjective', 'verb', 'adverb', '"Fireman" is a noun referring to a person who fights fires. It is not describing or performing an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fireplace','What is the part of speech of "fireplace" in the sentence: "They sat by the fireplace and talked all night"?','noun','verb','adjective','adverb','"Fireplace" is a noun referring to a structure for containing a fire. It is not an action, a description, or a modifier of a verb.'),
+('Grammar and Structure','Part of Speech','fireproofed','What is the part of speech of "fireproofed" in the sentence: "The building was fireproofed to meet safety codes"?','verb','noun','adjective','conjunction','"Fireproofed" is a verb in this context, meaning the act of making something resistant to fire. The other options do not represent an action in this sentence.'),
+('Grammar and Structure','Part of Speech','firewall','What is the part of speech of "firewall" in the sentence: "The firewall protected the network from threats"?','noun','verb','adjective','interjection','"Firewall" is a noun referring to a security system. It is not an action, a descriptor, or an exclamatory word.'),
+('Grammar and Structure','Part of Speech','firewood','What is the part of speech of "firewood" in the sentence: "They gathered firewood for the night"?','noun','verb','adjective','adverb','"Firewood" is a noun meaning wood used for burning. The other options do not refer to things and don’t fit the context.'),
+('Grammar and Structure','Part of Speech','firework','What is the part of speech of "firework" in the sentence: "A firework exploded in the sky"?','noun','verb','adjective','adverb','"Firework" is a noun referring to an explosive display item. It is not a verb, description, or modifier.'),
+('Grammar and Structure','Part of Speech','fireworks','What is the part of speech of "fireworks" in the sentence: "The fireworks lit up the night sky"?','noun','verb','adjective','preposition','"Fireworks" is a noun describing objects that create visual effects. It is not an action, a quality, or a relational word.'),
+('Grammar and Structure','Part of Speech','firm','What is the part of speech of "firm" in the sentence: "He gave a firm handshake"?','adjective','noun','verb','adverb','"Firm" is an adjective describing the noun "handshake." The other options do not function as descriptions in this sentence.'),
+('Grammar and Structure','Part of Speech','firmly','What is the part of speech of "firmly" in the sentence: "She held the baby firmly"?','adverb','verb','noun','adjective','"Firmly" is an adverb describing how she held the baby. The other options do not describe manner of action.'),
+('Grammar and Structure','Part of Speech','first','What is the part of speech of "first" in the sentence: "He finished first in the race"?','adverb','verb','noun','adjective','"First" is an adverb indicating the order of finishing. It is not an action, object, or description.'),
+('Grammar and Structure','Part of Speech','firsthand','What is the part of speech of "firsthand" in the sentence: "She gave a firsthand account of the event"?','adjective','verb','noun','adverb','"Firsthand" is an adjective describing the noun "account" as coming from direct experience. The other options don’t fit syntactically or contextually.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fiscal','What is the part of speech of "fiscal" in the sentence: "The company made several fiscal decisions this year"?','adjective','noun','verb','adverb','"Fiscal" is an adjective describing the type of decisions. The other options do not function as modifiers of a noun in this context.'),
+('Grammar and Structure','Part of Speech','fish','What is the part of speech of "fish" in the sentence: "They caught a large fish in the lake"?','noun','verb','adjective','adverb','"Fish" is a noun referring to an aquatic animal. The other options do not represent a thing or object in this context.'),
+('Grammar and Structure','Part of Speech','fishbowl','What is the part of speech of "fishbowl" in the sentence: "The goldfish swam around the fishbowl"?','noun','verb','adjective','interjection','"Fishbowl" is a noun referring to the container. It is not an action, a description, or an exclamation.'),
+('Grammar and Structure','Part of Speech','fishcake','What is the part of speech of "fishcake" in the sentence: "He ordered a fishcake for lunch"?','noun','verb','adjective','preposition','"Fishcake" is a noun referring to a type of food. The other choices do not indicate a food item.'),
+('Grammar and Structure','Part of Speech','fisherman','What is the part of speech of "fisherman" in the sentence: "The fisherman cast his line into the river"?','noun','verb','adjective','conjunction','"Fisherman" is a noun referring to a person. The other options do not represent a person or subject.'),
+('Grammar and Structure','Part of Speech','fisherwoman','What is the part of speech of "fisherwoman" in the sentence: "The fisherwoman hauled in a large catch"?','noun','verb','adjective','interjection','"Fisherwoman" is a noun indicating a person. The other choices are not suitable for identifying a subject.'),
+('Grammar and Structure','Part of Speech','fisheye','What is the part of speech of "fisheye" in the sentence: "The photographer used a fisheye lens"?','adjective','noun','verb','adverb','"Fisheye" is an adjective describing the lens. The other options do not describe a noun in this context.'),
+('Grammar and Structure','Part of Speech','fishhook','What is the part of speech of "fishhook" in the sentence: "He tied a fishhook to the end of the line"?','noun','verb','adjective','conjunction','"Fishhook" is a noun referring to a tool used in fishing. The other choices do not fit the function or meaning.'),
+('Grammar and Structure','Part of Speech','fishing','What is the part of speech of "fishing" in the sentence: "They went fishing early in the morning"?','verb','noun','adjective','preposition','"Fishing" is a verb (gerund) referring to the activity. The other choices do not represent an action in this context.'),
+('Grammar and Structure','Part of Speech','fishnet','What is the part of speech of "fishnet" in the sentence: "The diver got tangled in the fishnet"?','noun','verb','adjective','interjection','"Fishnet" is a noun meaning a type of net. The other choices are not things and do not describe objects.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fit','What is the part of speech of "fit" in the sentence: "These shoes fit me well"?','verb','noun','adjective','adverb','"Fit" is a verb describing how the shoes conform to the person’s feet. The other choices do not express action in this context.'),
+('Grammar and Structure','Part of Speech','fix','What is the part of speech of "fix" in the sentence: "He tried to fix the broken radio"?','verb','noun','adjective','preposition','"Fix" is a verb meaning to repair something. The other options do not represent an action in this context.'),
+('Grammar and Structure','Part of Speech','fixture','What is the part of speech of "fixture" in the sentence: "The light fixture was replaced during renovations"?','noun','verb','adjective','interjection','"Fixture" is a noun referring to a fixed object. The other options do not describe a thing or object here.'),
+('Grammar and Structure','Part of Speech','flagpole','What is the part of speech of "flagpole" in the sentence: "The flagpole stood tall in front of the school"?','noun','verb','adjective','adverb','"Flagpole" is a noun referring to a tall structure for a flag. The other choices do not fit as a subject in this sentence.'),
+('Grammar and Structure','Part of Speech','flame','What is the part of speech of "flame" in the sentence: "The candle’s flame flickered in the wind"?','noun','verb','adjective','preposition','"Flame" is a noun referring to the visible fire. The other options do not represent an object.'),
+('Grammar and Structure','Part of Speech','flap','What is the part of speech of "flap" in the sentence: "The bird began to flap its wings"?','verb','noun','adjective','conjunction','"Flap" is a verb showing motion. The other options do not represent an action in this sentence.'),
+('Grammar and Structure','Part of Speech','flash','What is the part of speech of "flash" in the sentence: "There was a bright flash of lightning"?','noun','verb','adjective','interjection','"Flash" is a noun referring to a sudden burst of light. The other choices don’t refer to a thing in this sentence.'),
+('Grammar and Structure','Part of Speech','flashlight','What is the part of speech of "flashlight" in the sentence: "He used a flashlight to find the key"?','noun','verb','adjective','adverb','"Flashlight" is a noun referring to a portable light source. The other options do not indicate an object or tool.'),
+('Grammar and Structure','Part of Speech','flatfish','What is the part of speech of "flatfish" in the sentence: "The chef prepared a flatfish for dinner"?','noun','verb','adjective','preposition','"Flatfish" is a noun referring to a type of fish. The other options do not represent a thing in this context.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','flavour','What is the part of speech of "flavour" in the sentence: "This soup has a rich flavour"?','noun','verb','adjective','adverb','"Flavour" is a noun referring to the taste of the soup. The other options do not refer to a thing.'),
+('Grammar and Structure','Part of Speech','flaw','What is the part of speech of "flaw" in the sentence: "There is a flaw in your argument"?','noun','verb','adjective','conjunction','"Flaw" is a noun meaning a defect or weakness. The other choices do not represent a thing or concept.'),
+('Grammar and Structure','Part of Speech','flawed','What is the part of speech of "flawed" in the sentence: "His plan was flawed from the start"?','adjective','verb','noun','adverb','"Flawed" is an adjective describing the noun "plan." The other options are not used to describe nouns in this way.'),
+('Grammar and Structure','Part of Speech','flee','What is the part of speech of "flee" in the sentence: "They had to flee the city during the storm"?','verb','noun','adjective','adverb','"Flee" is a verb meaning to run away. The other options do not indicate action in this context.'),
+('Grammar and Structure','Part of Speech','fleet','What is the part of speech of "fleet" in the sentence: "The navy deployed its entire fleet"?','noun','verb','adjective','interjection','"Fleet" is a noun referring to a group of ships. The other options do not name an object or group.'),
+('Grammar and Structure','Part of Speech','flesh','What is the part of speech of "flesh" in the sentence: "The wound exposed some of the flesh"?','noun','verb','adjective','preposition','"Flesh" is a noun referring to soft tissue. The other choices do not represent a thing in this sentence.'),
+('Grammar and Structure','Part of Speech','flexibility','What is the part of speech of "flexibility" in the sentence: "Flexibility is important in this job"?','noun','verb','adjective','adverb','"Flexibility" is a noun representing the concept of adaptability. The other options do not fit as a subject.'),
+('Grammar and Structure','Part of Speech','flexible','What is the part of speech of "flexible" in the sentence: "He has a flexible schedule"?','adjective','noun','verb','adverb','"Flexible" is an adjective describing the noun "schedule." The other options do not describe a noun.'),
+('Grammar and Structure','Part of Speech','flight','What is the part of speech of "flight" in the sentence: "Her flight was delayed due to weather"?','noun','verb','adjective','interjection','"Flight" is a noun referring to air travel. The other choices do not represent an object or subject.'),
+('Grammar and Structure','Part of Speech','float','What is the part of speech of "float" in the sentence: "Leaves float on the surface of the pond"?','verb','noun','adjective','adverb','"Float" is a verb describing what the leaves do. The other options do not show action in this context.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','flood','What is the part of speech of "flood" in the sentence: "The heavy rain caused the river to flood"?','verb','noun','adjective','conjunction','"Flood" is a verb here, describing the action of overflowing. The other options do not show action in this context.'),
+('Grammar and Structure','Part of Speech','floodlight','What is the part of speech of "floodlight" in the sentence: "The stadium was lit by a powerful floodlight"?','noun','verb','adjective','interjection','"Floodlight" is a noun referring to a strong light. The other options do not represent an object in the sentence.'),
+('Grammar and Structure','Part of Speech','floor','What is the part of speech of "floor" in the sentence: "The floor was made of polished wood"?','noun','verb','adjective','preposition','"Floor" is a noun referring to the surface inside a room. The other options are not used to name something.'),
+('Grammar and Structure','Part of Speech','floorboard','What is the part of speech of "floorboard" in the sentence: "The old floorboard creaked loudly"?','noun','verb','adjective','adverb','"Floorboard" is a noun referring to a part of the floor. The other choices do not fit as a subject or object.'),
+('Grammar and Structure','Part of Speech','floss','What is the part of speech of "floss" in the sentence: "You should floss your teeth every day"?','verb','noun','adjective','interjection','"Floss" is a verb here, describing the act of cleaning between teeth. The other options do not describe action.'),
+('Grammar and Structure','Part of Speech','flounder','What is the part of speech of "flounder" in the sentence: "He began to flounder in the deep water"?','verb','noun','adjective','conjunction','"Flounder" is a verb describing a struggle to move. The other options do not express action in this context.'),
+('Grammar and Structure','Part of Speech','flourish','What is the part of speech of "flourish" in the sentence: "Small businesses flourish in this area"?','verb','noun','adjective','preposition','"Flourish" is a verb meaning to grow or thrive. The other choices are not actions and don’t match the context.'),
+('Grammar and Structure','Part of Speech','flout','What is the part of speech of "flout" in the sentence: "They continue to flout the safety rules"?','verb','noun','adjective','interjection','"Flout" is a verb meaning to openly disregard. The other options do not express the act of disobeying.'),
+('Grammar and Structure','Part of Speech','flow','What is the part of speech of "flow" in the sentence: "The river will flow through the valley"?','verb','noun','adjective','adverb','"Flow" is a verb showing movement. The other choices do not describe an action.'),
+('Grammar and Structure','Part of Speech','flower','What is the part of speech of "flower" in the sentence: "She picked a flower from the garden"?','noun','verb','adjective','preposition','"Flower" is a noun meaning a plant bloom. The other options do not represent an object in the sentence.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','flowerbed','What is the part of speech of "flowerbed" in the sentence: "She planted tulips in the flowerbed"?','noun','verb','adjective','adverb','"Flowerbed" is a noun referring to a garden area for flowers. The other options do not represent a place or object.'),
+('Grammar and Structure','Part of Speech','flowerpot','What is the part of speech of "flowerpot" in the sentence: "The flowerpot cracked during the storm"?','noun','verb','adjective','preposition','"Flowerpot" is a noun referring to a container for plants. The other choices do not fit the object in this context.'),
+('Grammar and Structure','Part of Speech','fluctuate','What is the part of speech of "fluctuate" in the sentence: "Temperatures fluctuate throughout the year"?','verb','noun','adjective','interjection','"Fluctuate" is a verb meaning to vary or change. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','fluently','What is the part of speech of "fluently" in the sentence: "She speaks French fluently"?','adverb','verb','noun','adjective','"Fluently" is an adverb describing how she speaks. The other choices do not modify the verb correctly.'),
+('Grammar and Structure','Part of Speech','fluid','What is the part of speech of "fluid" in the sentence: "Pour the fluid into the container slowly"?','noun','verb','adjective','adverb','"Fluid" is a noun referring to a liquid. The other options are not objects and do not fit the structure.'),
+('Grammar and Structure','Part of Speech','flux','What is the part of speech of "flux" in the sentence: "The economy is in a state of constant flux"?','noun','verb','adjective','preposition','"Flux" is a noun meaning continuous change. The other options do not represent a concept or state.'),
+('Grammar and Structure','Part of Speech','flyby','What is the part of speech of "flyby" in the sentence: "The satellite completed its flyby of the planet"?','noun','verb','adjective','interjection','"Flyby" is a noun referring to a close approach. The other choices do not function as subjects or objects.'),
+('Grammar and Structure','Part of Speech','flyweight','What is the part of speech of "flyweight" in the sentence: "He competed in the flyweight category"?','noun','verb','adjective','adverb','"Flyweight" is a noun referring to a weight class. The other options do not describe categories or objects.'),
+('Grammar and Structure','Part of Speech','flywheel','What is the part of speech of "flywheel" in the sentence: "The engine uses a heavy flywheel to regulate speed"?','noun','verb','adjective','preposition','"Flywheel" is a noun meaning a mechanical component. The other options do not represent a thing.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','focus','What is the part of speech of "focus" in the sentence: "Try to focus on your breathing"?','verb','noun','adjective','preposition','"Focus" is a verb meaning to concentrate. The other choices do not represent an action in this context.'),
+('Grammar and Structure','Part of Speech','foghorn','What is the part of speech of "foghorn" in the sentence: "The foghorn sounded through the misty harbor"?','noun','verb','adjective','conjunction','"Foghorn" is a noun referring to a loud warning device. The other options do not identify an object.'),
+('Grammar and Structure','Part of Speech','fold','What is the part of speech of "fold" in the sentence: "Please fold the clothes neatly"?','verb','noun','adjective','interjection','"Fold" is a verb indicating an action. The other choices do not fit the usage as a command.'),
+('Grammar and Structure','Part of Speech','folding','What is the part of speech of "folding" in the sentence: "He sat on a folding chair"?','adjective','noun','verb','adverb','"Folding" is an adjective describing the type of chair. The other options do not modify a noun properly here.'),
+('Grammar and Structure','Part of Speech','folklore','What is the part of speech of "folklore" in the sentence: "The region is rich in folklore and legends"?','noun','verb','adjective','preposition','"Folklore" is a noun referring to traditional stories. The other options do not identify a concept or subject.'),
+('Grammar and Structure','Part of Speech','follow','What is the part of speech of "follow" in the sentence: "Please follow the instructions carefully"?','verb','noun','adjective','conjunction','"Follow" is a verb meaning to obey or go after. The other options do not express an action.'),
+('Grammar and Structure','Part of Speech','following','What is the part of speech of "following" in the sentence: "Answer the following questions"?','adjective','noun','verb','adverb','"Following" is an adjective describing the noun "questions." The other options do not modify a noun.'),
+('Grammar and Structure','Part of Speech','fond','What is the part of speech of "fond" in the sentence: "He is very fond of his pets"?','adjective','noun','verb','adverb','"Fond" is an adjective expressing affection. The other options do not describe a state of feeling.'),
+('Grammar and Structure','Part of Speech','fondly','What is the part of speech of "fondly" in the sentence: "She spoke fondly of her childhood"?','adverb','verb','noun','adjective','"Fondly" is an adverb modifying how she spoke. The other choices do not describe the manner of speaking.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','food','What is the part of speech of "food" in the sentence: "We bought a lot of food for the trip"?','noun','verb','adjective','adverb','"Food" is a noun referring to what is eaten. The other options do not represent a thing in this context.'),
+('Grammar and Structure','Part of Speech','fool','What is the part of speech of "fool" in the sentence: "Don’t be such a fool in serious matters"?','noun','verb','adjective','preposition','"Fool" is a noun referring to a person acting unwisely. The other choices do not name a person.'),
+('Grammar and Structure','Part of Speech','foolishly','What is the part of speech of "foolishly" in the sentence: "He foolishly ignored the warning signs"?','adverb','adjective','verb','noun','"Foolishly" is an adverb describing how he ignored. The other choices don’t properly modify a verb.'),
+('Grammar and Structure','Part of Speech','foolproof','What is the part of speech of "foolproof" in the sentence: "They designed a foolproof system"?','adjective','noun','verb','adverb','"Foolproof" is an adjective describing "system" as resistant to failure. The other options do not describe nouns.'),
+('Grammar and Structure','Part of Speech','foot','What is the part of speech of "foot" in the sentence: "He injured his foot during practice"?','noun','verb','adjective','conjunction','"Foot" is a noun referring to a body part. The other options do not name a physical object.'),
+('Grammar and Structure','Part of Speech','footage','What is the part of speech of "footage" in the sentence: "The security footage was reviewed carefully"?','noun','verb','adjective','interjection','"Footage" is a noun referring to recorded video. The other options do not indicate a thing or material.'),
+('Grammar and Structure','Part of Speech','football','What is the part of speech of "football" in the sentence: "He plays football every weekend"?','noun','verb','adjective','preposition','"Football" is a noun referring to a sport. The other choices do not represent an activity or object.'),
+('Grammar and Structure','Part of Speech','foothills','What is the part of speech of "foothills" in the sentence: "They live near the foothills of the mountain"?','noun','verb','adjective','adverb','"Foothills" is a noun describing low hills at the base of a mountain. The other options do not name a location.'),
+('Grammar and Structure','Part of Speech','footlights','What is the part of speech of "footlights" in the sentence: "The actor stood in the footlights during the scene"?','noun','verb','adjective','preposition','"Footlights" is a noun referring to stage lighting. The other choices do not fit as objects.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','footman','What is the part of speech of "footman" in the sentence: "The footman opened the carriage door"?','noun','verb','adjective','adverb','"Footman" is a noun referring to a male servant. The other options do not name a person or object.'),
+('Grammar and Structure','Part of Speech','footnote','What is the part of speech of "footnote" in the sentence: "She added a footnote to explain the reference"?','noun','verb','adjective','preposition','"Footnote" is a noun referring to additional text at the bottom of a page. The other choices do not fit the object in this sentence.'),
+('Grammar and Structure','Part of Speech','footprint','What is the part of speech of "footprint" in the sentence: "The muddy footprint stained the carpet"?','noun','verb','adjective','conjunction','"Footprint" is a noun referring to a mark left by a foot. The other options do not name an object.'),
+('Grammar and Structure','Part of Speech','footrest','What is the part of speech of "footrest" in the sentence: "She propped her feet on the footrest"?','noun','verb','adjective','interjection','"Footrest" is a noun referring to a support for the feet. The other options do not identify a physical item.'),
+('Grammar and Structure','Part of Speech','footstep','What is the part of speech of "footstep" in the sentence: "He heard a loud footstep behind him"?','noun','verb','adjective','adverb','"Footstep" is a noun referring to the sound of a step. The other choices are not used as names in this context.'),
+('Grammar and Structure','Part of Speech','footstool','What is the part of speech of "footstool" in the sentence: "She rested her legs on a footstool"?','noun','verb','adjective','preposition','"Footstool" is a noun describing a piece of furniture. The other options do not refer to an object.'),
+('Grammar and Structure','Part of Speech','footwear','What is the part of speech of "footwear" in the sentence: "Proper footwear is required on the hiking trail"?','noun','verb','adjective','adverb','"Footwear" is a noun meaning shoes or boots. The other options do not represent an item.'),
+('Grammar and Structure','Part of Speech','for','What is the part of speech of "for" in the sentence: "This gift is for you"?','preposition','verb','noun','adjective','"For" is a preposition showing relationship or direction. The other options do not show connections between words.'),
+('Grammar and Structure','Part of Speech','forbearance','What is the part of speech of "forbearance" in the sentence: "She showed great forbearance under pressure"?','noun','verb','adjective','interjection','"Forbearance" is a noun referring to patience or restraint. The other options do not express a concept or state.'),
+('Grammar and Structure','Part of Speech','forbid','What is the part of speech of "forbid" in the sentence: "They forbid smoking in the building"?','verb','noun','adjective','conjunction','"Forbid" is a verb meaning to prohibit. The other options do not indicate action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','force','What is the part of speech of "force" in the sentence: "They used force to break down the door"?','noun','verb','adjective','adverb','"Force" is a noun referring to physical power. The other choices do not represent a thing in this context.'),
+('Grammar and Structure','Part of Speech','forecast','What is the part of speech of "forecast" in the sentence: "The forecast predicts rain tomorrow"?','noun','verb','adjective','interjection','"Forecast" is a noun referring to a weather prediction. The other options do not represent an object or report.'),
+('Grammar and Structure','Part of Speech','forecasting','What is the part of speech of "forecasting" in the sentence: "Accurate forecasting is vital in business"?','noun','verb','adjective','preposition','"Forecasting" is a noun (gerund) referring to the process of predicting. The other options do not serve as a subject in this context.'),
+('Grammar and Structure','Part of Speech','foreclose','What is the part of speech of "foreclose" in the sentence: "The bank moved to foreclose on the property"?','verb','noun','adjective','adverb','"Foreclose" is a verb meaning to take legal possession. The other options do not indicate an action.'),
+('Grammar and Structure','Part of Speech','foreigner','What is the part of speech of "foreigner" in the sentence: "The foreigner asked for directions"?','noun','verb','adjective','conjunction','"Foreigner" is a noun referring to a person from another country. The other options do not represent a person.'),
+('Grammar and Structure','Part of Speech','foreman','What is the part of speech of "foreman" in the sentence: "The foreman assigned tasks to the workers"?','noun','verb','adjective','interjection','"Foreman" is a noun referring to a supervisor. The other choices do not name a role or position.'),
+('Grammar and Structure','Part of Speech','foremost','What is the part of speech of "foremost" in the sentence: "She is one of the foremost experts in the field"?','adjective','noun','verb','adverb','"Foremost" is an adjective modifying "experts." The other options do not describe nouns in this sentence.'),
+('Grammar and Structure','Part of Speech','foreseeable','What is the part of speech of "foreseeable" in the sentence: "There won’t be any changes in the foreseeable future"?','adjective','verb','noun','adverb','"Foreseeable" is an adjective modifying "future." The other choices do not function as descriptions.'),
+('Grammar and Structure','Part of Speech','foreshadow','What is the part of speech of "foreshadow" in the sentence: "The early scene will foreshadow the ending"?','verb','noun','adjective','preposition','"Foreshadow" is a verb meaning to hint at a future event. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','foresight','What is the part of speech of "foresight" in the sentence: "She had the foresight to save money for emergencies"?','noun','verb','adjective','adverb','"Foresight" is a noun meaning the ability to anticipate. The other choices do not represent a concept.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','foretell','What is the part of speech of "foretell" in the sentence: "Some claim they can foretell the future"?','verb','noun','adjective','adverb','"Foretell" is a verb meaning to predict. The other options do not express an action in this context.'),
+('Grammar and Structure','Part of Speech','forever','What is the part of speech of "forever" in the sentence: "They promised to be friends forever"?','adverb','noun','verb','adjective','"Forever" is an adverb describing the duration of friendship. The other choices do not modify the verb appropriately.'),
+('Grammar and Structure','Part of Speech','forge','What is the part of speech of "forge" in the sentence: "They plan to forge a strong partnership"?','verb','noun','adjective','conjunction','"Forge" is a verb meaning to build or create. The other options do not indicate an action.'),
+('Grammar and Structure','Part of Speech','forget','What is the part of speech of "forget" in the sentence: "Don’t forget to lock the door"?','verb','noun','adjective','preposition','"Forget" is a verb meaning to fail to remember. The other options do not express an action.'),
+('Grammar and Structure','Part of Speech','forgive','What is the part of speech of "forgive" in the sentence: "She decided to forgive him"?','verb','noun','adjective','adverb','"Forgive" is a verb meaning to stop feeling anger. The other options do not represent an action in this sentence.'),
+('Grammar and Structure','Part of Speech','form','What is the part of speech of "form" in the sentence: "Please fill out the form and return it"?','noun','verb','adjective','interjection','"Form" is a noun referring to a document. The other choices do not function as an object in this context.'),
+('Grammar and Structure','Part of Speech','formal','What is the part of speech of "formal" in the sentence: "He wore formal clothes to the event"?','adjective','noun','verb','adverb','"Formal" is an adjective describing the type of clothes. The other options do not modify the noun.'),
+('Grammar and Structure','Part of Speech','formally','What is the part of speech of "formally" in the sentence: "He was formally introduced to the committee"?','adverb','verb','noun','adjective','"Formally" is an adverb modifying "introduced." The other options do not indicate how the action was done.'),
+('Grammar and Structure','Part of Speech','format','What is the part of speech of "format" in the sentence: "The document was saved in a different format"?','noun','verb','adjective','preposition','"Format" is a noun referring to the structure of a file. The other choices do not name a thing.'),
+('Grammar and Structure','Part of Speech','formation','What is the part of speech of "formation" in the sentence: "The soldiers marched in perfect formation"?','noun','verb','adjective','interjection','"Formation" is a noun referring to an arrangement or pattern. The other options do not represent an object or idea.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','former','What is the part of speech of "former" in the sentence: "The former president gave a speech"?','adjective','noun','verb','adverb','"Former" is an adjective describing the noun "president" as someone from the past. The other options do not modify a noun in this context.'),
+('Grammar and Structure','Part of Speech','formerly','What is the part of speech of "formerly" in the sentence: "He was formerly a member of the board"?','adverb','adjective','noun','verb','"Formerly" is an adverb indicating a past state. The other options do not describe when the action occurred.'),
+('Grammar and Structure','Part of Speech','formidable','What is the part of speech of "formidable" in the sentence: "The team faced a formidable opponent"?','adjective','noun','verb','adverb','"Formidable" is an adjective describing the noun "opponent." The other choices are not suitable as modifiers here.'),
+('Grammar and Structure','Part of Speech','formula','What is the part of speech of "formula" in the sentence: "The scientist wrote down the formula on the board"?','noun','verb','adjective','preposition','"Formula" is a noun referring to a mathematical or scientific expression. The other options do not name a concept or object.'),
+('Grammar and Structure','Part of Speech','formulate','What is the part of speech of "formulate" in the sentence: "They will formulate a new strategy"?','verb','noun','adjective','conjunction','"Formulate" is a verb meaning to create or devise. The other choices do not describe an action.'),
+('Grammar and Structure','Part of Speech','formulation','What is the part of speech of "formulation" in the sentence: "The formulation of the policy took months"?','noun','verb','adjective','adverb','"Formulation" is a noun referring to the process of creating something. The other options do not indicate a process or thing.'),
+('Grammar and Structure','Part of Speech','forsaking','What is the part of speech of "forsaking" in the sentence: "She was accused of forsaking her duties"?','verb','noun','adjective','interjection','"Forsaking" is a verb showing the action of abandoning. The other choices do not describe an action in this context.'),
+('Grammar and Structure','Part of Speech','forth','What is the part of speech of "forth" in the sentence: "The knight rode forth into battle"?','adverb','verb','noun','adjective','"Forth" is an adverb showing direction or movement forward. The other options do not modify the verb appropriately.'),
+('Grammar and Structure','Part of Speech','forthcoming','What is the part of speech of "forthcoming" in the sentence: "We are preparing for the forthcoming event"?','adjective','noun','verb','adverb','"Forthcoming" is an adjective describing something that is about to happen. The other choices do not modify a noun.'),
+('Grammar and Structure','Part of Speech','forthwith','What is the part of speech of "forthwith" in the sentence: "The suspect was arrested forthwith"?','adverb','verb','noun','adjective','"Forthwith" is an adverb describing how quickly the action happened. The other options do not indicate time or manner.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fortify','What is the part of speech of "fortify" in the sentence: "They plan to fortify the city walls"?','verb','noun','adjective','adverb','"Fortify" is a verb meaning to strengthen. The other choices do not express an action in this context.'),
+('Grammar and Structure','Part of Speech','fortunate','What is the part of speech of "fortunate" in the sentence: "She was fortunate to survive the accident"?','adjective','noun','verb','adverb','"Fortunate" is an adjective describing "she." The other options do not modify a noun in this way.'),
+('Grammar and Structure','Part of Speech','fortunately','What is the part of speech of "fortunately" in the sentence: "Fortunately, no one was hurt"?','adverb','adjective','noun','verb','"Fortunately" is an adverb explaining the manner of the situation. The other options do not fit the sentence structure.'),
+('Grammar and Structure','Part of Speech','fortune','What is the part of speech of "fortune" in the sentence: "He inherited a large fortune"?','noun','verb','adjective','interjection','"Fortune" is a noun referring to wealth. The other options do not represent a thing.'),
+('Grammar and Structure','Part of Speech','forum','What is the part of speech of "forum" in the sentence: "The forum was open to all participants"?','noun','verb','adjective','preposition','"Forum" is a noun referring to a meeting place or discussion setting. The other options do not name a place or concept.'),
+('Grammar and Structure','Part of Speech','forward','What is the part of speech of "forward" in the sentence: "He took a step forward"?','adverb','verb','noun','adjective','"Forward" is an adverb describing direction. The other choices do not modify the verb properly in this context.'),
+('Grammar and Structure','Part of Speech','fossil','What is the part of speech of "fossil" in the sentence: "They discovered a rare fossil in the cave"?','noun','verb','adjective','adverb','"Fossil" is a noun referring to preserved remains. The other options do not indicate a thing or object.'),
+('Grammar and Structure','Part of Speech','foster','What is the part of speech of "foster" in the sentence: "We aim to foster innovation in the workplace"?','verb','noun','adjective','preposition','"Foster" is a verb meaning to encourage or promote. The other choices do not express action.'),
+('Grammar and Structure','Part of Speech','found','What is the part of speech of "found" in the sentence: "They plan to found a new company"?','verb','noun','adjective','interjection','"Found" is a verb meaning to establish or create. The other options do not express that action.'),
+('Grammar and Structure','Part of Speech','foundation','What is the part of speech of "foundation" in the sentence: "The building rests on a solid foundation"?','noun','verb','adjective','adverb','"Foundation" is a noun referring to the base or support. The other options do not represent a structure or concept.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','founder','What is the part of speech of "founder" in the sentence: "She is the founder of the tech startup"?','noun','verb','adjective','adverb','"Founder" is a noun referring to a person who establishes something. The other options do not refer to a person or subject.'),
+('Grammar and Structure','Part of Speech','fraction','What is the part of speech of "fraction" in the sentence: "Only a small fraction of the funds were used"?','noun','verb','adjective','preposition','"Fraction" is a noun meaning a part of a whole. The other options do not describe a quantity or object.'),
+('Grammar and Structure','Part of Speech','fragile','What is the part of speech of "fragile" in the sentence: "This box contains fragile items"?','adjective','noun','verb','adverb','"Fragile" is an adjective describing the items as easily broken. The other choices do not function as modifiers here.'),
+('Grammar and Structure','Part of Speech','fragment','What is the part of speech of "fragment" in the sentence: "He found a fragment of the ancient vase"?','noun','verb','adjective','interjection','"Fragment" is a noun referring to a small broken part. The other options do not represent a piece of something.'),
+('Grammar and Structure','Part of Speech','fragmentation','What is the part of speech of "fragmentation" in the sentence: "The report discussed the fragmentation of the market"?','noun','verb','adjective','conjunction','"Fragmentation" is a noun referring to the process of breaking into parts. The other choices do not describe a process or concept.'),
+('Grammar and Structure','Part of Speech','frame','What is the part of speech of "frame" in the sentence: "She placed the photo in a silver frame"?','noun','verb','adjective','adverb','"Frame" is a noun referring to a structure that holds something. The other options do not identify a thing in this context.'),
+('Grammar and Structure','Part of Speech','framework','What is the part of speech of "framework" in the sentence: "The proposal provides a framework for the new policy"?','noun','verb','adjective','preposition','"Framework" is a noun referring to a supporting structure or system. The other choices do not express a structural concept.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','frenetically','What is the part of speech of "frenetically" in the sentence: "He worked frenetically to meet the deadline"?','adverb','verb','noun','adjective','"Frenetically" is an adverb describing how he worked. The other options do not modify the verb appropriately.'),
+('Grammar and Structure','Part of Speech','frequency','What is the part of speech of "frequency" in the sentence: "The frequency of the updates increased last week"?','noun','verb','adjective','preposition','"Frequency" is a noun referring to how often something happens. The other choices do not refer to a measure or concept.'),
+('Grammar and Structure','Part of Speech','frequent','What is the part of speech of "frequent" in the sentence: "She is a frequent visitor to the library"?','adjective','noun','verb','adverb','"Frequent" is an adjective modifying the noun "visitor." The other options do not describe a noun in this way.'),
+('Grammar and Structure','Part of Speech','frequently','What is the part of speech of "frequently" in the sentence: "They frequently travel abroad for work"?','adverb','adjective','verb','noun','"Frequently" is an adverb describing how often they travel. The other choices do not modify the verb correctly.'),
+('Grammar and Structure','Part of Speech','freshman','What is the part of speech of "freshman" in the sentence: "He is a college freshman this year"?','noun','adjective','verb','adverb','"Freshman" is a noun referring to a first-year student. The other options do not refer to a person or subject.'),
+('Grammar and Structure','Part of Speech','freshwater','What is the part of speech of "freshwater" in the sentence: "They studied freshwater ecosystems in biology"?','adjective','noun','verb','interjection','"Freshwater" is an adjective modifying "ecosystems." The other options do not describe a noun in this context.'),
+('Grammar and Structure','Part of Speech','fret','What is the part of speech of "fret" in the sentence: "Don’t fret over minor mistakes"?','verb','noun','adjective','adverb','"Fret" is a verb meaning to worry. The other choices do not indicate an action.'),
+('Grammar and Structure','Part of Speech','friction','What is the part of speech of "friction" in the sentence: "Friction between the wheels and the road slows the car"?','noun','verb','adjective','preposition','"Friction" is a noun referring to resistance between surfaces. The other options do not represent a force or concept.'),
+('Grammar and Structure','Part of Speech','friend','What is the part of speech of "friend" in the sentence: "She is my best friend"?','noun','verb','adjective','adverb','"Friend" is a noun referring to a person. The other options do not represent someone or something.'),
+('Grammar and Structure','Part of Speech','friendly','What is the part of speech of "friendly" in the sentence: "The dog is very friendly"?','adjective','noun','verb','adverb','"Friendly" is an adjective describing the dog’s nature. The other options do not serve to describe a noun.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','friendship','What is the part of speech of "friendship" in the sentence: "Their friendship lasted for decades"?','noun','verb','adjective','adverb','"Friendship" is a noun referring to the relationship between friends. The other choices do not express a concept or subject.'),
+('Grammar and Structure','Part of Speech','frighten','What is the part of speech of "frighten" in the sentence: "Loud noises can frighten small animals"?','verb','noun','adjective','preposition','"Frighten" is a verb meaning to cause fear. The other options do not express an action.'),
+('Grammar and Structure','Part of Speech','frivolous','What is the part of speech of "frivolous" in the sentence: "He was criticized for making a frivolous complaint"?','adjective','noun','verb','adverb','"Frivolous" is an adjective describing the complaint. The other options do not modify a noun in this context.'),
+('Grammar and Structure','Part of Speech','frogman','What is the part of speech of "frogman" in the sentence: "The frogman explored the wreckage underwater"?','noun','verb','adjective','interjection','"Frogman" is a noun referring to a scuba diver trained for military operations. The other options do not name a person.'),
+('Grammar and Structure','Part of Speech','from','What is the part of speech of "from" in the sentence: "She walked from the station to the office"?','preposition','verb','noun','adjective','"From" is a preposition showing the starting point. The other choices do not show relationships between words.'),
+('Grammar and Structure','Part of Speech','front','What is the part of speech of "front" in the sentence: "The front of the building was damaged"?','noun','verb','adjective','conjunction','"Front" is a noun referring to the forward part. The other options do not name a place or position.'),
+('Grammar and Structure','Part of Speech','frostbite','What is the part of speech of "frostbite" in the sentence: "He suffered frostbite after being exposed to extreme cold"?','noun','verb','adjective','adverb','"Frostbite" is a noun referring to an injury caused by freezing. The other options do not represent a medical condition.'),
+('Grammar and Structure','Part of Speech','frostbitten','What is the part of speech of "frostbitten" in the sentence: "His frostbitten fingers needed medical care"?','adjective','noun','verb','adverb','"Frostbitten" is an adjective describing the condition of the fingers. The other choices do not modify a noun.'),
+('Grammar and Structure','Part of Speech','frown','What is the part of speech of "frown" in the sentence: "She gave a frown when she heard the news"?','noun','verb','adjective','preposition','"Frown" is a noun here referring to a facial expression. The other options do not indicate a visible reaction.'),
+('Grammar and Structure','Part of Speech','frugal','What is the part of speech of "frugal" in the sentence: "They live a frugal lifestyle to save money"?','adjective','noun','verb','adverb','"Frugal" is an adjective modifying "lifestyle." The other options do not function as a descriptive word in this context.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fruit','What is the part of speech of "fruit" in the sentence: "She bought fresh fruit from the market"?','noun','verb','adjective','adverb','"Fruit" is a noun referring to edible produce. The other options do not represent a tangible object.'),
+('Grammar and Structure','Part of Speech','fruitcake','What is the part of speech of "fruitcake" in the sentence: "He baked a fruitcake for the holidays"?','noun','verb','adjective','preposition','"Fruitcake" is a noun referring to a type of dessert. The other choices do not name an item.'),
+('Grammar and Structure','Part of Speech','frustrate','What is the part of speech of "frustrate" in the sentence: "These delays frustrate the team"?','verb','noun','adjective','adverb','"Frustrate" is a verb meaning to cause annoyance or prevent success. The other options do not show action.'),
+('Grammar and Structure','Part of Speech','frustrated','What is the part of speech of "frustrated" in the sentence: "She felt frustrated with the situation"?','adjective','verb','noun','adverb','"Frustrated" is an adjective describing her emotional state. The other options do not modify a noun or pronoun.'),
+('Grammar and Structure','Part of Speech','frustrating','What is the part of speech of "frustrating" in the sentence: "It was a frustrating experience"?','adjective','verb','noun','preposition','"Frustrating" is an adjective modifying the noun "experience." The other choices do not describe a noun.'),
+('Grammar and Structure','Part of Speech','frustration','What is the part of speech of "frustration" in the sentence: "He expressed his frustration clearly"?','noun','verb','adjective','conjunction','"Frustration" is a noun referring to a feeling of annoyance. The other options do not represent an emotion or idea.'),
+('Grammar and Structure','Part of Speech','fry','What is the part of speech of "fry" in the sentence: "I will fry the eggs for breakfast"?','verb','noun','adjective','adverb','"Fry" is a verb meaning to cook in oil. The other choices do not express an action.'),
+('Grammar and Structure','Part of Speech','fuel','What is the part of speech of "fuel" in the sentence: "The car needs more fuel for the trip"?','noun','verb','adjective','interjection','"Fuel" is a noun referring to a substance used for energy. The other options do not represent a resource or object.'),
+('Grammar and Structure','Part of Speech','fulfil','What is the part of speech of "fulfil" in the sentence: "They hope to fulfil their dreams"?','verb','noun','adjective','adverb','"Fulfil" is a verb meaning to achieve or complete. The other choices do not express an action or intent.'),
+('Grammar and Structure','Part of Speech','fulfill','What is the part of speech of "fulfill" in the sentence: "She wants to fulfill her obligations"?','verb','noun','adjective','preposition','"Fulfill" is a verb meaning to carry out or satisfy. The other options do not represent an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fulfillment','What is the part of speech of "fulfillment" in the sentence: "He found fulfillment in helping others"?','noun','verb','adjective','adverb','"Fulfillment" is a noun referring to a sense of satisfaction. The other choices do not represent a concept or feeling.'),
+('Grammar and Structure','Part of Speech','full-time','What is the part of speech of "full-time" in the sentence: "She has a full-time job now"?','adjective','noun','verb','adverb','"Full-time" is an adjective describing the noun "job." The other options do not modify nouns.'),
+('Grammar and Structure','Part of Speech','fully','What is the part of speech of "fully" in the sentence: "The machine is now fully operational"?','adverb','adjective','noun','verb','"Fully" is an adverb modifying "operational." The other options do not describe the degree of a state or condition.'),
+('Grammar and Structure','Part of Speech','fume','What is the part of speech of "fume" in the sentence: "Toxic fume was leaking from the container"?','noun','verb','adjective','preposition','"Fume" is a noun referring to smoke or gas. The other options do not indicate a physical substance.'),
+('Grammar and Structure','Part of Speech','fun','What is the part of speech of "fun" in the sentence: "The children had fun at the park"?','noun','verb','adjective','adverb','"Fun" is a noun referring to enjoyment. The other choices do not represent an experience.'),
+('Grammar and Structure','Part of Speech','function','What is the part of speech of "function" in the sentence: "The heart’s function is to pump blood"?','noun','verb','adjective','interjection','"Function" is a noun meaning the purpose or role. The other choices do not refer to an operation or activity.'),
+('Grammar and Structure','Part of Speech','functional','What is the part of speech of "functional" in the sentence: "The equipment is old but still functional"?','adjective','noun','verb','adverb','"Functional" is an adjective describing the noun "equipment." The other options do not serve that descriptive purpose.'),
+('Grammar and Structure','Part of Speech','functionality','What is the part of speech of "functionality" in the sentence: "The app’s functionality has improved"?','noun','verb','adjective','adverb','"Functionality" is a noun referring to how something works. The other options do not express a feature or capacity.'),
+('Grammar and Structure','Part of Speech','fund','What is the part of speech of "fund" in the sentence: "The school created a scholarship fund"?','noun','verb','adjective','preposition','"Fund" is a noun referring to money set aside for a purpose. The other choices do not name an object.'),
+('Grammar and Structure','Part of Speech','fundamental','What is the part of speech of "fundamental" in the sentence: "Safety is a fundamental concern here"?','adjective','noun','verb','adverb','"Fundamental" is an adjective describing the noun "concern." The other options do not modify nouns appropriately.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','fundamentally','What is the part of speech of "fundamentally" in the sentence: "The plan is fundamentally flawed"?','adverb','adjective','noun','verb','"Fundamentally" is an adverb modifying the adjective "flawed." The other choices do not describe the manner or extent.'),
+('Grammar and Structure','Part of Speech','funding','What is the part of speech of "funding" in the sentence: "The project needs more funding"?','noun','verb','adjective','conjunction','"Funding" is a noun referring to financial support. The other options do not name a resource.'),
+('Grammar and Structure','Part of Speech','fundraising','What is the part of speech of "fundraising" in the sentence: "They hosted a fundraising event for the charity"?','adjective','noun','verb','adverb','"Fundraising" is an adjective describing the noun "event." The other options do not function as modifiers.'),
+('Grammar and Structure','Part of Speech','funeral','What is the part of speech of "funeral" in the sentence: "The funeral was held on Monday"?','noun','verb','adjective','interjection','"Funeral" is a noun referring to a ceremony for the dead. The other choices do not represent an event.'),
+('Grammar and Structure','Part of Speech','funnel','What is the part of speech of "funnel" in the sentence: "He poured oil through a funnel"?','noun','verb','adjective','preposition','"Funnel" is a noun referring to a tool for pouring liquids. The other options do not identify a physical object.'),
+('Grammar and Structure','Part of Speech','funny','What is the part of speech of "funny" in the sentence: "That movie was really funny"?','adjective','noun','verb','adverb','"Funny" is an adjective describing the noun "movie." The other options do not function as descriptors.'),
+('Grammar and Structure','Part of Speech','furious','What is the part of speech of "furious" in the sentence: "He was furious about the delay"?','adjective','noun','verb','adverb','"Furious" is an adjective expressing intense anger. The other choices do not modify nouns.'),
+('Grammar and Structure','Part of Speech','furiously','What is the part of speech of "furiously" in the sentence: "She typed furiously to meet the deadline"?','adverb','verb','adjective','noun','"Furiously" is an adverb describing how she typed. The other choices do not modify the verb correctly.'),
+('Grammar and Structure','Part of Speech','furthermore','What is the part of speech of "furthermore" in the sentence: "Furthermore, the data supports our claim"?','adverb','noun','adjective','verb','"Furthermore" is an adverb adding information. The other options do not serve as transitional modifiers.'),
+('Grammar and Structure','Part of Speech','futile','What is the part of speech of "futile" in the sentence: "Their efforts were ultimately futile"?','adjective','noun','verb','adverb','"Futile" is an adjective describing the noun "efforts" as ineffective. The other choices do not fit the grammatical role.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','future','What is the part of speech of "future" in the sentence: "They talked about their plans for the future"?','noun','verb','adjective','preposition','"Future" is a noun referring to time yet to come. The other options do not name a concept or time frame.'),
+('Grammar and Structure','Part of Speech','gain','What is the part of speech of "gain" in the sentence: "He hopes to gain experience from the job"?','verb','noun','adjective','adverb','"Gain" is a verb meaning to acquire or obtain. The other options do not express action in this context.'),
+('Grammar and Structure','Part of Speech','gallbladder','What is the part of speech of "gallbladder" in the sentence: "The surgeon removed the gallbladder successfully"?','noun','verb','adjective','interjection','"Gallbladder" is a noun referring to a body organ. The other options do not represent an object.'),
+('Grammar and Structure','Part of Speech','gallon','What is the part of speech of "gallon" in the sentence: "They bought a gallon of milk"?','noun','verb','adjective','preposition','"Gallon" is a noun referring to a unit of volume. The other options do not represent a measure or object.'),
+('Grammar and Structure','Part of Speech','gallstone','What is the part of speech of "gallstone" in the sentence: "The patient was diagnosed with a gallstone"?','noun','verb','adjective','conjunction','"Gallstone" is a noun referring to a small hardened deposit in the body. The other options do not identify a medical condition.'),
+('Grammar and Structure','Part of Speech','galvanize','What is the part of speech of "galvanize" in the sentence: "The leader’s speech helped galvanize the crowd"?','verb','noun','adjective','interjection','"Galvanize" is a verb meaning to motivate or stir into action. The other choices do not describe an action.'),
+('Grammar and Structure','Part of Speech','gambling','What is the part of speech of "gambling" in the sentence: "Gambling can lead to serious problems if not controlled"?','noun','verb','adjective','preposition','"Gambling" is a noun (gerund) referring to the act of betting. The other options do not function as the subject of the sentence.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','game','What is the part of speech of "game" in the sentence: "They played a board game together"?','noun','verb','adjective','adverb','"Game" is a noun referring to a structured form of play. The other options do not name an object or activity.'),
+('Grammar and Structure','Part of Speech','gaming','What is the part of speech of "gaming" in the sentence: "Online gaming has become more popular"?','noun','verb','adjective','interjection','"Gaming" is a noun (gerund) referring to the activity of playing games. The other options do not represent a subject or activity.'),
+('Grammar and Structure','Part of Speech','gang','What is the part of speech of "gang" in the sentence: "The gang was arrested by the police"?','noun','verb','adjective','conjunction','"Gang" is a noun referring to a group of people. The other choices do not function as a subject in this context.'),
+('Grammar and Structure','Part of Speech','gangway','What is the part of speech of "gangway" in the sentence: "They walked carefully along the gangway"?','noun','verb','adjective','preposition','"Gangway" is a noun referring to a narrow walkway. The other options do not represent a physical structure.'),
+('Grammar and Structure','Part of Speech','gap','What is the part of speech of "gap" in the sentence: "There was a gap between the two buildings"?','noun','verb','adjective','adverb','"Gap" is a noun referring to an empty space or opening. The other choices do not name a spatial concept.'),
+('Grammar and Structure','Part of Speech','garage','What is the part of speech of "garage" in the sentence: "They parked their car in the garage"?','noun','verb','adjective','interjection','"Garage" is a noun referring to a building for storing vehicles. The other options do not identify a location.'),
+('Grammar and Structure','Part of Speech','garbage','What is the part of speech of "garbage" in the sentence: "Take the garbage out before dinner"?','noun','verb','adjective','adverb','"Garbage" is a noun referring to waste material. The other options do not represent a thing.'),
+('Grammar and Structure','Part of Speech','garden','What is the part of speech of "garden" in the sentence: "She grows vegetables in her garden"?','noun','verb','adjective','preposition','"Garden" is a noun referring to an area where plants are cultivated. The other options do not fit the meaning.'),
+('Grammar and Structure','Part of Speech','garner','What is the part of speech of "garner" in the sentence: "The artist managed to garner praise for her work"?','verb','noun','adjective','adverb','"Garner" is a verb meaning to gather or collect. The other choices do not show action in this context.'),
+('Grammar and Structure','Part of Speech','gas','What is the part of speech of "gas" in the sentence: "The tank was filled with gas"?','noun','verb','adjective','interjection','"Gas" is a noun referring to a substance used as fuel. The other options do not represent a physical material.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','gasp','What is the part of speech of "gasp" in the sentence: "She let out a gasp when the door slammed"?','noun','verb','adjective','preposition','"Gasp" is a noun referring to a sudden intake of breath. The other options do not represent a sound or reaction.'),
+('Grammar and Structure','Part of Speech','gate','What is the part of speech of "gate" in the sentence: "They opened the gate to enter the yard"?','noun','verb','adjective','interjection','"Gate" is a noun referring to a structure that can be opened and closed. The other choices do not refer to a physical object.'),
+('Grammar and Structure','Part of Speech','gateway','What is the part of speech of "gateway" in the sentence: "The city is seen as a gateway to the region"?','noun','verb','adjective','conjunction','"Gateway" is a noun meaning an entry point. The other options do not describe an object or concept.'),
+('Grammar and Structure','Part of Speech','gather','What is the part of speech of "gather" in the sentence: "They gather every Friday for dinner"?','verb','noun','adjective','adverb','"Gather" is a verb meaning to come together. The other choices do not describe an action.'),
+('Grammar and Structure','Part of Speech','gathering','What is the part of speech of "gathering" in the sentence: "A large gathering formed at the park"?','noun','verb','adjective','adverb','"Gathering" is a noun referring to a group of people. The other choices do not represent a group or event.'),
+('Grammar and Structure','Part of Speech','gaze','What is the part of speech of "gaze" in the sentence: "He held a steady gaze at the painting"?','noun','verb','adjective','interjection','"Gaze" is a noun referring to a fixed look. The other options do not name an expression or behavior.'),
+('Grammar and Structure','Part of Speech','gear','What is the part of speech of "gear" in the sentence: "They packed their hiking gear before the trip"?','noun','verb','adjective','adverb','"Gear" is a noun referring to equipment. The other choices do not represent a physical item.'),
+('Grammar and Structure','Part of Speech','gearshift','What is the part of speech of "gearshift" in the sentence: "He grabbed the gearshift to change gears"?','noun','verb','adjective','preposition','"Gearshift" is a noun referring to a car control mechanism. The other options do not name an object.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','gel','What is the part of speech of "gel" in the sentence: "She used hair gel to keep her style in place"?','noun','verb','adjective','adverb','"Gel" is a noun referring to a semi-solid substance. The other options do not represent a physical item.'),
+('Grammar and Structure','Part of Speech','gemstone','What is the part of speech of "gemstone" in the sentence: "The ring was set with a beautiful gemstone"?','noun','verb','adjective','interjection','"Gemstone" is a noun referring to a precious stone. The other options do not represent an object.'),
+('Grammar and Structure','Part of Speech','gender','What is the part of speech of "gender" in the sentence: "The form asks for your name and gender"?','noun','verb','adjective','adverb','"Gender" is a noun referring to classification by sex or identity. The other choices do not represent a concept or category.'),
+('Grammar and Structure','Part of Speech','gene','What is the part of speech of "gene" in the sentence: "This condition is caused by a faulty gene"?','noun','verb','adjective','interjection','"Gene" is a noun referring to a unit of heredity. The other choices do not identify a biological element.'),
+('Grammar and Structure','Part of Speech','general','What is the part of speech of "general" in the sentence: "He made a general statement about safety"?','adjective','noun','verb','adverb','"General" is an adjective describing the noun "statement." The other options do not describe a noun.'),
+('Grammar and Structure','Part of Speech','generalization','What is the part of speech of "generalization" in the sentence: "That’s a broad generalization without evidence"?','noun','verb','adjective','adverb','"Generalization" is a noun referring to a broad conclusion. The other choices do not function as a subject or object.'),
+('Grammar and Structure','Part of Speech','generally','What is the part of speech of "generally" in the sentence: "He generally arrives on time"?','adverb','adjective','noun','verb','"Generally" is an adverb modifying the verb "arrives." The other options do not express frequency or manner.'),
+('Grammar and Structure','Part of Speech','generate','What is the part of speech of "generate" in the sentence: "The engine can generate electricity"?','verb','noun','adjective','adverb','"Generate" is a verb meaning to produce or create. The other choices do not show action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','generic','What is the part of speech of "generic" in the sentence: "He bought a generic version of the medication"?','adjective','noun','verb','adverb','"Generic" is an adjective describing the noun "version." The other options do not function as modifiers in this context.'),
+('Grammar and Structure','Part of Speech','generously','What is the part of speech of "generously" in the sentence: "She donated generously to the cause"?','adverb','verb','noun','adjective','"Generously" is an adverb modifying the verb "donated." The other choices do not describe how an action is performed.'),
+('Grammar and Structure','Part of Speech','genetic','What is the part of speech of "genetic" in the sentence: "They studied the genetic traits of the plants"?','adjective','noun','verb','adverb','"Genetic" is an adjective describing the noun "traits." The other options do not modify nouns.'),
+('Grammar and Structure','Part of Speech','genius','What is the part of speech of "genius" in the sentence: "The child showed signs of genius at an early age"?','noun','verb','adjective','adverb','"Genius" is a noun referring to exceptional intellectual ability. The other choices do not function as a subject or object.'),
+('Grammar and Structure','Part of Speech','genocide','What is the part of speech of "genocide" in the sentence: "The documentary covers the history of genocide in the region"?','noun','verb','adjective','preposition','"Genocide" is a noun referring to mass extermination of a group. The other options do not represent an event or concept.'),
+('Grammar and Structure','Part of Speech','genome','What is the part of speech of "genome" in the sentence: "Scientists mapped the human genome"?','noun','verb','adjective','interjection','"Genome" is a noun referring to the complete set of genes in an organism. The other options do not represent a scientific concept.'),
+('Grammar and Structure','Part of Speech','genotype','What is the part of speech of "genotype" in the sentence: "The genotype determines certain inherited traits"?','noun','verb','adjective','adverb','"Genotype" is a noun referring to the genetic makeup of an organism. The other options do not express a biological concept.'),
+('Grammar and Structure','Part of Speech','genre','What is the part of speech of "genre" in the sentence: "Mystery is her favorite book genre"?','noun','verb','adjective','adverb','"Genre" is a noun referring to a category of art or literature. The other choices do not identify a classification.'),
+('Grammar and Structure','Part of Speech','gentle','What is the part of speech of "gentle" in the sentence: "He gave the injured dog a gentle touch"?','adjective','noun','verb','adverb','"Gentle" is an adjective describing the noun "touch." The other options do not function as descriptors.'),
+('Grammar and Structure','Part of Speech','gentleman','What is the part of speech of "gentleman" in the sentence: "The gentleman opened the door for her"?','noun','verb','adjective','adverb','"Gentleman" is a noun referring to a respectful man. The other choices do not refer to a person.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','gently','What is the part of speech of "gently" in the sentence: "She placed the vase gently on the shelf"?','adverb','verb','noun','adjective','"Gently" is an adverb modifying how she placed the vase. The other options do not indicate the manner of the action.'),
+('Grammar and Structure','Part of Speech','genuine','What is the part of speech of "genuine" in the sentence: "He gave a genuine apology"?','adjective','noun','verb','adverb','"Genuine" is an adjective describing the noun "apology." The other options do not modify nouns.'),
+('Grammar and Structure','Part of Speech','genuinely','What is the part of speech of "genuinely" in the sentence: "She was genuinely surprised by the news"?','adverb','adjective','noun','verb','"Genuinely" is an adverb describing how she was surprised. The other options do not modify verbs or adjectives.'),
+('Grammar and Structure','Part of Speech','geometric','What is the part of speech of "geometric" in the sentence: "The painting had a geometric design"?','adjective','noun','verb','adverb','"Geometric" is an adjective describing the noun "design." The other options do not function as descriptors in this context.'),
+('Grammar and Structure','Part of Speech','germane','What is the part of speech of "germane" in the sentence: "Your comments are not germane to the discussion"?','adjective','noun','verb','adverb','"Germane" is an adjective meaning relevant. The other options do not describe a noun.'),
+('Grammar and Structure','Part of Speech','gesture','What is the part of speech of "gesture" in the sentence: "She made a kind gesture toward the stranger"?','noun','verb','adjective','conjunction','"Gesture" is a noun referring to an action made to express feeling. The other choices do not name an action or thing.'),
+('Grammar and Structure','Part of Speech','get','What is the part of speech of "get" in the sentence: "Can you get the book for me"?','verb','noun','adjective','adverb','"Get" is a verb meaning to obtain or retrieve. The other options do not represent an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','ghostwriter','What is the part of speech of "ghostwriter" in the sentence: "The celebrity hired a ghostwriter for the memoir"?','noun','verb','adjective','adverb','"Ghostwriter" is a noun referring to someone who writes on behalf of another. The other options do not describe a person or role.'),
+('Grammar and Structure','Part of Speech','giant','What is the part of speech of "giant" in the sentence: "The statue was a giant figure in the plaza"?','adjective','noun','verb','adverb','"Giant" is an adjective describing the noun "figure." The other options do not function as descriptors in this context.'),
+('Grammar and Structure','Part of Speech','gift','What is the part of speech of "gift" in the sentence: "She gave him a birthday gift"?','noun','verb','adjective','interjection','"Gift" is a noun referring to something given. The other choices do not represent an object.'),
+('Grammar and Structure','Part of Speech','gig','What is the part of speech of "gig" in the sentence: "The band played their first gig downtown"?','noun','verb','adjective','conjunction','"Gig" is a noun referring to a live performance. The other options do not represent an event.'),
+('Grammar and Structure','Part of Speech','gild','What is the part of speech of "gild" in the sentence: "They will gild the frame with gold leaf"?','verb','noun','adjective','adverb','"Gild" is a verb meaning to cover with a thin layer of gold. The other options do not express action.'),
+('Grammar and Structure','Part of Speech','gingerale','What is the part of speech of "gingerale" in the sentence: "He poured a glass of gingerale over ice"?','noun','verb','adjective','preposition','"Gingerale" is a noun referring to a type of soda. The other choices do not represent a beverage.'),
+('Grammar and Structure','Part of Speech','gingerbread','What is the part of speech of "gingerbread" in the sentence: "She baked gingerbread for the holidays"?','noun','verb','adjective','adverb','"Gingerbread" is a noun referring to a type of spiced cake or cookie. The other options do not name a food item.'),
+('Grammar and Structure','Part of Speech','girl','What is the part of speech of "girl" in the sentence: "The girl smiled at her teacher"?','noun','verb','adjective','adverb','"Girl" is a noun referring to a female child or youth. The other choices do not represent a person.'),
+('Grammar and Structure','Part of Speech','girlfriend','What is the part of speech of "girlfriend" in the sentence: "He took his girlfriend to the concert"?','noun','verb','adjective','adverb','"Girlfriend" is a noun referring to a romantic female partner. The other options do not identify a person.'),
+('Grammar and Structure','Part of Speech','girlishly','What is the part of speech of "girlishly" in the sentence: "She giggled girlishly at the joke"?','adverb','adjective','noun','verb','"Girlishly" is an adverb modifying the verb "giggled." The other choices do not express how an action was performed.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','give','What is the part of speech of "give" in the sentence: "Please give him the message"?','verb','noun','adjective','adverb','"Give" is a verb meaning to hand over or deliver. The other options do not represent an action.'),
+('Grammar and Structure','Part of Speech','glad','What is the part of speech of "glad" in the sentence: "She was glad to see her friend again"?','adjective','noun','verb','adverb','"Glad" is an adjective describing her emotional state. The other options do not modify nouns or pronouns.'),
+('Grammar and Structure','Part of Speech','gladly','What is the part of speech of "gladly" in the sentence: "He gladly accepted the invitation"?','adverb','verb','noun','adjective','"Gladly" is an adverb modifying the verb "accepted." The other choices do not describe how the action was performed.'),
+('Grammar and Structure','Part of Speech','glance','What is the part of speech of "glance" in the sentence: "He took a quick glance at the screen"?','noun','verb','adjective','interjection','"Glance" is a noun referring to a brief look. The other options do not represent an object or action in this context.'),
+('Grammar and Structure','Part of Speech','glass','What is the part of speech of "glass" in the sentence: "She drank water from a glass"?','noun','verb','adjective','adverb','"Glass" is a noun referring to a drinking vessel. The other choices do not represent a physical item.'),
+('Grammar and Structure','Part of Speech','gleefully','What is the part of speech of "gleefully" in the sentence: "The children laughed gleefully"?','adverb','verb','noun','adjective','"Gleefully" is an adverb modifying the verb "laughed." The other options do not indicate the manner of the action.'),
+('Grammar and Structure','Part of Speech','glide','What is the part of speech of "glide" in the sentence: "The bird began to glide through the air"?','verb','noun','adjective','conjunction','"Glide" is a verb meaning to move smoothly. The other choices do not describe an action.'),
+('Grammar and Structure','Part of Speech','glimpse','What is the part of speech of "glimpse" in the sentence: "She caught a glimpse of the actor"?','noun','verb','adjective','interjection','"Glimpse" is a noun referring to a brief or partial view. The other choices do not represent an object.'),
+('Grammar and Structure','Part of Speech','global','What is the part of speech of "global" in the sentence: "Climate change is a global issue"?','adjective','noun','verb','adverb','"Global" is an adjective modifying the noun "issue." The other options do not function as descriptors.'),
+('Grammar and Structure','Part of Speech','globalization','What is the part of speech of "globalization" in the sentence: "Globalization affects economies worldwide"?','noun','verb','adjective','adverb','"Globalization" is a noun referring to international integration. The other options do not name a process or concept.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','globe','What is the part of speech of "globe" in the sentence: "The teacher pointed at the globe during the lesson"?','noun','verb','adjective','adverb','"Globe" is a noun referring to a spherical model of Earth. The other choices do not represent a physical object.'),
+('Grammar and Structure','Part of Speech','globetrotter','What is the part of speech of "globetrotter" in the sentence: "He is a true globetrotter who loves to travel"?','noun','verb','adjective','interjection','"Globetrotter" is a noun referring to someone who frequently travels the world. The other options do not describe a person.'),
+('Grammar and Structure','Part of Speech','gloomy','What is the part of speech of "gloomy" in the sentence: "It was a gloomy day with dark clouds"?','adjective','noun','verb','adverb','"Gloomy" is an adjective describing the noun "day." The other choices do not function as modifiers of nouns.'),
+('Grammar and Structure','Part of Speech','glorious','What is the part of speech of "glorious" in the sentence: "They had a glorious victory in the finals"?','adjective','noun','verb','adverb','"Glorious" is an adjective modifying the noun "victory." The other options do not describe nouns.'),
+('Grammar and Structure','Part of Speech','glory','What is the part of speech of "glory" in the sentence: "The team basked in the glory of their win"?','noun','verb','adjective','preposition','"Glory" is a noun referring to fame or honor. The other choices do not represent a concept.'),
+('Grammar and Structure','Part of Speech','glove','What is the part of speech of "glove" in the sentence: "He wore a glove on his injured hand"?','noun','verb','adjective','adverb','"Glove" is a noun referring to a covering for the hand. The other choices do not represent a physical item.'),
+('Grammar and Structure','Part of Speech','glowworm','What is the part of speech of "glowworm" in the sentence: "We saw a glowworm in the garden last night"?','noun','verb','adjective','interjection','"Glowworm" is a noun referring to a bioluminescent insect. The other options do not name a creature or object.'),
+('Grammar and Structure','Part of Speech','glue','What is the part of speech of "glue" in the sentence: "She used glue to fix the broken plate"?','noun','verb','adjective','preposition','"Glue" is a noun referring to a sticky substance. The other options do not name a material or thing.'),
+('Grammar and Structure','Part of Speech','gnaw','What is the part of speech of "gnaw" in the sentence: "The puppy began to gnaw on the shoe"?','verb','noun','adjective','adverb','"Gnaw" is a verb meaning to bite or chew repeatedly. The other choices do not show an action.'),
+('Grammar and Structure','Part of Speech','go','What is the part of speech of "go" in the sentence: "We will go to the store after lunch"?','verb','noun','adjective','interjection','"Go" is a verb indicating movement or travel. The other options do not express action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','goal','What is the part of speech of "goal" in the sentence: "Her main goal is to graduate with honors"?','noun','verb','adjective','adverb','"Goal" is a noun referring to an objective or aim. The other choices do not represent a concept or thing.'),
+('Grammar and Structure','Part of Speech','goal-oriented','What is the part of speech of "goal-oriented" in the sentence: "He is a goal-oriented employee"?','adjective','noun','verb','adverb','"Goal-oriented" is an adjective describing the noun "employee." The other options do not modify nouns.'),
+('Grammar and Structure','Part of Speech','goalkeeper','What is the part of speech of "goalkeeper" in the sentence: "The goalkeeper blocked the final shot"?','noun','verb','adjective','preposition','"Goalkeeper" is a noun referring to the player who defends the goal. The other choices do not describe a person or subject.'),
+('Grammar and Structure','Part of Speech','goalpost','What is the part of speech of "goalpost" in the sentence: "The ball bounced off the goalpost"?','noun','verb','adjective','interjection','"Goalpost" is a noun referring to a vertical post used in sports. The other options do not represent a physical object.'),
+('Grammar and Structure','Part of Speech','god','What is the part of speech of "god" in the sentence: "Ancient people worshipped a sun god"?','noun','verb','adjective','preposition','"God" is a noun referring to a deity or divine being. The other choices do not refer to a subject or entity.'),
+('Grammar and Structure','Part of Speech','gold','What is the part of speech of "gold" in the sentence: "The necklace was made of pure gold"?','noun','verb','adjective','adverb','"Gold" is a noun referring to a precious metal. The other options do not represent a material.'),
+('Grammar and Structure','Part of Speech','golden','What is the part of speech of "golden" in the sentence: "They watched the golden sunset together"?','adjective','noun','verb','adverb','"Golden" is an adjective modifying the noun "sunset." The other options do not describe nouns.'),
+('Grammar and Structure','Part of Speech','goldenrod','What is the part of speech of "goldenrod" in the sentence: "Goldenrod blooms late in the summer"?','noun','verb','adjective','conjunction','"Goldenrod" is a noun referring to a type of plant. The other options do not name a species or object.'),
+('Grammar and Structure','Part of Speech','goldfinch','What is the part of speech of "goldfinch" in the sentence: "A goldfinch perched on the branch"?','noun','verb','adjective','interjection','"Goldfinch" is a noun referring to a small yellow bird. The other choices do not represent an animal.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','goldfish','What is the part of speech of "goldfish" in the sentence: "She keeps a goldfish in a small bowl"?','noun','verb','adjective','interjection','"Goldfish" is a noun referring to a type of small pet fish. The other options do not name an animal.'),
+('Grammar and Structure','Part of Speech','goldmine','What is the part of speech of "goldmine" in the sentence: "The book was a goldmine of useful tips"?','noun','verb','adjective','adverb','"Goldmine" is a noun metaphorically describing a valuable resource. The other options do not represent a thing or concept.'),
+('Grammar and Structure','Part of Speech','goldrush','What is the part of speech of "goldrush" in the sentence: "Thousands moved west during the goldrush"?','noun','verb','adjective','interjection','"Goldrush" is a noun describing a historical event involving a rush for gold. The other choices are not appropriate for naming an event.'),
+('Grammar and Structure','Part of Speech','goldsmith','What is the part of speech of "goldsmith" in the sentence: "The goldsmith crafted a beautiful ring"?','noun','verb','adjective','preposition','"Goldsmith" is a noun referring to a person who works with gold. The other options do not represent a profession.'),
+('Grammar and Structure','Part of Speech','golf','What is the part of speech of "golf" in the sentence: "They played golf on the weekend"?','noun','verb','adjective','adverb','"Golf" is a noun referring to a sport. The other options do not represent an activity in this context.'),
+('Grammar and Structure','Part of Speech','good','What is the part of speech of "good" in the sentence: "She is a good friend"?','adjective','noun','verb','adverb','"Good" is an adjective modifying the noun "friend." The other options do not describe nouns.'),
+('Grammar and Structure','Part of Speech','goodness','What is the part of speech of "goodness" in the sentence: "He was admired for his kindness and goodness"?','noun','adjective','verb','interjection','"Goodness" is a noun referring to the quality of being morally good. The other choices do not represent a trait or concept.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','gorgeous','What is the part of speech of "gorgeous" in the sentence: "She wore a gorgeous dress to the event"?','adjective','noun','verb','adverb','"Gorgeous" is an adjective describing the noun "dress." The other options do not modify nouns.'),
+('Grammar and Structure','Part of Speech','govern','What is the part of speech of "govern" in the sentence: "Leaders must govern wisely and fairly"?','verb','noun','adjective','conjunction','"Govern" is a verb meaning to rule or manage. The other choices do not indicate an action.'),
+('Grammar and Structure','Part of Speech','governance','What is the part of speech of "governance" in the sentence: "Good governance promotes stability"?','noun','verb','adjective','adverb','"Governance" is a noun meaning the act or process of governing. The other choices do not refer to a concept or process.'),
+('Grammar and Structure','Part of Speech','government','What is the part of speech of "government" in the sentence: "The government passed new laws"?','noun','verb','adjective','adverb','"Government" is a noun referring to a body that governs. The other options do not represent a subject or institution.'),
+('Grammar and Structure','Part of Speech','governor','What is the part of speech of "governor" in the sentence: "The governor delivered a powerful speech"?','noun','verb','adjective','conjunction','"Governor" is a noun referring to a political leader. The other choices do not name a person or subject.'),
+('Grammar and Structure','Part of Speech','grab','What is the part of speech of "grab" in the sentence: "He tried to grab the last slice of pizza"?','verb','noun','adjective','preposition','"Grab" is a verb meaning to seize or take quickly. The other choices do not express an action.'),
+('Grammar and Structure','Part of Speech','grace','What is the part of speech of "grace" in the sentence: "She moved with grace and confidence"?','noun','verb','adjective','interjection','"Grace" is a noun describing elegance of movement. The other options do not represent a trait or quality.'),
+('Grammar and Structure','Part of Speech','gracefully','What is the part of speech of "gracefully" in the sentence: "The dancer moved gracefully across the stage"?','adverb','verb','noun','adjective','"Gracefully" is an adverb modifying the verb "moved." The other options do not describe how the action was performed.');
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','grave','What is the part of speech of "grave" in the sentence: "They lowered the casket into the grave"?','noun','verb','adjective','adverb','"Grave" is a noun meaning a burial site. The other options do not name a physical location.'),
+('Grammar and Structure','Part of Speech','grave','What is the part of speech of "grave" in the sentence: "He spoke in a grave tone"?','adjective','noun','verb','conjunction','"Grave" is an adjective describing the tone as serious. The other options do not describe a noun.'),
+('Grammar and Structure','Part of Speech','gravestone','What is the part of speech of "gravestone" in the sentence: "The name was etched into the gravestone"?','noun','verb','adjective','adverb','"Gravestone" is a noun referring to a stone marker at a burial site. The other options do not refer to an object.'),
+('Grammar and Structure','Part of Speech','graveyard','What is the part of speech of "graveyard" in the sentence: "The old graveyard was full of broken headstones"?','noun','verb','adjective','interjection','"Graveyard" is a noun meaning a burial ground. The other options do not indicate a location.'),
+('Grammar and Structure','Part of Speech','gravity','What is the part of speech of "gravity" in the sentence: "Gravity keeps us grounded on Earth"?','noun','verb','adjective','adverb','"Gravity" is a noun referring to a physical force. The other options do not represent a scientific concept.'),
+('Grammar and Structure','Part of Speech','grease','What is the part of speech of "grease" in the sentence: "She used grease to loosen the bolt"?','noun','verb','adjective','adverb','"Grease" is a noun referring to a slippery substance. The other choices do not represent a material object.'),
+('Grammar and Structure','Part of Speech','great','What is the part of speech of "great" in the sentence: "She did a great job on the project"?','adjective','noun','verb','adverb','"Great" is an adjective modifying the noun "job." The other options do not describe nouns.'),
+('Grammar and Structure','Part of Speech','greatly','What is the part of speech of "greatly" in the sentence: "We greatly appreciate your help"?','adverb','verb','noun','adjective','"Greatly" is an adverb modifying the verb "appreciate." The other choices do not describe the extent of an action.'),
+('Grammar and Structure','Part of Speech','greedily','What is the part of speech of "greedily" in the sentence: "He ate the cake greedily"?','adverb','adjective','noun','verb','"Greedily" is an adverb describing how the cake was eaten. The other choices do not describe a verb.'),
+('Grammar and Structure','Part of Speech','green','What is the part of speech of "green" in the sentence: "He painted the room green"?','adjective','noun','verb','adverb','"Green" is an adjective describing the color of the room. The other options do not describe appearance.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','greenback','What is the part of speech of "greenback" in the sentence: "He paid with a greenback"?','noun','verb','adjective','adverb','"Greenback" is a noun referring to paper currency. The other options do not name an object.'),
+('Grammar and Structure','Part of Speech','greengrocer','What is the part of speech of "greengrocer" in the sentence: "The greengrocer sells fresh produce"?','noun','verb','adjective','interjection','"Greengrocer" is a noun referring to a person who sells fruits and vegetables. The other choices do not describe a person.'),
+('Grammar and Structure','Part of Speech','greenhorn','What is the part of speech of "greenhorn" in the sentence: "The new recruit was a greenhorn in the field"?','noun','verb','adjective','conjunction','"Greenhorn" is a noun referring to someone inexperienced. The other options do not represent a person.'),
+('Grammar and Structure','Part of Speech','greenhouse','What is the part of speech of "greenhouse" in the sentence: "The plants are grown in a greenhouse"?','noun','verb','adjective','adverb','"Greenhouse" is a noun referring to a structure used for growing plants. The other choices do not describe a place.'),
+('Grammar and Structure','Part of Speech','greenlight','What is the part of speech of "greenlight" in the sentence: "The director gave the greenlight to start filming"?','noun','verb','adjective','preposition','"Greenlight" is a noun meaning official approval. The other options do not name a thing.'),
+('Grammar and Structure','Part of Speech','greet','What is the part of speech of "greet" in the sentence: "They came to greet the guests"?','verb','noun','adjective','adverb','"Greet" is a verb meaning to welcome someone. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','grid','What is the part of speech of "grid" in the sentence: "The city is built on a grid"?','noun','verb','adjective','interjection','"Grid" is a noun referring to a network or layout. The other choices do not represent a structure.'),
+('Grammar and Structure','Part of Speech','grief','What is the part of speech of "grief" in the sentence: "She was overwhelmed with grief"?','noun','verb','adjective','adverb','"Grief" is a noun referring to deep sorrow. The other options do not name an emotion.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','grievance','What is the part of speech of "grievance" in the sentence: "The employee filed a grievance with management"?','noun','verb','adjective','adverb','"Grievance" is a noun referring to a formal complaint. The other options do not represent a thing or concept.'),
+('Grammar and Structure','Part of Speech','grill','What is the part of speech of "grill" in the sentence: "We will grill some burgers tonight"?','verb','noun','adjective','adverb','"Grill" is a verb meaning to cook over direct heat. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','grimly','What is the part of speech of "grimly" in the sentence: "He nodded grimly at the news"?','adverb','adjective','verb','noun','"Grimly" is an adverb modifying how he nodded. The other options do not describe how an action occurs.'),
+('Grammar and Structure','Part of Speech','grin','What is the part of speech of "grin" in the sentence: "He gave a wide grin after the joke"?','noun','verb','adjective','preposition','"Grin" is a noun referring to a facial expression. The other choices do not indicate a thing.'),
+('Grammar and Structure','Part of Speech','grind','What is the part of speech of "grind" in the sentence: "She needs to grind the coffee beans"?','verb','noun','adjective','adverb','"Grind" is a verb meaning to crush or reduce to small pieces. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','grindstone','What is the part of speech of "grindstone" in the sentence: "He sharpened the blade on the grindstone"?','noun','verb','adjective','interjection','"Grindstone" is a noun referring to a tool used for sharpening. The other options do not name an object.'),
+('Grammar and Structure','Part of Speech','grip','What is the part of speech of "grip" in the sentence: "His grip on the handle was strong"?','noun','verb','adjective','conjunction','"Grip" is a noun referring to the way he held the handle. The other options do not refer to a hold or grasp.'),
+('Grammar and Structure','Part of Speech','groan','What is the part of speech of "groan" in the sentence: "She let out a groan of frustration"?','noun','verb','adjective','adverb','"Groan" is a noun referring to a vocal sound of discomfort. The other options do not name a sound.'),
+('Grammar and Structure','Part of Speech','grocery','What is the part of speech of "grocery" in the sentence: "He picked up a grocery on his way home"?','noun','verb','adjective','adverb','"Grocery" is a noun referring to a food item or store product. The other options do not refer to a thing.'),
+('Grammar and Structure','Part of Speech','gross','What is the part of speech of "gross" in the sentence: "The movie had a gross profit of $1 million"?','adjective','verb','noun','adverb','"Gross" is an adjective describing the total profit. The other options do not describe nouns or amounts.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','ground','What is the part of speech of "ground" in the sentence: "The children played on the soft ground"?','noun','verb','adjective','adverb','"Ground" is a noun referring to the surface of the earth. The other options do not name a physical location.'),
+('Grammar and Structure','Part of Speech','groundbreaking','What is the part of speech of "groundbreaking" in the sentence: "Her research was truly groundbreaking"?','adjective','noun','verb','adverb','"Groundbreaking" is an adjective describing the noun "research" as innovative. The other options do not describe nouns.'),
+('Grammar and Structure','Part of Speech','groundhog','What is the part of speech of "groundhog" in the sentence: "The groundhog emerged from its burrow"?','noun','verb','adjective','interjection','"Groundhog" is a noun referring to a specific animal. The other choices do not identify an object or creature.'),
+('Grammar and Structure','Part of Speech','groundskeeper','What is the part of speech of "groundskeeper" in the sentence: "The groundskeeper maintained the park daily"?','noun','verb','adjective','conjunction','"Groundskeeper" is a noun referring to a person with a specific job. The other options do not refer to a person.'),
+('Grammar and Structure','Part of Speech','group','What is the part of speech of "group" in the sentence: "The teacher divided the class into a group"?','noun','verb','adjective','preposition','"Group" is a noun referring to a collection of individuals. The other options do not name a unit.'),
+('Grammar and Structure','Part of Speech','grow','What is the part of speech of "grow" in the sentence: "Plants grow quickly in the summer"?','verb','noun','adjective','interjection','"Grow" is a verb describing the action of increasing in size. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','growl','What is the part of speech of "growl" in the sentence: "The dog gave a warning growl"?','noun','verb','adjective','adverb','"Growl" is a noun referring to a low sound made by an animal. The other options do not describe a sound.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','grownup','What is the part of speech of "grownup" in the sentence: "The child wanted to be a grownup"?','noun','verb','adjective','adverb','"Grownup" is a noun referring to an adult. The other options do not name a person.'),
+('Grammar and Structure','Part of Speech','growth','What is the part of speech of "growth" in the sentence: "The plant showed significant growth"?','noun','verb','adjective','conjunction','"Growth" is a noun meaning an increase in size. The other choices do not represent a concept.'),
+('Grammar and Structure','Part of Speech','grudgingly','What is the part of speech of "grudgingly" in the sentence: "He grudgingly agreed to help"?','adverb','verb','noun','adjective','"Grudgingly" is an adverb modifying how he agreed. The other options do not describe the manner of the action.'),
+('Grammar and Structure','Part of Speech','grumble','What is the part of speech of "grumble" in the sentence: "They began to grumble about the delay"?','verb','noun','adjective','preposition','"Grumble" is a verb referring to the act of complaining. The other choices do not describe an action.'),
+('Grammar and Structure','Part of Speech','grunt','What is the part of speech of "grunt" in the sentence: "He let out a loud grunt"?','noun','verb','adjective','interjection','"Grunt" is a noun meaning a low sound. The other options do not represent a sound.'),
+('Grammar and Structure','Part of Speech','guarantee','What is the part of speech of "guarantee" in the sentence: "They gave a guarantee of quality"?','noun','verb','adjective','adverb','"Guarantee" is a noun referring to a formal assurance. The other options do not describe a promise.'),
+('Grammar and Structure','Part of Speech','guard','What is the part of speech of "guard" in the sentence: "The guard checked our passes"?','noun','verb','adjective','adverb','"Guard" is a noun referring to a person who protects or watches. The other options do not refer to a person.'),
+('Grammar and Structure','Part of Speech','guerrilla','What is the part of speech of "guerrilla" in the sentence: "The guerrilla attacked at dawn"?','noun','verb','adjective','interjection','"Guerrilla" is a noun referring to a type of soldier. The other options do not refer to a person.'),
+('Grammar and Structure','Part of Speech','guess','What is the part of speech of "guess" in the sentence: "Can you guess the answer?"','verb','noun','adjective','preposition','"Guess" is a verb meaning to estimate or suppose. The other options do not describe an action.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','guest','What is the part of speech of "guest" in the sentence: "We invited a guest to dinner"?','noun','verb','adjective','adverb','"Guest" is a noun referring to a person who is invited. The other options do not name a person.'),
+('Grammar and Structure','Part of Speech','Guidance','What is the part of speech of "guidance" in the sentence: "She offered valuable guidance"?','noun','verb','adjective','adverb','"Guidance" is a noun meaning advice or direction. The other options do not represent a concept.'),
+('Grammar and Structure','Part of Speech','guide','What is the part of speech of "guide" in the sentence: "He will guide us through the museum"?','verb','noun','adjective','preposition','"Guide" is a verb meaning to lead or direct. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','guidebook','What is the part of speech of "guidebook" in the sentence: "I bought a guidebook before the trip"?','noun','verb','adjective','conjunction','"Guidebook" is a noun meaning a book that provides information. The other options do not name an object.'),
+('Grammar and Structure','Part of Speech','Guideline','What is the part of speech of "guideline" in the sentence: "They followed the safety guideline"?','noun','verb','adjective','adverb','"Guideline" is a noun referring to a rule or instruction. The other choices do not refer to a document.'),
+('Grammar and Structure','Part of Speech','guidepost','What is the part of speech of "guidepost" in the sentence: "The hikers saw a guidepost on the trail"?','noun','verb','adjective','preposition','"Guidepost" is a noun meaning a sign that gives direction. The other options do not represent a physical object.'),
+('Grammar and Structure','Part of Speech','Guilt','What is the part of speech of "guilt" in the sentence: "He felt a deep sense of guilt"?','noun','verb','adjective','interjection','"Guilt" is a noun referring to the feeling of having done something wrong. The other options do not describe a state of emotion.'),
+('Grammar and Structure','Part of Speech','Guilty','What is the part of speech of "guilty" in the sentence: "She looked guilty after the incident"?','adjective','noun','verb','adverb','"Guilty" is an adjective describing the subject’s emotional state. The other options do not describe a noun.'),
+('Grammar and Structure','Part of Speech','guitar','What is the part of speech of "guitar" in the sentence: "He played the guitar beautifully"?','noun','verb','adjective','adverb','"Guitar" is a noun referring to a musical instrument. The other options do not represent a tangible object.'),
+('Grammar and Structure','Part of Speech','gulp','What is the part of speech of "gulp" in the sentence: "He took a gulp of water"?','noun','verb','adjective','interjection','"Gulp" is a noun meaning a large swallow. The other choices do not describe a quantity of liquid taken in.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','gumdrop','What is the part of speech of "gumdrop" in the sentence: "The child picked a red gumdrop from the jar"?','noun','verb','adjective','adverb','"Gumdrop" is a noun referring to a type of candy. The other choices do not name a tangible item.'),
+('Grammar and Structure','Part of Speech','gunfire','What is the part of speech of "gunfire" in the sentence: "They ran at the sound of gunfire"?','noun','verb','adjective','interjection','"Gunfire" is a noun meaning the sound or act of shooting guns. The other options do not represent a sound or event.'),
+('Grammar and Structure','Part of Speech','gunpowder','What is the part of speech of "gunpowder" in the sentence: "The pirates stored barrels of gunpowder"?','noun','verb','adjective','adverb','"Gunpowder" is a noun referring to an explosive substance. The other options do not name a substance.'),
+('Grammar and Structure','Part of Speech','gurgle','What is the part of speech of "gurgle" in the sentence: "The baby began to gurgle happily"?','verb','noun','adjective','preposition','"Gurgle" is a verb describing the bubbling sound made. The other choices do not indicate an action.'),
+('Grammar and Structure','Part of Speech','gush','What is the part of speech of "gush" in the sentence: "Tears began to gush from her eyes"?','verb','noun','adjective','conjunction','"Gush" is a verb referring to the sudden flow. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','Gut','What is the part of speech of "gut" in the sentence: "He felt a pain in his gut"?','noun','verb','adjective','adverb','"Gut" is a noun referring to a part of the body. The other options do not refer to a body part.'),
+('Grammar and Structure','Part of Speech','guy','What is the part of speech of "guy" in the sentence: "That guy is my brother"?','noun','verb','adjective','preposition','"Guy" is a noun meaning a male person. The other options do not represent a person.'),
+('Grammar and Structure','Part of Speech','ha','What is the part of speech of "ha" in the sentence: "Ha! That was funny"?','interjection','noun','verb','adjective','"Ha" is an interjection expressing laughter or surprise. The other options do not express sudden emotion.'),
+('Grammar and Structure','Part of Speech','ha-ha','What is the part of speech of "ha-ha" in the sentence: "He replied with a loud ha-ha"?','noun','interjection','verb','adverb','"Ha-ha" is a noun referring to a laugh in this context. The other choices do not identify the word as a thing.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','habit','What is the part of speech of "habit" in the sentence: "He developed a good habit of exercising every morning"?','noun','verb','adjective','adverb','"Habit" is a noun referring to a regular practice. The other choices do not represent a thing or practice.'),
+('Grammar and Structure','Part of Speech','habitat','What is the part of speech of "habitat" in the sentence: "The forest is a natural habitat for many animals"?','noun','verb','adjective','preposition','"Habitat" is a noun referring to the natural environment of an organism. The other options do not represent a place or environment.'),
+('Grammar and Structure','Part of Speech','habitually','What is the part of speech of "habitually" in the sentence: "She habitually wakes up early every day"?','adverb','verb','noun','adjective','"Habitually" is an adverb describing how she wakes up. The other options do not modify the verb "wakes" correctly.'),
+('Grammar and Structure','Part of Speech','hacksaw','What is the part of speech of "hacksaw" in the sentence: "He used a hacksaw to cut through the metal pipe"?','noun','verb','adjective','preposition','"Hacksaw" is a noun referring to a tool used for cutting. The other choices do not describe a physical object.'),
+('Grammar and Structure','Part of Speech','hail','What is the part of speech of "hail" in the sentence: "They watched the hail fall from the sky"?','verb','noun','adjective','adverb','"Hail" is a noun referring to small ice pellets. The other options do not describe a thing.'),
+('Grammar and Structure','Part of Speech','hailstone','What is the part of speech of "hailstone" in the sentence: "The ground was covered with hailstones after the storm"?','noun','verb','adjective','adverb','"Hailstone" is a noun referring to individual pieces of hail. The other choices do not represent objects.'),
+('Grammar and Structure','Part of Speech','hailstorm','What is the part of speech of "hailstorm" in the sentence: "The hailstorm damaged the roof"?','noun','verb','adjective','interjection','"Hailstorm" is a noun referring to a weather event involving hail. The other options do not represent a weather phenomenon.'),
+('Grammar and Structure','Part of Speech','hair','What is the part of speech of "hair" in the sentence: "She brushed her hair before the event"?','noun','verb','adjective','adverb','"Hair" is a noun referring to the threads growing from the skin. The other options do not represent a body part or object.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','hairbrush','What is the part of speech of "hairbrush" in the sentence: "She used a hairbrush to style her hair"?','noun','verb','adjective','adverb','"Hairbrush" is a noun referring to a tool used for brushing hair. The other options do not represent a physical object.'),
+('Grammar and Structure','Part of Speech','haircut','What is the part of speech of "haircut" in the sentence: "He got a new haircut yesterday"?','noun','verb','adjective','preposition','"Haircut" is a noun referring to the act or result of cutting hair. The other options do not represent an event or object.'),
+('Grammar and Structure','Part of Speech','hairdo','What is the part of speech of "hairdo" in the sentence: "She spent an hour perfecting her hairdo"?','noun','verb','adjective','adverb','"Hairdo" is a noun referring to a styled arrangement of hair. The other options do not describe a hairstyle.'),
+('Grammar and Structure','Part of Speech','hairdresser','What is the part of speech of "hairdresser" in the sentence: "The hairdresser cut my hair"?','noun','verb','adjective','preposition','"Hairdresser" is a noun referring to a person who styles hair. The other options do not represent a person.'),
+('Grammar and Structure','Part of Speech','hairline','What is the part of speech of "hairline" in the sentence: "His hairline receded as he got older"?','noun','verb','adjective','adverb','"Hairline" is a noun referring to the edge or boundary of the hair on the forehead. The other options do not name a part of the body.'),
+('Grammar and Structure','Part of Speech','half','What is the part of speech of "half" in the sentence: "He only ate half of his dinner"?','noun','verb','adjective','adverb','"Half" is a noun referring to one of two equal parts. The other options do not describe a portion or division.'),
+('Grammar and Structure','Part of Speech','half-heartedly','What is the part of speech of "half-heartedly" in the sentence: "She agreed to help half-heartedly"?','adverb','verb','noun','adjective','"Half-heartedly" is an adverb describing how she agreed. The other options do not modify verbs appropriately.'),
+('Grammar and Structure','Part of Speech','halfback','What is the part of speech of "halfback" in the sentence: "The halfback ran the ball down the field"?','noun','verb','adjective','adverb','"Halfback" is a noun referring to a football position. The other options do not refer to a person in sports.'),
+('Grammar and Structure','Part of Speech','halfhearted','What is the part of speech of "halfhearted" in the sentence: "His effort was halfhearted at best"?','adjective','verb','noun','adverb','"Halfhearted" is an adjective describing "effort." The other choices do not modify nouns.'),
+('Grammar and Structure','Part of Speech','halfway','What is the part of speech of "halfway" in the sentence: "We stopped halfway to the destination"?','adverb','verb','noun','adjective','"Halfway" is an adverb describing where the stop occurred. The other options do not describe a location or position.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','halfwit','What is the part of speech of "halfwit" in the sentence: "The teacher called him a halfwit for his silly mistake"?','noun','verb','adjective','adverb','"Halfwit" is a noun referring to a person who is not very intelligent. The other options do not represent a person.'),
+('Grammar and Structure','Part of Speech','hall','What is the part of speech of "hall" in the sentence: "They walked down the hall to the classroom"?','noun','verb','adjective','adverb','"Hall" is a noun referring to a passage or room. The other options do not describe a space.'),
+('Grammar and Structure','Part of Speech','hallelujah','What is the part of speech of "hallelujah" in the sentence: "The crowd shouted hallelujah after the performance"?','interjection','noun','verb','adjective','"Hallelujah" is an interjection used to express joy or praise. The other options do not represent an exclamation.'),
+('Grammar and Structure','Part of Speech','hallway','What is the part of speech of "hallway" in the sentence: "The hallway was empty except for a few chairs"?','noun','verb','adjective','preposition','"Hallway" is a noun referring to a passage in a building. The other options do not represent a part of a structure.'),
+('Grammar and Structure','Part of Speech','halt','What is the part of speech of "halt" in the sentence: "The vehicle came to a halt at the red light"?','noun','verb','adjective','adverb','"Halt" is a noun meaning a stop or pause. The other options do not describe a state of stopping.'),
+('Grammar and Structure','Part of Speech','hammer','What is the part of speech of "hammer" in the sentence: "He used a hammer to drive the nail into the wood"?','noun','verb','adjective','adverb','"Hammer" is a noun referring to a tool used for striking. The other options do not represent a tool.'),
+('Grammar and Structure','Part of Speech','hand','What is the part of speech of "hand" in the sentence: "She raised her hand to ask a question"?','noun','verb','adjective','adverb','"Hand" is a noun referring to a part of the body. The other options do not represent a body part.'),
+('Grammar and Structure','Part of Speech','handbag','What is the part of speech of "handbag" in the sentence: "She carried her handbag with her"?','noun','verb','adjective','adverb','"Handbag" is a noun referring to a small bag carried by women. The other options do not describe a carrying item.'),
+('Grammar and Structure','Part of Speech','handball','What is the part of speech of "handball" in the sentence: "He played a match of handball with his friends"?','noun','verb','adjective','preposition','"Handball" is a noun referring to a sport. The other options do not describe a sport or game.'),
+('Grammar and Structure','Part of Speech','handbook','What is the part of speech of "handbook" in the sentence: "He referred to the handbook for instructions"?','noun','verb','adjective','adverb','"Handbook" is a noun referring to a guide or manual. The other options do not represent a reference or guide.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','handcuff','What is the part of speech of "handcuff" in the sentence: "The police officer put on the handcuff"?','noun','verb','adjective','adverb','"Handcuff" is a noun referring to a device used to restrain someone. The other options do not represent a physical object.'),
+('Grammar and Structure','Part of Speech','handful','What is the part of speech of "handful" in the sentence: "She grabbed a handful of coins"?','noun','verb','adjective','adverb','"Handful" is a noun referring to a small number or quantity. The other options do not represent a specific amount.'),
+('Grammar and Structure','Part of Speech','handgrenade','What is the part of speech of "handgrenade" in the sentence: "The soldier carried a handgrenade during the mission"?','noun','verb','adjective','preposition','"Handgrenade" is a noun referring to an explosive device. The other options do not describe a weapon.'),
+('Grammar and Structure','Part of Speech','handgun','What is the part of speech of "handgun" in the sentence: "He concealed the handgun under his jacket"?','noun','verb','adjective','adverb','"Handgun" is a noun referring to a small firearm. The other options do not represent a weapon.'),
+('Grammar and Structure','Part of Speech','handheld','What is the part of speech of "handheld" in the sentence: "She used a handheld device to take notes"?','adjective','noun','verb','adverb','"Handheld" is an adjective describing the noun "device." The other options do not modify nouns appropriately.'),
+('Grammar and Structure','Part of Speech','handhold','What is the part of speech of "handhold" in the sentence: "He found a handhold on the rocky cliff"?','noun','verb','adjective','interjection','"Handhold" is a noun referring to a place to grip. The other choices do not refer to a physical object for gripping.'),
+('Grammar and Structure','Part of Speech','handily','What is the part of speech of "handily" in the sentence: "She won the race handily"?','adverb','verb','noun','adjective','"Handily" is an adverb modifying the verb "won." The other options do not describe the manner of the action.'),
+('Grammar and Structure','Part of Speech','handkerchief','What is the part of speech of "handkerchief" in the sentence: "He wiped his face with a handkerchief"?','noun','verb','adjective','adverb','"Handkerchief" is a noun referring to a piece of cloth used for wiping. The other choices do not represent an object.'),
+('Grammar and Structure','Part of Speech','handle','What is the part of speech of "handle" in the sentence: "She grabbed the handle to open the door"?','noun','verb','adjective','interjection','"Handle" is a noun referring to a part used for opening or holding something. The other options do not represent a physical object.'),
+('Grammar and Structure','Part of Speech','handlebars','What is the part of speech of "handlebars" in the sentence: "He adjusted the handlebars on his bicycle"?','noun','verb','adjective','adverb','"Handlebars" is a noun referring to the steering mechanism of a bicycle. The other options do not refer to a specific object.'); 
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','handling','What is the part of speech of "handling" in the sentence: "Her handling of the situation was impressive"?','noun','verb','adjective','adverb','"Handling" is a noun referring to the act of managing or dealing with something. The other options do not represent the act itself.'),
+('Grammar and Structure','Part of Speech','handmade','What is the part of speech of "handmade" in the sentence: "She gave me a beautiful handmade scarf"?','adjective','noun','verb','adverb','"Handmade" is an adjective describing the noun "scarf." The other options do not function as descriptors.'),
+('Grammar and Structure','Part of Speech','handover','What is the part of speech of "handover" in the sentence: "The manager completed the handover of duties to the new employee"?','noun','verb','adjective','preposition','"Handover" is a noun referring to the act of giving control or responsibility. The other options do not refer to an action or process.'),
+('Grammar and Structure','Part of Speech','handprint','What is the part of speech of "handprint" in the sentence: "There was a handprint on the window"?','noun','verb','adjective','adverb','"Handprint" is a noun referring to the mark made by a hand. The other choices do not represent a physical mark.'),
+('Grammar and Structure','Part of Speech','handpuppet','What is the part of speech of "handpuppet" in the sentence: "The child played with a handpuppet during the show"?','noun','verb','adjective','adverb','"Handpuppet" is a noun referring to a type of puppet controlled by a hand. The other options do not represent a toy or object.'),
+('Grammar and Structure','Part of Speech','handrail','What is the part of speech of "handrail" in the sentence: "He grabbed the handrail while walking down the stairs"?','noun','verb','adjective','preposition','"Handrail" is a noun referring to a support for hands. The other options do not refer to a physical object.'),
+('Grammar and Structure','Part of Speech','handset','What is the part of speech of "handset" in the sentence: "The telephone handset was placed on the desk"?','noun','verb','adjective','adverb','"Handset" is a noun referring to a part of a telephone. The other choices do not represent a part or object of a telephone.'),
+('Grammar and Structure','Part of Speech','handshake','What is the part of speech of "handshake" in the sentence: "They exchanged a firm handshake"?','noun','verb','adjective','adverb','"Handshake" is a noun referring to the act of greeting by shaking hands. The other options do not represent an action or gesture.'),
+('Grammar and Structure','Part of Speech','handsomely','What is the part of speech of "handsomely" in the sentence: "He was rewarded handsomely for his efforts"?','adverb','verb','noun','adjective','"Handsomely" is an adverb describing how he was rewarded. The other options do not describe the manner of the action.'),
+('Grammar and Structure','Part of Speech','handspring','What is the part of speech of "handspring" in the sentence: "She did a handspring in the gymnastics competition"?','noun','verb','adjective','preposition','"Handspring" is a noun referring to a gymnastic movement. The other options do not represent an acrobatic move.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','handstand','What is the part of speech of "handstand" in the sentence: "He performed a perfect handstand"?','noun','verb','adjective','adverb','"Handstand" is a noun referring to a gymnastic position where one stands on their hands. The other options do not represent a physical position.'),
+('Grammar and Structure','Part of Speech','handwaving','What is the part of speech of "handwaving" in the sentence: "She greeted him with handwaving"?','noun','verb','adjective','adverb','"Handwaving" is a noun referring to the act of waving one’s hand. The other options do not represent an action or gesture.'),
+('Grammar and Structure','Part of Speech','handwork','What is the part of speech of "handwork" in the sentence: "The craft requires a lot of handwork"?','noun','verb','adjective','preposition','"Handwork" is a noun referring to work done with one’s hands. The other options do not describe physical labor.'),
+('Grammar and Structure','Part of Speech','handwriting','What is the part of speech of "handwriting" in the sentence: "Her handwriting is elegant"?','noun','verb','adjective','adverb','"Handwriting" is a noun referring to the way one writes by hand. The other options do not describe the act of writing.'),
+('Grammar and Structure','Part of Speech','handy','What is the part of speech of "handy" in the sentence: "This tool is really handy"?','adjective','noun','verb','adverb','"Handy" is an adjective describing something that is convenient or useful. The other options do not describe usefulness.'),
+('Grammar and Structure','Part of Speech','handyman','What is the part of speech of "handyman" in the sentence: "He hired a handyman to fix the sink"?','noun','verb','adjective','preposition','"Handyman" is a noun referring to a person skilled in various tasks. The other options do not describe a person.'),
+('Grammar and Structure','Part of Speech','hang','What is the part of speech of "hang" in the sentence: "Please hang the picture on the wall"?','verb','noun','adjective','adverb','"Hang" is a verb meaning to suspend or attach. The other options do not represent an action.'),
+('Grammar and Structure','Part of Speech','hangman','What is the part of speech of "hangman" in the sentence: "They played a game of hangman during recess"?','noun','verb','adjective','adverb','"Hangman" is a noun referring to a word-guessing game. The other options do not describe a game or person.'),
+('Grammar and Structure','Part of Speech','hangnail','What is the part of speech of "hangnail" in the sentence: "She had a painful hangnail on her finger"?','noun','verb','adjective','adverb','"Hangnail" is a noun referring to a small tear in the skin near the nail. The other options do not describe a physical condition.'),
+('Grammar and Structure','Part of Speech','hangout','What is the part of speech of "hangout" in the sentence: "They went to their favorite hangout after school"?','noun','verb','adjective','adverb','"Hangout" is a noun referring to a place where people gather. The other options do not describe a place or location.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','haphazardly','What is the part of speech of "haphazardly" in the sentence: "The papers were thrown haphazardly on the desk"?','adverb','verb','noun','adjective','"Haphazardly" is an adverb describing how the papers were thrown. The other options do not modify the action appropriately.'),
+('Grammar and Structure','Part of Speech','happen','What is the part of speech of "happen" in the sentence: "Accidents can happen when you least expect them"?','verb','noun','adjective','adverb','"Happen" is a verb meaning to occur. The other options do not represent an action.'),
+('Grammar and Structure','Part of Speech','happily','What is the part of speech of "happily" in the sentence: "She smiled happily after hearing the good news"?','adverb','verb','noun','adjective','"Happily" is an adverb modifying the verb "smiled." The other options do not describe the manner of the action.'),
+('Grammar and Structure','Part of Speech','happy','What is the part of speech of "happy" in the sentence: "He felt happy after receiving the gift"?','adjective','noun','verb','adverb','"Happy" is an adjective describing the emotional state of the subject. The other options do not describe a feeling.'),
+('Grammar and Structure','Part of Speech','harass','What is the part of speech of "harass" in the sentence: "He was accused of harassing his coworkers"?','verb','noun','adjective','adverb','"Harass" is a verb meaning to repeatedly trouble or annoy. The other options do not express an action.'),
+('Grammar and Structure','Part of Speech','harassment','What is the part of speech of "harassment" in the sentence: "She reported the harassment to the authorities"?','noun','verb','adjective','adverb','"Harassment" is a noun referring to repeated unwanted behavior. The other options do not name a concept or action.'),
+('Grammar and Structure','Part of Speech','harbinger','What is the part of speech of "harbinger" in the sentence: "The storm clouds were a harbinger of the coming rain"?','noun','verb','adjective','adverb','"Harbinger" is a noun meaning an indication or sign of something to come. The other options do not represent an object or sign.'),
+('Grammar and Structure','Part of Speech','harbour','What is the part of speech of "harbour" in the sentence: "The boat docked at the harbour for the night"?','noun','verb','adjective','adverb','"Harbour" is a noun referring to a sheltered area for ships. The other options do not describe a location or place.'),
+('Grammar and Structure','Part of Speech','hard','What is the part of speech of "hard" in the sentence: "She worked hard to complete the project"?','adverb','noun','verb','adjective','"Hard" is an adverb modifying the verb "worked." The other options do not describe the manner of the action.'),
+('Grammar and Structure','Part of Speech','hardheaded','What is the part of speech of "hardheaded" in the sentence: "He is known for his hardheaded approach to solving problems"?','adjective','noun','verb','adverb','"Hardheaded" is an adjective describing someone who is stubborn or determined. The other options do not modify the subject appropriately.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','hardhearted','What is the part of speech of "hardhearted" in the sentence: "He is known for his hardhearted behavior towards others"?','adjective','noun','verb','adverb','"Hardhearted" is an adjective describing someone who is cruel or unfeeling. The other options do not describe a personality trait.'),
+('Grammar and Structure','Part of Speech','hardtop','What is the part of speech of "hardtop" in the sentence: "The car had a hardtop convertible roof"?','noun','verb','adjective','adverb','"Hardtop" is a noun referring to a type of car roof. The other options do not describe an object.'),
+('Grammar and Structure','Part of Speech','hardware','What is the part of speech of "hardware" in the sentence: "They went to the store to buy some hardware for the project"?','noun','verb','adjective','preposition','"Hardware" is a noun referring to tools, machinery, or equipment. The other options do not refer to materials or items.'),
+('Grammar and Structure','Part of Speech','hardwire','What is the part of speech of "hardwire" in the sentence: "They decided to hardwire the security system into the building"?','verb','noun','adjective','adverb','"Hardwire" is a verb meaning to install or connect something directly with wires. The other options do not describe an action.'),
+('Grammar and Structure','Part of Speech','harm','What is the part of speech of "harm" in the sentence: "His actions caused harm to the community"?','noun','verb','adjective','adverb','"Harm" is a noun referring to injury or damage. The other options do not represent an effect or consequence.'),
+('Grammar and Structure','Part of Speech','harmful','What is the part of speech of "harmful" in the sentence: "Smoking is harmful to your health"?','adjective','verb','noun','adverb','"Harmful" is an adjective describing something that causes harm. The other options do not describe something that causes damage.'),
+('Grammar and Structure','Part of Speech','harmonic','What is the part of speech of "harmonic" in the sentence: "The orchestra played a harmonic tune"?','adjective','noun','verb','adverb','"Harmonic" is an adjective describing something related to harmony or musical tones. The other options do not modify the noun "tune" appropriately.'),
+('Grammar and Structure','Part of Speech','harmonious','What is the part of speech of "harmonious" in the sentence: "The two singers had a harmonious relationship"?','adjective','noun','verb','adverb','"Harmonious" is an adjective describing a relationship of agreement or balance. The other options do not describe a harmonious quality.'),
+('Grammar and Structure','Part of Speech','harmoniously','What is the part of speech of "harmoniously" in the sentence: "They worked harmoniously together on the project"?','adverb','noun','verb','adjective','"Harmoniously" is an adverb modifying the verb "worked." The other options do not describe the manner of the action.'),
+('Grammar and Structure','Part of Speech','harmonize','What is the part of speech of "harmonize" in the sentence: "The musicians worked to harmonize their instruments"?','verb','noun','adjective','adverb','"Harmonize" is a verb meaning to bring into harmony or agreement. The other options do not describe an action or process.');
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','franchise','What is the part of speech of "franchise" in the sentence: "She bought a fast-food franchise in the city"?','noun','verb','adjective','adverb','"Franchise" is a noun referring to a business licensed to operate under a brand. The other choices do not name a business entity.'),
+('Grammar and Structure','Part of Speech','frankly','What is the part of speech of "frankly" in the sentence: "Frankly, I don’t agree with the decision"?','adverb','adjective','verb','noun','"Frankly" is an adverb modifying the whole sentence by showing the speaker's attitude. The other options do not serve that function.'),
+('Grammar and Structure','Part of Speech','frantic','What is the part of speech of "frantic" in the sentence: "She made a frantic call for help"?','adjective','noun','verb','adverb','"Frantic" is an adjective describing the noun "call." The other options are not used to describe a noun.'),
+('Grammar and Structure','Part of Speech','frantically','What is the part of speech of "frantically" in the sentence: "He searched frantically for his keys"?','adverb','adjective','verb','noun','"Frantically" is an adverb describing how he searched. The other choices do not modify verbs appropriately.'),
+('Grammar and Structure','Part of Speech','fraud','What is the part of speech of "fraud" in the sentence: "The company was accused of committing fraud"?','noun','verb','adjective','preposition','"Fraud" is a noun referring to wrongful or criminal deception. The other options do not refer to a concept or act.'),
+('Grammar and Structure','Part of Speech','free','What is the part of speech of "free" in the sentence: "The concert tickets were free"?','adjective','noun','verb','adverb','"Free" is an adjective describing the tickets as having no cost. The other options do not describe the noun in context.'),
+('Grammar and Structure','Part of Speech','freedom','What is the part of speech of "freedom" in the sentence: "They fought for freedom and justice"?','noun','verb','adjective','interjection','"Freedom" is a noun referring to the state of being free. The other options do not represent a concept or ideal.'),
+('Grammar and Structure','Part of Speech','freely','What is the part of speech of "freely" in the sentence: "Information was freely available online"?','adverb','adjective','verb','noun','"Freely" is an adverb describing how information was available. The other options do not modify the verb appropriately.'),
+('Grammar and Structure','Part of Speech','freeway','What is the part of speech of "freeway" in the sentence: "They took the freeway to get to the city faster"?','noun','verb','adjective','adverb','"Freeway" is a noun referring to a major road or highway. The other options do not name a place or route.'),
+('Grammar and Structure','Part of Speech','freeze','What is the part of speech of "freeze" in the sentence: "Water will freeze at zero degrees Celsius"?','verb','noun','adjective','preposition','"Freeze" is a verb describing a change of state. The other choices do not express an action or process.');
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','gracious','What is the part of speech of "gracious" in the sentence: "She gave a gracious response to the criticism"?','adjective','noun','verb','adverb','"Gracious" is an adjective modifying the noun "response." The other options do not function to describe a noun.'),
+('Grammar and Structure','Part of Speech','graciously','What is the part of speech of "graciously" in the sentence: "He graciously accepted the award"?','adverb','adjective','noun','verb','"Graciously" is an adverb describing how he accepted the award. The other choices do not modify verbs.'),
+('Grammar and Structure','Part of Speech','grade','What is the part of speech of "grade" in the sentence: "She received a high grade on the exam"?','noun','verb','adjective','conjunction','"Grade" is a noun referring to a score. The other options do not represent a measurable result.'),
+('Grammar and Structure','Part of Speech','gradual','What is the part of speech of "gradual" in the sentence: "There was a gradual increase in temperature"?','adjective','noun','verb','adverb','"Gradual" is an adjective describing the noun "increase." The other options do not function to describe nouns.'),
+('Grammar and Structure','Part of Speech','gradually','What is the part of speech of "gradually" in the sentence: "The pain gradually disappeared"?','adverb','verb','noun','adjective','"Gradually" is an adverb modifying the verb "disappeared." The other options do not describe how an action occurs.'),
+('Grammar and Structure','Part of Speech','grand','What is the part of speech of "grand" in the sentence: "They entered the grand ballroom together"?','adjective','noun','verb','interjection','"Grand" is an adjective modifying "ballroom." The other choices do not describe nouns.'),
+('Grammar and Structure','Part of Speech','grandchild','What is the part of speech of "grandchild" in the sentence: "She visited her grandchild on the weekend"?','noun','verb','adjective','adverb','"Grandchild" is a noun referring to the child of one's child. The other choices do not name a person.'),
+('Grammar and Structure','Part of Speech','granddaughter','What is the part of speech of "granddaughter" in the sentence: "His granddaughter drew him a picture"?','noun','verb','adjective','interjection','"Granddaughter" is a noun referring to a female grandchild. The other options do not describe a person.'),
+('Grammar and Structure','Part of Speech','grandfather','What is the part of speech of "grandfather" in the sentence: "My grandfather told me a story"?','noun','verb','adjective','conjunction','"Grandfather" is a noun referring to a male ancestor. The other options do not represent a person.');
+
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','grandma','What is the part of speech of "grandma" in the sentence: "My grandma makes the best cookies"?','noun','verb','adjective','adverb','"Grandma" is a noun referring to a female grandparent. The other options do not name a person.'),
+('Grammar and Structure','Part of Speech','grandmother','What is the part of speech of "grandmother" in the sentence: "His grandmother lives in the countryside"?','noun','verb','adjective','conjunction','"Grandmother" is a noun referring to a female ancestor. The other choices do not represent a person.'),
+('Grammar and Structure','Part of Speech','grandpa','What is the part of speech of "grandpa" in the sentence: "I helped my grandpa in the garden"?','noun','verb','adjective','interjection','"Grandpa" is a noun used to refer to a male grandparent. The other options do not refer to a person.'),
+('Grammar and Structure','Part of Speech','grandparent','What is the part of speech of "grandparent" in the sentence: "Every child needs time with their grandparent"?','noun','adjective','verb','preposition','"Grandparent" is a noun meaning the parent of one’s parent. The other choices do not refer to a person.'),
+('Grammar and Structure','Part of Speech','grandson','What is the part of speech of "grandson" in the sentence: "Her grandson visited over the weekend"?','noun','verb','adjective','adverb','"Grandson" is a noun referring to the son of one's child. The other choices are not appropriate to represent a family member.'),
+('Grammar and Structure','Part of Speech','grandstand','What is the part of speech of "grandstand" in the sentence: "They found seats in the grandstand to watch the parade"?','noun','verb','adjective','conjunction','"Grandstand" is a noun meaning a structure with seating. The other choices do not represent a place or thing.'),
+('Grammar and Structure','Part of Speech','grant','What is the part of speech of "grant" in the sentence: "The university will grant scholarships to students"?','verb','noun','adjective','adverb','"Grant" is a verb meaning to give or allow. The other options do not express an action.'),
+('Grammar and Structure','Part of Speech','grapefruit','What is the part of speech of "grapefruit" in the sentence: "She had a grapefruit for breakfast"?','noun','verb','adjective','interjection','"Grapefruit" is a noun referring to a citrus fruit. The other options do not name an object.'),
+('Grammar and Structure','Part of Speech','grapevine','What is the part of speech of "grapevine" in the sentence: "They grew a grapevine along the fence"?','noun','verb','adjective','preposition','"Grapevine" is a noun meaning a plant that produces grapes. The other options do not represent a plant or object.'),
+('Grammar and Structure','Part of Speech','graph','What is the part of speech of "graph" in the sentence: "The graph shows our monthly sales data"?','noun','verb','adjective','adverb','"Graph" is a noun referring to a visual representation of data. The other choices do not describe a visual object.');
+
+INSERT INTO verbal (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure','Part of Speech','graphic','What is the part of speech of "graphic" in the sentence: "The news report contained a graphic image"?','adjective','noun','verb','adverb','"Graphic" is an adjective describing the noun "image." The other choices do not describe a noun.'),
+('Grammar and Structure','Part of Speech','graphics','What is the part of speech of "graphics" in the sentence: "The game has impressive graphics"?','noun','verb','adjective','conjunction','"Graphics" is a noun referring to visual representations. The other options do not refer to a thing.'),
+('Grammar and Structure','Part of Speech','grasp','What is the part of speech of "grasp" in the sentence: "He tried to grasp the concept"?','verb','noun','adjective','adverb','"Grasp" is a verb meaning to understand or seize. The other options do not represent an action.'),
+('Grammar and Structure','Part of Speech','grass','What is the part of speech of "grass" in the sentence: "The grass was wet with dew"?','noun','verb','adjective','adverb','"Grass" is a noun referring to vegetation. The other options do not represent a thing or object.'),
+('Grammar and Structure','Part of Speech','grasshopper','What is the part of speech of "grasshopper" in the sentence: "A grasshopper jumped onto the leaf"?','noun','verb','adjective','preposition','"Grasshopper" is a noun referring to an insect. The other options do not name a creature.'),
+('Grammar and Structure','Part of Speech','grasslands','What is the part of speech of "grasslands" in the sentence: "Lions roam the African grasslands"?','noun','verb','adjective','interjection','"Grasslands" is a noun meaning wide open areas of grass. The other options are not correct in context.'),
+('Grammar and Structure','Part of Speech','grate','What is the part of speech of "grate" in the sentence: "She used a tool to grate the cheese"?','verb','noun','adjective','adverb','"Grate" is a verb meaning to shred. The other choices do not indicate an action.'),
+('Grammar and Structure','Part of Speech','gratefully','What is the part of speech of "gratefully" in the sentence: "He gratefully accepted the gift"?','adverb','verb','noun','adjective','"Gratefully" is an adverb modifying how he accepted the gift. The other options do not describe a verb.'),
+('Grammar and Structure','Part of Speech','gratification','What is the part of speech of "gratification" in the sentence: "He felt gratification after completing the task"?','noun','verb','adjective','conjunction','"Gratification" is a noun meaning satisfaction. The other options do not refer to a feeling.'),
+('Grammar and Structure','Part of Speech','grave','What is the part of speech of "grave" in the sentence: "He visited his father's grave every year"?','noun','verb','adjective','adverb','"Grave" is a noun referring to a burial site. The other options do not name a place.');
+
+
+
+
+
+
