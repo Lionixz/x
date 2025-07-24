@@ -13,9 +13,9 @@ include('../cache/cache.php');
             <?php
             $conn = require_once __DIR__ . '../../config/db.php';
 
-            $verbal_category_limits = [
-                'Word Meaning and Usage' => 10,
-                'Grammar and Structure' => 10,
+            $verbal_limits = [
+                'Word Meaning and Usage' => 15,
+                'Grammar and Structure' => 15,
               
             ];
             $numerical_limits = [
@@ -95,7 +95,7 @@ include('../cache/cache.php');
             }
             // Fetch from all tables
             $questions = array_merge(
-                fetchQuestionsByCategory($conn, 'verbal', $verbal_category_limits),
+                fetchQuestionsByCategory($conn, 'verbal', $verbal_limits),
                 fetchQuestionsByCategory($conn, 'analytical', $analytical_limits),
                 fetchQuestionsByCategory($conn, 'numerical', $numerical_limits),
                 fetchQuestionsByCategory($conn, 'general', $general_limits)
