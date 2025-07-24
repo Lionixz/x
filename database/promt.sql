@@ -30,11 +30,11 @@ DROP TABLE IF EXISTS `numerical`;
 DROP TABLE IF EXISTS `analytical`;
 DROP TABLE IF EXISTS `general`;
 
-  CREATE TABLE `verbal` (
+ CREATE TABLE `verbal` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
-    `word` VARCHAR(100) DEFAULT NULL,
+    `word` VARCHAR(100) DEFAULT NULL, 
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
     `chart_data` JSON DEFAULT NULL,
@@ -44,8 +44,9 @@ DROP TABLE IF EXISTS `general`;
     `wrong_answer3` VARCHAR(255) NOT NULL,
     `explanation` TEXT NOT NULL,
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
-    PRIMARY KEY (`id`)
-  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    PRIMARY KEY (`id`),
+    KEY `idx_category_type_word` (`category`, `type`, `word`) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
   CREATE TABLE `numerical` (

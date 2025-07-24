@@ -14,16 +14,17 @@ include('../cache/cache.php');
             $conn = require_once __DIR__ . '../../config/db.php';
 
             $verbal_limits = [
-                'Word Meaning and Usage' => 15,
-                'Grammar and Structure' => 15,
+                'Word Meaning and Usage' => 10,
+                'Grammar and Structure' => 1,
               
             ];
             $numerical_limits = [
                 'Foundations and Basics' => 2,
                 'Order of Operations' => 2,
             ];
+
             $analytical_limits = [
-                'Data Interpretation' => 2,
+                'Data Interpretation' => 10,
                 'Logical Reasoning' => 2,
             ];
             $general_limits = [

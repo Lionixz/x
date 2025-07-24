@@ -77,7 +77,7 @@ include('../cache/cache.php');
             <br>
             
           
-             <h2>Vocabulary & Meaning</h2>
+            <h2>Vocabulary & Meaning</h2>
             <p>1. Definition &#10004;</p> 
             <p>2. Synonym &#10004;</p>
             <p>3. Antonym &#10004;</p>
@@ -142,7 +142,15 @@ include('../cache/cache.php');
             <p>50. Choose the Best Word to Complete a Paragraph</p>
 
 
-          
+
+
+
+            
+                      
+            
+
+
+
         </div>
     </main>
     <?php includeAndCache('../includes/footer.php'); ?>

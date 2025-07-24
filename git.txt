@@ -2,7 +2,7 @@ cd C:\xampp\htdocs\x
 
 git status
 git add .
-git commit -m "Delete the database"
+git commit -m "Recover files"
 git push origin main
 
 cd C:\chatgpt-automation
