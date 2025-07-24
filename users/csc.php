@@ -197,7 +197,7 @@ include('../cache/cache.php');
 
                 // Countdown timer (5 minutes = 300 seconds)
                 // let timeInSeconds = 11400;
-                let timeInSeconds = 100;
+                let timeInSeconds = 10000;
                 function updateTimerDisplay() {
                     const hours = Math.floor(timeInSeconds / 3600);
                     const minutes = Math.floor((timeInSeconds % 3600) / 60);
