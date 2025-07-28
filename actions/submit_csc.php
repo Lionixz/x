@@ -48,7 +48,6 @@ include('../cache/cache.php');
                             $category,
                             [
                                 'Word Meaning and Usage',
-                                'Grammar and Structure',
                             ]
                         )
                     ) {

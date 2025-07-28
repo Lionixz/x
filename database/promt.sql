@@ -34,6 +34,7 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
+  
     `word` VARCHAR(100) DEFAULT NULL, 
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -53,6 +54,7 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
+   
     `word` VARCHAR(100) DEFAULT NULL,
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -71,6 +73,7 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL, -- Added category column
     `type` VARCHAR(50) NOT NULL,
+   
     `word` VARCHAR(100) DEFAULT NULL,
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -89,6 +92,7 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL, -- Added category column
     `type` VARCHAR(50) NOT NULL,
+  
     `word` VARCHAR(100) NOT NULL,
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -110,12 +114,22 @@ TRUNCATE TABLE `numerical`;
 TRUNCATE TABLE `analytical`;
 TRUNCATE TABLE `general`;
 
--- drop id 
+
+-- Delete duplicates
+DELETE v1
+FROM verbal v1
+JOIN verbal v2 
+  ON v1.word = v2.word 
+  AND v1.id > v2.id;
+
+
+-- drop id image chard data and created at
 ALTER TABLE `verbal`
 DROP COLUMN `id`,
 DROP COLUMN `image`,
 DROP COLUMN `chart_data`,
 DROP COLUMN `created_at`;
+
 
 ALTER TABLE numerical DROP COLUMN id;
 ALTER TABLE analytical DROP COLUMN id;

@@ -6,3 +6,9 @@ git commit -m "i just waste my time"
 git push origin main
 
 cd C:\chatgpt-automation
+
+
+
+
+Get-Content "C:\xampp\htdocs\x\database\Verbal\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root -p quizdb --execute="source C:/xampp/htdocs/x/database/Verbal/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"
+cd C:\chatgpt-automation
