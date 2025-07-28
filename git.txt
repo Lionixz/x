@@ -1,5 +1,4 @@
 cd C:\xampp\htdocs\x
-
 git status
 git add .
 git commit -m "i just waste my time"
@@ -9,6 +8,5 @@ cd C:\chatgpt-automation
 
 
 
-
-Get-Content "C:\xampp\htdocs\x\database\Verbal\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root -p quizdb --execute="source C:/xampp/htdocs/x/database/Verbal/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"
+Get-Content "C:\xampp\htdocs\x\database\Verbal\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root --password= -D x --execute="source C:/xampp/htdocs/x/database/Verbal/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"
 cd C:\chatgpt-automation
