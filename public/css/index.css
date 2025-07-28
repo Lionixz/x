@@ -232,16 +232,6 @@ main p{
 
 
 
-
-
-
-
-
-
-
-
-
-
 h2 {
   /* font-size: 2em; */
   color: var(--accent-clr);
@@ -380,18 +370,6 @@ div.wrong {
             padding: 8px 15px;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* =================== Card Container =================== */

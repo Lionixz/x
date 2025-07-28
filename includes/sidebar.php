@@ -40,20 +40,14 @@
             </button>
             <ul class="sub-menu">
                 <div>
-                    <li><a href="../users/csc.php">CSC Coverage</a></li>
-                    <!-- <li><a href="numericalAbility.php">Numerical Ability</a></li>
-                    <li><a href="analyticalAbility.php">Analytical Ability</a></li>
-                    <li><a href="verbalAbility.php">Verbal Ability</a></li>
-                    <li><a href="generalAbility.php">General Information</a></li> -->
+                    <!-- <li><a href="../users/csc.php">CSC Coverage</a></li> -->
+                    <!-- <li><a href="numericalAbility.php">Numerical Ability</a></li> -->
+                    <!-- <li><a href="analyticalAbility.php">Analytical Ability</a></li> -->
+                    <li><a href="../users/verbalAbility.php">Verbal Ability</a></li>
+                    <!-- <li><a href="generalAbility.php">General Information</a></li> -->
                 </div>
             </ul>
         </li>
-
-
-
-
-
-
 
 
 
@@ -78,19 +72,6 @@
                 </div>
             </ul>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -56,15 +56,7 @@ require_once __DIR__ . '/../cache/cache.php';
                     </svg>
                     <span>Sign in with Google</span>
                 </a>
-
-
-
-
-
-
-
             </div>
-
             <div class="handle"></div>
         </div>
     </div>

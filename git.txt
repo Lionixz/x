@@ -1,7 +1,7 @@
 cd C:\xampp\htdocs\x
 git status
 git add .
-git commit -m "i just waste my time"
+git commit -m "Finaly set up the pay munggo api test"
 git push origin main
 
 cd C:\chatgpt-automation
@@ -10,3 +10,334 @@ cd C:\chatgpt-automation
 
 Get-Content "C:\xampp\htdocs\x\database\Verbal\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root --password= -D x --execute="source C:/xampp/htdocs/x/database/Verbal/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"
 cd C:\chatgpt-automation
+
+
+
+<style>
+  .question {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .question h2 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+  }
+  .choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .choice {
+    padding: 0.3rem;
+    color: #000;
+  }
+  .choice.correct {
+    font-weight: bold;
+    color: #5e63ff;
+  }
+  .explanation {
+    font-size: 0.9rem;
+    color: #000000ff;
+    margin-top: 0.7rem;
+  }
+
+  /* Responsive adjustments for mobile */
+  @media (max-width: 600px) {
+    body {
+      padding: 1rem;
+    }
+    .question {
+      padding: 0.8rem 1rem;
+    }
+    .question h2 {
+      font-size: 1rem;
+    }
+    .choices {
+      grid-template-columns: 1fr; /* single column on small screens */
+      gap: 0.4rem 0;
+    }
+    .choice {
+      padding: 0.1rem;
+    }
+    .explanation {
+      font-size: 0.85rem;
+    }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\xampp\htdocs\x\cache\cache.php
+<?php
+function includeAndCache($filePath)
+{
+    $cacheTime = 86400;
+    global $cacheTime;
+    $absolutePath = realpath($filePath);
+    if (!isset($_SESSION['cached_content'][$absolutePath]) || (time() - $_SESSION['cached_content'][$absolutePath]['time'] > $cacheTime)) {
+        ob_start();
+        include($filePath);
+        $content = ob_get_contents();
+        ob_end_clean();
+        $_SESSION['cached_content'][$absolutePath] = [
+            'content' => $content,
+            'time' => time()
+        ];
+    } else {
+        $content = $_SESSION['cached_content'][$absolutePath]['content'];
+    }
+    echo $content;
+}
+
+
+
+C:\xampp\htdocs\x\config\config.php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+$client = new Google_Client();
+$client->setClientId('799045528732-v4mvbk087598ovh1tdlad7dpeilk9sbi.apps.googleusercontent.com');
+$client->setClientSecret('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');
+$client->setRedirectUri('http://localhost/x/public/index.php');
+$client->addScope('email');
+$client->addScope('profile');
+return $client;
+
+
+C:\xampp\htdocs\x\config\db.php
+<?php
+$host = "localhost";
+$dbname = "x";
+$username = "root";
+$password = "";
+$mysqli = new mysqli($host, $username, $password, $dbname);
+if ($mysqli->connect_error) {
+    die("Database connection failed: " . $mysqli->connect_error);
+}
+$mysqli->set_charset("utf8mb4");
+return $mysqli;
+
+
+C:\xampp\htdocs\x\handlers\google_auth.php
+<?php
+session_start();
+require_once __DIR__ . '/../config/config.php';
+require_once __DIR__ . '/../config/db.php';
+
+// Check if the user is already logged in
+if (isset($_SESSION['access_token'])) {
+    $client->setAccessToken($_SESSION['access_token']);
+
+    // If the token is expired, try refreshing it
+    if ($client->isAccessTokenExpired()) {
+        // Attempt to refresh the token if it's expired
+        $refreshToken = $client->getRefreshToken();
+        if ($refreshToken) {
+            $client->fetchAccessTokenWithRefreshToken($refreshToken);
+            $_SESSION['access_token'] = $client->getAccessToken();
+        } else {
+            // If no refresh token, clear session and force login
+            session_unset();
+            session_destroy();
+            header("Location: login.php");
+            exit;
+        }
+    }
+}
+
+// If not logged in via Google, handle the authorization flow
+if (isset($_GET['code']) && !isset($_SESSION['access_token'])) {
+    try {
+        // Fetch the access token using the code from the URL
+        $token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
+
+        // If there's no error in the token
+        if (!isset($token['error'])) {
+            $client->setAccessToken($token['access_token']);
+            $_SESSION['access_token'] = $token['access_token'];
+
+            // Fetch user information
+            $oauth = new Google_Service_Oauth2($client);
+            $user = $oauth->userinfo->get();
+
+            // Save user info to session
+            $_SESSION['user_id'] = $user->id;
+            $_SESSION['user_email'] = $user->email;
+            $_SESSION['user_name'] = $user->name;
+            $_SESSION['user_picture'] = $user->picture;
+
+            // Escape user data for use in SQL queries
+            $google_id = $mysqli->real_escape_string($user->id);
+            $name = $mysqli->real_escape_string($user->name);
+            $email = $mysqli->real_escape_string($user->email);
+            $picture = $mysqli->real_escape_string($user->picture);
+
+            // Check if the user exists in the database
+            $res = $mysqli->query("SELECT id, role FROM users WHERE google_id = '$google_id'");
+
+            if ($res) {
+                // User found, fetch role
+                if ($res->num_rows === 0) {
+                    // User not found, create a new account
+                    $mysqli->query("INSERT INTO users (google_id, name, email, picture, role, is_online, last_seen) 
+                                    VALUES ('$google_id', '$name', '$email', '$picture', 'user', 1, NOW())");
+                    $role = 'user';
+                } else {
+                    // User found, update status
+                    $row = $res->fetch_assoc();
+                    $role = $row['role'];
+                    $mysqli->query("UPDATE users SET is_online = 1, last_seen = NOW() WHERE google_id = '$google_id'");
+                }
+
+                // Set role in session
+                $_SESSION['role'] = $role;
+
+                // Redirect based on the user's role
+                if ($role === 'admin') {
+                    header("Location: ../admin/index.php");
+                } else {
+                    header("Location: ../users/index.php");
+                }
+                exit;
+            } else {
+                echo "Error with query: " . $mysqli->error;
+            }
+        } else {
+            echo "Error fetching token: " . $token['error'];
+        }
+    } catch (Exception $e) {
+        echo "An error occurred: " . $e->getMessage();
+    }
+}
+
+
+
+C:\xampp\htdocs\x\middleware\checkSession.php
+<?php
+session_start();
+if (
+    !isset($_SESSION['user_id']) ||
+    !isset($_SESSION['user_name']) ||
+    !isset($_SESSION['user_email']) ||
+    !isset($_SESSION['user_picture'])
+) {
+    header("Location: ../public/index.php");
+    exit;
+}
+
+C:\xampp\htdocs\x\middleware\session.php
+<?php
+$client = require __DIR__ . '/../config/config.php';
+$mysqli = require __DIR__ . '/../config/db.php';
+
+C:\xampp\htdocs\x\users\index.php
+<?php
+include('../middleware/checkSession.php');
+include('../cache/cache.php');
+?>
+<!DOCTYPE html>
+<html>
+<?php includeAndCache('../includes/head.php'); ?>
+<body>
+    <?php includeAndCache('../includes/sidebar.php'); ?>
+    <main>
+        <div class="container">
+            <img src="<?= htmlspecialchars($_SESSION['user_picture']) ?>" alt="User Picture"
+                style="width: 100px; border-radius: 50%;">
+            <h3><?= htmlspecialchars($_SESSION['user_name']) ?></h3>
+            <p><strong>Email:</strong> <?= htmlspecialchars($_SESSION['user_email']) ?></p>
+            <p><strong>Google ID:</strong> <?= htmlspecialchars($_SESSION['user_id']) ?></p>
+            <?php
+            $mysqli = require '../config/db.php'; 
+            $google_id = $_SESSION['user_id'];
+            $sql = "SELECT user_credit FROM users WHERE google_id = ?";
+            $stmt = $mysqli->prepare($sql);
+            $stmt->bind_param('s', $google_id);
+            $stmt->execute();
+            $stmt->bind_result($user_credit);
+            $stmt->fetch();
+            echo "<p><strong>Credit:</strong> " . number_format($user_credit, 2) . "</p>";
+            
+            $stmt->close();
+            $mysqli->close();
+            ?>
+            <br>
+        </div>
+    </main>
+<?php includeAndCache('../includes/footer.php'); ?>
+
+
+
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  google_id VARCHAR(255) NOT NULL UNIQUE,
+  name VARCHAR(255),
+  email VARCHAR(255),
+  picture VARCHAR(500),
+  role VARCHAR(50) NOT NULL DEFAULT 'user',
+  is_online TINYINT(1) DEFAULT 0,
+  last_seen DATETIME DEFAULT NULL,
+  user_credit DECIMAL(10,2) DEFAULT 10.00,  
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+paymongo 
+Public Key	
+pk_test_kgRyKf6KKXx6a6fzrpZmWExE
+Secret Key	
+sk_test_Fuab1L4qbLKpsdURs7BsA8J3
+
+create add insert credit in index minimum input is 20 pesos
+1 pesos is 4 credits 
+create transaction list 
+table for buy_credits
+table for used_credits
+
+in used_credits record credit the used as 1 with necessary records as reference 
+
+
+
+
+
+
+
+

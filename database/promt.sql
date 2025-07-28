@@ -8,27 +8,36 @@ CREATE TABLE users (
   role VARCHAR(50) NOT NULL DEFAULT 'user',
   is_online TINYINT(1) DEFAULT 0,
   last_seen DATETIME DEFAULT NULL,
+  user_credit DECIMAL(10,2) DEFAULT 10.00;
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE exam_results (
+CREATE TABLE buy_credits (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT(10) NOT NULL, -- removed UNSIGNED
-    verbal_percentage FLOAT NOT NULL,
-    analytical_percentage FLOAT NOT NULL,
-    numerical_percentage FLOAT NOT NULL,
-    general_percentage FLOAT NOT NULL,
-    total_percentage FLOAT NOT NULL,
+    user_id INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL,
+    credits_added DECIMAL(10,2) NOT NULL,
+    transaction_id VARCHAR(255) NOT NULL,
+    status VARCHAR(20) DEFAULT 'pending',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES `users`(id) ON DELETE CASCADE
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
+CREATE TABLE used_credits (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    credit_used DECIMAL(10,2) DEFAULT 1.00,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
 
 -- delete data
 DROP TABLE IF EXISTS `verbal`;
 DROP TABLE IF EXISTS `numerical`;
 DROP TABLE IF EXISTS `analytical`;
 DROP TABLE IF EXISTS `general`;
+DROP TABLE IF EXISTS `users`;
 
  CREATE TABLE `verbal` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -105,7 +114,6 @@ DROP TABLE IF EXISTS `general`;
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added created_at column
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 
 
 -- clear data
