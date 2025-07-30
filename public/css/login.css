@@ -1,23 +1,53 @@
+:root {
+    --primary: #0f0f1a;
+    --secondary: #1a1a2e;
+    --accent: #00f3ff;
+    --accent-alt: #6a00ff;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0c0;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: #607d8b;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    overflow: hidden;
 }
 
+/* Particle background */
+.particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(0, 243, 255, 0.2);
+    animation: float 15s infinite linear;
+}
+
+/* Container and cup styles */
 .container {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 .cup {
@@ -27,6 +57,7 @@ body {
     background: linear-gradient(to right, #f9f9f9, #d9d9d9);
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
+    animation: fadeIn 0.6s ease-out forwards;
 }
 
 .top {
@@ -74,13 +105,14 @@ body {
 .plate {
     position: absolute;
     bottom: -50px;
-    left: 50%;
     transform: translateX(-50%);
     width: 500px;
     height: 200px;
     background: linear-gradient(to right, #f9f9f9, #e7e7e7);
     border-radius: 50%;
     box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.6s ease-out 0.2s forwards;
+    opacity: 0;
 }
 
 .plate::before {
@@ -119,7 +151,7 @@ body {
     height: 120px;
     background: #fff;
     border-radius: 50%;
-    animation: animate 5s linear infinite;
+    animation: animateVapour 5s linear infinite;
     opacity: 0;
     filter: blur(8px);
     animation-delay: calc(var(--i) * -0.5s);
@@ -129,48 +161,40 @@ body {
     position: absolute;
     top: 30px;
     text-align: center;
-    color: #2a2d34;
+    color: var(--text-primary);
 }
 
 .mug .logo {
     margin-top: 40px;
     width: 200px;
     height: auto;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.3));
 }
 
-
-
-
-
-
-
-
-
-
+/* Google Sign-in Button */
 .google-signin-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff; /* Button background */
-    color: #4285F4; /* Google blue color for text */
-    padding: 12px 20px;
+    background-color: #ffffff;
+    color: #4285F4;
+    padding: 12px 25px;
     border-radius: 15px;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
     border: 1px solid #dcdfe3;
-    margin-top: 15px;
-    position: relative;
-    overflow: hidden;
+    margin-top: 20px;
+    animation: fadeIn 0.6s ease-out 0.4s forwards;
+    opacity: 0;
 }
 
 .google-signin-btn svg {
-    width: 24px; /* Adjust the icon size */
-    height: 24px; /* Adjust the icon size */
-    margin-right: 12px; /* Space between the icon and text */
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
 }
 
 .google-signin-btn span {
@@ -178,98 +202,96 @@ body {
     color: #4285F4;
 }
 
-/* Hover effect */
 .google-signin-btn:hover {
-    background-color: #f7f7f7; /* Light background color on hover */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    transform: translateY(-3px); /* Slight lift effect */
-    color: #34a853; /* Green color on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background-color: #f7f7f7;
 }
 
-/* Active (click) effect */
 .google-signin-btn:active {
-    background-color: #f1f1f1; /* Even lighter background on click */
-    transform: scale(0.98); /* Slight shrinking effect */
-    box-shadow: none; /* Remove shadow */
+    transform: translateY(1px);
 }
 
-/* Google Icon styling */
-.google-signin-btn .google-icon {
-    background-color: #4285F4; /* Google blue background */
-    border-radius: 50%;
-    padding: 8px;
-    color: #ffffff;
-    font-size: 14px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 12px;
+/* Animations */
+@keyframes float {
+    0% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) translateX(100px) rotate(360deg);
+        opacity: 0;
+    }
 }
 
-/* Icon hover effect */
-.google-signin-btn .google-icon:hover {
-    background-color: #34a853; /* Green background on hover */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-
-/* Add any loading animation for the button */
-.google-signin-btn.loading {
-    pointer-events: none; /* Disable interactions while loading */
-    opacity: 0.7; /* Slightly faded during loading */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes animate {
+@keyframes animateVapour {
     0% {
         transform: translateY(0) scaleX(1);
         opacity: 0;
     }
-
     15% {
         opacity: 1;
     }
-
     50% {
         transform: translateY(-150px) scaleX(5);
     }
-
     95% {
         opacity: 0;
     }
-
     100% {
         transform: translateY(-300px) scaleX(10);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cup {
+        width: 240px;
+        height: 260px;
+    }
+    
+    .plate {
+        width: 400px;
+        height: 160px;
+        bottom: -40px;
+    }
+    
+    .mug .logo {
+        width: 160px;
+        margin-top: 30px;
+    }
+    
+    .google-signin-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cup {
+        width: 200px;
+        height: 220px;
+    }
+    
+    .plate {
+        width: 320px;
+        height: 130px;
+    }
+    
+    .handle {
+        right: -60px;
+        width: 140px;
+        height: 160px;
     }
 }

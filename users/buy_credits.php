@@ -1,8 +1,12 @@
 <?php
 include('../middleware/checkSession.php');
 require_once '../config/db.php';
-require_once '../vendor/autoload.php';
+require_once '../config/config.php'; // Include config to access constants
 
+// Use PayMongo constants
+$paymongoSecret = PAYMONGO_SECRET;
+$returnUrl = PAYMONGO_RETURN_URL;
+$cancelUrl = PAYMONGO_CANCEL_URL;
 
 
 // Process credit purchase
@@ -16,8 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
     
-    // Calculate credits (1 PHP = 4 credits)
-    $credits = $amount * 4;
+    // Calculate credits (1 PHP = 2 credits)
+    $credits = $amount * 2;
     
     try {
         // Create PayMongo checkout session
@@ -65,12 +69,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Redirect to payment
             header('Location: ' . $responseData['data']['attributes']['checkout_url']);
 
-
             // Add credit
             $update = $mysqli->prepare("UPDATE users SET user_credit = user_credit + ? WHERE id = ?");
             $update->bind_param('di', $credits, $user_id);
             $update->execute();
-
 
             exit;
         } else {

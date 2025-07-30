@@ -44,6 +44,7 @@ function deductCredit($filePath) {
 // Check if file requires credits
 function isPremiumContent($filePath) {
     $premiumFiles = [
+        
         'premium_content.php',
         'special_document.pdf',
         // Add other premium files here

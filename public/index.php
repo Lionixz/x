@@ -2,12 +2,9 @@
 require_once __DIR__ . '/../middleware/session.php';
 require_once __DIR__ . '/../handlers/google_auth.php';
 require_once __DIR__ . '/../cache/cache.php';
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Google Login</title>
@@ -15,8 +12,8 @@ require_once __DIR__ . '/../cache/cache.php';
     <link rel="icon" href="../images/system/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/login.css">
 </head>
-
 <body>
+    <div class="particles" id="particles-js"></div>
     <div class="container">
         <div class="plate"></div>
         <div class="cup">
@@ -30,14 +27,9 @@ require_once __DIR__ . '/../cache/cache.php';
                     <div class="tea"></div>
                 </div>
             </div>
-
             <div class="mug">
                 <img src="../images/system/mug.png" alt="Logo" class="logo">
-
                 <?php $loginUrl = $client->createAuthUrl(); ?>
-
-
-
                 <a href="<?= htmlspecialchars($loginUrl) ?>" class="google-signin-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                         viewBox="0 0 48 48">
@@ -60,6 +52,36 @@ require_once __DIR__ . '/../cache/cache.php';
             <div class="handle"></div>
         </div>
     </div>
-</body>
 
+    <script>
+        // Generate particles
+        document.addEventListener('DOMContentLoaded', function() {
+            const particles = document.getElementById('particles-js');
+            const particleCount = window.innerWidth < 768 ? 30 : 50;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Random properties
+                const size = Math.random() * 50 + 1;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.bottom = `-${size}px`;
+                
+                // Animation variations
+                const duration = Math.random() * 15 + 10;
+                particle.style.animationDuration = `${duration}s`;
+                particle.style.animationDelay = `${Math.random() * 5}s`;
+                
+                // Color variations
+                const hue = 180 + Math.random() * 20; // Teal/cyan range
+                const opacity = Math.random() * 0.2 + 0.1;
+                particle.style.background = `hsla(${hue}, 100%, 80%, ${opacity})`;
+                particles.appendChild(particle);
+            }
+        });
+    </script>
+</body>
 </html>
