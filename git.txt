@@ -1,7 +1,7 @@
 cd C:\xampp\htdocs\x
 git status
 git add .
-git commit -m "Database finish Field Specific Meaning"
+git commit -m "Database finish 2_VerbForm.sql"
 git push origin main
 
 cd C:\chatgpt-automation

@@ -520,3 +520,5 @@ INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, 
 ('Grammar and Structure', 'Verb Form', 'endorse', 'Neither the board members nor the CEO _________ the merger plan.', 'endorse', 'endorses', 'is endorsing', 'are endorsing', 'Proximity rule: verb agrees with plural subject \"members\".'),
 ('Grammar and Structure', 'Verb Form', 'will have completed', 'By 5 PM tomorrow, technicians _________ the system upgrade.', 'will have completed', 'complete', 'will complete', 'are completing', 'Future perfect for action completed before specified future time.'),
 ('Grammar and Structure', 'Verb Form', 'submit', 'Regulations require that every applicant _________ fingerprints.', 'submit', 'submits', 'submitted', 'has submitted', 'Subjunctive mood requires base verb after obligation verbs.');
+
+-- day
