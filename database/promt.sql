@@ -33,11 +33,13 @@ CREATE TABLE used_credits (
 );
 
 -- delete data
+DROP TABLE IF EXISTS `users`;
+
 DROP TABLE IF EXISTS `verbal`;
 DROP TABLE IF EXISTS `numerical`;
 DROP TABLE IF EXISTS `analytical`;
 DROP TABLE IF EXISTS `general`;
-DROP TABLE IF EXISTS `users`;
+
 
  CREATE TABLE `verbal` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -58,7 +60,6 @@ DROP TABLE IF EXISTS `users`;
     KEY `idx_category_type_word` (`category`, `type`, `word`) 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-
   CREATE TABLE `numerical` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
@@ -77,7 +78,6 @@ DROP TABLE IF EXISTS `users`;
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-
   CREATE TABLE `analytical` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL, -- Added category column
@@ -95,7 +95,6 @@ DROP TABLE IF EXISTS `users`;
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added created_at column
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 
   CREATE TABLE `general` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -123,12 +122,20 @@ TRUNCATE TABLE `analytical`;
 TRUNCATE TABLE `general`;
 
 
--- Delete duplicates
+-- Delete duplicates word
 DELETE v1
 FROM verbal v1
 JOIN verbal v2 
   ON v1.word = v2.word 
   AND v1.id > v2.id;
+
+-- Delete duplicates question
+DELETE v1
+FROM verbal v1
+JOIN verbal v2
+  ON v1.question = v2.question
+  AND v1.id > v2.id;
+
 
 
 -- drop id image chard data and created at
