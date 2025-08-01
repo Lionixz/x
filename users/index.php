@@ -32,8 +32,8 @@ include('../cache/cache.php');
             <p>12. Verb Form  &#10004;</p>
             <p>13. Noun Form  &#10004;</p>
             <p>14. Adjective Form &#10004;</p>
-            <p>15. Adverb For &#10004;</p>
-            <p>16. Plural Form </p>
+            <p>15. Adverb Form &#10004;</p>
+            <p>16. Plural Form  &#10004;</p>
             <p>17. Tense Form (present, past, etc.)</p>
             <p>18. Correct Comparative Form</p>
             <p>19. Correct Superlative Form</p>

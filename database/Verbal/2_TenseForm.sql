@@ -1,0 +1,13 @@
+INSERT INTO `verbal` (`category`, `type`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('Grammar and Structure', 'Tense Form', 'Future Perfect Continuous', 'By 2025, scientists ________ on this project for 20 years.', 'will have been working', 'will work', 'have worked', 'are working', 'Future Perfect Continuous emphasizes duration of action up to specific future time (2025 + 20-year span)'),
+('Grammar and Structure', 'Tense Form', 'Past Perfect', 'The train ________ before we reached the station.', 'had left', 'left', 'has left', 'was leaving', 'Past Perfect (had left) shows action completed before another past action (reached)'),
+('Grammar and Structure', 'Tense Form', 'Present Continuous', 'Look! The children ________ in the pool.', 'are swimming', 'swim', 'swam', 'have swum', 'Present Continuous describes actions happening at moment of speaking (Look!)'),
+('Grammar and Structure', 'Tense Form', 'Present Perfect', 'She ________ three chapters since morning.', 'has read', 'reads', 'read', 'is reading', 'Present Perfect (has read) links past action to present with "since" indicating duration'),
+('Grammar and Structure', 'Tense Form', 'Past Continuous', 'While I ________ dinner, the phone rang.', 'was preparing', 'prepared', 'am preparing', 'prepare', 'Past Continuous (was preparing) shows ongoing action interrupted by past event (rang)'),
+('Grammar and Structure', 'Tense Form', 'Future Perfect', 'By next month, they ________ the construction.', 'will have completed', 'complete', 'will complete', 'are completing', 'Future Perfect (will have completed) emphasizes completion before future deadline (next month)'),
+('Grammar and Structure', 'Tense Form', 'Simple Present', 'Water ________ at 100 degrees Celsius.', 'boils', 'boiled', 'is boiling', 'has boiled', 'Simple Present states universal truths/scientific facts'),
+('Grammar and Structure', 'Tense Form', 'Present Perfect Continuous', 'He ________ for the exam all week.', 'has been studying', 'studies', 'studied', 'is studying', 'Present Perfect Continuous (has been studying) emphasizes duration from past to present ("all week")'),
+('Grammar and Structure', 'Tense Form', 'Past Perfect Continuous', 'They ________ for hours when the rescue team arrived.', 'had been waiting', 'waited', 'were waiting', 'have waited', 'Past Perfect Continuous shows duration before another past action (arrived)'),
+('Grammar and Structure', 'Tense Form', 'Future Simple', 'If it rains, we ________ the event indoors.', 'will hold', 'hold', 'would hold', 'are holding', 'Future Simple (will hold) for spontaneous decisions in conditional sentences');
+
+
