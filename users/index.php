@@ -19,18 +19,18 @@ include('../cache/cache.php');
             <p>1. Definition &#10004;</p>
             <p>2. Synonym &#10004; </p>
             <p>3. Antonym &#10004;</p>
-            <p>4. Contextual Meaning (based on a sentence)&#10004;</p>
-            <p>5. Word Family (choose related word) &#10004;</p>
+            <p>4. Contextual Meaning &#10004;</p>
+            <p>5. Word Family </p>
             <p>6. Affix Identification (prefix/suffix) </p>
             <p>7. Root Word &#10004;</p>
-            <p>8. Word Intensity Scale (mild → strong)</p>
+            <p>8. Word Intensity  &#10004;</p>
             <p>9. Field-Specific Meaning (e.g., science vs. everyday) &#10004;</p>
             <p>10. Slang vs. Formal Use</p> 
             <br>
             <h2>Grammar & Structure</h2>
             <p>11. Part of Speech &#10004;</p>
-            <p>12. Verb Form</p>
-            <p>13. Noun Form</p>
+            <p>12. Verb Form  &#10004;</p>
+            <p>13. Noun Form  &#10004;</p>
             <p>14. Adjective Form</p>
             <p>15. Adverb Form</p>
             <p>16. Plural Form</p>
