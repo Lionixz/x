@@ -1,7 +1,7 @@
 cd C:\xampp\htdocs\x
 git status
 git add .
-git commit -m "Plural Form.sql"
+git commit -m "Superlative Form.sql"
 git push origin main
 
 cd C:\chatgpt-automation

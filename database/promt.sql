@@ -1,4 +1,3 @@
-
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   google_id VARCHAR(255) NOT NULL UNIQUE,
@@ -8,9 +7,10 @@ CREATE TABLE users (
   role VARCHAR(50) NOT NULL DEFAULT 'user',
   is_online TINYINT(1) DEFAULT 0,
   last_seen DATETIME DEFAULT NULL,
-  user_credit DECIMAL(10,2) DEFAULT 10.00;
+  user_credit DECIMAL(10,2) DEFAULT 10.00,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 
 CREATE TABLE buy_credits (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -151,4 +151,27 @@ DROP COLUMN `created_at`;
 ALTER TABLE numerical DROP COLUMN id;
 ALTER TABLE analytical DROP COLUMN id;
 ALTER TABLE general DROP COLUMN id;
+
+
+
+
+
+
+--===============================================================
+
+-- Delete duplicates question
+DELETE v1
+FROM verbal v1
+JOIN verbal v2
+  ON v1.question = v2.question
+  AND v1.id > v2.id;
+
+
+
+-- drop id image chard data and created at
+ALTER TABLE `verbal`
+DROP COLUMN `id`,
+DROP COLUMN `image`,
+DROP COLUMN `chart_data`,
+DROP COLUMN `created_at`;
 
