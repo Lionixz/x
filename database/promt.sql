@@ -159,11 +159,14 @@ ALTER TABLE general DROP COLUMN id;
 
 --===============================================================
 
--- Delete duplicates question
+-- Delete duplicates 
 DELETE v1
 FROM verbal v1
 JOIN verbal v2
-  ON v1.question = v2.question
+  ON v1.category = v2.category
+  AND v1.type = v2.type
+  AND v1.word = v2.word
+  AND v1.question = v2.question
   AND v1.id > v2.id;
 
 

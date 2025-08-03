@@ -54,8 +54,10 @@ function useCredits($user_id, $credits_used, $description, $reference_id = null)
             <?php
             
             $verbal_limits = [
-                'Word Meaning and Usage' => 20,
-                'Grammar and Structure' => 20,
+                'Word Meaning and Usage' => 10,
+                'Grammar and Structure' => 10,
+                'Usage in Sentences' => 10,
+                
             ];
             
             function prepareQuestionRow($row, $source_table) {

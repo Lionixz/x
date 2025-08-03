@@ -48,6 +48,8 @@ include('../cache/cache.php');
                             $category,
                             [
                                 'Word Meaning and Usage',
+                                'Grammar and Structure',
+                                'Usage in Sentences',
                             ]
                         )
                     ) {
@@ -115,6 +117,7 @@ include('../cache/cache.php');
                 }
                 return htmlspecialchars($answer);
             }
+            
             echo "<h2>Exam Summary</h2>";
             $totalScore = 0;
             $totalQuestions = 0;
@@ -125,6 +128,7 @@ include('../cache/cache.php');
                 $totalScore += $categoryData['score'];
                 $totalQuestions += $categoryData['total'];
             }
+
             $totalPercentage = $totalQuestions > 0 ? round(($totalScore / $totalQuestions) * 100, 2) : 0;
             echo "<p><strong>Total:</strong> {$totalScore} / {$totalQuestions} ({$totalPercentage}%)</p>";
             foreach ($categories as $category) {

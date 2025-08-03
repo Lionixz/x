@@ -15,6 +15,35 @@ include('../cache/cache.php');
             <p><strong>Email:</strong> <?= htmlspecialchars($_SESSION['user_email']) ?></p>
             <p><strong>Google ID:</strong> <?= htmlspecialchars($_SESSION['user_id']) ?></p>
             <br>
+            
+
+            <?php
+            $mysqli = require '../config/db.php'; 
+            $user_id = $_SESSION['db_user_id'];
+            $sql = "SELECT user_credit FROM users WHERE id = ?";
+            $stmt = $mysqli->prepare($sql);
+            $stmt->bind_param('i', $user_id);
+            $stmt->execute();
+            $stmt->bind_result($user_credit);
+            $stmt->fetch();
+            echo "<p><strong>Credit Balance:</strong> " . number_format($user_credit, 2) . " credits</p>";
+            $stmt->close();
+            ?>
+
+            <div>
+                <h4>Buy More Credits</h4>
+                <form action="buy_credits.php" method="post">
+                    <div class="form-group">
+                        <label>Amount (PHP):</label>
+                        <input type="number" name="amount" min="20" step="1" required 
+                               placeholder="Minimum ₱20">
+                    </div>
+                    <p>1 PHP = 4 credits</p>
+                    <button type="submit" class="btn">Purchase Credits</button>
+                </form>
+            </div>  
+
+            <br>
             <h2>Vocabulary & Meaning</h2>
             <p>1. Definition &#10004;</p>
             <p>2. Synonym &#10004; </p>
@@ -25,6 +54,7 @@ include('../cache/cache.php');
             <p>7. Root Word &#10004;</p>
             <p>8. Word Intensity  &#10004;</p>
             <p>9. Field-Specific Meaning (e.g., science vs. everyday) &#10004;</p>
+            <p>10. Collocation Meaning &#10004;</p>
         
             <br>
             <h2>Grammar & Structure</h2>
@@ -36,12 +66,12 @@ include('../cache/cache.php');
             <p>16. Plural Form  &#10004;</p>
             <p>17. Tense Form &#10004;</p>
             <p>18. Correct Comparative Form &#10004;</p> 
-            <p>19. Correct Superlative Form</p>
-            <p>20. Subject-Verb Agreement</p>
+            <p>19. Correct Superlative Form &#10004;</p>  
+            <p>20. Subject-Verb Agreement &#10004;</p>  
             <br>
             <h2>Usage in Sentences</h2>
-            <p>21. Correct Usage in a Sentence</p>
-            <p>22. Sentence Correction</p>
+            <p>21. Correct Usage in a Sentence &#10004;</p> 
+            <p>22. Sentence Correction &#10004;</p>
             <p>23. Fill in the Blank</p>
             <p>24. Sentence Completion</p>
             <p>25. Rewriting (choose best rewritten version)</p>
@@ -78,11 +108,6 @@ include('../cache/cache.php');
             <p>48. Use in Business Sentence</p>
             <p>49. Use in Narrative Sentence</p>
             <p>50. Choose Best Word to Complete a Paragraph</p>
-
-
-
-
-
 
         </div>
     </main>

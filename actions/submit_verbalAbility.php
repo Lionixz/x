@@ -29,8 +29,7 @@ includeAndCache('../includes/head.php');
                 $userAnswer = $q['answer'] ?? null;
                 $table = preg_replace('/[^a-zA-Z0-9_]/', '', $q['table']);
                 
-                $stmt = $conn->prepare("SELECT category, question, correct_answer, explanation 
-                                      FROM `$table` WHERE id = ?");
+                $stmt = $conn->prepare("SELECT category, question, correct_answer, explanation FROM `$table` WHERE id = ?");
                 $stmt->bind_param("i", $questionId);
                 $stmt->execute();
                 $stmt->bind_result($category, $question, $correctAnswer, $explanation);
@@ -123,3 +122,4 @@ includeAndCache('../includes/head.php');
     <?php includeAndCache('../includes/footer.php'); ?>
 </body>
 </html>
+

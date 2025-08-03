@@ -14,8 +14,9 @@ include('../cache/cache.php');
             $conn = require_once __DIR__ . '../../config/db.php';
 
             $verbal_limits = [
-                'Word Meaning and Usage' => 20,
-                'Grammar and Structure' => 20,
+                'Word Meaning and Usage' => 10,
+                'Grammar and Structure' => 10,
+                'Usage in Sentences' => 10,
               
             ];
             $numerical_limits = [
@@ -102,6 +103,7 @@ include('../cache/cache.php');
                 fetchQuestionsByCategory($conn, 'general', $general_limits)
             );
             ?>
+
             <form action="../actions/submit_csc.php" method="post" id="quizForm">
                 <?php foreach ($questions as $index => $q): ?>
                     <div id="countdown">
@@ -121,6 +123,8 @@ include('../cache/cache.php');
                             <div class="chart-container">
                                 <canvas id="chart<?= $index ?>"></canvas>
                             </div>
+
+
                             <script>
                                 const chartData<?= $index ?> = <?= $q['chart_data'] ?>;
                                 const ctx<?= $index ?> = document.getElementById('chart<?= $index ?>').getContext('2d');
@@ -151,6 +155,8 @@ include('../cache/cache.php');
                                     }
                                 });
                             </script>
+
+
                         <?php endif; ?>
                         <div class="radio-group">
                             <?php foreach ($q['shuffled_choices'] as $choice): ?>
