@@ -14,9 +14,13 @@ include('../cache/cache.php');
             $conn = require_once __DIR__ . '../../config/db.php';
 
             $verbal_limits = [
-                'Word Meaning and Usage' => 10,
+                'Vocabulary and Meaning' => 10,
                 'Grammar and Structure' => 10,
                 'Usage in Sentences' => 10,
+                'Mechanics' => 10,
+                'Collocation and Idioms' => 10,
+                'Logic and Association' => 10,
+                'Contextual Thinking' => 10,
               
             ];
             $numerical_limits = [

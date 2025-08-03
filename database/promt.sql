@@ -130,12 +130,7 @@ JOIN verbal v2
   AND v1.id > v2.id;
 
 
--- Delete duplicates question
-DELETE v1
-FROM verbal v1
-JOIN verbal v2
-  ON v1.question = v2.question
-  AND v1.id > v2.id;
+
 
 
 

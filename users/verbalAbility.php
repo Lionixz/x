@@ -54,9 +54,12 @@ function useCredits($user_id, $credits_used, $description, $reference_id = null)
             <?php
             
             $verbal_limits = [
-                'Word Meaning and Usage' => 10,
+                'Vocabulary and Meaninge' => 10,
                 'Grammar and Structure' => 10,
                 'Usage in Sentences' => 10,
+                'Mechanics' => 10,
+                'Collocation and Idioms' => 10,
+                'Logic and Association' => 10,
                 
             ];
             
