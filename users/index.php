@@ -46,25 +46,27 @@ include('../cache/cache.php');
 
             <br>
             <h2>Vocabulary and Meaning</h2>
-            <p>Core Definition (combines definition and contextual meaning) &#10004;</p>
-            <p>Synonym Identification &#10004;</p>
-            <p>Antonym Identification &#10004;</p>
-            <p>Word Formation (word family, affix, root word) &#10004;</p>
-            <p>Word Intensity &#10004;</p>
-            <p>Field-Specific Meaning &#10004;</p>
-            <p>Collocation Meaning &#10004;</p>
+            <p>Core Definition 
+                <li>Vocabulary &#10004;</p>
+                <li>Contextual meaning</li>
+            <p>Synonym Identification </p>
+            <p>Antonym Identification </p>
+            <p>Word Formation (word family, affix, root word) </p>
+            <p>Word Intensity </p>
+            <p>Field-Specific Meaning </p>
+            <p>Collocation Meaning </p>
             <br>
             <h2>Grammar and Structure</h2>
-            <p>Part of Speech Identification &#10004;</p>
-            <p>Word Forms (verb, noun, adjective, adverb forms) &#10004;</p>
-            <p>Pluralization &#10004;</p>
-            <p>Tense and Conjugation &#10004;</p>
-            <p>Comparative/Superlative Forms &#10004;</p>
-            <p>Subject-Verb Agreement &#10004;</p>
+            <p>Part of Speech Identification </p>
+            <p>Word Forms (verb, noun, adjective, adverb forms) </p>
+            <p>Pluralization </p>
+            <p>Tense and Conjugation </p>
+            <p>Comparative/Superlative Forms </p>
+            <p>Subject-Verb Agreement </p>
             <br>
             <h2>Usage in Sentences</h2>
-            <p>Correct Usage in Sentence &#10004;</p>
-            <p>Sentence Correction &#10004;</p>
+            <p>Correct Usage in Sentence </p>
+            <p>Sentence Correction </p>
             <p>Fill in the Blank (merges sentence completion)</p>
             <p>Sentence Transformation (covers active/passive, negative, rewriting, word order)</p>
             <br>

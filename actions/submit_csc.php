@@ -47,13 +47,17 @@ include('../cache/cache.php');
                         in_array(
                             $category,
                             [
-                                'Word Meaning and Usage',
+                                'Vocabulary and Meaning',
                                 'Grammar and Structure',
                                 'Usage in Sentences',
+                                'Mechanics',
+                                'Collocation and Idioms',
+                                'Logic and Association'
                             ]
                         )
                     ) {
                         $category = 'verbal';
+
                     } elseif (
                         in_array(
                             $category,
@@ -63,6 +67,7 @@ include('../cache/cache.php');
                             ]
                         )
                     ) {
+                        
                         $category = 'numerical';
                     } elseif (
                         in_array($category, [

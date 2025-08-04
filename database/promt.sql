@@ -35,17 +35,18 @@ CREATE TABLE used_credits (
 -- delete data
 DROP TABLE IF EXISTS `users`;
 
+
 DROP TABLE IF EXISTS `verbal`;
 DROP TABLE IF EXISTS `numerical`;
 DROP TABLE IF EXISTS `analytical`;
 DROP TABLE IF EXISTS `general`;
 
-
  CREATE TABLE `verbal` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
-  
+    `sub_type` VARCHAR(100) DEFAULT NULL,    
+    `instruction` TEXT DEFAULT NULL,  
     `word` VARCHAR(100) DEFAULT NULL, 
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -64,7 +65,8 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
-   
+    `sub_type` VARCHAR(100) DEFAULT NULL,    
+    `instruction` TEXT DEFAULT NULL,  
     `word` VARCHAR(100) DEFAULT NULL,
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -82,7 +84,8 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL, -- Added category column
     `type` VARCHAR(50) NOT NULL,
-   
+    `sub_type` VARCHAR(100) DEFAULT NULL,          -- NEW
+    `instruction` TEXT DEFAULT NULL,  
     `word` VARCHAR(100) DEFAULT NULL,
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -100,7 +103,8 @@ DROP TABLE IF EXISTS `general`;
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL, -- Added category column
     `type` VARCHAR(50) NOT NULL,
-  
+    `sub_type` VARCHAR(100) DEFAULT NULL,          -- NEW
+    `instruction` TEXT DEFAULT NULL,  
     `word` VARCHAR(100) NOT NULL,
     `question` TEXT NOT NULL,
     `image` VARCHAR(255) DEFAULT NULL,
@@ -113,6 +117,7 @@ DROP TABLE IF EXISTS `general`;
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added created_at column
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 
 
 -- clear data
@@ -160,6 +165,7 @@ FROM verbal v1
 JOIN verbal v2
   ON v1.category = v2.category
   AND v1.type = v2.type
+  AND v1.sub_type = v2.sub_type
   AND v1.word = v2.word
   AND v1.question = v2.question
   AND v1.id > v2.id;
