@@ -38,7 +38,7 @@
             </button>
             <ul class="sub-menu">
                 <div>
-                    <li><a href="../users/csc.php">CSC Coverage</a></li>
+                    <li><a href="../users/cse.php">CSC Coverage</a></li>
                     <!-- <li><a href="numericalAbility.php">Numerical Ability</a></li> -->
                     <!-- <li><a href="analyticalAbility.php">Analytical Ability</a></li> -->
                     <!-- <li><a href="../users/verbalAbility.php">Verbal Ability</a></li> -->
@@ -62,8 +62,8 @@
             </button>
             <ul class="sub-menu">
                 <div>
-                    <li><a href="../users/books_constitution.php">The 1987 Constitution</a></li>
-                    <li><a href="../users/books_ra_6713.php">Republic Act No. 6713</a></li>
+                    <li><a href="./books/books_constitution.php">The 1987 Constitution</a></li>
+                    <li><a href="./books/books_ra_6713.php">Republic Act No. 6713</a></li>
                 </div>
             </ul>
         </li>

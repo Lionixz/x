@@ -127,18 +127,6 @@ TRUNCATE TABLE `analytical`;
 TRUNCATE TABLE `general`;
 
 
--- Delete duplicates word
-DELETE v1
-FROM verbal v1
-JOIN verbal v2 
-  ON v1.word = v2.word 
-  AND v1.id > v2.id;
-
-
-
-
-
-
 
 -- drop id image chard data and created at
 ALTER TABLE `verbal`
@@ -154,10 +142,9 @@ ALTER TABLE general DROP COLUMN id;
 
 
 
-
-
-
 --===============================================================
+
+
 
 -- Delete duplicates 
 DELETE v1
@@ -168,6 +155,7 @@ JOIN verbal v2
   AND v1.sub_type = v2.sub_type
   AND v1.word = v2.word
   AND v1.question = v2.question
+  AND v1.correct_answer = v2.correct_answer
   AND v1.id > v2.id;
 
 

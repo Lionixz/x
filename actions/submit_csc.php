@@ -1,15 +1,15 @@
 <?php
-include('../middleware/checkSession.php');
-include('../cache/cache.php');
+include(__DIR__ . '/../middleware/checkSession.php');
+include(__DIR__ . '/../cache/cache.php');
 ?>
 <!DOCTYPE html>
 <html>
 
 </html>
-<?php includeAndCache('../includes/head.php'); ?>
+<?php includeAndCache('../includes/submit_head.php'); ?>
 
 <body>
-    <?php includeAndCache('../includes/sidebar.php'); ?>
+    <?php includeAndCache('../includes/submit_sidebar.php'); ?>
     <main>
         <div class="container">
             <?php
@@ -183,4 +183,5 @@ include('../cache/cache.php');
             ?>
         </div>
     </main>
-    <?php includeAndCache('../includes/footer.php'); ?>
+
+<?php includeAndCache('../includes/footer.php'); ?>

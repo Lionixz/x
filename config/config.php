@@ -11,7 +11,7 @@ $client->addScope('profile');
 
 // PayMongo Configuration
 define('PAYMONGO_SECRET', 'sk_test_Fuab1L4qbLKpsdURs7BsA8J3');
-define('PAYMONGO_RETURN_URL', 'http://localhost/x/users/payment_success.php');
+define('PAYMONGO_RETURN_URL', 'http://localhost/x/users/premium/cse_payment_success.php');
 define('PAYMONGO_CANCEL_URL', 'http://localhost/x/users/index.php');
 
 return $client;

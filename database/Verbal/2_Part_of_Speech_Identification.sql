@@ -1,2 +1,0 @@
-INSERT INTO `verbal` (`category`, `type`, `sub_type`, `instruction`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
-('Grammar and Structure', 'Part of Speech Identification', 'Vocabulary', 'c', 'c', '\"x\"', 'c', 'c', 'c', 'c', 'c');
