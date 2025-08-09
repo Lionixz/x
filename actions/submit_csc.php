@@ -49,15 +49,15 @@ include(__DIR__ . '/../cache/cache.php');
                             [
                                 'Vocabulary and Meaning',
                                 'Grammar and Structure',
-                                'Usage in Sentences',
-                                'Mechanics',
-                                'Collocation and Idioms',
-                                'Logic and Association'
+                                'Sentence Usage and Construction',
+                                'Language Mechanics',
+                                'Collocations and Idioms',
+                                'Semantic Relationships',
+                                'Extended Context Application',
                             ]
                         )
                     ) {
                         $category = 'verbal';
-
                     } elseif (
                         in_array(
                             $category,
@@ -67,7 +67,7 @@ include(__DIR__ . '/../cache/cache.php');
                             ]
                         )
                     ) {
-                        
+
                         $category = 'numerical';
                     } elseif (
                         in_array($category, [
@@ -76,15 +76,12 @@ include(__DIR__ . '/../cache/cache.php');
                         ])
                     ) {
                         $category = 'analytical';
-
-
                     } elseif (
                         in_array($category, [
                             '1987 Constitution'
                         ])
                     ) {
                         $category = 'general';
-
                     }
                     $categoryResults[$category]['total']++;
                     $isCorrect = ($userAnswer !== null && $userAnswer === $correctAnswer);
@@ -105,7 +102,6 @@ include(__DIR__ . '/../cache/cache.php');
                             'explanation' => $explanation
                         ];
                     }
-
                 }
                 $stmt->close();
             }
@@ -122,7 +118,7 @@ include(__DIR__ . '/../cache/cache.php');
                 }
                 return htmlspecialchars($answer);
             }
-            
+
             echo "<h2>Exam Summary</h2>";
             $totalScore = 0;
             $totalQuestions = 0;
@@ -184,4 +180,4 @@ include(__DIR__ . '/../cache/cache.php');
         </div>
     </main>
 
-<?php includeAndCache('../includes/footer.php'); ?>
+    <?php includeAndCache('../includes/footer.php'); ?>

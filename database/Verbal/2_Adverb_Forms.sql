@@ -1,0 +1,22 @@
+INSERT INTO `verbal` 
+(`category`, `type`, `sub_type`, `instruction`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+-- Regular Adverbs (-ly endings)
+('Grammar and Structure', 'Adverb Forms', 'Comparative', 'Choose the correct form of the given adverb according to the question.', 'quickly', 'What is the comparative form of the adverb "quickly"?', 'more quickly', 'quicker', 'quickliest', 'quicklyer', 'Adverbs ending in -ly form comparatives with "more": more quickly.'),
+('Grammar and Structure', 'Adverb Forms', 'Superlative', 'Choose the correct form of the given adverb according to the question.', 'carefully', 'What is the superlative form of the adverb "carefully"?', 'most carefully', 'carefulliest', 'carefuller', 'more careful', 'Adverbs ending in -ly form superlatives with "most": most carefully.'),
+('Grammar and Structure', 'Adverb Forms', 'Positive', 'Choose the correct form of the given adverb according to the question.', 'more slowly', 'What is the positive form of the adverb "more slowly"?', 'slowly', 'slower', 'slowest', 'most slowly', 'Positive form is the base adverb: slowly.'),
+-- Irregular Adverbs
+('Grammar and Structure', 'Adverb Forms', 'Comparative Irregular', 'Choose the correct form of the given adverb according to the question.', 'well', 'What is the comparative form of the adverb "well"?', 'better', 'weller', 'gooder', 'more well', 'Irregular comparative: well → better.'),
+('Grammar and Structure', 'Adverb Forms', 'Superlative Irregular', 'Choose the correct form of the given adverb according to the question.', 'badly', 'What is the superlative form of the adverb "badly"?', 'worst', 'baddest', 'worse', 'most badly', 'Irregular superlative: badly → worst.'),
+('Grammar and Structure', 'Adverb Forms', 'Positive Irregular', 'Choose the correct form of the given adverb according to the question.', 'better', 'What is the positive form of the adverb "better"?', 'well', 'good', 'best', 'goodly', 'Positive form of "better" is the irregular adverb: well.'),
+('Grammar and Structure', 'Adverb Forms', 'Comparative Irregular', 'Choose the correct form of the given adverb according to the question.', 'little', 'What is the comparative form of the adverb "little"?', 'less', 'littler', 'lesser', 'least', 'Irregular comparative: little → less.'),
+('Grammar and Structure', 'Adverb Forms', 'Superlative Irregular', 'Choose the correct form of the given adverb according to the question.', 'much', 'What is the superlative form of the adverb "much"?', 'most', 'muchest', 'more', 'many', 'Irregular superlative: much → most.'),
+-- Non-ly Adverbs (same as adjective form)
+('Grammar and Structure', 'Adverb Forms', 'Comparative', 'Choose the correct form of the given adverb according to the question.', 'hard', 'What is the comparative form of the adverb "hard"?', 'harder', 'more hard', 'hardlier', 'hardest', 'Non-ly adverbs add "-er": harder.'),
+('Grammar and Structure', 'Adverb Forms', 'Superlative', 'Choose the correct form of the given adverb according to the question.', 'fast', 'What is the superlative form of the adverb "fast"?', 'fastest', 'most fast', 'fastliest', 'faster', 'Non-ly adverbs add "-est": fastest.'),
+('Grammar and Structure', 'Adverb Forms', 'Positive', 'Choose the correct form of the given adverb according to the question.', 'farther', 'What is the positive form of the adverb "farther"?', 'far', 'farer', 'farest', 'further', 'Positive form is the base adverb: far.'),
+-- Additional Irregular Forms
+('Grammar and Structure', 'Adverb Forms', 'Comparative Irregular', 'Choose the correct form of the given adverb according to the question.', 'badly', 'What is the comparative form of the adverb "badly"?', 'worse', 'badder', 'more badly', 'baddest', 'Irregular comparative: badly → worse.'),
+('Grammar and Structure', 'Adverb Forms', 'Superlative Irregular', 'Choose the correct form of the given adverb according to the question.', 'well', 'What is the superlative form of the adverb "well"?', 'best', 'wellest', 'goodest', 'most well', 'Irregular superlative: well → best.'),
+('Grammar and Structure', 'Adverb Forms', 'Positive Irregular', 'Choose the correct form of the given adverb according to the question.', 'best', 'What is the positive form of the adverb "best"?', 'well', 'good', 'better', 'goodly', 'Positive form of "best" is the irregular adverb: well.');
+
+

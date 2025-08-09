@@ -325,6 +325,7 @@ main p {
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.5px;
+  /* text-align: center; */
 }
 
 
@@ -651,3 +652,5 @@ main p {
     font-size: 1.1rem;
   }
 }
+
+

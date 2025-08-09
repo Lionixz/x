@@ -1,7 +1,7 @@
 cd C:\xampp\htdocs\x
 git status
 git add .
-git commit -m "Update the list of question and sql database"
+git commit -m "Working on 1_Field-Specific_Meaning.sql restarted the file add sub_Type and upate all sql"
 git push origin main
 
 cd C:\chatgpt-automation
