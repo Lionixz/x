@@ -360,12 +360,12 @@ include('../cache/cache.php');
             <p>15. Part of Speech Identification &#10004;</p>
             <p>16. Verb Forms </p>
             <p>17. Noun Forms </p>
-            <p>18. Adjective Forms </p>
-            <p>19. Adverb Forms </p>
+            <p>18. Adjective Forms &#10004;</p>
+            <p>19. Adverb Forms &#10004;</p>
             <p>20. Plural Formation </p>
             <p>21. Tense and Conjugation </p>
-            <p>22. Comparative/Superlative Forms </p>
-            <p>23. Subject-Verb Agreement </p>
+            <p>22. Comparative/Superlative Forms &#10004;</p>
+            <p>23. Subject-Verb Agreement &#10004;</p>
 
             <h2>Sentence Usage and Construction</h2><br>
             <p>24. Correct Usage in Sentences </p>
