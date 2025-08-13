@@ -40,7 +40,7 @@ include('premium/cse_premium_content.php');
             // ];
 
             // $general_limits = [
-            //     '1987 Constitution' => 5,
+            //     '1987 Constitution' => 10,
             //     'Philippine History' => 2,
             // ];
 
@@ -173,7 +173,7 @@ include('premium/cse_premium_content.php');
             // ];
 
             // $general_limits = [
-            //     '1987 Constitution' => 5,
+            //     '1987 Constitution' => 10,
             //     'Philippine History' => 2,
             // ];
 
@@ -271,8 +271,6 @@ include('premium/cse_premium_content.php');
             ?>
 
 
-
-
             <!-- this is correct -->
             <?php
             $verbal_limits = [
@@ -286,18 +284,16 @@ include('premium/cse_premium_content.php');
             ];
 
             $numerical_limits = [
-                'Foundations and Basics' => 2,
-                'Order of Operations' => 2,
+                'Arithmetic Fundamentals' => 100,
             ];
 
             $analytical_limits = [
                 'Data Interpretation' => 100,
-                'Logical Reasoning' => 2,
+                'Logical Reasoning' => 100,
             ];
 
             $general_limits = [
-                '1987 Constitution' => 5,
-                'Philippine History' => 2,
+                '1987 Constitution' => 100,
             ];
 
             function prepareQuestionRow($row, $source_table)
@@ -343,6 +339,7 @@ include('premium/cse_premium_content.php');
 
                         $stmt = $conn->prepare("SELECT * FROM $table WHERE category = ? AND type = ? ORDER BY RAND() LIMIT ?");
 
+
                         $stmt->bind_param("ssi", $category, $type, $toTake);
                         $stmt->execute();
                         $result = $stmt->get_result();
@@ -370,9 +367,6 @@ include('premium/cse_premium_content.php');
                 fetchQuestionsByCategory($conn, 'general', $general_limits)
             );
             ?>
-
-
-
 
             <div class="question-container">
                 <form action="../actions/submit_csc.php" method="post" id="quizForm">
@@ -408,7 +402,8 @@ include('premium/cse_premium_content.php');
                                     <div class="question-card__chart">
                                         <canvas id="chart<?= $index ?>"></canvas>
                                     </div>
-                                    <script>
+
+                                    <!-- <script>
                                         const chartData<?= $index ?> = <?= $q['chart_data'] ?>;
                                         const ctx<?= $index ?> = document.getElementById('chart<?= $index ?>').getContext('2d');
                                         const chartType<?= $index ?> = '<?= $q['type'] ?? 'bar' ?>';
@@ -436,7 +431,55 @@ include('premium/cse_premium_content.php');
                                                 events: []
                                             }
                                         });
+                                    </script> -->
+
+
+
+
+
+
+
+
+                                    <script>
+                                        // Assuming this is inside a PHP loop iterating questions, with $index and $q available
+                                        const chartData<?= $index ?> = <?= $q['chart_data'] ?>;
+                                        const ctx<?= $index ?> = document.getElementById('chart<?= $index ?>').getContext('2d');
+                                        const chartType<?= $index ?> = '<?= $q['sub_type'] ?? $q['type'] ?? 'bar' ?>';
+
+                                        new Chart(ctx<?= $index ?>, {
+                                            type: chartType<?= $index ?>,
+                                            data: chartData<?= $index ?>,
+                                            options: {
+                                                responsive: true,
+                                                // Add scales only for chart types that use them
+                                                scales: (chartType<?= $index ?> === 'bar' || chartType<?= $index ?> === 'line' || chartType<?= $index ?> === 'radar' || chartType<?= $index ?> === 'polarArea') ? {
+                                                    y: {
+                                                        beginAtZero: true
+                                                    }
+                                                } : {},
+                                                interaction: {
+                                                    mode: null
+                                                },
+                                                plugins: {
+                                                    tooltip: {
+                                                        enabled: false
+                                                    },
+                                                    legend: {
+                                                        onClick: null
+                                                    }
+                                                },
+                                                events: []
+                                            }
+                                        });
                                     </script>
+
+
+
+
+
+
+
+
                                 <?php endif; ?>
                             </div>
 

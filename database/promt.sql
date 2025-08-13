@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS `numerical`;
 DROP TABLE IF EXISTS `analytical`;
 DROP TABLE IF EXISTS `general`;
 
- CREATE TABLE `verbal` (
+CREATE TABLE `verbal` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
@@ -59,9 +59,9 @@ DROP TABLE IF EXISTS `general`;
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
     PRIMARY KEY (`id`),
     KEY `idx_category_type_word` (`category`, `type`, `word`) 
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-  CREATE TABLE `numerical` (
+CREATE TABLE `numerical` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
@@ -76,15 +76,15 @@ DROP TABLE IF EXISTS `general`;
     `wrong_answer2` VARCHAR(255) NOT NULL,
     `wrong_answer3` VARCHAR(255) NOT NULL,
     `explanation` TEXT NOT NULL,
-    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added created_at column
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
-  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-  CREATE TABLE `analytical` (
+CREATE TABLE `analytical` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
-    `category` VARCHAR(100) NOT NULL, -- Added category column
+    `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
-    `sub_type` VARCHAR(100) DEFAULT NULL,          -- NEW
+    `sub_type` VARCHAR(100) DEFAULT NULL,          
     `instruction` TEXT DEFAULT NULL,  
     `word` VARCHAR(100) DEFAULT NULL,
     `question` TEXT NOT NULL,
@@ -95,15 +95,15 @@ DROP TABLE IF EXISTS `general`;
     `wrong_answer2` VARCHAR(255) NOT NULL,
     `wrong_answer3` VARCHAR(255) NOT NULL,
     `explanation` TEXT NOT NULL,
-    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added created_at column
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
-  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-  CREATE TABLE `general` (
+CREATE TABLE `general` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
-    `category` VARCHAR(100) NOT NULL, -- Added category column
+    `category` VARCHAR(100) NOT NULL,
     `type` VARCHAR(50) NOT NULL,
-    `sub_type` VARCHAR(100) DEFAULT NULL,          -- NEW
+    `sub_type` VARCHAR(100) DEFAULT NULL,          
     `instruction` TEXT DEFAULT NULL,  
     `word` VARCHAR(100) NOT NULL,
     `question` TEXT NOT NULL,
@@ -114,10 +114,9 @@ DROP TABLE IF EXISTS `general`;
     `wrong_answer2` VARCHAR(255) NOT NULL,
     `wrong_answer3` VARCHAR(255) NOT NULL,
     `explanation` TEXT NOT NULL,
-    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Added created_at column
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
-  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
 -- clear data
@@ -148,12 +147,11 @@ ALTER TABLE general DROP COLUMN id;
 
 -- Delete duplicates 
 DELETE v1
-FROM verbal v1
-JOIN verbal v2
+FROM numerical v1
+JOIN numerical v2
   ON v1.category = v2.category
   AND v1.type = v2.type
   AND v1.sub_type = v2.sub_type
-  AND v1.word = v2.word
   AND v1.question = v2.question
   AND v1.correct_answer = v2.correct_answer
   AND v1.id > v2.id;
@@ -161,9 +159,10 @@ JOIN verbal v2
 
 
 -- drop id image chard data and created at
-ALTER TABLE `verbal`
+ALTER TABLE `numerical`
 DROP COLUMN `id`,
 DROP COLUMN `image`,
+DROP COLUMN `word`,
 DROP COLUMN `chart_data`,
 DROP COLUMN `created_at`;
 

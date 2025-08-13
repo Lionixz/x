@@ -11,3 +11,14 @@ cd C:\chatgpt-automation
 Get-Content "C:\xampp\htdocs\x\database\Verbal\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root --password= -D x --execute="source C:/xampp/htdocs/x/database/Verbal/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Verbal\all_combined.sql"
 cd C:\chatgpt-automation
 
+
+Get-Content "C:\xampp\htdocs\x\database\Analitical\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Analitical\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root --password= -D x --execute="source C:/xampp/htdocs/x/database/Analitical/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Analitical\all_combined.sql"
+cd C:\chatgpt-automation
+
+
+Get-Content "C:\xampp\htdocs\x\database\General\*.sql" | Set-Content "C:\xampp\htdocs\x\database\General\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root --password= -D x --execute="source C:/xampp/htdocs/x/database/General/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\General\all_combined.sql"
+cd C:\chatgpt-automation
+
+
+Get-Content "C:\xampp\htdocs\x\database\Numerical\*.sql" | Set-Content "C:\xampp\htdocs\x\database\Numerical\all_combined.sql"; & "C:\xampp\mysql\bin\mysql.exe" -u root --password= -D x --execute="source C:/xampp/htdocs/x/database/Numerical/all_combined.sql"; Remove-Item "C:\xampp\htdocs\x\database\Numerical\all_combined.sql"
+cd C:\chatgpt-automation

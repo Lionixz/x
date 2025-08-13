@@ -6,7 +6,6 @@ include('../cache/cache.php');
 <html>
 <?php includeAndCache('../includes/head.php'); ?>
 
-
 <style>
     :root {
         --deepseeker-blue: #0d1b2a;
@@ -262,28 +261,7 @@ include('../cache/cache.php');
 
 
     }
-
-    @media (max-width: 480px) {
-        .container {
-            padding: 15px;
-        }
-
-        .user-avatar {
-            width: 100px;
-            height: 100px;
-        }
-
-        .section-title {
-            font-size: 1.4rem;
-        }
-
-        .feature-card {
-            padding: 15px;
-        }
-    }
 </style>
-
-
 
 <body>
     <?php includeAndCache('../includes/sidebar.php'); ?>
@@ -340,34 +318,40 @@ include('../cache/cache.php');
 
 
 
+
+
+
+
+
+            <!-- 
             <br>
             <h1>English Exam Question Bank</h1>
             <br>
-            <h2>Vocabulary and Meaning</h2><br>
+            <h3>Vocabulary and Meaning</h3><br>
             <p>1. Definition &#10004;</p>
             <p>2. Synonym Identification &#10004;</p>
             <p>3. Antonym Identification &#10004;</p>
-            <p>4. Contextual Meaning (sentence-based) &#10004;</p>
-            <p>5. Word Family (related words) &#10004;</p>
-            <p>6. Affix Identification (prefix/suffix) &#10004;</p>
+            <p>4. Contextual Meaning &#10004;</p>
+            <p>5. Word Family &#10004;</p>
+            <p>6. Affix Identification &#10004;</p>
             <p>7. Root Word Analysis &#10004;</p>
-            <p>8. Word Intensity Scale (mild → strong)</p>
+            <p>8. Word Intensity Scale &#10004;</p>
             <p>9. Field-Specific Meaning &#10004;</p>
             <p>10. Slang vs. Formal Usage &#10004;</p>
 
 
-            <h2>Grammar and Structure</h2><br>
+            <h3>Grammar and Structure</h3><br>
             <p>15. Part of Speech Identification &#10004;</p>
-            <p>16. Verb Forms </p>
-            <p>17. Noun Forms </p>
+            <p>16. Verb Forms &#10004;</p>
+            <p>17. Noun Forms &#10004;</p>
             <p>18. Adjective Forms &#10004;</p>
             <p>19. Adverb Forms &#10004;</p>
-            <p>20. Plural Formation </p>
-            <p>21. Tense and Conjugation </p>
+            <p>20. Plural Formation &#10004;</p>
+            <p>21. Tense and Conjugation &#10004;</p><samp></samp>
             <p>22. Comparative/Superlative Forms &#10004;</p>
-            <p>23. Subject-Verb Agreement &#10004;</p>
+            <p>23. Subject-Verb Agreement &#10004;</p> -->
 
-            <h2>Sentence Usage and Construction</h2><br>
+            <!-- <h3>Sentence Usage and Construction</h3><br>
             <p>24. Correct Usage in Sentences </p>
             <p>25. Sentence Correction </p>
             <p>26. Fill in the Blank (vocabulary/grammar) </p>
@@ -375,28 +359,366 @@ include('../cache/cache.php');
             <p>28. Word Order Accuracy </p>
             <p>29. Error Identification </p>
 
-            <h2>Language Mechanics</h2><br>
+            <h3>Language Mechanics</h3><br>
             <p>30. Spelling Accuracy </p>
             <p>31. Capitalization Rules </p>
             <p>32. Punctuation Usage </p>
             <p>33. Homophone Differentiation (e.g., their/there/they're) </p>
             <p>34. Error-Free Sentence Identification </p>
 
-            <h2>Collocations and Idioms</h2><br>
+            <h3>Collocations and Idioms</h3><br>
             <p>35. Collocation Recognition (e.g., "precise measurement") </p>
             <p>36. Idiomatic Expressions </p>
             <p>37. Natural Word Pairings (e.g., "bread and butter") </p>
             <p>38. Word-Collocate Matching </p>
 
-            <h2>Semantic Relationships</h2><br>
+            <h3>Semantic Relationships</h3><br>
             <p>39. Odd One Out Analysis </p>
             <p>40. Semantic Categorization (e.g., emotions/actions) </p>
             <p>41. Synonym Matching </p>
             <p>42. Antonym Matching </p>
             <p>43. Tone Appropriateness (formal vs. casual) </p>
 
-            <h2>Extended Context Application</h2><br>
-            <p>44. Paragraph-Level Word Selection </p>
+            <h3>Extended Context Application</h3><br>
+            <p>44. Paragraph-Level Word Selection </p> -->
+            <br>
+
+
+
+
+            <h1>Numerical Ability</h1>
+
+            <h3>Arithmetic Fundamentals</h3>
+            <h5>Fractions</h5>
+            <p>Operations & Conversions, Comparing/Ordering Values</p>
+            <ul>
+                <li>Addition of fractions (same and different denominators)</li>
+                <li>Subtraction of fractions (same and different denominators)</li>
+                <li>Multiplication of fractions</li>
+                <li>Division of fractions</li>
+                <li>Converting fractions to decimals</li>
+                <li>Converting decimals to fractions</li>
+                <li>Converting improper fractions to mixed numbers and vice versa</li>
+                <li>Comparing fractions with like denominators</li>
+                <li>Comparing fractions with unlike denominators</li>
+                <li>Ordering fractions and decimals from least to greatest or greatest to least</li>
+            </ul>
+
+            <br>
+            <h5>Decimals</h5>
+            <p>Operations & Conversions, Comparing/Ordering Values</p>
+            <ul>
+                <li>Addition of decimals</li>
+                <li>Subtraction of decimals</li>
+                <li>Multiplication of decimals</li>
+                <li>Division of decimals</li>
+                <li>Converting decimals to fractions</li>
+                <li>Converting fractions to decimals</li>
+                <li>Rounding decimals to a given place value</li>
+                <li>Comparing decimals using place value</li>
+                <li>Ordering decimals from least to greatest or greatest to least</li>
+                <li>Converting between decimals and percentages</li>
+            </ul>
+            <br>
+
+
+            <h5>Percentages</h5>
+            <p>Percent Change, Discounts/Tax/Markup, Simple Interest</p>
+            <ul>
+                <li>Calculating percentage of a number</li>
+                <li>Finding the whole given a part and its percentage</li>
+                <li>Calculating percentage increase</li>
+                <li>Calculating percentage decrease</li>
+                <li>Finding discount amount and final price after discount</li>
+                <li>Calculating sales tax or VAT</li>
+                <li>Calculating markup and selling price</li>
+                <li>Finding profit or loss percentage</li>
+                <li>Calculating simple interest using \( I = P \times R \times T \)</li>
+                <li>Solving real-life word problems involving percentages</li>
+            </ul>
+            <br>
+
+            <h5>Ratios & Proportions</h5>
+            <p>Unit Rates, Scale Problems, Partnership/Division</p>
+            <ul>
+                <li>Writing ratios in simplest form</li>
+                <li>Comparing ratios</li>
+                <li>Solving for missing values in equivalent ratios</li>
+                <li>Calculating unit rates (e.g., cost per item, speed per hour)</li>
+                <li>Using ratios to solve proportion problems</li>
+                <li>Applying scale factors in maps, blueprints, and models</li>
+                <li>Solving problems involving direct proportion</li>
+                <li>Solving problems involving inverse proportion</li>
+                <li>Dividing amounts in a given ratio</li>
+                <li>Partnership problems (profit sharing based on ratio of investment)</li>
+            </ul>
+            <br>
+
+            <h5>Averages</h5>
+            <p>Mean/Median/Mode, Weighted Averages</p>
+            <ul>
+                <li>Calculating the mean (average) of a data set</li>
+                <li>Finding the median of an odd or even data set</li>
+                <li>Identifying the mode in a data set (single mode, multiple modes, or no mode)</li>
+                <li>Calculating the range of a data set</li>
+                <li>Solving word problems involving mean</li>
+                <li>Finding a missing value when the mean is given</li>
+                <li>Calculating weighted averages (e.g., grades with different weights)</li>
+                <li>Applying averages in real-life scenarios (e.g., batting averages, speed averages)</li>
+                <li>Comparing different averages to interpret data</li>
+                <li>Recognizing limitations of averages in representing data</li>
+            </ul>
+            <br>
+
+            <h5>Time & Work</h5>
+            <p>Work Efficiency, Collaborative Work Problems</p>
+            <ul>
+                <li>Calculating individual work rates</li>
+                <li>Finding total work rate when working together</li>
+                <li>Determining time required to complete a task</li>
+                <li>Work completion problems with one person leaving/joining</li>
+                <li>Comparing efficiency of different workers</li>
+                <li>Inverse proportion problems involving time and workers</li>
+                <li>Solving partial work problems</li>
+                <li>Practical scenarios like filling/emptying tanks</li>
+                <li>Finding work done in fractional days/hours</li>
+                <li>Identifying bottlenecks in collaborative tasks</li>
+            </ul>
+            <br>
+
+            <h5>Time-Speed-Distance</h5>
+            <p>Relative Speed, Average Speed</p>
+            <ul>
+                <li>Calculating distance, speed, or time using \( \text{Speed} = \frac{\text{Distance}}{\text{Time}} \)</li>
+                <li>Finding relative speed when moving in the same or opposite directions</li>
+                <li>Solving problems on average speed for different segments</li>
+                <li>Conversions between km/h and m/s</li>
+                <li>Time taken to overtake or meet</li>
+                <li>Boat and stream problems (upstream, downstream)</li>
+                <li>Train problems involving platforms and other trains</li>
+                <li>Chasing problems with different start times</li>
+                <li>Estimating travel time with varying speeds</li>
+                <li>Applying concepts in real-life travel scenarios</li>
+            </ul>
+            <br>
+
+            <h3>Algebra</h3>
+            <br>
+            <h5>Linear Equations</h5>
+            <p>Single-Variable Solutions, Age/Money Word Problems</p>
+            <ul>
+                <li>Solving single-variable equations</li>
+                <li>Word problems involving sums, differences, and products</li>
+                <li>Age-related problems</li>
+                <li>Money and budget problems</li>
+                <li>Mixture and concentration problems (single equation)</li>
+                <li>Checking solutions by substitution</li>
+                <li>Using equations to model real-world situations</li>
+            </ul>
+            <br>
+
+            <h5>Inequalities</h5>
+            <p>Number Line Solutions, Practical Constraints</p>
+            <ul>
+                <li>Solving linear inequalities in one variable</li>
+                <li>Graphing inequalities on a number line</li>
+                <li>Translating word problems into inequalities</li>
+                <li>Understanding inequality symbols (\(<\), \(>\), \(\le\), \(\ge\))</li>
+                <li>Applying inequalities in budgeting and resource limits</li>
+                <li>Testing solutions for inequalities</li>
+            </ul>
+            <br>
+
+            <h5>Systems of Equations</h5>
+            <p>Substitution/Elimination, Mixture/Allocation Problems</p>
+            <ul>
+                <li>Solving systems by substitution</li>
+                <li>Solving systems by elimination</li>
+                <li>Graphical solutions to systems</li>
+                <li>Word problems on mixtures</li>
+                <li>Word problems on allocation/distribution</li>
+                <li>Determining if a system has one, none, or infinitely many solutions</li>
+            </ul>
+            <br>
+
+            <h5>Exponents & Radicals</h5>
+            <p>Basic Operations, Scientific Notation</p>
+            <ul>
+                <li>Applying laws of exponents</li>
+                <li>Simplifying exponential expressions</li>
+                <li>Converting numbers to and from scientific notation</li>
+                <li>Multiplying/dividing in scientific notation</li>
+                <li>Adding/subtracting in scientific notation</li>
+                <li>Simplifying radicals (square roots, cube roots)</li>
+                <li>Operations with radical expressions</li>
+            </ul>
+            <br>
+            <h5>Quadratic Equations</h5>
+            <p>Factoring, Quadratic Formula</p>
+            <ul>
+                <li>Factoring quadratic expressions</li>
+                <li>Solving by factoring</li>
+                <li>Completing the square</li>
+                <li>Using the quadratic formula</li>
+                <li>Word problems leading to quadratic equations</li>
+                <li>Graphing parabolas and identifying key features</li>
+            </ul>
+            <br>
+            <h3>Data Interpretation</h3>
+            <br>
+            <h5>Table Analysis</h5>
+            <p>Trend Identification, Multi-Table Synthesis</p>
+            <ul>
+                <li>Reading and interpreting tabular data</li>
+                <li>Calculating totals and differences</li>
+                <li>Finding percentages from table data</li>
+                <li>Identifying trends and patterns</li>
+                <li>Comparing data from multiple tables</li>
+            </ul>
+            <br>
+            <h5>Graphical Data</h5>
+            <p>Bar/Line Graphs, Pie Charts</p>
+            <ul>
+                <li>Interpreting bar graphs</li>
+                <li>Interpreting line graphs</li>
+                <li>Reading and analyzing pie charts</li>
+                <li>Comparing multiple data series</li>
+                <li>Estimating values from graphs</li>
+                <li>Calculating percentages from charts</li>
+            </ul>
+            <br>
+            <h5>Statistical Reasoning</h5>
+            <p>Data Sufficiency, Inference from Visuals</p>
+            <ul>
+                <li>Determining if data is sufficient to answer a question</li>
+                <li>Drawing conclusions from graphical representations</li>
+                <li>Identifying misleading graphs or charts</li>
+                <li>Inferring missing values from trends</li>
+            </ul>
+            <br>
+            <h3>Basic Geometry</h3>
+
+            <br>
+            <h5>Area/Perimeter</h5>
+            <p>Squares/Rectangles/Circles</p>
+            <ul>
+                <li>Calculating perimeter of basic shapes</li>
+                <li>Finding area of squares, rectangles, and circles</li>
+                <li>Solving word problems on perimeter and area</li>
+                <li>Converting between units of length and area</li>
+            </ul>
+
+            <br>
+            <h5>Volume</h5>
+            <p>Cubes/Cylinders</p>
+            <ul>
+                <li>Finding volume of cubes and cuboids</li>
+                <li>Finding volume of cylinders</li>
+                <li>Unit conversions for volume</li>
+                <li>Practical applications of volume</li>
+            </ul>
+
+            <br>
+            <h5>Angles</h5>
+            <p>Triangle Properties</p>
+            <ul>
+                <li>Calculating angles in a triangle</li>
+                <li>Understanding types of triangles</li>
+                <li>Applying the sum of angles property</li>
+                <li>Finding unknown angles using properties of isosceles and equilateral triangles</li>
+            </ul>
+
+            <br>
+            <h3>Word Problems</h3>
+
+            <h5>Quantitative Reasoning</h5>
+            <p>Multi-Step Arithmetic, Logical Deduction</p>
+            <ul>
+                <li>Solving multi-step word problems</li>
+                <li>Applying logic to numerical situations</li>
+                <li>Combining different arithmetic operations</li>
+                <li>Analyzing and breaking down complex problems</li>
+            </ul>
+
+            <br>
+            <h5>Real-Life Scenarios</h5>
+            <p>Budgeting/Cost Analysis, Resource Allocation</p>
+            <ul>
+                <li>Creating and adjusting budgets</li>
+                <li>Comparing costs and finding the best value</li>
+                <li>Allocating resources efficiently</li>
+                <li>Applying arithmetic in household and business situations</li>
+            </ul>
+
+
+
+            <?php
+            $mysqli = require '../config/db.php';
+
+            // List of separate topics (tables)
+            $topics = ['verbal', 'numerical', 'analytical', 'general'];
+
+            echo "<div style='font-family: Arial, sans-serif; line-height: 1.6;'>";
+
+            foreach ($topics as $topic) {
+                // Top-level topic heading with toggle
+                echo "<h3 class='toggle' data-target='topic-$topic' style='cursor:pointer; margin-bottom:0.2em;'>📚 " . ucfirst($topic) . "</h3>";
+                echo "<div id='topic-$topic' style='display:none; margin-left:20px;'>";
+
+                // Query the respective table
+                $stmt = $mysqli->prepare("SELECT type, sub_type FROM `$topic` ORDER BY type, sub_type");
+                $stmt->execute();
+                $result = $stmt->get_result();
+
+                if ($result->num_rows > 0) {
+                    $lastType = '';
+                    $lastSubType = '';
+
+                    while ($row = $result->fetch_assoc()) {
+                        $type = $row['type'];
+                        $sub_type = $row['sub_type'];
+
+                        // New type toggle
+                        if ($type !== $lastType) {
+                            if ($lastType !== '') {
+                                echo "</div>"; // close previous type sub_types container
+                            }
+                            echo "<h5 class='toggle' data-target='type-$topic-$type' style='cursor:pointer; margin-left:10px; margin-bottom:0.1em;'>📁 $type</h5>";
+                            echo "<div id='type-$topic-$type' style='display:none; margin-left:30px;'>";
+                            $lastType = $type;
+                            $lastSubType = '';
+                        }
+
+                        // Sub_type (simple indented line)
+                        if ($sub_type !== $lastSubType) {
+                            echo "<div style='margin-left:20px;'>🔹 $sub_type</div>";
+                            $lastSubType = $sub_type;
+                        }
+                    }
+                    if ($lastType !== '') echo "</div>"; // close last type container
+                } else {
+                    echo "<div style='margin-left:20px; font-style: italic; color: #666;'>No data available.</div>";
+                }
+
+                echo "</div>"; // close topic container
+            }
+
+            echo "</div>";
+            ?>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.querySelectorAll('.toggle').forEach(function(el) {
+                        el.addEventListener('click', function() {
+                            const target = document.getElementById(el.dataset.target);
+                            if (target) {
+                                target.style.display = (target.style.display === 'none') ? 'block' : 'none';
+                            }
+                        });
+                    });
+                });
+            </script>
+
 
 
 
