@@ -1,7 +1,7 @@
 cd C:\xampp\htdocs\x
 git status
 git add .
-git commit -m "2_Subject_Verb_Agreement.sql finish"
+git commit -m "Working on numerical"
 git push origin main
 
 cd C:\chatgpt-automation

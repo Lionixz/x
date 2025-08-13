@@ -10,14 +10,12 @@ include('premium/cse_premium_content.php');
 <?php includeAndCache('../includes/head.php'); ?>
 
 
-
 <body>
     <?php includeAndCache('../includes/sidebar.php'); ?>
     <main>
         <div class="container">
 
             <!-- orginal -->
-
             <?php
             // $verbal_limits = [
             //     'Vocabulary and Meaning' => 100,
@@ -148,7 +146,6 @@ include('premium/cse_premium_content.php');
             //     fetchQuestionsByCategory($conn, 'general', $general_limits)
             // );
             ?>
-
 
             <!-- updateted test -->
             <?php
@@ -285,6 +282,9 @@ include('premium/cse_premium_content.php');
 
             $numerical_limits = [
                 'Arithmetic Fundamentals' => 100,
+                'Algebra' => 100,
+                'Basic Geometry' => 100,
+                'Word Problems' => 100
             ];
 
             $analytical_limits = [
@@ -293,7 +293,12 @@ include('premium/cse_premium_content.php');
             ];
 
             $general_limits = [
-                '1987 Constitution' => 100,
+                'The Constitution' => 100,
+                'Code of Conduct and Ethical Standards' => 100,
+                'Environmental Management and Protection' => 100,
+                'Peace and Human Rights' => 100,
+                'General Knowledge' => 100
+
             ];
 
             function prepareQuestionRow($row, $source_table)
@@ -334,8 +339,8 @@ include('premium/cse_premium_content.php');
                     foreach ($types as $type) {
                         if ($remaining <= 0) break;
 
-                        // Get 5 questions or remaining limit
-                        $toTake = min(5, $remaining);
+                        // Get 100 questions or remaining limit
+                        $toTake = min(100, $remaining);
 
                         $stmt = $conn->prepare("SELECT * FROM $table WHERE category = ? AND type = ? ORDER BY RAND() LIMIT ?");
 

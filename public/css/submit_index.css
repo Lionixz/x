@@ -9,7 +9,7 @@
   --secondary-text-clr: #b0b3c1;
   --card-bg: #1a1b26;
   --success-clr: #00c896;
-  --warning-clr: #ffd166;
+  --warning-clr: #ff0000;
   --transition: all 0.3s ease;
 }
 
@@ -164,14 +164,9 @@ main {
   padding: min(10px, 5%);
 }
 
-main p {
-  color: var(--secondary-text-clr);
-  margin-top: 2px;
-  margin-bottom: 15px;
-}
 
 .container {
-  border: 1px solid var(--line-clr);
+  /* border: 1px solid var(--line-clr); */
   border-radius: 1em;
   margin-bottom: 20px;
   padding: 10px;
@@ -179,29 +174,20 @@ main p {
 
 
 
-.chart-container {
-  width: auto;
-  max-width: auto;
-  height: 200px;
-  position: relative;
-}
 
-.radar-polar-container {
-  max-width: auto;
-  height: 300px;
-}
 
-.scatter-bubble-container {
-  height: 300px;
-}
 
-.chart-error {
-  color: #d32f2f;
-  padding: 10px;
-  border: 1px solid #ffcdd2;
-  background-color: #ffebee;
-  margin-top: 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -221,7 +207,7 @@ main p {
     height: 60px;
     width: 100%;
     border-right: none;
-    border-top: 1px solid var(--line-clr);
+    /* border-top: 1px solid var(--line-clr); */
     padding: 0;
     position: fixed;
     top: unset;

@@ -166,3 +166,46 @@ DROP COLUMN `word`,
 DROP COLUMN `chart_data`,
 DROP COLUMN `created_at`;
 
+
+
+
+
+
+-- Delete duplicates 
+DELETE v1
+FROM general v1
+JOIN general v2
+  ON v1.category = v2.category
+  AND v1.type = v2.type
+  AND v1.sub_type = v2.sub_type
+  AND v1.question = v2.question
+  AND v1.correct_answer = v2.correct_answer
+  AND v1.id > v2.id;
+
+
+
+-- drop id image chard data and created at
+ALTER TABLE `general`
+DROP COLUMN `id`,
+DROP COLUMN `image`,
+DROP COLUMN `word`,
+DROP COLUMN `chart_data`,
+DROP COLUMN `created_at`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

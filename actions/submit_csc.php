@@ -6,6 +6,121 @@ include(__DIR__ . '/../cache/cache.php');
 <html>
 <?php includeAndCache('../includes/submit_head.php'); ?>
 
+
+
+
+
+<style>
+    /* Container styles */
+    .exam-summary,
+    .category-summary,
+    .category-section,
+    .subtype-section,
+    .answer-item {
+        background-color: var(--card-bg);
+        border: 1px solid var(--line-clr);
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 15px;
+        color: var(--text-clr);
+        transition: var(--transition);
+    }
+
+    /* Titles */
+    .exam-summary h2 {
+        color: var(--accent-clr);
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .category-title,
+    .subtype-title {
+        color: var(--accent-clr);
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .incorrect-title {
+        color: var(--warning-clr);
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .correct-title {
+        color: var(--success-clr);
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    /* Score bars */
+    .score-bar-container {
+        background-color: var(--line-clr);
+        border-radius: 6px;
+        height: 20px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .score-bar {
+        background-color: var(--accent-clr);
+        height: 100%;
+        border-radius: 6px 0 0 6px;
+        transition: var(--transition);
+    }
+
+    /* Text */
+    .total-score,
+    .category-score,
+    .category-score-detail,
+    .explanation,
+    p {
+        font-size: 16px;
+        margin: 5px 0;
+        color: var(--text-clr);
+    }
+
+    .secondary-text {
+        color: var(--secondary-text-clr);
+    }
+
+    /* Answer items */
+    .answer-item {
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .wrong-answer {
+        border-left: 4px solid var(--warning-clr);
+    }
+
+    .correct-answer {
+        border-left: 4px solid var(--success-clr);
+    }
+
+    /* Images */
+    .question-image {
+        max-width: 100%;
+        margin: 10px 0;
+        border-radius: 4px;
+    }
+
+    /* Hover effect */
+    .exam-summary:hover,
+    .category-section:hover,
+    .subtype-section:hover,
+    .answer-item:hover {
+        background-color: var(--hover-clr);
+    }
+</style>
+
+
+
+
+
+
+
+
+
 <body>
     <?php includeAndCache('../includes/submit_sidebar.php'); ?>
     <main>
@@ -21,10 +136,10 @@ include(__DIR__ . '/../cache/cache.php');
 
             $categories = ['verbal', 'analytical', 'numerical', 'general'];
             $categoryResults = [
-                'verbal' => ['score' => 0, 'total' => 0, 'correct' => [], 'wrong' => []],
-                'analytical' => ['score' => 0, 'total' => 0, 'correct' => [], 'wrong' => []],
-                'numerical' => ['score' => 0, 'total' => 0, 'correct' => [], 'wrong' => []],
-                'general' => ['score' => 0, 'total' => 0, 'correct' => [], 'wrong' => []]
+                'verbal' => ['score' => 0, 'total' => 0, 'sub_types' => []],
+                'analytical' => ['score' => 0, 'total' => 0, 'sub_types' => []],
+                'numerical' => ['score' => 0, 'total' => 0, 'sub_types' => []],
+                'general' => ['score' => 0, 'total' => 0, 'sub_types' => []]
             ];
 
             if (!isset($_POST['questions']) || !is_array($_POST['questions'])) {
@@ -72,12 +187,24 @@ include(__DIR__ . '/../cache/cache.php');
                         $category = 'verbal';
                     } elseif (in_array($category, [
                         'Arithmetic Fundamentals',
+                        'Algebra',
+                        'Basic Geometry',
+                        'Word Problems',
 
                     ])) {
                         $category = 'numerical';
-                    } elseif (in_array($category, ['Data Interpretation', 'Logical Reasoning'])) {
+                    } elseif (in_array($category, [
+                        'Data Interpretation',
+                        'Logical Reasoning'
+                    ])) {
                         $category = 'analytical';
-                    } elseif (in_array($category, ['1987 Constitution'])) {
+                    } elseif (in_array($category, [
+                        'The Constitution',
+                        'Code of Conduct and Ethical Standards',
+                        'Environmental Management and Protection',
+                        'Peace and Human Rights',
+                        'General Knowledge'
+                    ])) {
                         $category = 'general';
                     }
 
@@ -86,26 +213,32 @@ include(__DIR__ . '/../cache/cache.php');
 
                     if ($isCorrect) {
                         $categoryResults[$category]['score']++;
-                        $categoryResults[$category]['correct'][] = [
-                            'questionId' => $questionId,
-                            'question' => $question,
-                            'image' => $image,
-                            'chart_data' => $chartDataArray,
-                            'sub_type' => $sub_type,
-                            'correctAnswer' => $correctAnswer,
-                            'userAnswer' => $userAnswer
+                    }
+
+                    // Initialize sub-type if not exists
+                    if (!isset($categoryResults[$category]['sub_types'][$sub_type])) {
+                        $categoryResults[$category]['sub_types'][$sub_type] = [
+                            'correct' => [],
+                            'wrong' => []
                         ];
+                    }
+
+                    // Store question in sub-type category
+                    $questionData = [
+                        'questionId' => $questionId,
+                        'question' => $question,
+                        'image' => $image,
+                        'chart_data' => $chartDataArray,
+                        'sub_type' => $sub_type,
+                        'correctAnswer' => $correctAnswer,
+                        'userAnswer' => $userAnswer
+                    ];
+
+                    if ($isCorrect) {
+                        $categoryResults[$category]['sub_types'][$sub_type]['correct'][] = $questionData;
                     } else {
-                        $categoryResults[$category]['wrong'][] = [
-                            'questionId' => $questionId,
-                            'question' => $question,
-                            'image' => $image,
-                            'chart_data' => $chartDataArray,
-                            'sub_type' => $sub_type,
-                            'correctAnswer' => $correctAnswer,
-                            'userAnswer' => $userAnswer,
-                            'explanation' => $explanation
-                        ];
+                        $questionData['explanation'] = $explanation;
+                        $categoryResults[$category]['sub_types'][$sub_type]['wrong'][] = $questionData;
                     }
                 }
                 $stmt->close();
@@ -138,6 +271,7 @@ include(__DIR__ . '/../cache/cache.php');
                     'polarArea' => 'polarArea',
                     'scatter' => 'scatter',
                     'bubble' => 'bubble'
+
                 ];
 
                 $chartType = $chartTypeMap[$sub_type] ?? 'bar';
@@ -179,6 +313,7 @@ include(__DIR__ . '/../cache/cache.php');
                 <div class="' . $containerClass . '">
                     <canvas id="chart-' . $questionId . '"></canvas>
                 </div>
+                
                 <script>
                     document.addEventListener("DOMContentLoaded", function() {
                         try {
@@ -207,15 +342,15 @@ include(__DIR__ . '/../cache/cache.php');
             ?>
 
 
-            <h2>Exam Results</h2>
-            <div class="summary-card">
-                <p><strong>Total Score:</strong> <?= $totalScore ?>/<?= $totalQuestions ?></p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: <?= $totalQuestions > 0 ? ($totalScore / $totalQuestions) * 200 : 0 ?>px;"></div>
+            <div class="exam-summary">
+                <h2>Exam Results</h2>
+                <p class="total-score"><strong>Total Score:</strong> <?= $totalScore ?>/<?= $totalQuestions ?></p>
+                <div class="score-bar-container">
+                    <div class="score-bar" style="width: <?= $totalQuestions > 0 ? ($totalScore / $totalQuestions) * 200 : 0 ?>px;"></div>
                 </div>
             </div>
 
-            <div class="category-results">
+            <div class="category-summary">
                 <?php foreach ($categories as $category):
                     if (isset($categoryResults[$category])):
                         $categoryData = $categoryResults[$category];
@@ -223,7 +358,7 @@ include(__DIR__ . '/../cache/cache.php');
                         $total = $categoryData['total'];
                         $percentage = $total > 0 ? round(($score / $total) * 100, 2) : 0;
                 ?>
-                        <div class="category-card">
+                        <div class="category-score">
                             <p><strong><?= ucfirst($category) ?>:</strong> <?= $score ?> / <?= $total ?> (<?= $percentage ?>%)</p>
                         </div>
                 <?php
@@ -231,56 +366,69 @@ include(__DIR__ . '/../cache/cache.php');
                 endforeach; ?>
             </div>
 
+            <?php foreach ($categoryResults as $category => $results): ?>
+                <?php if ($results['total'] > 0): ?>
 
-            <br>
-            <br>
-            <?php
+                    <div class="category-section">
+                        <h3 class="category-title"><?= ucfirst($category) ?> Section</h3>
+                        <p class="category-score-detail">Score: <?= $results['score'] ?>/<?= $results['total'] ?></p>
+                    </div>
 
-            foreach ($categoryResults as $category => $results): ?>
-                <div class="category-section">
-                    <h3><?= ucfirst($category) ?> Section</h3>
-                    <p>Score: <?= $results['score'] ?>/<?= $results['total'] ?></p>
 
-                    <?php if (!empty($results['wrong'])): ?>
-                        <h4>Incorrect Answers</h4>
-                        <?php foreach ($results['wrong'] as $item): ?>
-                            <div class="question-review incorrect">
-                                <p><strong>Question:</strong> <?= htmlspecialchars($item['question']) ?></p>
-                                <?php if ($item['image']): ?>
+                    <?php foreach ($results['sub_types'] as $sub_type => $typeData): ?>
+                        <?php
+                        $hasWrong = !empty($typeData['wrong']);
+                        $hasCorrect = !empty($typeData['correct']);
+                        ?>
+
+                        <?php if ($hasWrong || $hasCorrect): ?>
+                            <div class="subtype-section">
+                                <h4 class="subtype-title"><?= htmlspecialchars($sub_type) ?></h4>
+
+                                <?php if ($hasWrong): ?>
+                                    <h5 class="incorrect-title">Incorrect Answers</h5>
+                                    <?php foreach ($typeData['wrong'] as $item): ?>
+                                        <div class="answer-item wrong-answer">
+                                            <p><strong>Question:</strong> <?= htmlspecialchars($item['question']) ?></p>
+                                            <?php if ($item['image']): ?>
+                                                <img class="question-image" src="../images/uploads/<?= htmlspecialchars($item['image']) ?>" alt="Question Image"><br>
+                                            <?php endif; ?>
+                                            <?php if (!empty($item['chart_data']) && $item['sub_type']): ?>
+                                                <?= renderChart($item['chart_data'], $item['sub_type'], $item['questionId']) ?>
+                                            <?php endif; ?>
+
+                                            <p><strong>Your answer:</strong> <?= renderAnswer($item['userAnswer']) ?></p>
+                                            <p><strong>Correct answer:</strong> <?= renderAnswer($item['correctAnswer']) ?></p>
+                                            <?php if (isset($item['explanation'])): ?>
+                                                <p class="explanation"><strong>Explanation:</strong> <?= htmlspecialchars($item['explanation']) ?></p>
+                                            <?php endif; ?>
+                                        </div>
+                                    <?php endforeach; ?>
                                 <?php endif; ?>
-                                <?= ($item['image'] ? '<img src="../images/uploads/' . htmlspecialchars($item['image']) . '" alt="Question Image"><br>' : '') ?>
-                                <?php if (!empty($item['chart_data']) && $item['sub_type']): ?>
-                                    <?= renderChart($item['chart_data'], $item['sub_type'], $item['questionId']) ?>
-                                <?php endif; ?>
 
-                                <p><strong>Your answer:</strong> <?= renderAnswer($item['userAnswer']) ?></p>
-                                <p><strong>Correct answer:</strong> <?= renderAnswer($item['correctAnswer']) ?></p>
-                                <?php if ($item['explanation']): ?>
-                                    <p><strong>Explanation:</strong> <?= htmlspecialchars($item['explanation']) ?></p>
+                                <?php if ($hasCorrect): ?>
+                                    <h5 class="correct-title">Correct Answers</h5>
+                                    <?php foreach ($typeData['correct'] as $item): ?>
+                                        <div class="answer-item correct-answer">
+                                            <p><strong>Question:</strong> <?= htmlspecialchars($item['question']) ?></p>
+                                            <?php if ($item['image']): ?>
+                                                <img class="question-image" src="../images/uploads/<?= htmlspecialchars($item['image']) ?>" alt="Question Image"><br>
+                                            <?php endif; ?>
+                                            <?php if (!empty($item['chart_data']) && $item['sub_type']): ?>
+                                                <?= renderChart($item['chart_data'], $item['sub_type'], $item['questionId']) ?>
+                                            <?php endif; ?>
+
+                                            <p><strong>Your answer:</strong> <?= renderAnswer($item['userAnswer']) ?></p>
+                                        </div>
+                                    <?php endforeach; ?>
                                 <?php endif; ?>
                             </div>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
-
-                    <?php if (!empty($results['correct'])): ?>
-                        <h4>Correct Answers</h4>
-                        <?php foreach ($results['correct'] as $item): ?>
-                            <div class="question-review correct">
-                                <p><strong>Question:</strong> <?= htmlspecialchars($item['question']) ?></p>
-                                <?php if ($item['image']): ?>
-                                    <?= ($item['image'] ? '<img src="../images/uploads/' . htmlspecialchars($item['image']) . '" alt="Question Image"><br>' : '') ?>
-                                <?php endif; ?>
-
-                                <?php if (!empty($item['chart_data']) && $item['sub_type']): ?>
-                                    <?= renderChart($item['chart_data'], $item['sub_type'], $item['questionId']) ?>
-                                <?php endif; ?>
-
-                                <p><strong>Your answer:</strong> <?= renderAnswer($item['userAnswer']) ?></p>
-                            </div>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
-                </div>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                <?php endif; ?>
             <?php endforeach; ?>
+
+
         </div>
     </main>
 

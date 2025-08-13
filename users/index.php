@@ -323,7 +323,6 @@ include('../cache/cache.php');
 
 
 
-            <!-- 
             <br>
             <h1>English Exam Question Bank</h1>
             <br>
@@ -349,9 +348,9 @@ include('../cache/cache.php');
             <p>20. Plural Formation &#10004;</p>
             <p>21. Tense and Conjugation &#10004;</p><samp></samp>
             <p>22. Comparative/Superlative Forms &#10004;</p>
-            <p>23. Subject-Verb Agreement &#10004;</p> -->
+            <p>23. Subject-Verb Agreement &#10004;</p>
 
-            <!-- <h3>Sentence Usage and Construction</h3><br>
+            <h3>Sentence Usage and Construction</h3><br>
             <p>24. Correct Usage in Sentences </p>
             <p>25. Sentence Correction </p>
             <p>26. Fill in the Blank (vocabulary/grammar) </p>
@@ -380,7 +379,7 @@ include('../cache/cache.php');
             <p>43. Tone Appropriateness (formal vs. casual) </p>
 
             <h3>Extended Context Application</h3><br>
-            <p>44. Paragraph-Level Word Selection </p> -->
+            <p>44. Paragraph-Level Word Selection </p>
             <br>
 
 
@@ -564,40 +563,9 @@ include('../cache/cache.php');
                 <li>Graphing parabolas and identifying key features</li>
             </ul>
             <br>
-            <h3>Data Interpretation</h3>
-            <br>
-            <h5>Table Analysis</h5>
-            <p>Trend Identification, Multi-Table Synthesis</p>
-            <ul>
-                <li>Reading and interpreting tabular data</li>
-                <li>Calculating totals and differences</li>
-                <li>Finding percentages from table data</li>
-                <li>Identifying trends and patterns</li>
-                <li>Comparing data from multiple tables</li>
-            </ul>
-            <br>
-            <h5>Graphical Data</h5>
-            <p>Bar/Line Graphs, Pie Charts</p>
-            <ul>
-                <li>Interpreting bar graphs</li>
-                <li>Interpreting line graphs</li>
-                <li>Reading and analyzing pie charts</li>
-                <li>Comparing multiple data series</li>
-                <li>Estimating values from graphs</li>
-                <li>Calculating percentages from charts</li>
-            </ul>
-            <br>
-            <h5>Statistical Reasoning</h5>
-            <p>Data Sufficiency, Inference from Visuals</p>
-            <ul>
-                <li>Determining if data is sufficient to answer a question</li>
-                <li>Drawing conclusions from graphical representations</li>
-                <li>Identifying misleading graphs or charts</li>
-                <li>Inferring missing values from trends</li>
-            </ul>
-            <br>
-            <h3>Basic Geometry</h3>
 
+
+            <h3>Basic Geometry</h3>
             <br>
             <h5>Area/Perimeter</h5>
             <p>Squares/Rectangles/Circles</p>
@@ -652,72 +620,54 @@ include('../cache/cache.php');
 
 
 
+
+
+
+
             <?php
             $mysqli = require '../config/db.php';
+            $tables = ['verbal', 'numerical', 'analytical', 'general'];
 
-            // List of separate topics (tables)
-            $topics = ['verbal', 'numerical', 'analytical', 'general'];
-
-            echo "<div style='font-family: Arial, sans-serif; line-height: 1.6;'>";
-
-            foreach ($topics as $topic) {
-                // Top-level topic heading with toggle
-                echo "<h3 class='toggle' data-target='topic-$topic' style='cursor:pointer; margin-bottom:0.2em;'>📚 " . ucfirst($topic) . "</h3>";
-                echo "<div id='topic-$topic' style='display:none; margin-left:20px;'>";
-
-                // Query the respective table
-                $stmt = $mysqli->prepare("SELECT type, sub_type FROM `$topic` ORDER BY type, sub_type");
-                $stmt->execute();
-                $result = $stmt->get_result();
-
+            foreach ($tables as $table) {
+                echo "<h2>Table: $table</h2>";
+                $result = $mysqli->query("SELECT * FROM $table");
                 if ($result->num_rows > 0) {
-                    $lastType = '';
-                    $lastSubType = '';
-
                     while ($row = $result->fetch_assoc()) {
-                        $type = $row['type'];
-                        $sub_type = $row['sub_type'];
-
-                        // New type toggle
-                        if ($type !== $lastType) {
-                            if ($lastType !== '') {
-                                echo "</div>"; // close previous type sub_types container
+                        echo "<div style='border:1px solid #ccc; padding:10px;'>";
+                        $fields = [
+                            'Category' => 'category',
+                            'Type' => 'type',
+                            'Sub Type' => 'sub_type',
+                            'Instruction' => 'instruction',
+                            'Word' => 'word',
+                            'Question' => 'question',
+                            'Correct Answer' => 'correct_answer',
+                            'Explanation' => 'explanation'
+                        ];
+                        foreach ($fields as $label => $key) {
+                            if (!empty($row[$key])) {
+                                echo "<p><strong>$label:</strong> " . $row[$key] . "</p>";
                             }
-                            echo "<h5 class='toggle' data-target='type-$topic-$type' style='cursor:pointer; margin-left:10px; margin-bottom:0.1em;'>📁 $type</h5>";
-                            echo "<div id='type-$topic-$type' style='display:none; margin-left:30px;'>";
-                            $lastType = $type;
-                            $lastSubType = '';
                         }
-
-                        // Sub_type (simple indented line)
-                        if ($sub_type !== $lastSubType) {
-                            echo "<div style='margin-left:20px;'>🔹 $sub_type</div>";
-                            $lastSubType = $sub_type;
+                        echo "<p><strong>Wrong Answers:</strong> " . implode(', ', array_filter([$row['wrong_answer1'] ?? '', $row['wrong_answer2'] ?? '', $row['wrong_answer3'] ?? ''])) . "</p>";
+                        if (!empty($row['image'])) {
+                            echo "<p><strong>Image:</strong> <img src='{$row['image']}' alt='image' style='max-width:200px;'></p>";
                         }
+                        if (!empty($row['chart_data'])) {
+                            echo "<p><strong>Chart Data:</strong> {$row['chart_data']}</p>";
+                        }
+                        echo "</div>";
                     }
-                    if ($lastType !== '') echo "</div>"; // close last type container
                 } else {
-                    echo "<div style='margin-left:20px; font-style: italic; color: #666;'>No data available.</div>";
+                    echo "<p>No data found in $table.</p>";
                 }
-
-                echo "</div>"; // close topic container
             }
-
-            echo "</div>";
             ?>
 
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    document.querySelectorAll('.toggle').forEach(function(el) {
-                        el.addEventListener('click', function() {
-                            const target = document.getElementById(el.dataset.target);
-                            if (target) {
-                                target.style.display = (target.style.display === 'none') ? 'block' : 'none';
-                            }
-                        });
-                    });
-                });
-            </script>
+
+
+
+
 
 
 

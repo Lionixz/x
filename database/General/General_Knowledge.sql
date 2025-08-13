@@ -1,0 +1,2 @@
+INSERT INTO `general`(`category`, `type`, `sub_type`, `instruction`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
+('General Knowledge', 'Philippines & World', 'Philippine History', 'Choose the correct answer.', 'Who is known as the "Father of the Philippine Revolution"?', 'Andres Bonifacio', 'Jose Rizal', 'Emilio Aguinaldo', 'Apolinario Mabini', 'Andres Bonifacio founded the Katipunan and led the uprising against Spanish rule.');

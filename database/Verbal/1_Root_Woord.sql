@@ -8,7 +8,7 @@ INSERT INTO `verbal` (`category`, `type`, `sub_type`, `instruction`, `word`, `qu
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'dict', 'In the word “dictionary,” what does the root “dict” mean?', 'Say', 'Book', 'Word', 'List', 'The root “dict” comes from Latin and means “say” or “speak.” A “dictionary” is a book of words and their meanings.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'port', 'In the word “transport,” what does the root “port” mean?', 'Carry', 'Move', 'Speed', 'Vehicle', 'The root “port” comes from Latin and means “carry.” “Transport” means to carry something from one place to another.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'struct', 'In the word “construction,” what does the root “struct” mean?', 'Build', 'Break', 'Shape', 'Design', 'The root “struct” comes from Latin and means “build.” “Construction” refers to the process of building something.'),
-('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'hydr', 'In the word “hydrate,” what does the root “hydr” mean?', 'Water', 'Liquid', 'Flow', 'Drink', 'The root “hydr” comes from Greek and means “water.” “Hydrate” means to combine with or supply water.'),
+('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'hydr', 'In the word "hydrate", what does the root "hydr" mean?', 'Water', 'Liquid', 'Flow', 'Drink', 'The root "hydr" comes from Greek and means "water." "Hydrate" means to combine with or supply water.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'phon', 'In the word “microphone,” what does the root “phon” mean?', 'Sound', 'Small', 'Device', 'Amplify', 'The root “phon” comes from Greek and means “sound.” A “microphone” is a device that amplifies sound.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'spect', 'In the word “inspect,” what does the root “spect” mean?', 'Look', 'See', 'Examine', 'Search', 'The root “spect” comes from Latin and means “look.” “Inspect” means to look at something carefully.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'act', 'In the word \"action,\" what does the root \"act\" mean?', 'Do', 'Move', 'Work', 'Play', 'The root \"act\" comes from Latin \"actus\" meaning \"to do.\" Action refers to the process of doing something.'),
@@ -145,6 +145,17 @@ INSERT INTO `verbal` (`category`, `type`, `sub_type`, `instruction`, `word`, `qu
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'derm', 'In the word \"epidermis,\" what does the root \"derm\" mean?', 'Skin', 'Layer', 'Cover', 'Outer', 'The root \"derm\" comes from Greek \"derma\" meaning \"skin.\" Epidermis is the outer skin layer.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'dox', 'In the word \"paradox,\" what does the root \"dox\" mean?', 'Opinion', 'Truth', 'Seem', 'Contrary', 'The root \"dox\" comes from Greek \"doxa\" meaning \"opinion.\" A paradox is a contradictory opinion.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'dyna', 'In the word \"dynamic,\" what does the root \"dyna\" mean?', 'Power', 'Force', 'Change', 'Energy', 'The root \"dyna\" comes from Greek \"dynamis\" meaning \"power.\" Dynamic means characterized by energy.');
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
 INSERT INTO `verbal` (`category`, `type`, `sub_type`, `instruction`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'gno', 'In the word \"agnostic,\" what does the root \"gno\" mean?', 'Know', 'Believe', 'Doubt', 'God', 'The root \"gno\" comes from Greek \"gnosis\" meaning \"knowledge.\" Agnostic means without knowledge (of God).'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Indentification', 'Identify the meaning of the root word in the given term.', 'gram', 'In the word \"telegram,\" what does the root \"gram\" mean?', 'Write', 'Message', 'Send', 'Letter', 'The root \"gram\" comes from Greek \"gramma\" meaning \"something written.\" A telegram is a written message.'),
@@ -292,6 +303,14 @@ INSERT INTO `verbal` (`category`, `type`, `sub_type`, `instruction`, `word`, `qu
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Identification', 'Identify the meaning of the root word in the given term.', 'luc', 'In the word \"elucidate,\" what does the root \"luc\" mean?', 'Light', 'Clear', 'Explain', 'Bright', 'The root \"luc\" comes from Latin \"lucere\" meaning \"to shine.\" Elucidate means to throw light on or make clear.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Identification', 'Identify the meaning of the root word in the given term.', 'magn', 'In the word \"magnanimous,\" what does the root \"magn\" mean?', 'Great', 'Kind', 'Noble', 'Large', 'The root \"magn\" comes from Latin \"magnus\" meaning \"great.\" Magnanimous means generous or forgiving.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Identification', 'Identify the meaning of the root word in the given term.', 'mal', 'In the word \"malicious,\" what does the root \"mal\" mean?', 'Bad', 'Evil', 'Wrong', 'Harm', 'The root \"mal\" comes from Latin \"malus\" meaning \"bad.\" Malicious means intending to do harm.');
+
+
+
+
+
+
+
+
 INSERT INTO `verbal` (`category`, `type`, `sub_type`, `instruction`, `word`, `question`, `correct_answer`, `wrong_answer1`, `wrong_answer2`, `wrong_answer3`, `explanation`) VALUES
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Identification', 'Identify the meaning of the root word in the given term.', 'mar', 'In the word \"maritime,\" what does the root \"mar\" mean?', 'Sea', 'Ship', 'Ocean', 'Water', 'The root \"mar\" comes from Latin \"mare\" meaning \"sea.\" Maritime relates to navigation or commerce at sea.'),
 ('Vocabulary and Meaning', 'Root Word Analysis', 'Identification', 'Identify the meaning of the root word in the given term.', 'matri', 'In the word \"matriarch,\" what does the root \"matri\" mean?', 'Mother', 'Woman', 'Family', 'Rule', 'The root \"matri\" comes from Latin \"mater\" meaning \"mother.\" A matriarch is a female family leader.'),
