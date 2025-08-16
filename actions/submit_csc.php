@@ -7,9 +7,6 @@ include(__DIR__ . '/../cache/cache.php');
 <?php includeAndCache('../includes/submit_head.php'); ?>
 
 
-
-
-
 <style>
     /* Container styles */
     .exam-summary,
@@ -114,13 +111,6 @@ include(__DIR__ . '/../cache/cache.php');
 </style>
 
 
-
-
-
-
-
-
-
 <body>
     <?php includeAndCache('../includes/submit_sidebar.php'); ?>
     <main>
@@ -139,6 +129,7 @@ include(__DIR__ . '/../cache/cache.php');
                 'verbal' => ['score' => 0, 'total' => 0, 'sub_types' => []],
                 'analytical' => ['score' => 0, 'total' => 0, 'sub_types' => []],
                 'numerical' => ['score' => 0, 'total' => 0, 'sub_types' => []],
+                'laws' => ['score' => 0, 'total' => 0, 'sub_types' => []],
                 'general' => ['score' => 0, 'total' => 0, 'sub_types' => []]
             ];
 
@@ -199,14 +190,16 @@ include(__DIR__ . '/../cache/cache.php');
                     ])) {
                         $category = 'analytical';
                     } elseif (in_array($category, [
-                        'The Constitution',
-                        'Code of Conduct and Ethical Standards',
-                        'Environmental Management and Protection',
-                        'Peace and Human Rights',
-                        'General Knowledge'
+                        'The 1987 Constitution',
+                        'Republic Act No. 6713'
+                    ])) {
+                        $category = 'laws';
+                    } elseif (in_array($category, [
+                        'General Knowledge',
                     ])) {
                         $category = 'general';
                     }
+
 
                     $categoryResults[$category]['total']++;
                     $isCorrect = ($userAnswer !== null && $userAnswer === $correctAnswer);
@@ -271,7 +264,6 @@ include(__DIR__ . '/../cache/cache.php');
                     'polarArea' => 'polarArea',
                     'scatter' => 'scatter',
                     'bubble' => 'bubble'
-
                 ];
 
                 $chartType = $chartTypeMap[$sub_type] ?? 'bar';
@@ -373,7 +365,6 @@ include(__DIR__ . '/../cache/cache.php');
                         <h3 class="category-title"><?= ucfirst($category) ?> Section</h3>
                         <p class="category-score-detail">Score: <?= $results['score'] ?>/<?= $results['total'] ?></p>
                     </div>
-
 
                     <?php foreach ($results['sub_types'] as $sub_type => $typeData): ?>
                         <?php

@@ -267,39 +267,40 @@ include('premium/cse_premium_content.php');
             // );
             ?>
 
-
             <!-- this is correct -->
             <?php
             $verbal_limits = [
-                'Vocabulary and Meaning' => 100,
-                'Grammar and Structure' => 100,
-                'Sentence Usage and Construction' => 100,
-                'Language Mechanics' => 100,
-                'Collocations and Idioms' => 100,
-                'Semantic Relationships' => 100,
-                'Extended Context Application' => 100,
+                'Vocabulary and Meaning' => 50,
+                'Grammar and Structure' => 50,
+                'Sentence Usage and Construction' => 50,
+                'Language Mechanics' => 50,
+                'Collocations and Idioms' => 50,
+                'Semantic Relationships' => 50,
+                'Extended Context Application' => 50,
             ];
 
             $numerical_limits = [
-                'Arithmetic Fundamentals' => 100,
-                'Algebra' => 100,
-                'Basic Geometry' => 100,
-                'Word Problems' => 100
+                'Arithmetic Fundamentals' => 50,
+                'Algebra' => 50,
+                'Basic Geometry' => 50,
+                'Word Problems' => 50,
+
             ];
 
             $analytical_limits = [
-                'Data Interpretation' => 100,
-                'Logical Reasoning' => 100,
+                'Data Interpretation' => 50,
+                'Logical Reasoning' => 50,
+            ];
+
+            $laws_limits = [
+                'The 1987 Constitution' => 50,
+                'Republic Act No. 6713' => 50
             ];
 
             $general_limits = [
-                'The Constitution' => 100,
-                'Code of Conduct and Ethical Standards' => 100,
-                'Environmental Management and Protection' => 100,
-                'Peace and Human Rights' => 100,
-                'General Knowledge' => 100
-
+                'General Knowledge' => 50,
             ];
+
 
             function prepareQuestionRow($row, $source_table)
             {
@@ -340,9 +341,9 @@ include('premium/cse_premium_content.php');
                         if ($remaining <= 0) break;
 
                         // Get 100 questions or remaining limit
-                        $toTake = min(100, $remaining);
+                        $toTake = min(5, $remaining);
 
-                        $stmt = $conn->prepare("SELECT * FROM $table WHERE category = ? AND type = ? ORDER BY RAND() LIMIT ?");
+                        $stmt = $conn->prepare("SELECT * FROM $table WHERE category = ? AND type = ? ORDER BY sub_type, RAND() LIMIT ?");
 
 
                         $stmt->bind_param("ssi", $category, $type, $toTake);
@@ -369,6 +370,7 @@ include('premium/cse_premium_content.php');
                 fetchQuestionsByCategory($conn, 'verbal', $verbal_limits),
                 fetchQuestionsByCategory($conn, 'analytical', $analytical_limits),
                 fetchQuestionsByCategory($conn, 'numerical', $numerical_limits),
+                fetchQuestionsByCategory($conn, 'laws', $laws_limits),
                 fetchQuestionsByCategory($conn, 'general', $general_limits)
             );
             ?>
@@ -408,43 +410,6 @@ include('premium/cse_premium_content.php');
                                         <canvas id="chart<?= $index ?>"></canvas>
                                     </div>
 
-                                    <!-- <script>
-                                        const chartData<?= $index ?> = <?= $q['chart_data'] ?>;
-                                        const ctx<?= $index ?> = document.getElementById('chart<?= $index ?>').getContext('2d');
-                                        const chartType<?= $index ?> = '<?= $q['type'] ?? 'bar' ?>';
-                                        new Chart(ctx<?= $index ?>, {
-                                            type: chartType<?= $index ?>,
-                                            data: chartData<?= $index ?>,
-                                            options: {
-                                                responsive: true,
-                                                scales: (chartType<?= $index ?> === 'bar' || chartType<?= $index ?> === 'line') ? {
-                                                    y: {
-                                                        beginAtZero: true
-                                                    }
-                                                } : {},
-                                                interaction: {
-                                                    mode: null
-                                                },
-                                                plugins: {
-                                                    tooltip: {
-                                                        enabled: false
-                                                    },
-                                                    legend: {
-                                                        onClick: null
-                                                    }
-                                                },
-                                                events: []
-                                            }
-                                        });
-                                    </script> -->
-
-
-
-
-
-
-
-
                                     <script>
                                         // Assuming this is inside a PHP loop iterating questions, with $index and $q available
                                         const chartData<?= $index ?> = <?= $q['chart_data'] ?>;
@@ -477,12 +442,6 @@ include('premium/cse_premium_content.php');
                                             }
                                         });
                                     </script>
-
-
-
-
-
-
 
 
                                 <?php endif; ?>
@@ -628,6 +587,7 @@ include('premium/cse_premium_content.php');
                     updateCards();
                     startCountdown();
                 </script>
+
             </div>
 
 

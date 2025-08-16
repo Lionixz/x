@@ -317,15 +317,72 @@ include('../cache/cache.php');
             </div>
 
 
+            <?php
+            $mysqli = require __DIR__ . '/../config/db.php';
+
+            // Combine all four tables using UNION to get distinct categories, types, and sub-types
+            $sql = "
+                        SELECT DISTINCT category, type, sub_type FROM general
+                        UNION
+                        SELECT DISTINCT category, type, sub_type FROM numerical
+                        UNION
+                        SELECT DISTINCT category, type, sub_type FROM analytical
+                        UNION
+                        SELECT DISTINCT category, type, sub_type FROM verbal
+                        ORDER BY category ASC, type ASC, sub_type ASC
+                    ";
+
+            $result = $mysqli->query($sql);
+
+            if ($result && $result->num_rows > 0) {
+                $current_category = null;
+                $current_type = null;
+                $open_div = false;
+
+                while ($row = $result->fetch_assoc()) {
+                    // Display Category heading
+                    if ($current_category !== $row['category']) {
+                        if ($open_div) {
+                            echo "</div>"; // Close previous sub-type container
+                            $open_div = false;
+                        }
+                        echo "<h2>{$row['category']}</h2><br>";
+                        $current_category = $row['category'];
+                        $current_type = null;
+                    }
+
+                    // Display Type heading
+                    if ($current_type !== $row['type']) {
+                        if ($open_div) {
+                            echo "</div><br>"; // Close previous sub-type container
+                        }
+                        echo "<h3 style='margin-left:20px;'>{$row['type']}</h3>";
+                        echo "<div style='margin-left:40px; display:flex; flex-wrap:wrap; gap:10px;'>"; // Start container
+                        $current_type = $row['type'];
+                        $open_div = true;
+                    }
+
+                    // Display Sub-type inline
+                    if (!empty($row['sub_type'])) {
+                        echo "<span style='display:inline-block; background:#5e63ff; padding:3px 8px; border-radius:4px;'>{$row['sub_type']}</span>";
+                    }
+                }
+
+                if ($open_div) {
+                    echo "</div>"; // Close last sub-type container
+                }
+            } else {
+                echo "<p>No categories found in the question banks.</p>";
+            }
+            ?>
 
 
 
 
 
 
-            <br>
-            <h1>English Exam Question Bank</h1>
-            <br>
+
+            <!-- <br>
             <h3>Vocabulary and Meaning</h3><br>
             <p>1. Definition &#10004;</p>
             <p>2. Synonym Identification &#10004;</p>
@@ -380,126 +437,12 @@ include('../cache/cache.php');
 
             <h3>Extended Context Application</h3><br>
             <p>44. Paragraph-Level Word Selection </p>
-            <br>
+            <br> -->
 
 
 
 
-            <h1>Numerical Ability</h1>
 
-            <h3>Arithmetic Fundamentals</h3>
-            <h5>Fractions</h5>
-            <p>Operations & Conversions, Comparing/Ordering Values</p>
-            <ul>
-                <li>Addition of fractions (same and different denominators)</li>
-                <li>Subtraction of fractions (same and different denominators)</li>
-                <li>Multiplication of fractions</li>
-                <li>Division of fractions</li>
-                <li>Converting fractions to decimals</li>
-                <li>Converting decimals to fractions</li>
-                <li>Converting improper fractions to mixed numbers and vice versa</li>
-                <li>Comparing fractions with like denominators</li>
-                <li>Comparing fractions with unlike denominators</li>
-                <li>Ordering fractions and decimals from least to greatest or greatest to least</li>
-            </ul>
-
-            <br>
-            <h5>Decimals</h5>
-            <p>Operations & Conversions, Comparing/Ordering Values</p>
-            <ul>
-                <li>Addition of decimals</li>
-                <li>Subtraction of decimals</li>
-                <li>Multiplication of decimals</li>
-                <li>Division of decimals</li>
-                <li>Converting decimals to fractions</li>
-                <li>Converting fractions to decimals</li>
-                <li>Rounding decimals to a given place value</li>
-                <li>Comparing decimals using place value</li>
-                <li>Ordering decimals from least to greatest or greatest to least</li>
-                <li>Converting between decimals and percentages</li>
-            </ul>
-            <br>
-
-
-            <h5>Percentages</h5>
-            <p>Percent Change, Discounts/Tax/Markup, Simple Interest</p>
-            <ul>
-                <li>Calculating percentage of a number</li>
-                <li>Finding the whole given a part and its percentage</li>
-                <li>Calculating percentage increase</li>
-                <li>Calculating percentage decrease</li>
-                <li>Finding discount amount and final price after discount</li>
-                <li>Calculating sales tax or VAT</li>
-                <li>Calculating markup and selling price</li>
-                <li>Finding profit or loss percentage</li>
-                <li>Calculating simple interest using \( I = P \times R \times T \)</li>
-                <li>Solving real-life word problems involving percentages</li>
-            </ul>
-            <br>
-
-            <h5>Ratios & Proportions</h5>
-            <p>Unit Rates, Scale Problems, Partnership/Division</p>
-            <ul>
-                <li>Writing ratios in simplest form</li>
-                <li>Comparing ratios</li>
-                <li>Solving for missing values in equivalent ratios</li>
-                <li>Calculating unit rates (e.g., cost per item, speed per hour)</li>
-                <li>Using ratios to solve proportion problems</li>
-                <li>Applying scale factors in maps, blueprints, and models</li>
-                <li>Solving problems involving direct proportion</li>
-                <li>Solving problems involving inverse proportion</li>
-                <li>Dividing amounts in a given ratio</li>
-                <li>Partnership problems (profit sharing based on ratio of investment)</li>
-            </ul>
-            <br>
-
-            <h5>Averages</h5>
-            <p>Mean/Median/Mode, Weighted Averages</p>
-            <ul>
-                <li>Calculating the mean (average) of a data set</li>
-                <li>Finding the median of an odd or even data set</li>
-                <li>Identifying the mode in a data set (single mode, multiple modes, or no mode)</li>
-                <li>Calculating the range of a data set</li>
-                <li>Solving word problems involving mean</li>
-                <li>Finding a missing value when the mean is given</li>
-                <li>Calculating weighted averages (e.g., grades with different weights)</li>
-                <li>Applying averages in real-life scenarios (e.g., batting averages, speed averages)</li>
-                <li>Comparing different averages to interpret data</li>
-                <li>Recognizing limitations of averages in representing data</li>
-            </ul>
-            <br>
-
-            <h5>Time & Work</h5>
-            <p>Work Efficiency, Collaborative Work Problems</p>
-            <ul>
-                <li>Calculating individual work rates</li>
-                <li>Finding total work rate when working together</li>
-                <li>Determining time required to complete a task</li>
-                <li>Work completion problems with one person leaving/joining</li>
-                <li>Comparing efficiency of different workers</li>
-                <li>Inverse proportion problems involving time and workers</li>
-                <li>Solving partial work problems</li>
-                <li>Practical scenarios like filling/emptying tanks</li>
-                <li>Finding work done in fractional days/hours</li>
-                <li>Identifying bottlenecks in collaborative tasks</li>
-            </ul>
-            <br>
-
-            <h5>Time-Speed-Distance</h5>
-            <p>Relative Speed, Average Speed</p>
-            <ul>
-                <li>Calculating distance, speed, or time using \( \text{Speed} = \frac{\text{Distance}}{\text{Time}} \)</li>
-                <li>Finding relative speed when moving in the same or opposite directions</li>
-                <li>Solving problems on average speed for different segments</li>
-                <li>Conversions between km/h and m/s</li>
-                <li>Time taken to overtake or meet</li>
-                <li>Boat and stream problems (upstream, downstream)</li>
-                <li>Train problems involving platforms and other trains</li>
-                <li>Chasing problems with different start times</li>
-                <li>Estimating travel time with varying speeds</li>
-                <li>Applying concepts in real-life travel scenarios</li>
-            </ul>
-            <br>
 
             <h3>Algebra</h3>
             <br>
@@ -625,46 +568,44 @@ include('../cache/cache.php');
 
 
             <?php
-            $mysqli = require '../config/db.php';
-            $tables = ['verbal', 'numerical', 'analytical', 'general'];
+            // $mysqli = require '../config/db.php';
+            // $tables = ['verbal', 'numerical', 'analytical', 'general'];
 
-            foreach ($tables as $table) {
-                echo "<h2>Table: $table</h2>";
-                $result = $mysqli->query("SELECT * FROM $table");
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        echo "<div style='border:1px solid #ccc; padding:10px;'>";
-                        $fields = [
-                            'Category' => 'category',
-                            'Type' => 'type',
-                            'Sub Type' => 'sub_type',
-                            'Instruction' => 'instruction',
-                            'Word' => 'word',
-                            'Question' => 'question',
-                            'Correct Answer' => 'correct_answer',
-                            'Explanation' => 'explanation'
-                        ];
-                        foreach ($fields as $label => $key) {
-                            if (!empty($row[$key])) {
-                                echo "<p><strong>$label:</strong> " . $row[$key] . "</p>";
-                            }
-                        }
-                        echo "<p><strong>Wrong Answers:</strong> " . implode(', ', array_filter([$row['wrong_answer1'] ?? '', $row['wrong_answer2'] ?? '', $row['wrong_answer3'] ?? ''])) . "</p>";
-                        if (!empty($row['image'])) {
-                            echo "<p><strong>Image:</strong> <img src='{$row['image']}' alt='image' style='max-width:200px;'></p>";
-                        }
-                        if (!empty($row['chart_data'])) {
-                            echo "<p><strong>Chart Data:</strong> {$row['chart_data']}</p>";
-                        }
-                        echo "</div>";
-                    }
-                } else {
-                    echo "<p>No data found in $table.</p>";
-                }
-            }
+            // foreach ($tables as $table) {
+            //     echo "<h2>Table: $table</h2>";
+            //     $result = $mysqli->query("SELECT * FROM $table");
+            //     if ($result->num_rows > 0) {
+            //         while ($row = $result->fetch_assoc()) {
+            //             echo "<div style='border:1px solid #ccc; padding:10px;'>";
+            //             $fields = [
+            //                 'Category' => 'category',
+            //                 'Type' => 'type',
+            //                 'Sub Type' => 'sub_type',
+            //                 'Instruction' => 'instruction',
+            //                 'Word' => 'word',
+            //                 'Question' => 'question',
+            //                 'Correct Answer' => 'correct_answer',
+            //                 'Explanation' => 'explanation'
+            //             ];
+            //             foreach ($fields as $label => $key) {
+            //                 if (!empty($row[$key])) {
+            //                     echo "<p><strong>$label:</strong> " . $row[$key] . "</p>";
+            //                 }
+            //             }
+            //             echo "<p><strong>Wrong Answers:</strong> " . implode(', ', array_filter([$row['wrong_answer1'] ?? '', $row['wrong_answer2'] ?? '', $row['wrong_answer3'] ?? ''])) . "</p>";
+            //             if (!empty($row['image'])) {
+            //                 echo "<p><strong>Image:</strong> <img src='{$row['image']}' alt='image' style='max-width:200px;'></p>";
+            //             }
+            //             if (!empty($row['chart_data'])) {
+            //                 echo "<p><strong>Chart Data:</strong> {$row['chart_data']}</p>";
+            //             }
+            //             echo "</div>";
+            //         }
+            //     } else {
+            //         echo "<p>No data found in $table.</p>";
+            //     }
+            // }
             ?>
-
-
 
 
 

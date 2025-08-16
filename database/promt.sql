@@ -39,6 +39,7 @@ DROP TABLE IF EXISTS `users`;
 DROP TABLE IF EXISTS `verbal`;
 DROP TABLE IF EXISTS `numerical`;
 DROP TABLE IF EXISTS `analytical`;
+DROP TABLE IF EXISTS `laws`;
 DROP TABLE IF EXISTS `general`;
 
 CREATE TABLE `verbal` (
@@ -99,6 +100,25 @@ CREATE TABLE `analytical` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE `laws` (
+    `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `category` VARCHAR(100) NOT NULL,
+    `type` VARCHAR(50) NOT NULL,
+    `sub_type` VARCHAR(100) DEFAULT NULL,          
+    `instruction` TEXT DEFAULT NULL,  
+    `word` VARCHAR(100) NOT NULL,
+    `question` TEXT NOT NULL,
+    `image` VARCHAR(255) DEFAULT NULL,
+    `chart_data` JSON DEFAULT NULL,
+    `correct_answer` VARCHAR(255) NOT NULL,
+    `wrong_answer1` VARCHAR(255) NOT NULL,
+    `wrong_answer2` VARCHAR(255) NOT NULL,
+    `wrong_answer3` VARCHAR(255) NOT NULL,
+    `explanation` TEXT NOT NULL,
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 CREATE TABLE `general` (
     `id` INT(6) UNSIGNED NOT NULL AUTO_INCREMENT,
     `category` VARCHAR(100) NOT NULL,
@@ -119,11 +139,14 @@ CREATE TABLE `general` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
+
 -- clear data
 TRUNCATE TABLE `verbal`;
 TRUNCATE TABLE `numerical`;
 TRUNCATE TABLE `analytical`;
 TRUNCATE TABLE `general`;
+TRUNCATE TABLE `laws`;
+
 
 
 
@@ -165,47 +188,6 @@ DROP COLUMN `image`,
 DROP COLUMN `word`,
 DROP COLUMN `chart_data`,
 DROP COLUMN `created_at`;
-
-
-
-
-
-
--- Delete duplicates 
-DELETE v1
-FROM general v1
-JOIN general v2
-  ON v1.category = v2.category
-  AND v1.type = v2.type
-  AND v1.sub_type = v2.sub_type
-  AND v1.question = v2.question
-  AND v1.correct_answer = v2.correct_answer
-  AND v1.id > v2.id;
-
-
-
--- drop id image chard data and created at
-ALTER TABLE `general`
-DROP COLUMN `id`,
-DROP COLUMN `image`,
-DROP COLUMN `word`,
-DROP COLUMN `chart_data`,
-DROP COLUMN `created_at`;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
